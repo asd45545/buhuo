@@ -1,0 +1,84 @@
+name: LDXP Stock Monitor
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ldxp-stock-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check email secrets
+        env:
+          LDXP_NOTIFY_EMAIL_TO: ${{ secrets.LDXP_NOTIFY_EMAIL_TO }}
+          LDXP_NOTIFY_EMAIL_FROM: ${{ secrets.LDXP_NOTIFY_EMAIL_FROM }}
+          LDXP_SMTP_HOST: ${{ secrets.LDXP_SMTP_HOST }}
+          LDXP_SMTP_PORT: ${{ secrets.LDXP_SMTP_PORT }}
+          LDXP_SMTP_SECURE: ${{ secrets.LDXP_SMTP_SECURE }}
+          LDXP_SMTP_USER: ${{ secrets.LDXP_SMTP_USER }}
+          LDXP_SMTP_PASS: ${{ secrets.LDXP_SMTP_PASS }}
+        run: |
+          missing=0
+          for name in \
+            LDXP_NOTIFY_EMAIL_TO \
+            LDXP_NOTIFY_EMAIL_FROM \
+            LDXP_SMTP_HOST \
+            LDXP_SMTP_PORT \
+            LDXP_SMTP_SECURE \
+            LDXP_SMTP_USER \
+            LDXP_SMTP_PASS
+          do
+            if [ -z "${!name}" ]; then
+              echo "::error::$name is not set"
+              missing=1
+            fi
+          done
+          exit "$missing"
+
+      - name: Run stock monitor
+        env:
+          LDXP_NOTIFY_EMAIL_TO: ${{ secrets.LDXP_NOTIFY_EMAIL_TO }}
+          LDXP_NOTIFY_EMAIL_FROM: ${{ secrets.LDXP_NOTIFY_EMAIL_FROM }}
+          LDXP_SMTP_HOST: ${{ secrets.LDXP_SMTP_HOST }}
+          LDXP_SMTP_PORT: ${{ secrets.LDXP_SMTP_PORT }}
+          LDXP_SMTP_SECURE: ${{ secrets.LDXP_SMTP_SECURE }}
+          LDXP_SMTP_USER: ${{ secrets.LDXP_SMTP_USER }}
+          LDXP_SMTP_PASS: ${{ secrets.LDXP_SMTP_PASS }}
+        run: |
+          node scripts/monitor-ldxp-stock.mjs --no-touch-unchanged | tee monitor-output.txt
+
+      - name: Save monitor state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/ldxp-stock-state.json
+          if [ -f data/ldxp-stock-alerts.md ]; then
+            git add data/ldxp-stock-alerts.md
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore: update ldxp stock monitor state"
+            git pull --rebase
+            git push
+          fi
