@@ -45,3 +45,15 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/7s3tbk
 
+## 2026-06-24T04:00:47.621Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 1
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 2
+  - Price: 15.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
