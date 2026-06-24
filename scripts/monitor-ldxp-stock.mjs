@@ -265,7 +265,9 @@ async function apiPost(cfg, visitorId, endpoint, payload) {
       updateResponseCookies(cfg, response);
 
       if (!response.ok) {
-        throw new Error(`${endpoint} HTTP ${response.status}`);
+        const contentType = response.headers.get("content-type") || "unknown";
+        const preview = raw.replace(/\s+/g, " ").slice(0, 120);
+        throw new Error(`${endpoint} HTTP ${response.status} (${contentType}): ${preview}`);
       }
 
       let data;
@@ -288,6 +290,10 @@ async function apiPost(cfg, visitorId, endpoint, payload) {
     } catch (error) {
       lastError = error;
       if (attempt === attempts) break;
+      const cookieNames = Object.keys(cfg.cookies || {}).join(",") || "none";
+      console.error(
+        `WARN ${endpoint} attempt ${attempt}/${attempts} failed: ${error.message}; cookies=${cookieNames}`,
+      );
       await sleep(Number(cfg.apiRetryDelayMs || 1500) * attempt);
     }
   }
