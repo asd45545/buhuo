@@ -353,3 +353,10 @@
   - Category: Gemini
   - Link: https://pay.ldxp.cn/item/j79pn9
 
+## 2026-06-24T12:40:17.056Z
+- Gpt Free（已接码 | 刷新RT）| outlook | 美国 | 长效邮箱
+  - Stock: 0 -> 100
+  - Price: 0.8
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/s42at5
+
