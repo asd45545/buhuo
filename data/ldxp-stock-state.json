@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 155,
+  "runs": 156,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T11:55:13.235Z",
+  "updatedAt": "2026-06-24T12:00:30.517Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -596,13 +596,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 1.04,
-      "stock": 76,
+      "stock": 75,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T10:25:15.034Z",
-      "lastChangedAt": "2026-06-24T10:25:15.034Z",
+      "lastSeenAt": "2026-06-24T12:00:30.517Z",
+      "lastChangedAt": "2026-06-24T12:00:30.517Z",
       "missingSince": null
     },
     "qdtcy9": {
@@ -834,13 +834,13 @@
       "categoryId": 111639,
       "categoryName": "claude",
       "price": 507,
-      "stock": 10,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T11:20:19.818Z",
-      "lastChangedAt": "2026-06-24T11:20:19.818Z",
+      "lastSeenAt": "2026-06-24T12:00:30.517Z",
+      "lastChangedAt": "2026-06-24T12:00:30.517Z",
       "missingSince": null
     },
     "u883y2": {
@@ -970,13 +970,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 4,
-      "stock": 1204,
+      "stock": 1186,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T11:55:13.235Z",
-      "lastChangedAt": "2026-06-24T11:55:13.235Z",
+      "lastSeenAt": "2026-06-24T12:00:30.517Z",
+      "lastChangedAt": "2026-06-24T12:00:30.517Z",
       "missingSince": null
     },
     "7j1wqu": {
@@ -1004,13 +1004,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 289,
+      "stock": 264,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T11:55:13.235Z",
-      "lastChangedAt": "2026-06-24T11:55:13.235Z",
+      "lastSeenAt": "2026-06-24T12:00:30.517Z",
+      "lastChangedAt": "2026-06-24T12:00:30.517Z",
       "missingSince": null
     },
     "5dsz18": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 6,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T11:50:18.342Z",
-      "lastChangedAt": "2026-06-24T11:50:18.342Z",
+      "lastSeenAt": "2026-06-24T12:00:30.517Z",
+      "lastChangedAt": "2026-06-24T12:00:30.517Z",
       "missingSince": null
     },
     "3y9w84": {
