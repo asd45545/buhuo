@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 210,
+  "runs": 211,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T16:20:19.785Z",
+  "updatedAt": "2026-06-24T16:25:14.683Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -732,13 +732,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 6.5,
-      "stock": 64,
+      "stock": 63,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T15:45:19.892Z",
-      "lastChangedAt": "2026-06-24T15:45:19.892Z",
+      "lastSeenAt": "2026-06-24T16:25:14.683Z",
+      "lastChangedAt": "2026-06-24T16:25:14.683Z",
       "missingSince": null
     },
     "alnlyi": {
@@ -1276,14 +1276,14 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 22,
-      "stock": 16,
+      "stock": 36,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T15:40:18.947Z",
-      "lastChangedAt": "2026-06-24T15:40:18.947Z",
-      "missingSince": "2026-06-24T16:05:13.595Z"
+      "lastSeenAt": "2026-06-24T16:25:14.683Z",
+      "lastChangedAt": "2026-06-24T16:25:14.683Z",
+      "missingSince": null
     },
     "9fauti": {
       "key": "9fauti",
@@ -1298,9 +1298,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T16:00:31.409Z",
+      "lastSeenAt": "2026-06-24T16:25:14.683Z",
       "lastChangedAt": "2026-06-24T16:00:31.409Z",
-      "missingSince": "2026-06-24T16:05:13.595Z"
+      "missingSince": null
     },
     "kdsr0p": {
       "key": "kdsr0p",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 12,
-      "stock": 28,
+      "stock": 29,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T16:15:17.742Z",
-      "lastChangedAt": "2026-06-24T15:10:18.376Z",
+      "lastSeenAt": "2026-06-24T16:25:14.683Z",
+      "lastChangedAt": "2026-06-24T16:25:14.683Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 23.99,
-      "stock": 32,
+      "stock": 50,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T14:45:18.459Z",
-      "lastChangedAt": "2026-06-24T14:45:18.459Z",
+      "lastSeenAt": "2026-06-24T16:25:14.683Z",
+      "lastChangedAt": "2026-06-24T16:25:14.683Z",
       "missingSince": null
     },
     "zdsmzz": {
