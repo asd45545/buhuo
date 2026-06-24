@@ -1,18 +1,23 @@
-# Vercel 云端库存监控部署说明
+# Vercel 免费版云端库存监控部署说明
 
-这个版本把定时任务迁移到 Vercel：
+这个版本适配 Vercel Hobby 免费版：
 
-- Vercel Cron 每 5 分钟请求 `/api/monitor`
+- Vercel 负责托管 `/api/monitor`
+- 免费外部定时器每 5 分钟访问 `/api/monitor?secret=你的密钥`
 - `/api/monitor` 检查 `https://pay.ldxp.cn/shop/jisuai`
 - 补货时发送 Telegram 群通知
 - 库存状态继续保存到 GitHub 仓库 `data/ldxp-stock-state.json`
-- GitHub Actions 只保留手动运行，不再自动定时运行
+- GitHub Actions 不再自动定时运行，只保留手动按钮
 
-## 重要限制
+## 为什么不用 Vercel 自带 Cron
 
-Vercel Hobby 免费版 Cron 目前只能每天运行一次。`*/5 * * * *` 这种 5 分钟一次的 Cron 需要 Vercel Pro，否则部署会失败。
+Vercel Hobby 免费版 Cron 只能每天运行一次，`*/5 * * * *` 这种 5 分钟一次会部署失败。
 
-如果你要坚持免费 5 分钟一次，可以保留这个 Vercel 接口，然后用外部免费定时器去访问它。
+所以免费版要用：
+
+```text
+cron-job.org / 其他免费定时器 -> Vercel /api/monitor -> Telegram
+```
 
 ## Vercel 环境变量
 
@@ -45,15 +50,46 @@ LDXP_ALERT_FILE=data/ldxp-stock-alerts.md
 
 然后把 token 填到 Vercel 的 `LDXP_GITHUB_TOKEN`。
 
-## 部署步骤
+## Vercel 部署步骤
 
 1. 在 Vercel 新建项目，Import Git Repository，选择 `asd45545/buhuo`
 2. Framework Preset 选择 Other
 3. 添加上面的环境变量
 4. Deploy
-5. 部署完成后，到 Project Settings -> Cron Jobs，确认 `/api/monitor` 已注册
-6. 在浏览器访问 `https://你的域名.vercel.app/api/monitor` 应该返回 `401`，说明保护生效
-7. 等 Vercel Cron 自动触发，或在 Vercel Logs 里查看 `/api/monitor` 运行记录
+5. 部署完成后，访问：
+
+```text
+https://你的域名.vercel.app/api/monitor
+```
+
+如果返回 `401`，说明密钥保护正常。
+
+再访问：
+
+```text
+https://你的域名.vercel.app/api/monitor?secret=你的CRON_SECRET
+```
+
+如果返回 `ok: true`，说明检测接口正常。
+
+## 免费 5 分钟定时器设置
+
+推荐用 cron-job.org：
+
+1. 打开 `https://cron-job.org`
+2. 注册并登录
+3. 新建 Cronjob
+4. URL 填：
+
+```text
+https://你的域名.vercel.app/api/monitor?secret=你的CRON_SECRET
+```
+
+5. Schedule 选择 Every 5 minutes
+6. Method 选择 GET
+7. 保存并启用
+
+这样电脑关机也会自动检测。
 
 ## 通知格式
 

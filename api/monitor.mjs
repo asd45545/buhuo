@@ -22,7 +22,14 @@ export default async function handler(req, res) {
   }
 
   const authHeader = req.headers.authorization || "";
-  if (process.env.CRON_SECRET && authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+  const requestUrl = new URL(req.url || "/api/monitor", "https://ldxp-monitor.local");
+  const querySecret = requestUrl.searchParams.get("secret") || "";
+  const isAuthorized =
+    !process.env.CRON_SECRET ||
+    authHeader === `Bearer ${process.env.CRON_SECRET}` ||
+    querySecret === process.env.CRON_SECRET;
+
+  if (!isAuthorized) {
     return sendJson(res, 401, { ok: false, error: "unauthorized" });
   }
 

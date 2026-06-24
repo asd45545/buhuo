@@ -1,8 +1,7 @@
 {
-  "crons": [
-    {
-      "path": "/api/monitor",
-      "schedule": "*/5 * * * *"
+  "functions": {
+    "api/monitor.mjs": {
+      "maxDuration": 300
     }
-  ]
+  }
 }
