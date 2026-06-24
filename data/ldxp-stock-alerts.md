@@ -118,3 +118,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/omjbr8
 
+## 2026-06-24T06:30:40.037Z
+- codex重置额度服务plus pro可用 自行使用卖出无售后
+  - Stock: 0 -> 95
+  - Price: 4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/2zjran
+
