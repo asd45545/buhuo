@@ -51,7 +51,19 @@ jobs:
           LDXP_TELEGRAM_THREAD_ID: ${{ secrets.LDXP_TELEGRAM_THREAD_ID }}
         run: |
           set -o pipefail
+          set +e
           node scripts/monitor-ldxp-stock.mjs --no-touch-unchanged | tee monitor-output.txt
+          status="${PIPESTATUS[0]}"
+          set -e
+
+          if [ "$status" -ne 0 ]; then
+            if grep -Eq 'HTTP 520|returned non-JSON .*<html><script>var arg1=' monitor-output.txt; then
+              echo "::warning::Shop API returned a temporary WAF/520 response. Skipping this check; the next scheduled run will retry."
+              exit 0
+            fi
+
+            exit "$status"
+          fi
 
       - name: Save monitor state
         run: |
