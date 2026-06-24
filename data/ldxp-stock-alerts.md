@@ -139,3 +139,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/pfz6mj
 
+## 2026-06-24T07:25:28.001Z
+- 【6.22upi渠道】icloud精品邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 8
+  - Price: 22.1
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/xxtbqq
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 10
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
