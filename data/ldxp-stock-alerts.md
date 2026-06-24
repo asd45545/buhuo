@@ -454,3 +454,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g2u9g7
 
+## 2026-06-24T16:05:13.595Z
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 81
+  - Price: 0.65
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+
