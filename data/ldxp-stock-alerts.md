@@ -435,3 +435,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-24T15:45:19.892Z
+- codex长效接码28-30天，美国实卡
+  - Stock: 0 -> 26
+  - Price: 5.5
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/r06ima
+
