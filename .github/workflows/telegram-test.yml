@@ -25,14 +25,15 @@ jobs:
             exit 1
           fi
 
-          text='<b>补货通知测试</b>
-
-补货啦，刚刚有新库存！
-
-商品：ChatGPT Plus 月卡
-库存：0 → 25
-售价：¥19.90
-<a href="https://pay.ldxp.cn/shop/jisuai">商品链接</a>'
+          text="$(printf '%s\n' \
+            '<b>补货通知测试</b>' \
+            '' \
+            '补货啦，刚刚有新库存！' \
+            '' \
+            '商品：ChatGPT Plus 月卡' \
+            '库存：0 → 25' \
+            '售价：¥19.90' \
+            '<a href="https://pay.ldxp.cn/shop/jisuai">商品链接</a>')"
 
           payload="$(jq -n \
             --arg chat_id "$CHAT_ID" \
