@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 220,
+  "runs": 221,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T17:10:23.170Z",
+  "updatedAt": "2026-06-24T17:15:19.402Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -834,13 +834,13 @@
       "categoryId": 111639,
       "categoryName": "claude",
       "price": 507,
-      "stock": 4,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T17:10:23.170Z",
-      "lastChangedAt": "2026-06-24T17:10:23.170Z",
+      "lastSeenAt": "2026-06-24T17:15:19.402Z",
+      "lastChangedAt": "2026-06-24T17:15:19.402Z",
       "missingSince": null
     },
     "u883y2": {
@@ -1004,13 +1004,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 105,
+      "stock": 100,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T16:55:15.427Z",
-      "lastChangedAt": "2026-06-24T16:55:15.427Z",
+      "lastSeenAt": "2026-06-24T17:15:19.402Z",
+      "lastChangedAt": "2026-06-24T17:15:19.402Z",
       "missingSince": null
     },
     "5dsz18": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 81.6,
-      "stock": 8,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T17:00:33.458Z",
-      "lastChangedAt": "2026-06-24T17:00:33.458Z",
+      "lastSeenAt": "2026-06-24T17:15:19.402Z",
+      "lastChangedAt": "2026-06-24T17:15:19.402Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 24.38,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-24T17:00:33.458Z",
+      "stock": 3,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T17:00:33.458Z",
-      "lastChangedAt": "2026-06-24T17:00:33.458Z",
+      "lastSeenAt": "2026-06-24T17:15:19.402Z",
+      "lastChangedAt": "2026-06-24T17:15:19.402Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -2099,6 +2099,40 @@
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
       "lastSeenAt": "2026-06-24T16:10:19.012Z",
       "lastChangedAt": "2026-06-24T16:10:19.012Z",
+      "missingSince": null
+    },
+    "4i7q19": {
+      "key": "4i7q19",
+      "name": "质保-Claude Max 200刀 谷歌直充",
+      "link": "https://pay.ldxp.cn/item/4i7q19",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "claude",
+      "price": 958.5,
+      "stock": 19,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-06-24T17:15:19.402Z",
+      "lastSeenAt": "2026-06-24T17:15:19.402Z",
+      "lastChangedAt": "2026-06-24T17:15:19.402Z",
+      "missingSince": null
+    },
+    "vlsxi9": {
+      "key": "vlsxi9",
+      "name": "Claude MAX 20x 1个月订阅成品号【质保掉订阅】",
+      "link": "https://pay.ldxp.cn/item/vlsxi9",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "claude",
+      "price": 696,
+      "stock": 271,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-06-24T17:15:19.402Z",
+      "lastSeenAt": "2026-06-24T17:15:19.402Z",
+      "lastChangedAt": "2026-06-24T17:15:19.402Z",
       "missingSince": null
     }
   }
