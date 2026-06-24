@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 67,
+  "runs": 68,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T03:38:08.479Z",
+  "updatedAt": "2026-06-24T03:40:28.645Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -970,13 +970,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 4,
-      "stock": 133,
+      "stock": 132,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T03:38:08.479Z",
-      "lastChangedAt": "2026-06-24T03:38:08.479Z",
+      "lastSeenAt": "2026-06-24T03:40:28.645Z",
+      "lastChangedAt": "2026-06-24T03:40:28.645Z",
       "missingSince": null
     },
     "7j1wqu": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 14,
+      "stock": 13,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T03:35:20.927Z",
-      "lastChangedAt": "2026-06-24T03:35:20.927Z",
+      "lastSeenAt": "2026-06-24T03:40:28.645Z",
+      "lastChangedAt": "2026-06-24T03:40:28.645Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1191,13 +1191,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.71,
-      "stock": 406,
+      "stock": 405,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T03:38:08.479Z",
-      "lastChangedAt": "2026-06-24T03:38:08.479Z",
+      "lastSeenAt": "2026-06-24T03:40:28.645Z",
+      "lastChangedAt": "2026-06-24T03:40:28.645Z",
       "missingSince": null
     },
     "s42at5": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 18.13,
-      "stock": 24,
+      "stock": 21,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T03:38:08.479Z",
-      "lastChangedAt": "2026-06-24T03:38:08.479Z",
+      "lastSeenAt": "2026-06-24T03:40:28.645Z",
+      "lastChangedAt": "2026-06-24T03:40:28.645Z",
       "missingSince": null
     },
     "go054j": {
@@ -1275,15 +1275,15 @@
       "goodsType": "card",
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
-      "price": 19,
-      "stock": 11,
+      "price": 21,
+      "stock": 10,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-23T17:30:12.384Z",
-      "lastChangedAt": "2026-06-23T17:30:12.384Z",
-      "missingSince": "2026-06-24T01:09:29.172Z"
+      "lastSeenAt": "2026-06-24T03:40:28.645Z",
+      "lastChangedAt": "2026-06-24T03:40:28.645Z",
+      "missingSince": null
     },
     "9fauti": {
       "key": "9fauti",
@@ -1292,15 +1292,15 @@
       "goodsType": "card",
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
-      "price": 20,
-      "stock": 34,
+      "price": 22.5,
+      "stock": 33,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-23T17:30:12.384Z",
-      "lastChangedAt": "2026-06-23T15:39:50.314Z",
-      "missingSince": "2026-06-24T01:09:29.172Z"
+      "lastSeenAt": "2026-06-24T03:40:28.645Z",
+      "lastChangedAt": "2026-06-24T03:40:28.645Z",
+      "missingSince": null
     },
     "kdsr0p": {
       "key": "kdsr0p",
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 24.38,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T03:18:28.625Z",
-      "lastChangedAt": "2026-06-24T03:18:28.625Z",
+      "lastSeenAt": "2026-06-24T03:40:28.645Z",
+      "lastChangedAt": "2026-06-24T03:40:28.645Z",
       "missingSince": null
     },
     "zh9cir": {
