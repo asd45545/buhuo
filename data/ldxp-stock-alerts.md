@@ -395,3 +395,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/etz0m6
 
+## 2026-06-24T14:10:18.168Z
+- Grok Super官方正规充值2个月卡密（质保不掉订阅）
+  - Stock: 0 -> 2
+  - Price: 148.5
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/zwpqer
+
