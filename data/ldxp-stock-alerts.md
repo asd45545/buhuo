@@ -346,3 +346,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/pfz6mj
 
+## 2026-06-24T12:30:25.981Z
+- Gemini 3.1pro 12个月pixel成品号（随机地区20-24年账号）
+  - Stock: 0 -> 70
+  - Price: 18
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/j79pn9
+
