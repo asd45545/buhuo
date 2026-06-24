@@ -38,3 +38,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/lxak6h
 
+## 2026-06-24T03:48:37.320Z
+- 测试
+  - Stock: 0 -> 2
+  - Price: 99999
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/7s3tbk
+
