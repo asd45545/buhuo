@@ -203,3 +203,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kdsr0p
 
+## 2026-06-24T09:20:33.393Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 9
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 4
+  - Price: 15.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
