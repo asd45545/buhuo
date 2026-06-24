@@ -442,3 +442,15 @@
   - Category: 接码
   - Link: https://pay.ldxp.cn/item/r06ima
 
+## 2026-06-24T15:55:12.942Z
+- chat gpt plus 带rt
+  - Stock: 0 -> 2
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/lxak6h
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 1
+  - Price: 24.05
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g2u9g7
+
