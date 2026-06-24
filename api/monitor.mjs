@@ -46,10 +46,6 @@ export default async function handler(req, res) {
     summary.checkedAt = checkedAt;
     const stateChanged = !isDeepStrictEqual(nextState, state);
 
-    if (alerts.length > 0) {
-      await dispatchTelegramNotifications(store, alerts);
-    }
-
     if (stateChanged) {
       await store.writeJson(nextState, store.statePath, `chore: update ldxp stock state ${checkedAt}`);
     }
@@ -60,6 +56,10 @@ export default async function handler(req, res) {
         store.alertPath,
         `chore: append ldxp restock alerts ${checkedAt}`,
       );
+    }
+
+    if (alerts.length > 0) {
+      await dispatchTelegramNotifications(store, alerts);
     }
 
     return sendJson(res, 200, {

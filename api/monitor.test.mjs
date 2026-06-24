@@ -179,9 +179,11 @@ test("monitor dispatches telegram notifications for restocks", async () => {
 
   const stateContent = base64Json(previousState);
   const dispatchBodies = [];
+  const calls = [];
   const originalFetch = globalThis.fetch;
   globalThis.fetch = async (url, options = {}) => {
     const target = String(url);
+    calls.push({ target, method: options.method || "GET" });
 
     if (target.includes("/contents/data/ldxp-stock-state.json?ref=main")) {
       return {
@@ -245,6 +247,14 @@ test("monitor dispatches telegram notifications for restocks", async () => {
     assert.equal(body.notificationsSent, 1);
     assert.equal(dispatchBodies.length, 1);
     assert.equal(dispatchBodies[0].ref, "main");
+    const stateWriteIndex = calls.findIndex(
+      (call) => call.method === "PUT" && call.target.includes("/contents/data/ldxp-stock-state.json"),
+    );
+    const dispatchIndex = calls.findIndex((call) =>
+      call.target.includes("/actions/workflows/telegram-notify.yml/dispatches"),
+    );
+    assert.ok(stateWriteIndex >= 0);
+    assert.ok(dispatchIndex > stateWriteIndex);
     assert.match(dispatchBodies[0].inputs.text, /商品：ChatGPT Plus 月卡/);
     assert.match(dispatchBodies[0].inputs.text, /库存：0 → 18/);
     assert.match(dispatchBodies[0].inputs.text, /商品链接：https:\/\/pay\.ldxp\.cn\/item\/goods_1/);
