@@ -261,3 +261,20 @@
   - Category: 接码
   - Link: https://pay.ldxp.cn/item/3v5tqo
 
+## 2026-06-24T10:35:13.755Z
+- 测试
+  - Stock: 0 -> 2
+  - Price: 99999
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/7s3tbk
+- GPT PLUS成品号
+  - Stock: 0 -> 4
+  - Price: 18.13
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 1
+  - Price: 24.38
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
