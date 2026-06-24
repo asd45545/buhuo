@@ -6,7 +6,7 @@ import net from "node:net";
 import path from "node:path";
 import tls from "node:tls";
 import { once } from "node:events";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -847,7 +847,22 @@ async function main() {
   printResult(summary, flags);
 }
 
-main().catch((error) => {
-  console.error(`ERROR ${error.message}`);
-  process.exitCode = 1;
-});
+export {
+  appendAlerts,
+  buildNextState,
+  defaults,
+  fetchAllGoods,
+  loadState,
+  makeVisitorId,
+  saveState,
+  sendTelegram,
+  sendWebhook,
+  summarize,
+};
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => {
+    console.error(`ERROR ${error.message}`);
+    process.exitCode = 1;
+  });
+}
