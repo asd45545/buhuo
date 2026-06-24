@@ -1,0 +1,69 @@
+name: Telegram Diagnostics
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Check Telegram bot and group
+        env:
+          BOT_TOKEN: ${{ secrets.LDXP_TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.LDXP_TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$BOT_TOKEN" ]; then
+            echo "::error::LDXP_TELEGRAM_BOT_TOKEN is not set"
+            exit 1
+          fi
+
+          api="https://api.telegram.org/bot${BOT_TOKEN}"
+
+          bot_json="$(curl --fail-with-body --silent --show-error "${api}/getMe")"
+          echo "$bot_json" | jq -r '"BOT username: @" + .result.username'
+
+          webhook_json="$(curl --fail-with-body --silent --show-error "${api}/getWebhookInfo")"
+          echo "$webhook_json" | jq -r '
+            "Webhook URL: " + (if .result.url == "" then "(not set)" else .result.url end),
+            "Pending updates: " + (.result.pending_update_count | tostring),
+            "Last webhook error: " + (.result.last_error_message // "(none)")
+          '
+
+          if [ -n "$CHAT_ID" ]; then
+            chat_json="$(curl --silent --show-error --get \
+              --data-urlencode "chat_id=${CHAT_ID}" \
+              "${api}/getChat")"
+            echo "$chat_json" | jq -r '
+              if .ok then
+                "Configured chat: id=" + (.result.id | tostring)
+                + " type=" + .result.type
+                + " title=" + (.result.title // "(no title)")
+              else
+                "Configured chat error: " + (.description // "unknown error")
+              end
+            '
+          else
+            echo "Configured chat: LDXP_TELEGRAM_CHAT_ID is empty"
+          fi
+
+          updates_json="$(curl --fail-with-body --silent --show-error \
+            "${api}/getUpdates?timeout=1&limit=100")"
+          count="$(echo "$updates_json" | jq '.result | length')"
+          echo "Recent updates: ${count}"
+          echo "$updates_json" | jq -r '
+            .result[]
+            | (.message // .channel_post // .edited_message // .edited_channel_post) as $message
+            | select($message != null)
+            | "Update chat: id=" + ($message.chat.id | tostring)
+              + " type=" + $message.chat.type
+              + " title=" + ($message.chat.title // "(private chat)")
+              + " thread_id=" + (($message.message_thread_id // 0) | tostring)
+              + " text=" + ($message.text // "(non-text message)")
+          '
