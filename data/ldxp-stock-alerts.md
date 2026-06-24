@@ -182,3 +182,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4rukz6
 
+## 2026-06-24T08:35:29.648Z
+- Super Grok【3天号】独享成品号【随机发1-10天】域名｜带SSO-------质保1天
+  - Stock: 0 -> 34
+  - Price: 11.98
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/2pkod2
+
