@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 240,
+  "runs": 241,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T18:50:20.852Z",
+  "updatedAt": "2026-06-24T18:55:14.560Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -579,13 +579,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 14,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T18:15:18.132Z",
-      "lastChangedAt": "2026-06-24T18:15:18.132Z",
+      "lastSeenAt": "2026-06-24T18:55:14.560Z",
+      "lastChangedAt": "2026-06-24T18:55:14.560Z",
       "missingSince": null
     },
     "9po7w2": {
