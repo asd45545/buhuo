@@ -17,8 +17,8 @@ const defaults = {
   goodsTypes: ["card"],
   pageSize: 100,
   requestDelayMs: 250,
-  apiRetries: 3,
-  apiRetryDelayMs: 1500,
+  apiRetries: Number(process.env.LDXP_API_RETRIES || 8),
+  apiRetryDelayMs: Number(process.env.LDXP_API_RETRY_DELAY_MS || 3000),
   touchUnchanged: true,
   stateFile: path.join(rootDir, "data", "ldxp-stock-state.json"),
   alertFile: path.join(rootDir, "data", "ldxp-stock-alerts.md"),
@@ -54,7 +54,13 @@ function parseArgs(argv) {
     if (arg === "--json") flags.json = true;
     else if (arg === "--list-out") flags.listOut = true;
     else if (arg === "--no-touch-unchanged") cfg.touchUnchanged = false;
-    else if (arg === "--base-url" && next) {
+    else if (arg === "--api-retries" && next) {
+      cfg.apiRetries = Number(next);
+      i += 1;
+    } else if (arg === "--api-retry-delay-ms" && next) {
+      cfg.apiRetryDelayMs = Number(next);
+      i += 1;
+    } else if (arg === "--base-url" && next) {
       cfg.baseUrl = next.replace(/\/+$/, "");
       i += 1;
     } else if (arg === "--shop-token" && next) {
@@ -112,6 +118,8 @@ Options:
   --list-out              Print current out-of-stock goods.
   --json                  Print machine-readable result JSON.
   --no-touch-unchanged    Do not rewrite unchanged state entries.
+  --api-retries COUNT     Shop API retry count, default: 8.
+  --api-retry-delay-ms MS Shop API retry backoff base, default: 3000.
   --shop-token TOKEN      Shop token, default: jisuai.
   --goods-types TYPES     Comma-separated goods types, default: card.
   --state PATH            State file path.
@@ -127,6 +135,8 @@ Options:
 
 Environment:
   LDXP_NOTIFY_WEBHOOK     Optional generic JSON webhook URL.
+  LDXP_API_RETRIES        Shop API retry count.
+  LDXP_API_RETRY_DELAY_MS Shop API retry backoff base in milliseconds.
   LDXP_TELEGRAM_BOT_TOKEN Telegram bot token.
   LDXP_TELEGRAM_CHAT_ID   Telegram group chat ID.
   LDXP_TELEGRAM_THREAD_ID Optional Telegram topic ID.
@@ -248,8 +258,11 @@ async function apiPost(cfg, visitorId, endpoint, payload) {
       const cookie = formatRequestCookies(cfg);
       const headers = {
         accept: "application/json, text/plain, */*",
+        "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "cache-control": "no-cache",
         "content-type": "application/json;charset=UTF-8",
         origin: cfg.baseUrl,
+        pragma: "no-cache",
         referer: `${cfg.baseUrl}/shop/${cfg.shopToken}`,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         visitorid: visitorId,
