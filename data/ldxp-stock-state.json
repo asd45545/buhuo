@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 234,
+  "runs": 235,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T18:15:18.132Z",
+  "updatedAt": "2026-06-24T18:20:18.574Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -970,13 +970,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 4,
-      "stock": 499,
+      "stock": 498,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T18:00:29.302Z",
-      "lastChangedAt": "2026-06-24T18:00:29.302Z",
+      "lastSeenAt": "2026-06-24T18:20:18.574Z",
+      "lastChangedAt": "2026-06-24T18:20:18.574Z",
       "missingSince": null
     },
     "7j1wqu": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 52,
+      "stock": 51,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T17:24:11.956Z",
-      "lastChangedAt": "2026-06-24T17:24:11.956Z",
+      "lastSeenAt": "2026-06-24T18:20:18.574Z",
+      "lastChangedAt": "2026-06-24T18:20:18.574Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 53,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T18:15:18.132Z",
-      "lastChangedAt": "2026-06-24T18:15:18.132Z",
+      "lastSeenAt": "2026-06-24T18:20:18.574Z",
+      "lastChangedAt": "2026-06-24T18:20:18.574Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 339,
+      "stock": 338,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T16:45:18.778Z",
-      "lastChangedAt": "2026-06-24T16:45:18.778Z",
+      "lastSeenAt": "2026-06-24T18:20:18.574Z",
+      "lastChangedAt": "2026-06-24T18:20:18.574Z",
       "missingSince": null
     },
     "e2913c": {
