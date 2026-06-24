@@ -17,6 +17,8 @@ const defaults = {
   goodsTypes: ["card"],
   pageSize: 100,
   requestDelayMs: 250,
+  apiRetries: 3,
+  apiRetryDelayMs: 1500,
   touchUnchanged: true,
   stateFile: path.join(rootDir, "data", "ldxp-stock-state.json"),
   alertFile: path.join(rootDir, "data", "ldxp-stock-alerts.md"),
@@ -196,28 +198,50 @@ function sleep(ms) {
 }
 
 async function apiPost(cfg, visitorId, endpoint, payload) {
-  const response = await fetch(`${cfg.baseUrl}${endpoint}`, {
-    method: "POST",
-    headers: {
-      accept: "application/json, text/plain, */*",
-      "content-type": "application/json;charset=UTF-8",
-      origin: cfg.baseUrl,
-      referer: `${cfg.baseUrl}/shop/${cfg.shopToken}`,
-      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      visitorid: visitorId,
-    },
-    body: JSON.stringify(payload),
-  });
+  const attempts = Math.max(1, Number(cfg.apiRetries || 3));
+  let lastError;
 
-  if (!response.ok) {
-    throw new Error(`${endpoint} HTTP ${response.status}`);
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetch(`${cfg.baseUrl}${endpoint}`, {
+        method: "POST",
+        headers: {
+          accept: "application/json, text/plain, */*",
+          "content-type": "application/json;charset=UTF-8",
+          origin: cfg.baseUrl,
+          referer: `${cfg.baseUrl}/shop/${cfg.shopToken}`,
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+          visitorid: visitorId,
+        },
+        body: JSON.stringify(payload),
+      });
+      const raw = await response.text();
+
+      if (!response.ok) {
+        throw new Error(`${endpoint} HTTP ${response.status}`);
+      }
+
+      let data;
+      try {
+        data = JSON.parse(raw);
+      } catch {
+        const contentType = response.headers.get("content-type") || "unknown";
+        const preview = raw.replace(/\s+/g, " ").slice(0, 120);
+        throw new Error(`${endpoint} returned non-JSON (${contentType}): ${preview}`);
+      }
+
+      if (data.code !== 1) {
+        throw new Error(`${endpoint} API ${data.code}: ${data.msg || "unknown error"}`);
+      }
+      return data.data;
+    } catch (error) {
+      lastError = error;
+      if (attempt === attempts) break;
+      await sleep(Number(cfg.apiRetryDelayMs || 1500) * attempt);
+    }
   }
 
-  const data = await response.json();
-  if (data.code !== 1) {
-    throw new Error(`${endpoint} API ${data.code}: ${data.msg || "unknown error"}`);
-  }
-  return data.data;
+  throw lastError;
 }
 
 async function fetchGoodsByType(cfg, visitorId, goodsType) {
