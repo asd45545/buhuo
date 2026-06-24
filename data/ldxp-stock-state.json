@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 162,
+  "runs": 163,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T12:25:13.857Z",
+  "updatedAt": "2026-06-24T12:30:25.981Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -596,13 +596,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 1.04,
-      "stock": 88,
+      "stock": 87,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T12:15:21.980Z",
-      "lastChangedAt": "2026-06-24T12:15:21.980Z",
+      "lastSeenAt": "2026-06-24T12:30:25.981Z",
+      "lastChangedAt": "2026-06-24T12:30:25.981Z",
       "missingSince": null
     },
     "qdtcy9": {
@@ -970,13 +970,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 4,
-      "stock": 1164,
+      "stock": 1155,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T12:25:13.857Z",
-      "lastChangedAt": "2026-06-24T12:25:13.857Z",
+      "lastSeenAt": "2026-06-24T12:30:25.981Z",
+      "lastChangedAt": "2026-06-24T12:30:25.981Z",
       "missingSince": null
     },
     "7j1wqu": {
@@ -987,13 +987,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 5.7,
-      "stock": 20,
+      "stock": 19,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T11:45:17.990Z",
-      "lastChangedAt": "2026-06-24T11:45:17.990Z",
+      "lastSeenAt": "2026-06-24T12:30:25.981Z",
+      "lastChangedAt": "2026-06-24T12:30:25.981Z",
       "missingSince": null
     },
     "q0lb2o": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-24T12:21:13.543Z",
+      "stock": 70,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T12:21:13.543Z",
-      "lastChangedAt": "2026-06-24T12:21:13.543Z",
+      "lastSeenAt": "2026-06-24T12:30:25.981Z",
+      "lastChangedAt": "2026-06-24T12:30:25.981Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 290,
+      "stock": 285,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T12:25:13.857Z",
-      "lastChangedAt": "2026-06-24T12:25:13.857Z",
+      "lastSeenAt": "2026-06-24T12:30:25.981Z",
+      "lastChangedAt": "2026-06-24T12:30:25.981Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1349,9 +1349,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T11:20:19.818Z",
+      "lastSeenAt": "2026-06-24T12:30:25.981Z",
       "lastChangedAt": "2026-06-24T11:20:19.818Z",
-      "missingSince": "2026-06-24T12:05:13.129Z"
+      "missingSince": null
     },
     "8rmime": {
       "key": "8rmime",
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 10,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-24T12:30:25.981Z",
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-06-24T12:25:13.857Z",
-      "lastChangedAt": "2026-06-24T12:25:13.857Z",
+      "lastSeenAt": "2026-06-24T12:30:25.981Z",
+      "lastChangedAt": "2026-06-24T12:30:25.981Z",
       "missingSince": null
     }
   }
