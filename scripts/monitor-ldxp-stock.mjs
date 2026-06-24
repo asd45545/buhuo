@@ -22,6 +22,11 @@ const defaults = {
   alertFile: path.join(rootDir, "data", "ldxp-stock-alerts.md"),
   emailConfigFile: path.join(rootDir, "data", "ldxp-stock-email.json"),
   webhookUrl: process.env.LDXP_NOTIFY_WEBHOOK || "",
+  telegram: {
+    botToken: process.env.LDXP_TELEGRAM_BOT_TOKEN || "",
+    chatId: process.env.LDXP_TELEGRAM_CHAT_ID || "",
+    threadId: process.env.LDXP_TELEGRAM_THREAD_ID || "",
+  },
   email: {
     to: process.env.LDXP_NOTIFY_EMAIL_TO || "",
     from: process.env.LDXP_NOTIFY_EMAIL_FROM || process.env.LDXP_SMTP_USER || "",
@@ -120,6 +125,9 @@ Options:
 
 Environment:
   LDXP_NOTIFY_WEBHOOK     Optional generic JSON webhook URL.
+  LDXP_TELEGRAM_BOT_TOKEN Telegram bot token.
+  LDXP_TELEGRAM_CHAT_ID   Telegram group chat ID.
+  LDXP_TELEGRAM_THREAD_ID Optional Telegram topic ID.
   LDXP_NOTIFY_EMAIL_TO    Recipient email.
   LDXP_NOTIFY_EMAIL_FROM  Sender email, defaults to LDXP_SMTP_USER.
   LDXP_SMTP_HOST          SMTP host, for example smtp.gmail.com.
@@ -408,6 +416,72 @@ async function sendWebhook(cfg, alerts) {
   }
 }
 
+function formatTelegramMessage(alert) {
+  const name = escapeTelegramHtml(alert.name);
+  const link = escapeTelegramHtml(alert.link);
+  const price = Number.isFinite(Number(alert.price)) ? Number(alert.price).toFixed(2) : String(alert.price);
+
+  return [
+    `商品：${name}`,
+    `库存：${alert.previousStock} → ${alert.stock}`,
+    `售价：¥${price}`,
+    `<a href="${link}">商品链接</a>`,
+  ].join("\n");
+}
+
+function escapeTelegramHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+async function sendTelegram(cfg, alerts) {
+  if (alerts.length === 0 || (!cfg.telegram.botToken && !cfg.telegram.chatId)) return;
+  if (!cfg.telegram.botToken || !cfg.telegram.chatId) {
+    throw new Error("Telegram config requires LDXP_TELEGRAM_BOT_TOKEN and LDXP_TELEGRAM_CHAT_ID");
+  }
+
+  for (const alert of alerts) {
+    const payload = {
+      chat_id: cfg.telegram.chatId,
+      text: formatTelegramMessage(alert),
+      parse_mode: "HTML",
+      disable_web_page_preview: true,
+    };
+
+    if (cfg.telegram.threadId) {
+      payload.message_thread_id = Number(cfg.telegram.threadId);
+    }
+
+    await sendTelegramRequest(cfg.telegram.botToken, payload);
+  }
+}
+
+async function sendTelegramRequest(botToken, payload) {
+  const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    const response = await fetch(url, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const result = await response.json().catch(() => ({}));
+
+    if (response.ok && result.ok !== false) return;
+
+    const retryable = response.status === 429 || response.status >= 500;
+    if (!retryable || attempt === 3) {
+      throw new Error(`Telegram HTTP ${response.status}: ${result.description || "request failed"}`);
+    }
+
+    const retryAfter = Number(result.parameters?.retry_after || attempt * 2);
+    await sleep(retryAfter * 1000);
+  }
+}
+
 async function sendEmail(cfg, alerts) {
   if (alerts.length === 0 || !hasAnyEmailConfig(cfg.email)) return;
 
@@ -674,6 +748,7 @@ async function main() {
   summary.checkedAt = checkedAt;
 
   await sendWebhook(cfg, alerts);
+  await sendTelegram(cfg, alerts);
   await sendEmail(cfg, alerts);
   await appendAlerts(cfg.alertFile, alerts);
   await saveState(cfg.stateFile, nextState);

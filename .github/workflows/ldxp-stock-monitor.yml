@@ -26,25 +26,18 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Check email secrets
+      - name: Run tests
+        run: node --test scripts/monitor-ldxp-stock.test.mjs
+
+      - name: Check Telegram secrets
         env:
-          LDXP_NOTIFY_EMAIL_TO: ${{ secrets.LDXP_NOTIFY_EMAIL_TO }}
-          LDXP_NOTIFY_EMAIL_FROM: ${{ secrets.LDXP_NOTIFY_EMAIL_FROM }}
-          LDXP_SMTP_HOST: ${{ secrets.LDXP_SMTP_HOST }}
-          LDXP_SMTP_PORT: ${{ secrets.LDXP_SMTP_PORT }}
-          LDXP_SMTP_SECURE: ${{ secrets.LDXP_SMTP_SECURE }}
-          LDXP_SMTP_USER: ${{ secrets.LDXP_SMTP_USER }}
-          LDXP_SMTP_PASS: ${{ secrets.LDXP_SMTP_PASS }}
+          LDXP_TELEGRAM_BOT_TOKEN: ${{ secrets.LDXP_TELEGRAM_BOT_TOKEN }}
+          LDXP_TELEGRAM_CHAT_ID: ${{ secrets.LDXP_TELEGRAM_CHAT_ID }}
         run: |
           missing=0
           for name in \
-            LDXP_NOTIFY_EMAIL_TO \
-            LDXP_NOTIFY_EMAIL_FROM \
-            LDXP_SMTP_HOST \
-            LDXP_SMTP_PORT \
-            LDXP_SMTP_SECURE \
-            LDXP_SMTP_USER \
-            LDXP_SMTP_PASS
+            LDXP_TELEGRAM_BOT_TOKEN \
+            LDXP_TELEGRAM_CHAT_ID
           do
             if [ -z "${!name}" ]; then
               echo "::error::$name is not set"
@@ -55,13 +48,9 @@ jobs:
 
       - name: Run stock monitor
         env:
-          LDXP_NOTIFY_EMAIL_TO: ${{ secrets.LDXP_NOTIFY_EMAIL_TO }}
-          LDXP_NOTIFY_EMAIL_FROM: ${{ secrets.LDXP_NOTIFY_EMAIL_FROM }}
-          LDXP_SMTP_HOST: ${{ secrets.LDXP_SMTP_HOST }}
-          LDXP_SMTP_PORT: ${{ secrets.LDXP_SMTP_PORT }}
-          LDXP_SMTP_SECURE: ${{ secrets.LDXP_SMTP_SECURE }}
-          LDXP_SMTP_USER: ${{ secrets.LDXP_SMTP_USER }}
-          LDXP_SMTP_PASS: ${{ secrets.LDXP_SMTP_PASS }}
+          LDXP_TELEGRAM_BOT_TOKEN: ${{ secrets.LDXP_TELEGRAM_BOT_TOKEN }}
+          LDXP_TELEGRAM_CHAT_ID: ${{ secrets.LDXP_TELEGRAM_CHAT_ID }}
+          LDXP_TELEGRAM_THREAD_ID: ${{ secrets.LDXP_TELEGRAM_THREAD_ID }}
         run: |
           node scripts/monitor-ldxp-stock.mjs --no-touch-unchanged | tee monitor-output.txt
 
