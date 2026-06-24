@@ -234,3 +234,30 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kdsr0p
 
+## 2026-06-24T10:20:18.995Z
+- 【6.22upi渠道】icloud精品邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 4
+  - Price: 22.1
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/xxtbqq
+- GPT PLUS成品号
+  - Stock: 0 -> 2
+  - Price: 18.13
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 1
+  - Price: 24.38
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+- GPT Pro20x CDK充值  质保1小时掉订阅补1次，务必充值到新号！
+  - Stock: 0 -> 32
+  - Price: 220
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/l3su3k
+- gpt英国卡接码（有效期25-30天）
+  - Stock: 0 -> 50
+  - Price: 5.5
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/3v5tqo
+
