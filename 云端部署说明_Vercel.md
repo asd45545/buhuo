@@ -2,42 +2,38 @@
 
 这个版本适配 Vercel Hobby 免费版：
 
-- Vercel 负责托管 `/api/monitor`
+- Vercel 只托管 `/api/monitor`
 - 免费外部定时器每 5 分钟访问 `/api/monitor?secret=你的密钥`
-- `/api/monitor` 检查 `https://pay.ldxp.cn/shop/jisuai`
-- 补货时发送 Telegram 群通知
+- `/api/monitor` 触发 GitHub Actions 的 `ldxp-stock-monitor.yml`
+- GitHub Actions 负责检查 `https://pay.ldxp.cn/shop/jisuai`
+- Telegram 通知继续使用 GitHub Secrets，不需要在 Vercel 里再填 Telegram token
 - 库存状态继续保存到 GitHub 仓库 `data/ldxp-stock-state.json`
-- GitHub Actions 不再自动定时运行，只保留手动按钮
 
 ## 为什么不用 Vercel 自带 Cron
 
 Vercel Hobby 免费版 Cron 只能每天运行一次，`*/5 * * * *` 这种 5 分钟一次会部署失败。
 
-所以免费版要用：
+所以免费版使用：
 
 ```text
-cron-job.org / 其他免费定时器 -> Vercel /api/monitor -> Telegram
+cron-job.org -> Vercel /api/monitor -> GitHub Actions -> Telegram
 ```
 
 ## Vercel 环境变量
 
-在 Vercel 项目里添加这些 Environment Variables，Production 环境要启用：
+在 Vercel 项目左侧点 `Environment Variables`，添加：
 
 ```text
 CRON_SECRET=任意随机长字符串
 LDXP_GITHUB_TOKEN=GitHub fine-grained token
-LDXP_STATE_REPO=asd45545/buhuo
-LDXP_STATE_BRANCH=main
-LDXP_TELEGRAM_BOT_TOKEN=你的 Telegram bot token
-LDXP_TELEGRAM_CHAT_ID=-1004429750164
 ```
 
-可选：
+可选，不填也可以：
 
 ```text
-LDXP_TELEGRAM_THREAD_ID=Telegram 话题 ID，没有话题就不填
-LDXP_STATE_FILE=data/ldxp-stock-state.json
-LDXP_ALERT_FILE=data/ldxp-stock-alerts.md
+LDXP_STATE_REPO=asd45545/buhuo
+LDXP_STATE_BRANCH=main
+LDXP_WORKFLOW_ID=ldxp-stock-monitor.yml
 ```
 
 ## GitHub Token 权限
@@ -45,18 +41,18 @@ LDXP_ALERT_FILE=data/ldxp-stock-alerts.md
 创建 Fine-grained personal access token：
 
 - Repository access: 只选择 `asd45545/buhuo`
-- Contents: Read and write
+- Actions: Read and write
+- Contents: Read-only
 - Metadata: Read-only
 
 然后把 token 填到 Vercel 的 `LDXP_GITHUB_TOKEN`。
 
 ## Vercel 部署步骤
 
-1. 在 Vercel 新建项目，Import Git Repository，选择 `asd45545/buhuo`
-2. Framework Preset 选择 Other
-3. 添加上面的环境变量
-4. Deploy
-5. 部署完成后，访问：
+1. Vercel 项目连接 GitHub 仓库 `asd45545/buhuo`
+2. 添加上面的环境变量
+3. 重新部署 Production
+4. 部署完成后访问：
 
 ```text
 https://你的域名.vercel.app/api/monitor
@@ -70,7 +66,7 @@ https://你的域名.vercel.app/api/monitor
 https://你的域名.vercel.app/api/monitor?secret=你的CRON_SECRET
 ```
 
-如果返回 `ok: true`，说明检测接口正常。
+如果返回 `ok: true` 和 `dispatched: true`，说明 Vercel 已成功触发 GitHub Actions。
 
 ## 免费 5 分钟定时器设置
 
@@ -93,7 +89,7 @@ https://你的域名.vercel.app/api/monitor?secret=你的CRON_SECRET
 
 ## 通知格式
 
-Telegram 补货通知格式：
+Telegram 补货通知格式仍然是：
 
 ```text
 商品：ChatGPT Plus 月卡
