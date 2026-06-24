@@ -313,3 +313,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-24T11:30:25.722Z
+- codex接🐎 美区成功率99.99接码
+  - Stock: 0 -> 4
+  - Price: 2.29
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/ttuq5u
+- GPT PLUS成品号
+  - Stock: 0 -> 12
+  - Price: 18.13
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
