@@ -236,12 +236,17 @@ test("shop API retries a temporary HTML response before accepting JSON", async (
   assert.notEqual(end, -1, "API helper block should be extractable");
 
   let calls = 0;
+  const requestHeaders = [];
   const responses = [
     {
       ok: true,
       status: 200,
-      headers: { get: () => "text/html" },
-      text: async () => "<html><script>temporary challenge</script></html>",
+      headers: {
+        get: (name) => (name === "content-type" ? "text/html" : null),
+        getSetCookie: () => ["acw_tc=test-token; Path=/; HttpOnly"],
+      },
+      text: async () =>
+        "<html><script>var arg1='274E1264B626E35EEB058EECE01149F3496502CE';</script></html>",
       json: async () => {
         throw new SyntaxError("Unexpected token '<'");
       },
@@ -249,14 +254,18 @@ test("shop API retries a temporary HTML response before accepting JSON", async (
     {
       ok: true,
       status: 200,
-      headers: { get: () => "application/json" },
+      headers: {
+        get: (name) => (name === "content-type" ? "application/json" : null),
+        getSetCookie: () => [],
+      },
       text: async () => JSON.stringify({ code: 1, data: { total: 111 } }),
       json: async () => ({ code: 1, data: { total: 111 } }),
     },
   ];
   const context = vm.createContext({
-    fetch: async () => {
+    fetch: async (_url, options) => {
       calls += 1;
+      requestHeaders.push(options.headers);
       return responses.shift();
     },
     setTimeout: (resolve) => resolve(),
@@ -277,4 +286,6 @@ test("shop API retries a temporary HTML response before accepting JSON", async (
 
   assert.equal(calls, 2);
   assert.equal(result.total, 111);
+  assert.match(requestHeaders[1].cookie, /acw_tc=test-token/);
+  assert.match(requestHeaders[1].cookie, /acw_sc__v2=664c59426b8a81e8e837ca070833106ec6c19310/);
 });

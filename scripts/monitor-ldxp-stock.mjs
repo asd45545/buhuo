@@ -197,25 +197,72 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function solveAcwChallenge(html) {
+  const arg1 = html.match(/var\s+arg1\s*=\s*['"]([0-9a-f]{40})['"]/i)?.[1];
+  if (!arg1) return "";
+
+  const positions = [
+    15, 35, 29, 24, 33, 16, 1, 38, 10, 9, 19, 31, 40, 27, 22, 23, 25, 13, 6, 11,
+    39, 18, 20, 8, 14, 21, 32, 26, 2, 30, 7, 4, 17, 5, 3, 28, 34, 37, 12, 36,
+  ];
+  const mask = "3000176000856006061501533003690027800375";
+  const unboxed = positions.map((position) => arg1[position - 1]).join("");
+  let result = "";
+
+  for (let index = 0; index < unboxed.length; index += 2) {
+    const value = Number.parseInt(unboxed.slice(index, index + 2), 16);
+    const maskValue = Number.parseInt(mask.slice(index, index + 2), 16);
+    result += (value ^ maskValue).toString(16).padStart(2, "0");
+  }
+
+  return result;
+}
+
+function updateResponseCookies(cfg, response) {
+  cfg.cookies ||= {};
+  const setCookies =
+    typeof response.headers.getSetCookie === "function"
+      ? response.headers.getSetCookie()
+      : [response.headers.get("set-cookie")].filter(Boolean);
+
+  for (const setCookie of setCookies) {
+    const pair = setCookie.split(";", 1)[0];
+    const separator = pair.indexOf("=");
+    if (separator <= 0) continue;
+    cfg.cookies[pair.slice(0, separator).trim()] = pair.slice(separator + 1).trim();
+  }
+}
+
+function formatRequestCookies(cfg) {
+  return Object.entries(cfg.cookies || {})
+    .map(([name, value]) => `${name}=${value}`)
+    .join("; ");
+}
+
 async function apiPost(cfg, visitorId, endpoint, payload) {
   const attempts = Math.max(1, Number(cfg.apiRetries || 3));
   let lastError;
 
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
+      const cookie = formatRequestCookies(cfg);
+      const headers = {
+        accept: "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        origin: cfg.baseUrl,
+        referer: `${cfg.baseUrl}/shop/${cfg.shopToken}`,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        visitorid: visitorId,
+      };
+      if (cookie) headers.cookie = cookie;
+
       const response = await fetch(`${cfg.baseUrl}${endpoint}`, {
         method: "POST",
-        headers: {
-          accept: "application/json, text/plain, */*",
-          "content-type": "application/json;charset=UTF-8",
-          origin: cfg.baseUrl,
-          referer: `${cfg.baseUrl}/shop/${cfg.shopToken}`,
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-          visitorid: visitorId,
-        },
+        headers,
         body: JSON.stringify(payload),
       });
       const raw = await response.text();
+      updateResponseCookies(cfg, response);
 
       if (!response.ok) {
         throw new Error(`${endpoint} HTTP ${response.status}`);
@@ -225,6 +272,10 @@ async function apiPost(cfg, visitorId, endpoint, payload) {
       try {
         data = JSON.parse(raw);
       } catch {
+        const challengeCookie = solveAcwChallenge(raw);
+        if (challengeCookie) {
+          cfg.cookies.acw_sc__v2 = challengeCookie;
+        }
         const contentType = response.headers.get("content-type") || "unknown";
         const preview = raw.replace(/\s+/g, " ").slice(0, 120);
         throw new Error(`${endpoint} returned non-JSON (${contentType}): ${preview}`);
