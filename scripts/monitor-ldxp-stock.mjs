@@ -599,16 +599,20 @@ async function expectSmtp(session, expectedCodes) {
 }
 
 function formatEmailMessage(options) {
+  const encodedBody = Buffer.from(options.body, "utf8")
+    .toString("base64")
+    .match(/.{1,76}/g)
+    ?.join("\r\n") || "";
   const headers = [
     `From: ${options.from}`,
     `To: ${options.to.join(", ")}`,
     `Subject: ${encodeMimeHeader(options.subject)}`,
     "MIME-Version: 1.0",
     "Content-Type: text/plain; charset=UTF-8",
-    "Content-Transfer-Encoding: 8bit",
+    "Content-Transfer-Encoding: base64",
   ];
 
-  return [...headers, "", options.body]
+  return [...headers, "", encodedBody]
     .join("\r\n")
     .split(/\r?\n/)
     .map((line) => (line.startsWith(".") ? `.${line}` : line))
