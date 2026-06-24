@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 262,
+  "runs": 263,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T23:40:18.259Z",
+  "updatedAt": "2026-06-24T23:45:18.628Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -970,13 +970,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 4,
-      "stock": 491,
+      "stock": 470,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T23:35:14.192Z",
-      "lastChangedAt": "2026-06-24T23:35:14.192Z",
+      "lastSeenAt": "2026-06-24T23:45:18.628Z",
+      "lastChangedAt": "2026-06-24T23:45:18.628Z",
       "missingSince": null
     },
     "7j1wqu": {
@@ -1021,13 +1021,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 13,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T23:35:14.192Z",
-      "lastChangedAt": "2026-06-24T23:35:14.192Z",
+      "lastSeenAt": "2026-06-24T23:45:18.628Z",
+      "lastChangedAt": "2026-06-24T23:45:18.628Z",
       "missingSince": null
     },
     "j79pn9": {
@@ -1293,13 +1293,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 23.75,
-      "stock": 25,
+      "stock": 24,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T17:20:19.933Z",
-      "lastChangedAt": "2026-06-24T17:20:19.933Z",
+      "lastSeenAt": "2026-06-24T23:45:18.628Z",
+      "lastChangedAt": "2026-06-24T23:45:18.628Z",
       "missingSince": null
     },
     "kdsr0p": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 24,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-24T23:25:14.695Z",
-      "lastChangedAt": "2026-06-24T23:25:14.695Z",
+      "lastSeenAt": "2026-06-24T23:45:18.628Z",
+      "lastChangedAt": "2026-06-24T23:45:18.628Z",
       "missingSince": null
     },
     "r06ima": {
