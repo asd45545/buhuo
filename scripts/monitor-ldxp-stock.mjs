@@ -427,7 +427,7 @@ function formatTelegramMessage(alert) {
     `商品：${name}`,
     `库存：${alert.previousStock} → ${alert.stock}`,
     `售价：¥${price}`,
-    `<a href="${link}">商品链接</a>`,
+    `商品链接：${link}`,
   ].join("\n");
 }
 

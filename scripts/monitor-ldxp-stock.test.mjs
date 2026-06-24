@@ -58,7 +58,7 @@ test("Telegram restock message uses the requested four-line format", async () =>
       "商品：ChatGPT Plus 月卡",
       "库存：0 → 25",
       "售价：¥19.90",
-      '<a href="https://example.com/item/1?a=1&amp;b=2">商品链接</a>',
+      "商品链接：https://example.com/item/1?a=1&amp;b=2",
     ].join("\n"),
   );
 });

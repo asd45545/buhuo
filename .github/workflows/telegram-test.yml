@@ -33,7 +33,7 @@ jobs:
             '商品：ChatGPT Plus 月卡' \
             '库存：0 → 25' \
             '售价：¥19.90' \
-            '<a href="https://pay.ldxp.cn/shop/jisuai">商品链接</a>')"
+            '商品链接：https://pay.ldxp.cn/shop/jisuai')"
 
           payload="$(jq -n \
             --arg chat_id "$CHAT_ID" \
