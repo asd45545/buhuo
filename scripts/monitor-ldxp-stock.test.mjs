@@ -53,6 +53,8 @@ test("Telegram restock message uses the requested four-line format", async () =>
       link: "https://example.com/item/1?a=1&b=2",
     }),
     [
+      "补货啦，刚刚有新库存！",
+      "",
       "商品：ChatGPT Plus 月卡",
       "库存：0 → 25",
       "售价：¥19.90",

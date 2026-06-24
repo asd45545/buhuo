@@ -422,6 +422,8 @@ function formatTelegramMessage(alert) {
   const price = Number.isFinite(Number(alert.price)) ? Number(alert.price).toFixed(2) : String(alert.price);
 
   return [
+    "补货啦，刚刚有新库存！",
+    "",
     `商品：${name}`,
     `库存：${alert.previousStock} → ${alert.stock}`,
     `售价：¥${price}`,
