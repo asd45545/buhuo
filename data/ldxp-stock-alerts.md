@@ -388,3 +388,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/g5kbl4
 
+## 2026-06-24T14:00:31.070Z
+- Google 谷歌邮箱【高质量 包gcp】美区 2020--2024年 老邮箱
+  - Stock: 0 -> 11
+  - Price: 11.69
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/etz0m6
+
