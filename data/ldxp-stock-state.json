@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 257,
+  "runs": 258,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T20:50:19.514Z",
+  "updatedAt": "2026-06-24T21:30:25.937Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1428,13 +1428,13 @@
       "goodsType": "card",
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 250,
+      "price": 230,
       "stock": 0,
       "inStock": false,
       "watchOutOfStock": true,
       "outOfStockSince": "2026-06-23T08:43:13.608Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-23T17:30:12.384Z",
+      "lastSeenAt": "2026-06-24T21:30:25.937Z",
       "lastChangedAt": "2026-06-23T08:43:13.608Z",
       "missingSince": null
     },
