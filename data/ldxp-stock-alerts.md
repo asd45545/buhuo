@@ -189,3 +189,10 @@
   - Category: Grok
   - Link: https://pay.ldxp.cn/item/2pkod2
 
+## 2026-06-24T09:05:30.030Z
+- GPT PLUS成品号
+  - Stock: 0 -> 1
+  - Price: 18.13
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
