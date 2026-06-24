@@ -76,3 +76,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/g5kbl4
 
+## 2026-06-24T04:35:30.361Z
+- 【双接码微软】free（90％可开plus）
+  - Stock: 0 -> 1266
+  - Price: 0.79
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/55cstm
+
