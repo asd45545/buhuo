@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 242,
+  "runs": 243,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T19:00:35.236Z",
+  "updatedAt": "2026-06-24T19:10:19.683Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -834,13 +834,13 @@
       "categoryId": 111639,
       "categoryName": "claude",
       "price": 507,
-      "stock": 12,
+      "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T17:15:19.402Z",
-      "lastChangedAt": "2026-06-24T17:15:19.402Z",
+      "lastSeenAt": "2026-06-24T19:10:19.683Z",
+      "lastChangedAt": "2026-06-24T19:10:19.683Z",
       "missingSince": null
     },
     "u883y2": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 18.13,
-      "stock": 16,
+      "stock": 15,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T18:50:20.852Z",
-      "lastChangedAt": "2026-06-24T18:50:20.852Z",
+      "lastSeenAt": "2026-06-24T19:10:19.683Z",
+      "lastChangedAt": "2026-06-24T19:10:19.683Z",
       "missingSince": null
     },
     "go054j": {
