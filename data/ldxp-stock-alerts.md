@@ -31,3 +31,10 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/7s3tbk
 
+## 2026-06-24T03:38:15.696Z
+- chat gpt plus 带rt
+  - Stock: 0 -> 3
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/lxak6h
+
