@@ -1,45 +1,45 @@
-# 极速AI库存监控云端部署说明
+# GitHub Actions 部署说明
 
-这个目录已经准备好 GitHub Actions 云端定时运行配置：
+这个仓库里的 GitHub Actions 现在分两类：
 
-- 工作流文件：`.github/workflows/ldxp-stock-monitor.yml`
-- 监控脚本：`scripts/monitor-ldxp-stock.mjs`
-- 状态文件：`data/ldxp-stock-state.json`
+1. `ldxp-stock-monitor.yml`
+   - 每 5 分钟触发一次
+   - 只请求 Vercel 的 `/api/monitor`
+   - 不再直接抓 `pay.ldxp.cn`
 
-## 推荐部署方式
+2. `telegram-notify.yml`
+   - 由 Vercel 触发
+   - 负责把补货消息发到 Telegram 群组
 
-1. 新建一个 GitHub 私有仓库。
-2. 把本目录里的文件上传/推送到仓库。
-3. 进入仓库 `Settings -> Secrets and variables -> Actions -> New repository secret`。
-4. 添加下面这些 Repository Secrets：
+## 需要配置的 Secrets
 
-| Secret 名称 | 值 |
-| --- | --- |
-| `LDXP_NOTIFY_EMAIL_TO` | `2582681729@qq.com` |
-| `LDXP_NOTIFY_EMAIL_FROM` | `admin@aimf.shop` |
-| `LDXP_SMTP_HOST` | `smtpdm.aliyun.com` |
-| `LDXP_SMTP_PORT` | `465` |
-| `LDXP_SMTP_SECURE` | `true` |
-| `LDXP_SMTP_USER` | `admin@aimf.shop` |
-| `LDXP_SMTP_PASS` | SMTP 访问凭证 |
+在仓库 `Settings -> Secrets and variables -> Actions` 里添加：
 
-5. 进入仓库 `Actions -> LDXP Stock Monitor -> Run workflow`，手动运行一次测试。
-6. 之后 GitHub Actions 会按计划每 10 分钟运行一次。
+```text
+CRON_SECRET
+LDXP_MONITOR_URL
+LDXP_TELEGRAM_BOT_TOKEN
+LDXP_TELEGRAM_CHAT_ID
+LDXP_TELEGRAM_THREAD_ID   # 可选
+```
 
-## 通知规则
+其中：
 
-脚本只会在“之前缺货，现在库存大于 0”的商品出现时发送邮件。
+- `CRON_SECRET` 要和 Vercel 里的同名值一致
+- `LDXP_MONITOR_URL` 默认可以不填，workflow 会用 `https://buhuo-monitor.vercel.app/api/monitor`
 
-没有补货时，只会更新状态文件，不会发邮件。
+## 触发检查
 
-## 状态持久化
+可以在 GitHub Actions 页面手动运行：
 
-GitHub Actions 每次运行后会把 `data/ldxp-stock-state.json` 提交回仓库。
+- `LDXP Stock Monitor`
 
-这个文件用于记录上一次库存状态，不能删除；删除后会重新建立基线，可能漏掉一次补货变化。
+如果 Telegram 想单独测试，也可以手动运行：
 
-## 安全注意
+- `Telegram Notify`
 
-不要把 `data/ldxp-stock-email.json` 上传到 GitHub。
+## 常见结果
 
-仓库里的 `.gitignore` 已经忽略了这个本地邮箱配置文件。云端只使用 GitHub Secrets。
+- `401`：通常是 `CRON_SECRET` 不一致
+- `ok: true`：说明 GitHub 已经成功唤醒 Vercel
+- Vercel 返回 `500`：去看 Vercel 日志和 GitHub token 权限

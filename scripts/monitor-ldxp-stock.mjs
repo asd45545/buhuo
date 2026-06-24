@@ -852,6 +852,7 @@ export {
   buildNextState,
   defaults,
   fetchAllGoods,
+  formatTelegramMessage,
   loadState,
   makeVisitorId,
   saveState,

@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test scripts/monitor-ldxp-stock.test.mjs"
+    "test": "node --test scripts/monitor-ldxp-stock.test.mjs api/monitor.test.mjs"
   },
   "engines": {
     "node": "22.x"

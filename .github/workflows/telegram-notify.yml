@@ -1,0 +1,68 @@
+name: Telegram Notify
+
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: Telegram message text
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  send-message:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Send Telegram notification
+        env:
+          BOT_TOKEN: ${{ secrets.LDXP_TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.LDXP_TELEGRAM_CHAT_ID }}
+          THREAD_ID: ${{ secrets.LDXP_TELEGRAM_THREAD_ID }}
+          MESSAGE_TEXT: ${{ github.event.inputs.text }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$BOT_TOKEN" ] || [ -z "$CHAT_ID" ]; then
+            echo "::error::Telegram bot token or chat ID is not set"
+            exit 1
+          fi
+
+          text="${MESSAGE_TEXT:-}"
+          if [ -z "$text" ]; then
+            text="$(printf '%s\n' \
+              '商品：ChatGPT Plus 月卡' \
+              '库存：0 → 25' \
+              '售价：¥19.90' \
+              '商品链接：https://pay.ldxp.cn/shop/jisuai')"
+          fi
+
+          payload="$(jq -n \
+            --arg chat_id "$CHAT_ID" \
+            --arg text "$text" \
+            '{
+              chat_id: $chat_id,
+              text: $text,
+              disable_web_page_preview: true
+            }')"
+
+          if [ -n "$THREAD_ID" ]; then
+            payload="$(echo "$payload" | jq --argjson thread_id "$THREAD_ID" \
+              '. + {message_thread_id: $thread_id}')"
+          fi
+
+          response="$(curl --fail-with-body --silent --show-error \
+            --request POST \
+            --header "Content-Type: application/json" \
+            --data "$payload" \
+            "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage")"
+
+          if [ "$(echo "$response" | jq -r '.ok')" != "true" ]; then
+            echo "$response" | jq -r '"::error::Telegram: " + (.description // "request failed")'
+            exit 1
+          fi
+
+          echo "$response" | jq -r '"Telegram notification sent. message_id=" + (.result.message_id | tostring)'

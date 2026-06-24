@@ -1,99 +1,72 @@
-# Vercel 免费版云端库存监控部署说明
+# Vercel 部署说明
 
-这个版本适配 Vercel Hobby 免费版：
+这套方案现在是：
 
-- Vercel 只托管 `/api/monitor`
-- 免费外部定时器每 5 分钟访问 `/api/monitor?secret=你的密钥`
-- `/api/monitor` 触发 GitHub Actions 的 `ldxp-stock-monitor.yml`
-- GitHub Actions 负责检查 `https://pay.ldxp.cn/shop/jisuai`
-- Telegram 通知继续使用 GitHub Secrets，不需要在 Vercel 里再填 Telegram token
-- 库存状态继续保存到 GitHub 仓库 `data/ldxp-stock-state.json`
-
-## 为什么不用 Vercel 自带 Cron
-
-Vercel Hobby 免费版 Cron 只能每天运行一次，`*/5 * * * *` 这种 5 分钟一次会部署失败。
-
-所以免费版使用：
-
-```text
-cron-job.org -> Vercel /api/monitor -> GitHub Actions -> Telegram
-```
+1. GitHub Actions 每 5 分钟触发一次
+2. GitHub Actions 只请求 Vercel 的 `/api/monitor`
+3. Vercel 直接去抓 `https://pay.ldxp.cn/shop/jisuai`
+4. Vercel 把库存状态写回 GitHub 仓库
+5. 如果发现补货，Vercel 再触发 `telegram-notify.yml` 发群消息
 
 ## Vercel 环境变量
 
-在 Vercel 项目左侧点 `Environment Variables`，添加：
+在 Vercel 项目里添加：
 
 ```text
-CRON_SECRET=任意随机长字符串
+CRON_SECRET=一串随机长字符串
 LDXP_GITHUB_TOKEN=GitHub fine-grained token
 ```
 
-可选，不填也可以：
+可选项：
 
 ```text
 LDXP_STATE_REPO=asd45545/buhuo
 LDXP_STATE_BRANCH=main
-LDXP_WORKFLOW_ID=ldxp-stock-monitor.yml
+LDXP_STATE_FILE=data/ldxp-stock-state.json
+LDXP_ALERT_FILE=data/ldxp-stock-alerts.md
+LDXP_TELEGRAM_WORKFLOW_ID=telegram-notify.yml
 ```
 
 ## GitHub Token 权限
 
-创建 Fine-grained personal access token：
+给 `LDXP_GITHUB_TOKEN` 创建 Fine-grained token，并只授权仓库 `asd45545/buhuo`：
 
-- Repository access: 只选择 `asd45545/buhuo`
 - Actions: Read and write
-- Contents: Read-only
+- Contents: Read and write
 - Metadata: Read-only
 
-然后把 token 填到 Vercel 的 `LDXP_GITHUB_TOKEN`。
+## Telegram 相关 Secrets
 
-## Vercel 部署步骤
-
-1. Vercel 项目连接 GitHub 仓库 `asd45545/buhuo`
-2. 添加上面的环境变量
-3. 重新部署 Production
-4. 部署完成后访问：
+Telegram 发送消息用的是 GitHub Actions workflow `telegram-notify.yml`，所以还要在 GitHub 仓库 Secrets 里配置：
 
 ```text
-https://你的域名.vercel.app/api/monitor
+LDXP_TELEGRAM_BOT_TOKEN
+LDXP_TELEGRAM_CHAT_ID
+LDXP_TELEGRAM_THREAD_ID   # 可选，群组话题才需要
 ```
 
-如果返回 `401`，说明密钥保护正常。
+## GitHub Actions 触发器
 
-再访问：
+`ldxp-stock-monitor.yml` 现在只负责定时触发 Vercel。
+
+它默认请求：
 
 ```text
-https://你的域名.vercel.app/api/monitor?secret=你的CRON_SECRET
+https://buhuo-monitor.vercel.app/api/monitor
 ```
 
-如果返回 `ok: true` 和 `dispatched: true`，说明 Vercel 已成功触发 GitHub Actions。
-
-## 免费 5 分钟定时器设置
-
-推荐用 cron-job.org：
-
-1. 打开 `https://cron-job.org`
-2. 注册并登录
-3. 新建 Cronjob
-4. URL 填：
+如果你换了 Vercel 域名，可以在 GitHub 仓库 Secrets 里加：
 
 ```text
-https://你的域名.vercel.app/api/monitor?secret=你的CRON_SECRET
+LDXP_MONITOR_URL=https://你的域名.vercel.app/api/monitor
 ```
 
-5. Schedule 选择 Every 5 minutes
-6. Method 选择 GET
-7. 保存并启用
+## 部署检查
 
-这样电脑关机也会自动检测。
+1. 先部署 Vercel 项目
+2. 配好上面的 Vercel 环境变量
+3. GitHub 仓库里配好 Telegram secrets
+4. 运行 GitHub Actions 的 `LDXP Stock Monitor`
+5. 检查 Vercel 返回是否正常
 
-## 通知格式
-
-Telegram 补货通知格式仍然是：
-
-```text
-商品：ChatGPT Plus 月卡
-库存：0 → 25
-售价：¥19.90
-商品链接：https://pay.ldxp.cn/item/xxxx
-```
+如果没有带 `secret` 访问 `/api/monitor`，返回 `401` 是正常的。
