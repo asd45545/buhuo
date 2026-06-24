@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 239,
+  "runs": 240,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-24T18:45:18.963Z",
+  "updatedAt": "2026-06-24T18:50:20.852Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -154,13 +154,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19.9,
-      "stock": 36,
+      "stock": 35,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-23T17:30:12.384Z",
-      "lastChangedAt": "2026-06-23T08:43:13.608Z",
+      "lastSeenAt": "2026-06-24T18:50:20.852Z",
+      "lastChangedAt": "2026-06-24T18:50:20.852Z",
       "missingSince": null
     },
     "55cstm": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-24T18:50:20.852Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T18:45:18.963Z",
-      "lastChangedAt": "2026-06-24T18:45:18.963Z",
+      "lastSeenAt": "2026-06-24T18:50:20.852Z",
+      "lastChangedAt": "2026-06-24T18:50:20.852Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 18.13,
-      "stock": 17,
+      "stock": 16,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T18:40:19.588Z",
-      "lastChangedAt": "2026-06-24T18:40:19.588Z",
+      "lastSeenAt": "2026-06-24T18:50:20.852Z",
+      "lastChangedAt": "2026-06-24T18:50:20.852Z",
       "missingSince": null
     },
     "go054j": {
