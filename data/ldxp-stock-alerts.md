@@ -428,3 +428,10 @@
   - Category: 接码
   - Link: https://pay.ldxp.cn/item/lwhjp0
 
+## 2026-06-24T15:35:15.015Z
+- GPT PLUS成品号
+  - Stock: 0 -> 2
+  - Price: 18.13
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
