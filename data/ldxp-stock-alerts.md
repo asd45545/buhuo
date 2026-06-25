@@ -1068,3 +1068,25 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4rukz6
 
+## 2026-06-25T12:45:17.748Z
+- 微软长效-hotmail-【gr/o2双令牌号】-【英文随机+数字】Graph令牌号和OAuth2-IMAP-POP3
+  - Stock: 0 -> 100
+  - Price: 0.28
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/da2y2b
+- 微软长效-outlook-【gr/o2双令牌号】-【英文随机+数字】Graph令牌号和OAuth2-IMAP-POP3
+  - Stock: 0 -> 100
+  - Price: 0.28
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/6byvu1
+- 已接码🔥UPI渠道日抛Plus成品带RT 可登网页 codex/cpa/sub 保首登
+  - Stock: 0 -> 20
+  - Price: 14.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/pfz6mj
+- Gpt Free（双接码 | 反代 | Codex | 网页）| outlook | 美国 | 长效邮箱
+  - Stock: 0 -> 98
+  - Price: 0.8
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/s42at5
+
