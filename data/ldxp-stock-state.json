@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 366,
+  "runs": 367,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T08:10:21.417Z",
+  "updatedAt": "2026-06-25T08:15:19.183Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -596,13 +596,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 1.17,
-      "stock": 268,
+      "stock": 267,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T08:00:32.445Z",
-      "lastChangedAt": "2026-06-25T08:00:32.445Z",
+      "lastSeenAt": "2026-06-25T08:15:19.183Z",
+      "lastChangedAt": "2026-06-25T08:15:19.183Z",
       "missingSince": null
     },
     "qdtcy9": {
@@ -664,13 +664,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 1,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T08:10:21.417Z",
-      "lastChangedAt": "2026-06-25T08:10:21.417Z",
+      "lastSeenAt": "2026-06-25T08:15:19.183Z",
+      "lastChangedAt": "2026-06-25T08:15:19.183Z",
       "missingSince": null
     },
     "pfrifg": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 309,
+      "stock": 308,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T08:05:15.638Z",
-      "lastChangedAt": "2026-06-25T08:05:15.638Z",
+      "lastSeenAt": "2026-06-25T08:15:19.183Z",
+      "lastChangedAt": "2026-06-25T08:15:19.183Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1344,13 +1344,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 270,
-      "stock": 37,
+      "stock": 36,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T08:10:21.417Z",
-      "lastChangedAt": "2026-06-25T07:55:13.567Z",
+      "lastSeenAt": "2026-06-25T08:15:19.183Z",
+      "lastChangedAt": "2026-06-25T08:15:19.183Z",
       "missingSince": null
     },
     "8rmime": {
@@ -1385,7 +1385,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-25T07:05:14.684Z",
       "lastChangedAt": "2026-06-25T07:05:14.684Z",
-      "missingSince": null
+      "missingSince": "2026-06-25T08:15:19.183Z"
     },
     "lwhjp0": {
       "key": "lwhjp0",
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 9,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T08:10:21.417Z",
-      "lastChangedAt": "2026-06-25T08:10:21.417Z",
+      "lastSeenAt": "2026-06-25T08:15:19.183Z",
+      "lastChangedAt": "2026-06-25T08:15:19.183Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -2188,19 +2188,19 @@
     },
     "3to940": {
       "key": "3to940",
-      "name": "GPTplus成品号 质保25天 （统一售后私信）",
+      "name": "GPT plus 成品号 质保25天 （统一售后QQ）",
       "link": "https://pay.ldxp.cn/item/3to940",
       "goodsType": "card",
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
-      "price": 30,
-      "stock": 100,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "price": 60,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-25T08:15:19.183Z",
       "firstSeenAt": "2026-06-25T08:10:21.417Z",
-      "lastSeenAt": "2026-06-25T08:10:21.417Z",
-      "lastChangedAt": "2026-06-25T08:10:21.417Z",
+      "lastSeenAt": "2026-06-25T08:15:19.183Z",
+      "lastChangedAt": "2026-06-25T08:15:19.183Z",
       "missingSince": null
     }
   }
