@@ -1123,3 +1123,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/budolx
 
+## 2026-06-25T13:55:14.016Z
+- 【随机】谷歌邮箱20-24年
+  - Stock: 0 -> 12
+  - Price: 8.19
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/htc8s3
+
