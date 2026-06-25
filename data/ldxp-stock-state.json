@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 285,
+  "runs": 286,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T01:35:15.142Z",
+  "updatedAt": "2026-06-25T01:40:19.106Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 349,
+      "stock": 348,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T01:35:15.142Z",
-      "lastChangedAt": "2026-06-25T01:35:15.142Z",
+      "lastSeenAt": "2026-06-25T01:40:19.106Z",
+      "lastChangedAt": "2026-06-25T01:40:19.106Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -977,7 +977,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-25T01:35:15.142Z",
       "lastChangedAt": "2026-06-25T01:35:15.142Z",
-      "missingSince": null
+      "missingSince": "2026-06-25T01:40:19.106Z"
     },
     "7j1wqu": {
       "key": "7j1wqu",
@@ -1003,14 +1003,14 @@
       "goodsType": "card",
       "categoryId": 111665,
       "categoryName": "GPT Free",
-      "price": 0.78,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-25T01:35:15.142Z",
+      "price": 0.72,
+      "stock": 100,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T01:35:15.142Z",
-      "lastChangedAt": "2026-06-25T01:35:15.142Z",
+      "lastSeenAt": "2026-06-25T01:40:19.106Z",
+      "lastChangedAt": "2026-06-25T01:40:19.106Z",
       "missingSince": null
     },
     "5dsz18": {
@@ -1191,13 +1191,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.71,
-      "stock": 3285,
+      "stock": 3384,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T01:35:15.142Z",
-      "lastChangedAt": "2026-06-25T01:35:15.142Z",
+      "lastSeenAt": "2026-06-25T01:40:19.106Z",
+      "lastChangedAt": "2026-06-25T01:40:19.106Z",
       "missingSince": null
     },
     "s42at5": {
@@ -1803,13 +1803,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 35.88,
-      "stock": 211,
+      "stock": 210,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T13:49:47.685Z",
-      "lastSeenAt": "2026-06-25T00:45:17.673Z",
-      "lastChangedAt": "2026-06-25T00:45:17.673Z",
+      "lastSeenAt": "2026-06-25T01:40:19.106Z",
+      "lastChangedAt": "2026-06-25T01:40:19.106Z",
       "missingSince": null
     },
     "l3su3k": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 14,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-25T01:20:19.207Z",
-      "lastChangedAt": "2026-06-25T01:20:19.207Z",
+      "lastSeenAt": "2026-06-25T01:40:19.106Z",
+      "lastChangedAt": "2026-06-25T01:40:19.106Z",
       "missingSince": null
     },
     "r06ima": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 130,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-25T01:40:19.106Z",
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-25T01:35:15.142Z",
-      "lastChangedAt": "2026-06-25T01:35:15.142Z",
+      "lastSeenAt": "2026-06-25T01:40:19.106Z",
+      "lastChangedAt": "2026-06-25T01:40:19.106Z",
       "missingSince": null
     },
     "4i7q19": {
