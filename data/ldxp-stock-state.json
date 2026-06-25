@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 489,
+  "runs": 490,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T18:25:12.331Z",
+  "updatedAt": "2026-06-25T18:30:24.959Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1344,13 +1344,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 248,
-      "stock": 29,
+      "stock": 28,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T17:55:14.107Z",
-      "lastChangedAt": "2026-06-25T17:55:14.107Z",
+      "lastSeenAt": "2026-06-25T18:30:24.959Z",
+      "lastChangedAt": "2026-06-25T18:30:24.959Z",
       "missingSince": null
     },
     "8rmime": {
@@ -1735,13 +1735,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 24.05,
-      "stock": 10,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T18:25:12.331Z",
-      "lastChangedAt": "2026-06-25T18:25:12.331Z",
+      "lastSeenAt": "2026-06-25T18:30:24.959Z",
+      "lastChangedAt": "2026-06-25T18:30:24.959Z",
       "missingSince": null
     },
     "etz0m6": {
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-25T14:20:18.795Z",
+      "stock": 10,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-06-25T14:20:18.795Z",
-      "lastChangedAt": "2026-06-25T14:20:18.795Z",
+      "lastSeenAt": "2026-06-25T18:30:24.959Z",
+      "lastChangedAt": "2026-06-25T18:30:24.959Z",
       "missingSince": null
     },
     "1nim44": {
