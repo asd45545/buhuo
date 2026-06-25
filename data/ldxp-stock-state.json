@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 296,
+  "runs": 297,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T02:30:24.947Z",
+  "updatedAt": "2026-06-25T02:31:55.059Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 345,
+      "stock": 344,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T02:30:24.947Z",
-      "lastChangedAt": "2026-06-25T02:30:24.947Z",
+      "lastSeenAt": "2026-06-25T02:31:55.059Z",
+      "lastChangedAt": "2026-06-25T02:31:55.059Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1191,13 +1191,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.71,
-      "stock": 2911,
+      "stock": 2906,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T02:30:24.947Z",
-      "lastChangedAt": "2026-06-25T02:30:24.947Z",
+      "lastSeenAt": "2026-06-25T02:31:55.059Z",
+      "lastChangedAt": "2026-06-25T02:31:55.059Z",
       "missingSince": null
     },
     "s42at5": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 12,
-      "stock": 6,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T02:05:14.477Z",
-      "lastChangedAt": "2026-06-25T02:05:14.477Z",
+      "lastSeenAt": "2026-06-25T02:31:55.059Z",
+      "lastChangedAt": "2026-06-25T02:31:55.059Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 81,
+      "stock": 71,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-25T02:30:24.947Z",
-      "lastChangedAt": "2026-06-25T02:30:24.947Z",
+      "lastSeenAt": "2026-06-25T02:31:55.059Z",
+      "lastChangedAt": "2026-06-25T02:31:55.059Z",
       "missingSince": null
     },
     "4i7q19": {
