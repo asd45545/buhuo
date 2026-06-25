@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 388,
+  "runs": 389,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T09:57:29.674Z",
+  "updatedAt": "2026-06-25T10:00:29.433Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -732,13 +732,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 6.5,
-      "stock": 39,
+      "stock": 37,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T09:25:15.062Z",
-      "lastChangedAt": "2026-06-25T09:25:15.062Z",
+      "lastSeenAt": "2026-06-25T10:00:29.433Z",
+      "lastChangedAt": "2026-06-25T10:00:29.433Z",
       "missingSince": null
     },
     "alnlyi": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 61,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-25T10:00:29.433Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T09:57:29.674Z",
-      "lastChangedAt": "2026-06-25T09:57:29.674Z",
+      "lastSeenAt": "2026-06-25T10:00:29.433Z",
+      "lastChangedAt": "2026-06-25T10:00:29.433Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 10,
-      "stock": 36,
+      "stock": 35,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T09:57:29.674Z",
-      "lastChangedAt": "2026-06-25T09:57:29.674Z",
+      "lastSeenAt": "2026-06-25T10:00:29.433Z",
+      "lastChangedAt": "2026-06-25T10:00:29.433Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1905,13 +1905,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 25,
+      "stock": 24,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:47:48.119Z",
-      "lastSeenAt": "2026-06-25T09:57:29.674Z",
-      "lastChangedAt": "2026-06-25T09:57:29.674Z",
+      "lastSeenAt": "2026-06-25T10:00:29.433Z",
+      "lastChangedAt": "2026-06-25T10:00:29.433Z",
       "missingSince": null
     },
     "rgccxk": {
