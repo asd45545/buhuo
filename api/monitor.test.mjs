@@ -89,6 +89,15 @@ test("monitor updates state without notifying when nothing restocked", async () 
       };
     }
 
+    if (target.includes("/contents/data/telegram-delete-queue.json?ref=main")) {
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({ sha: "queue-sha", content: base64Json([]) }),
+        text: async () => "ok",
+      };
+    }
+
     if (target.includes("/shopApi/Shop/goodsList")) {
       return {
         ok: true,
@@ -139,8 +148,124 @@ test("monitor updates state without notifying when nothing restocked", async () 
     assert.equal(body.ok, true);
     assert.equal(body.restockedCount, 0);
     assert.equal(body.notificationsSent, 0);
+    assert.equal(body.telegramCleanupRequested, false);
     assert.ok(calls.some((call) => call.target.includes("/shopApi/Shop/goodsList")));
     assert.equal(calls.filter((call) => call.method === "PUT").length, 0);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("monitor dispatches Telegram cleanup when a queued message is due", async () => {
+  const previousState = {
+    version: 1,
+    visitorId: "visitor-1",
+    items: {
+      goods_1: {
+        key: "goods_1",
+        name: "ChatGPT Plus",
+        link: "https://pay.ldxp.cn/item/goods_1",
+        goodsType: "card",
+        categoryId: null,
+        categoryName: "",
+        price: 19.9,
+        stock: 5,
+        inStock: true,
+        watchOutOfStock: false,
+        outOfStockSince: null,
+        firstSeenAt: "2026-01-01T00:00:00.000Z",
+        lastSeenAt: "2026-01-01T00:00:00.000Z",
+        lastChangedAt: "2026-01-01T00:00:00.000Z",
+        missingSince: null,
+      },
+    },
+    runs: 1,
+    createdAt: "2026-01-01T00:00:00.000Z",
+    updatedAt: "2026-01-01T00:00:00.000Z",
+    shop: "https://pay.ldxp.cn/shop/jisuai",
+    shopToken: "jisuai",
+    goodsTypes: ["card"],
+  };
+
+  const stateContent = base64Json(previousState);
+  const queueContent = base64Json([
+    {
+      chatId: "-1004429750164",
+      messageId: 344,
+      deleteAt: "2026-01-01T00:00:00.000Z",
+      createdAt: "2025-12-31T19:00:00.000Z",
+      attempts: 0,
+    },
+  ]);
+  const cleanupDispatches = [];
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async (url, options = {}) => {
+    const target = String(url);
+
+    if (target.includes("/contents/data/ldxp-stock-state.json?ref=main")) {
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({ sha: "state-sha", content: stateContent }),
+        text: async () => "ok",
+      };
+    }
+
+    if (target.includes("/contents/data/telegram-delete-queue.json?ref=main")) {
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({ sha: "queue-sha", content: queueContent }),
+        text: async () => "ok",
+      };
+    }
+
+    if (target.includes("/shopApi/Shop/goodsList")) {
+      return {
+        ok: true,
+        status: 200,
+        headers: {
+          get: (name) => (name === "content-type" ? "application/json" : null),
+          getSetCookie: () => [],
+        },
+        text: async () =>
+          JSON.stringify({
+            code: 1,
+            data: {
+              total: 1,
+              list: [
+                {
+                  goods_key: "goods_1",
+                  name: "ChatGPT Plus",
+                  link: "https://pay.ldxp.cn/item/goods_1",
+                  goods_type: "card",
+                  price: 19.9,
+                  extend: { stock_count: 5 },
+                },
+              ],
+            },
+          }),
+      };
+    }
+
+    if (target.includes("/actions/workflows/telegram-delete.yml/dispatches")) {
+      cleanupDispatches.push(JSON.parse(options.body));
+      return { ok: true, status: 204, text: async () => "" };
+    }
+
+    throw new Error(`unexpected fetch ${target}`);
+  };
+
+  try {
+    process.env.CRON_SECRET = "correct-secret";
+    process.env.LDXP_GITHUB_TOKEN = "token";
+    const res = createResponse();
+    await handler({ method: "GET", url: "/api/monitor?secret=correct-secret", headers: {} }, res);
+
+    assert.equal(res.statusCode, 200);
+    const body = JSON.parse(res.body());
+    assert.equal(body.telegramCleanupRequested, true);
+    assert.deepEqual(cleanupDispatches, [{ ref: "main" }]);
   } finally {
     globalThis.fetch = originalFetch;
   }
@@ -190,6 +315,15 @@ test("monitor dispatches telegram notifications for restocks", async () => {
         ok: true,
         status: 200,
         json: async () => ({ sha: "sha1", content: stateContent }),
+        text: async () => "ok",
+      };
+    }
+
+    if (target.includes("/contents/data/telegram-delete-queue.json?ref=main")) {
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({ sha: "queue-sha", content: base64Json([]) }),
         text: async () => "ok",
       };
     }

@@ -16,7 +16,9 @@ export const config = {
 
 const defaultStatePath = "data/ldxp-stock-state.json";
 const defaultAlertPath = "data/ldxp-stock-alerts.md";
+const defaultTelegramDeleteQueuePath = "data/telegram-delete-queue.json";
 const defaultTelegramWorkflow = "telegram-notify.yml";
+const defaultTelegramDeleteWorkflow = "telegram-delete.yml";
 
 export default async function handler(req, res) {
   if (!["GET", "POST"].includes(req.method)) {
@@ -39,6 +41,12 @@ export default async function handler(req, res) {
   try {
     const store = createGitHubStore();
     const state = normalizeState(await store.readJson(defaultState(), store.statePath), checkedAt);
+    const telegramDeleteQueue = await store.readJson([], store.telegramDeleteQueuePath);
+    const telegramCleanupRequested = hasDueTelegramDeletion(telegramDeleteQueue, checkedAt);
+    if (telegramCleanupRequested) {
+      await store.dispatchTelegramCleanup();
+    }
+
     const cfg = createMonitorConfig();
     const goods = await fetchAllGoods(cfg, state.visitorId || makeVisitorId());
     const { nextState, alerts } = buildNextState(state, goods, checkedAt, cfg);
@@ -70,6 +78,7 @@ export default async function handler(req, res) {
       restockedCount: summary.restockedCount,
       stateChanged,
       notificationsSent: alerts.length,
+      telegramCleanupRequested,
       alerts: alerts.map((alert) => ({
         name: alert.name,
         previousStock: alert.previousStock,
@@ -127,7 +136,11 @@ function createGitHubStore() {
     branch: process.env.LDXP_STATE_BRANCH || "main",
     statePath: process.env.LDXP_STATE_FILE || defaultStatePath,
     alertPath: process.env.LDXP_ALERT_FILE || defaultAlertPath,
+    telegramDeleteQueuePath:
+      process.env.LDXP_TELEGRAM_DELETE_QUEUE_FILE || defaultTelegramDeleteQueuePath,
     telegramWorkflow: process.env.LDXP_TELEGRAM_WORKFLOW_ID || defaultTelegramWorkflow,
+    telegramDeleteWorkflow:
+      process.env.LDXP_TELEGRAM_DELETE_WORKFLOW_ID || defaultTelegramDeleteWorkflow,
     async readJson(fallback, filePath) {
       const file = await this.readFile(filePath);
       if (!file) return fallback;
@@ -182,6 +195,22 @@ function createGitHubStore() {
         throw new Error(`GitHub workflow dispatch HTTP ${response.status}: ${await response.text()}`);
       }
     },
+    async dispatchTelegramCleanup() {
+      const response = await githubFetch(
+        this,
+        `/actions/workflows/${this.telegramDeleteWorkflow}/dispatches`,
+        {
+          method: "POST",
+          body: JSON.stringify({ ref: this.branch }),
+        },
+      );
+
+      if (!response.ok && response.status !== 204) {
+        throw new Error(
+          `GitHub cleanup workflow dispatch HTTP ${response.status}: ${await response.text()}`,
+        );
+      }
+    },
   };
 
   async function githubFetch(store, filePath, options = {}) {
@@ -207,6 +236,16 @@ async function dispatchTelegramNotifications(store, alerts) {
   for (const alert of alerts) {
     await store.dispatchTelegram(formatTelegramMessage(alert));
   }
+}
+
+function hasDueTelegramDeletion(queue, checkedAt) {
+  const checkedAtMs = new Date(checkedAt).getTime();
+  if (!Array.isArray(queue) || Number.isNaN(checkedAtMs)) return false;
+
+  return queue.some((entry) => {
+    const deleteAtMs = new Date(entry?.deleteAt).getTime();
+    return !Number.isNaN(deleteAtMs) && deleteAtMs <= checkedAtMs;
+  });
 }
 
 function toJsonFile(value) {
