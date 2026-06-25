@@ -173,6 +173,47 @@ test("in-stock goods do not send the same restock alert twice", async () => {
   assert.equal(result.nextState.items["goods-1"].watchOutOfStock, false);
 });
 
+test("in-stock goods do not alert when stock increases", async () => {
+  const buildNextState = await loadStateTransitionFunctions();
+  const previous = item({
+    stock: 5,
+    inStock: true,
+    watchOutOfStock: false,
+    firstSeenAt: "2026-01-01T00:00:00.000Z",
+    lastSeenAt: "2026-01-02T00:00:00.000Z",
+  });
+  const result = buildNextState(
+    stateWith(previous),
+    [item({ stock: 10 })],
+    "2026-01-03T00:00:00.000Z",
+    transitionConfig,
+  );
+
+  assert.equal(result.alerts.length, 0);
+  assert.equal(result.nextState.items["goods-1"].stock, 10);
+  assert.equal(result.nextState.items["goods-1"].watchOutOfStock, false);
+});
+
+test("stale out-of-stock watch flags do not alert for positive stock increases", async () => {
+  const buildNextState = await loadStateTransitionFunctions();
+  const previous = item({
+    stock: 5,
+    inStock: true,
+    watchOutOfStock: true,
+    firstSeenAt: "2026-01-01T00:00:00.000Z",
+    lastSeenAt: "2026-01-02T00:00:00.000Z",
+  });
+  const result = buildNextState(
+    stateWith(previous),
+    [item({ stock: 10 })],
+    "2026-01-03T00:00:00.000Z",
+    transitionConfig,
+  );
+
+  assert.equal(result.alerts.length, 0);
+  assert.equal(result.nextState.items["goods-1"].watchOutOfStock, false);
+});
+
 test("goods can go out of stock and trigger a later second restock alert", async () => {
   const buildNextState = await loadStateTransitionFunctions();
   const inStock = item({
