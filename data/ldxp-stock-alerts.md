@@ -543,3 +543,15 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/q0lb2o
 
+## 2026-06-25T01:30:26.019Z
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 152
+  - Price: 0.65
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+- gpt free 优质顶级货已经接码 可升级plus 可网页登录
+  - Stock: 0 -> 1540
+  - Price: 0.71
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/g5kbl4
+
