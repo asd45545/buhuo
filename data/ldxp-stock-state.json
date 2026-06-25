@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 481,
+  "runs": 482,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T17:35:11.831Z",
+  "updatedAt": "2026-06-25T17:50:17.534Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 3,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T17:15:17.036Z",
-      "lastChangedAt": "2026-06-25T17:15:17.036Z",
+      "lastSeenAt": "2026-06-25T17:50:17.534Z",
+      "lastChangedAt": "2026-06-25T17:50:17.534Z",
       "missingSince": null
     },
     "go054j": {
@@ -1735,13 +1735,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 24.05,
-      "stock": 7,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T17:33:24.433Z",
-      "lastChangedAt": "2026-06-25T17:33:24.433Z",
+      "lastSeenAt": "2026-06-25T17:50:17.534Z",
+      "lastChangedAt": "2026-06-25T17:50:17.534Z",
       "missingSince": null
     },
     "etz0m6": {
@@ -2218,6 +2218,23 @@
       "firstSeenAt": "2026-06-25T14:05:13.821Z",
       "lastSeenAt": "2026-06-25T14:05:13.821Z",
       "lastChangedAt": "2026-06-25T14:05:13.821Z",
+      "missingSince": null
+    },
+    "nvnqc8": {
+      "key": "nvnqc8",
+      "name": "📮谷歌邮箱，方便注册chatgpt，提高权重质量，自提全自动，支持验证码api",
+      "link": "https://pay.ldxp.cn/item/nvnqc8",
+      "goodsType": "card",
+      "categoryId": 111634,
+      "categoryName": "各类邮箱",
+      "price": 0.9,
+      "stock": 53,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-06-25T17:50:17.534Z",
+      "lastSeenAt": "2026-06-25T17:50:17.534Z",
+      "lastChangedAt": "2026-06-25T17:50:17.534Z",
       "missingSince": null
     }
   }
