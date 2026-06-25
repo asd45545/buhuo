@@ -588,3 +588,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/b2ggf2
 
+## 2026-06-25T03:00:32.690Z
+- 已接码 free（无邮箱链接）
+  - Stock: 0 -> 30
+  - Price: 0.78
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/krexpu
+
