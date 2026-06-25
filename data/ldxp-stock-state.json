@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 462,
+  "runs": 463,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T16:05:12.969Z",
+  "updatedAt": "2026-06-25T16:10:17.424Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -596,13 +596,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 1.17,
-      "stock": 86,
+      "stock": 71,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T15:25:11.884Z",
-      "lastChangedAt": "2026-06-25T15:25:11.884Z",
+      "lastSeenAt": "2026-06-25T16:10:17.424Z",
+      "lastChangedAt": "2026-06-25T16:10:17.424Z",
       "missingSince": null
     },
     "qdtcy9": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.78,
-      "stock": 48,
+      "stock": 62,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T16:05:12.969Z",
-      "lastChangedAt": "2026-06-25T16:05:12.969Z",
+      "lastSeenAt": "2026-06-25T16:10:17.424Z",
+      "lastChangedAt": "2026-06-25T16:10:17.424Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 176,
+      "stock": 166,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T16:00:29.671Z",
-      "lastChangedAt": "2026-06-25T16:00:29.671Z",
+      "lastSeenAt": "2026-06-25T16:10:17.424Z",
+      "lastChangedAt": "2026-06-25T16:10:17.424Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 21,
+      "stock": 19,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T16:05:12.969Z",
-      "lastChangedAt": "2026-06-25T16:05:12.969Z",
+      "lastSeenAt": "2026-06-25T16:10:17.424Z",
+      "lastChangedAt": "2026-06-25T16:10:17.424Z",
       "missingSince": null
     },
     "go054j": {
