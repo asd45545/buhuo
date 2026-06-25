@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 490,
+  "runs": 491,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T18:30:24.959Z",
+  "updatedAt": "2026-06-25T18:35:13.224Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -460,13 +460,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道pro代充",
       "price": 145,
-      "stock": 117,
+      "stock": 116,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T15:31:36.490Z",
-      "lastChangedAt": "2026-06-25T15:31:36.490Z",
+      "lastSeenAt": "2026-06-25T18:35:13.224Z",
+      "lastChangedAt": "2026-06-25T18:35:13.224Z",
       "missingSince": null
     },
     "8ra67m": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 83,
+      "stock": 114,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T17:35:11.831Z",
-      "lastChangedAt": "2026-06-25T17:35:11.831Z",
+      "lastSeenAt": "2026-06-25T18:35:13.224Z",
+      "lastChangedAt": "2026-06-25T18:35:13.224Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 817,
+      "stock": 816,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T18:20:17.294Z",
-      "lastChangedAt": "2026-06-25T18:20:17.294Z",
+      "lastSeenAt": "2026-06-25T18:35:13.224Z",
+      "lastChangedAt": "2026-06-25T18:35:13.224Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 10,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-06-25T18:30:24.959Z",
-      "lastChangedAt": "2026-06-25T18:30:24.959Z",
+      "lastSeenAt": "2026-06-25T18:35:13.224Z",
+      "lastChangedAt": "2026-06-25T18:35:13.224Z",
       "missingSince": null
     },
     "1nim44": {
