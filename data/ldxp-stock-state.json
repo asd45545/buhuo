@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 406,
+  "runs": 407,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T11:25:14.896Z",
+  "updatedAt": "2026-06-25T11:30:26.746Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-25T11:30:26.746Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T11:25:14.896Z",
-      "lastChangedAt": "2026-06-25T11:25:14.896Z",
+      "lastSeenAt": "2026-06-25T11:30:26.746Z",
+      "lastChangedAt": "2026-06-25T11:30:26.746Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 129,
+      "stock": 128,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T11:15:17.861Z",
-      "lastChangedAt": "2026-06-25T11:15:17.861Z",
+      "lastSeenAt": "2026-06-25T11:30:26.746Z",
+      "lastChangedAt": "2026-06-25T11:30:26.746Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20.63,
-      "stock": 48,
+      "stock": 33,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T11:25:14.896Z",
-      "lastChangedAt": "2026-06-25T11:25:14.896Z",
+      "lastSeenAt": "2026-06-25T11:30:26.746Z",
+      "lastChangedAt": "2026-06-25T11:30:26.746Z",
       "missingSince": null
     },
     "go054j": {
@@ -1514,13 +1514,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 62,
-      "stock": 9,
+      "stock": 10,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T10:55:14.835Z",
-      "lastChangedAt": "2026-06-25T10:55:14.835Z",
+      "lastSeenAt": "2026-06-25T11:30:26.746Z",
+      "lastChangedAt": "2026-06-25T11:30:26.746Z",
       "missingSince": null
     },
     "w7sql4": {
@@ -2194,13 +2194,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 60,
-      "stock": 100,
+      "stock": 99,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T08:10:21.417Z",
-      "lastSeenAt": "2026-06-25T08:20:20.676Z",
-      "lastChangedAt": "2026-06-25T08:20:20.676Z",
+      "lastSeenAt": "2026-06-25T11:30:26.746Z",
+      "lastChangedAt": "2026-06-25T11:30:26.746Z",
       "missingSince": null
     }
   }
