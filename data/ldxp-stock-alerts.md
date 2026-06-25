@@ -569,3 +569,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/q0lb2o
 
+## 2026-06-25T02:20:18.294Z
+- Free 已接码
+  - Stock: 0 -> 60
+  - Price: 0.78
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/q0lb2o
+
