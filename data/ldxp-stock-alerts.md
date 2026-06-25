@@ -1097,3 +1097,15 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/pfrifg
 
+## 2026-06-25T13:10:20.630Z
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 110
+  - Price: 0.65
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 38
+  - Price: 24.05
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g2u9g7
+
