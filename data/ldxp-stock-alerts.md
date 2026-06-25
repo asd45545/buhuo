@@ -1004,3 +1004,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-25T11:35:13.867Z
+- codex重置额度服务plus pro可用 自行使用卖出无售后
+  - Stock: 0 -> 29
+  - Price: 4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/2zjran
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 1
+  - Price: 16.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
