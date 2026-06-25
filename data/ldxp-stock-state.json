@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 518,
+  "runs": 519,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T22:10:17.060Z",
+  "updatedAt": "2026-06-25T22:20:17.082Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -137,13 +137,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 12,
-      "stock": 92,
+      "stock": 91,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-23T17:30:12.384Z",
-      "lastChangedAt": "2026-06-23T10:29:26.177Z",
+      "lastSeenAt": "2026-06-25T22:20:17.082Z",
+      "lastChangedAt": "2026-06-25T22:20:17.082Z",
       "missingSince": null
     },
     "akl0om": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.3,
-      "stock": 173,
+      "stock": 172,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-06-25T21:35:12.447Z",
-      "lastChangedAt": "2026-06-25T21:35:12.447Z",
+      "lastSeenAt": "2026-06-25T22:20:17.082Z",
+      "lastChangedAt": "2026-06-25T22:20:17.082Z",
       "missingSince": null
     },
     "n0soy3": {
