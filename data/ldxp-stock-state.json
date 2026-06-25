@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 363,
+  "runs": 364,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T07:55:13.567Z",
+  "updatedAt": "2026-06-25T08:00:32.445Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -290,13 +290,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 39.9,
-      "stock": 2,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T07:25:14.113Z",
-      "lastChangedAt": "2026-06-25T07:25:14.113Z",
+      "lastSeenAt": "2026-06-25T08:00:32.445Z",
+      "lastChangedAt": "2026-06-25T08:00:32.445Z",
       "missingSince": null
     },
     "2rdly8": {
@@ -596,13 +596,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 1.17,
-      "stock": 269,
+      "stock": 268,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T07:45:17.513Z",
-      "lastChangedAt": "2026-06-25T07:45:17.513Z",
+      "lastSeenAt": "2026-06-25T08:00:32.445Z",
+      "lastChangedAt": "2026-06-25T08:00:32.445Z",
       "missingSince": null
     },
     "qdtcy9": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 311,
+      "stock": 310,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T07:25:14.113Z",
-      "lastChangedAt": "2026-06-25T07:25:14.113Z",
+      "lastSeenAt": "2026-06-25T08:00:32.445Z",
+      "lastChangedAt": "2026-06-25T08:00:32.445Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 48,
+      "stock": 47,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-25T07:50:22.537Z",
-      "lastChangedAt": "2026-06-25T07:50:22.537Z",
+      "lastSeenAt": "2026-06-25T08:00:32.445Z",
+      "lastChangedAt": "2026-06-25T08:00:32.445Z",
       "missingSince": null
     },
     "r06ima": {
@@ -1922,13 +1922,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.5,
-      "stock": 22,
+      "stock": 21,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:47:48.119Z",
-      "lastSeenAt": "2026-06-25T07:15:18.977Z",
-      "lastChangedAt": "2026-06-25T07:15:18.977Z",
+      "lastSeenAt": "2026-06-25T08:00:32.445Z",
+      "lastChangedAt": "2026-06-25T08:00:32.445Z",
       "missingSince": null
     },
     "3fhihz": {
