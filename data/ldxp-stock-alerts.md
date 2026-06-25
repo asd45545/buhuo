@@ -536,3 +536,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/lxak6h
 
+## 2026-06-25T01:25:13.699Z
+- Free 已接码
+  - Stock: 0 -> 50
+  - Price: 0.78
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/q0lb2o
+
