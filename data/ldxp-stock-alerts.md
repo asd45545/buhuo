@@ -595,3 +595,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/krexpu
 
+## 2026-06-25T03:30:26.556Z
+- Gpt Free（双接码 | 反代 | Codex | 网页）| outlook | 美国 | 长效邮箱
+  - Stock: 0 -> 48
+  - Price: 0.8
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/s42at5
+
