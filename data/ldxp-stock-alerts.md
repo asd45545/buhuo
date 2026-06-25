@@ -926,3 +926,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-25T09:50:18.498Z
+- Gpt Free（双接码 | 反代 | Codex | 网页）| outlook | 美国 | 长效邮箱
+  - Stock: 0 -> 17
+  - Price: 0.8
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/s42at5
+
