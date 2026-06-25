@@ -1090,3 +1090,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/s42at5
 
+## 2026-06-25T13:05:14.208Z
+- ChatGpt Free号（提供邮箱接码 已经接码）| 注册地美国 | outlook.com | 家庭宽带注册
+  - Stock: 0 -> 40
+  - Price: 0.78
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/pfrifg
+
