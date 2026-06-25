@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 517,
+  "runs": 518,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T21:55:12.581Z",
+  "updatedAt": "2026-06-25T22:10:17.060Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 233,
+      "stock": 275,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T21:30:22.821Z",
-      "lastChangedAt": "2026-06-25T21:30:22.821Z",
+      "lastSeenAt": "2026-06-25T22:10:17.060Z",
+      "lastChangedAt": "2026-06-25T22:10:17.060Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 312,
+      "stock": 311,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T19:05:12.666Z",
-      "lastChangedAt": "2026-06-25T19:05:12.666Z",
+      "lastSeenAt": "2026-06-25T22:10:17.060Z",
+      "lastChangedAt": "2026-06-25T22:10:17.060Z",
       "missingSince": null
     },
     "e2913c": {
@@ -1633,13 +1633,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.49,
-      "stock": 6,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-24T08:35:22.247Z",
-      "lastChangedAt": "2026-06-24T08:35:22.247Z",
+      "lastSeenAt": "2026-06-25T22:10:17.060Z",
+      "lastChangedAt": "2026-06-25T22:10:17.060Z",
       "missingSince": null
     },
     "92epox": {
@@ -1735,13 +1735,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 24.05,
-      "stock": 11,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T21:00:26.854Z",
-      "lastChangedAt": "2026-06-25T21:00:26.854Z",
+      "lastSeenAt": "2026-06-25T22:10:17.060Z",
+      "lastChangedAt": "2026-06-25T22:10:17.060Z",
       "missingSince": null
     },
     "etz0m6": {
