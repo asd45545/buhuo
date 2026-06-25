@@ -602,3 +602,15 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/s42at5
 
+## 2026-06-25T03:35:14.470Z
+- 已接码 free（免费重置一次）
+  - Stock: 0 -> 100
+  - Price: 1.04
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/9po7w2
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 27
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
