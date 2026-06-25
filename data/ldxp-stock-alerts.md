@@ -750,3 +750,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4rukz6
 
+## 2026-06-25T06:50:18.025Z
+- 【随机】谷歌邮箱20-24年
+  - Stock: 0 -> 20
+  - Price: 8.19
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/htc8s3
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 29
+  - Price: 0.65
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+
