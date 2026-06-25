@@ -1187,3 +1187,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-25T15:00:28.931Z
+- 【反重力GCP可用】Gemini Pro 12个月成品【质保一年丨官方订阅】美区20-24年高权重老邮箱账号
+  - Stock: 0 -> 1
+  - Price: 156
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/h9ef9x
+- 【GCP/CLI可用】Gemini Pro 12个月成品【质保一年丨官方订阅】美区20-24年高权重老邮箱账号
+  - Stock: 0 -> 1
+  - Price: 71.5
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/s1pix7
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 1
+  - Price: 16.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
