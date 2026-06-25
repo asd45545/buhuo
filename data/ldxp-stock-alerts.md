@@ -628,3 +628,10 @@
   - Category: 接码
   - Link: https://pay.ldxp.cn/item/lwhjp0
 
+## 2026-06-25T04:40:19.565Z
+- GPT Pro20x CDK充值  质保1小时掉订阅补1次，务必充值到新号！
+  - Stock: 0 -> 46
+  - Price: 220
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/l3su3k
+
