@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 465,
+  "runs": 466,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T16:20:18.280Z",
+  "updatedAt": "2026-06-25T16:25:11.659Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 116,
+      "stock": 115,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T15:45:16.526Z",
-      "lastChangedAt": "2026-06-25T15:45:16.526Z",
+      "lastSeenAt": "2026-06-25T16:25:11.659Z",
+      "lastChangedAt": "2026-06-25T16:25:11.659Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 160,
+      "stock": 300,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T16:15:16.811Z",
-      "lastChangedAt": "2026-06-25T16:15:16.811Z",
+      "lastSeenAt": "2026-06-25T16:25:11.659Z",
+      "lastChangedAt": "2026-06-25T16:25:11.659Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 17,
+      "stock": 16,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T16:20:18.280Z",
-      "lastChangedAt": "2026-06-25T16:20:18.280Z",
+      "lastSeenAt": "2026-06-25T16:25:11.659Z",
+      "lastChangedAt": "2026-06-25T16:25:11.659Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 26.25,
-      "stock": 5,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T16:00:29.671Z",
-      "lastChangedAt": "2026-06-25T16:00:29.671Z",
+      "lastSeenAt": "2026-06-25T16:25:11.659Z",
+      "lastChangedAt": "2026-06-25T16:25:11.659Z",
       "missingSince": null
     },
     "zh9cir": {
