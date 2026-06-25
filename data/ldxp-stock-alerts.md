@@ -1130,3 +1130,15 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-06-25T14:00:29.847Z
+- 已接码🔥UPI渠道日抛Plus成品带RT 可登网页 codex/cpa/sub 保首登
+  - Stock: 0 -> 11
+  - Price: 14.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/pfz6mj
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 9
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
