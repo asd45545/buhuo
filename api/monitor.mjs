@@ -47,14 +47,14 @@ export default async function handler(req, res) {
     const stateChanged = !isDeepStrictEqual(nextState, state);
 
     if (stateChanged) {
-      await store.writeJson(nextState, store.statePath, `chore: update ldxp stock state ${checkedAt}`);
+      await store.writeJson(nextState, store.statePath, `chore: update ldxp stock state ${checkedAt} [skip ci]`);
     }
 
     if (alerts.length > 0) {
       await store.appendText(
         formatAlertMarkdown(alerts, checkedAt),
         store.alertPath,
-        `chore: append ldxp restock alerts ${checkedAt}`,
+        `chore: append ldxp restock alerts ${checkedAt} [skip ci]`,
       );
     }
 

@@ -395,7 +395,7 @@ function buildNextState(previousState, goods, checkedAt, cfg) {
   for (const item of goods) {
     const prev = previousItems[item.key];
     const wasWatchedOut = Boolean(prev?.watchOutOfStock) || Number(prev?.stock ?? 0) <= 0;
-    const isRestocked = Boolean(prev) && wasWatchedOut && item.stock > 0;
+    const isRestocked = Boolean(prev) && !prev.missingSince && wasWatchedOut && item.stock > 0;
     const changed = hasItemChanged(prev, item);
 
     if (isRestocked) {

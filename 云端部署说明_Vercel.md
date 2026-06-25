@@ -7,6 +7,7 @@
 3. Vercel 直接去抓 `https://pay.ldxp.cn/shop/jisuai`
 4. Vercel 把库存状态写回 GitHub 仓库
 5. 如果发现补货，Vercel 再触发 `telegram-notify.yml` 发群消息
+6. Telegram 消息发送后会进入删除队列，约 5 小时后自动删除
 
 ## Vercel 环境变量
 
@@ -37,7 +38,7 @@ LDXP_TELEGRAM_WORKFLOW_ID=telegram-notify.yml
 
 ## Telegram 相关 Secrets
 
-Telegram 发送消息用的是 GitHub Actions workflow `telegram-notify.yml`，所以还要在 GitHub 仓库 Secrets 里配置：
+Telegram 发送消息和 5 小时后删除消息都由 GitHub Actions 负责，所以要在 GitHub 仓库 Secrets 里配置：
 
 ```text
 LDXP_TELEGRAM_BOT_TOKEN
@@ -45,21 +46,11 @@ LDXP_TELEGRAM_CHAT_ID
 LDXP_TELEGRAM_THREAD_ID   # 可选，群组话题才需要
 ```
 
-## GitHub Actions 触发器
+## 补货通知规则
 
-`ldxp-stock-monitor.yml` 现在只负责定时触发 Vercel。
-
-它默认请求：
-
-```text
-https://buhuo-monitor.vercel.app/api/monitor
-```
-
-如果你换了 Vercel 域名，可以在 GitHub 仓库 Secrets 里加：
-
-```text
-LDXP_MONITOR_URL=https://你的域名.vercel.app/api/monitor
-```
+- 只有“之前缺货，现在有库存”的商品才通知
+- 如果商品从列表里消失过，会被视为下架商品；它之后重新出现时不会触发补货通知
+- 新增商品如果一开始就有库存，也不会误报补货
 
 ## 部署检查
 

@@ -202,7 +202,7 @@ test("goods can go out of stock and trigger a later second restock alert", async
   assert.equal(restocked.alerts[0].stock, 5);
 });
 
-test("temporarily missing goods keep their prior out-of-stock watch state", async () => {
+test("missing out-of-stock goods are not alerted when they reappear", async () => {
   const buildNextState = await loadStateTransitionFunctions();
   const previous = item({
     stock: 0,
@@ -227,7 +227,30 @@ test("temporarily missing goods keep their prior out-of-stock watch state", asyn
 
   assert.equal(missing.nextState.items["goods-1"].watchOutOfStock, true);
   assert.equal(missing.nextState.items["goods-1"].missingSince, "2026-01-02T00:00:00.000Z");
-  assert.equal(returned.alerts.length, 1);
+  assert.equal(returned.alerts.length, 0);
+  assert.equal(returned.nextState.items["goods-1"].missingSince, null);
+});
+
+test("delisted goods do not trigger a restock alert when they reappear", async () => {
+  const buildNextState = await loadStateTransitionFunctions();
+  const previous = item({
+    stock: 0,
+    inStock: false,
+    watchOutOfStock: true,
+    outOfStockSince: "2026-01-01T00:00:00.000Z",
+    firstSeenAt: "2026-01-01T00:00:00.000Z",
+    lastSeenAt: "2026-01-01T00:00:00.000Z",
+    missingSince: "2026-01-02T00:00:00.000Z",
+  });
+  const returned = buildNextState(
+    stateWith(previous),
+    [item({ stock: 10 })],
+    "2026-01-03T00:00:00.000Z",
+    transitionConfig,
+  );
+
+  assert.equal(returned.alerts.length, 0);
+  assert.equal(returned.nextState.items["goods-1"].watchOutOfStock, false);
   assert.equal(returned.nextState.items["goods-1"].missingSince, null);
 });
 

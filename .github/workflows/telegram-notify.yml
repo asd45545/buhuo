@@ -9,15 +9,23 @@ on:
         type: string
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: telegram-delete-queue
+  cancel-in-progress: false
 
 jobs:
   send-message:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Send Telegram notification
+        id: send
         env:
           BOT_TOKEN: ${{ secrets.LDXP_TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.LDXP_TELEGRAM_CHAT_ID }}
@@ -65,4 +73,29 @@ jobs:
             exit 1
           fi
 
-          echo "$response" | jq -r '"Telegram notification sent. message_id=" + (.result.message_id | tostring)'
+          message_id="$(echo "$response" | jq -r '.result.message_id')"
+          echo "message_id=$message_id" >> "$GITHUB_OUTPUT"
+          echo "Telegram notification sent. message_id=$message_id"
+
+      - name: Queue Telegram message deletion
+        run: |
+          node scripts/telegram-delete-queue.mjs \
+            --enqueue \
+            --chat-id "${{ secrets.LDXP_TELEGRAM_CHAT_ID }}" \
+            --message-id "${{ steps.send.outputs.message_id }}" \
+            --delete-after-seconds 18000
+
+      - name: Commit delete queue
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/telegram-delete-queue.json
+
+          if git diff --cached --quiet; then
+            echo "No delete queue changes to commit."
+          else
+            git commit -m "chore: queue telegram message deletion [skip ci]"
+            git pull --rebase
+            git push
+          fi
