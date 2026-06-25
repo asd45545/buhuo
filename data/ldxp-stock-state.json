@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 436,
+  "runs": 437,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-25T14:00:29.847Z",
+  "updatedAt": "2026-06-25T14:05:13.821Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -783,13 +783,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 702,
-      "stock": 6,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T12:15:17.792Z",
-      "lastChangedAt": "2026-06-25T09:45:17.401Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
       "missingSince": null
     },
     "fvde75": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 120,
+      "stock": 119,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T13:50:19.663Z",
-      "lastChangedAt": "2026-06-25T13:50:19.663Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1011,7 +1011,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-25T13:55:14.016Z",
       "lastChangedAt": "2026-06-25T13:55:14.016Z",
-      "missingSince": null
+      "missingSince": "2026-06-25T14:05:13.821Z"
     },
     "5dsz18": {
       "key": "5dsz18",
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 116,
+      "stock": 115,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T14:00:29.847Z",
-      "lastChangedAt": "2026-06-25T14:00:29.847Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 81.6,
-      "stock": 9,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T14:00:29.847Z",
-      "lastChangedAt": "2026-06-25T14:00:29.847Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20.63,
-      "stock": 15,
+      "stock": 17,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T14:00:29.847Z",
-      "lastChangedAt": "2026-06-25T14:00:29.847Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
       "missingSince": null
     },
     "go054j": {
@@ -1283,7 +1283,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-25T13:50:19.663Z",
       "lastChangedAt": "2026-06-25T09:55:13.182Z",
-      "missingSince": null
+      "missingSince": "2026-06-25T14:05:13.821Z"
     },
     "9fauti": {
       "key": "9fauti",
@@ -1735,13 +1735,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 24.05,
-      "stock": 18,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T14:00:29.847Z",
-      "lastChangedAt": "2026-06-25T14:00:29.847Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
       "missingSince": null
     },
     "etz0m6": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 8,
+      "stock": 18,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-25T13:05:14.208Z",
-      "lastChangedAt": "2026-06-25T13:05:14.208Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
       "missingSince": null
     },
     "r06ima": {
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 11,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-06-25T14:00:29.847Z",
-      "lastChangedAt": "2026-06-25T14:00:29.847Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
       "missingSince": null
     },
     "1nim44": {
@@ -2202,6 +2202,23 @@
       "lastSeenAt": "2026-06-25T11:30:26.746Z",
       "lastChangedAt": "2026-06-25T11:30:26.746Z",
       "missingSince": "2026-06-25T13:15:18.460Z"
+    },
+    "lv4tcc": {
+      "key": "lv4tcc",
+      "name": "Gmail 谷歌邮箱 质保首登 带2fa 号内送gemini 18个月会员",
+      "link": "https://pay.ldxp.cn/item/lv4tcc",
+      "goodsType": "card",
+      "categoryId": 111634,
+      "categoryName": "各类邮箱",
+      "price": 14,
+      "stock": 3,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastSeenAt": "2026-06-25T14:05:13.821Z",
+      "lastChangedAt": "2026-06-25T14:05:13.821Z",
+      "missingSince": null
     }
   }
 }
