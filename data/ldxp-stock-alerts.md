@@ -762,3 +762,30 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/b2ggf2
 
+## 2026-06-25T07:00:28.886Z
+- 【GPT-K12充值】理论2年，可用codex
+  - Stock: 0 -> 9
+  - Price: 39.9
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/squijt
+- 已接码 free（无邮箱链接）
+  - Stock: 0 -> 8
+  - Price: 0.91
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/krexpu
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 24
+  - Price: 0.65
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 15
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 2
+  - Price: 16.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
