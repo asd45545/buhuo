@@ -1016,3 +1016,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4rukz6
 
+## 2026-06-25T11:50:18.494Z
+- 【6.24upi渠道】icloud精品邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 3
+  - Price: 24.7
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/xxtbqq
+
