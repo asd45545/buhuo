@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 736,
+  "runs": 737,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T16:20:21.584Z",
+  "updatedAt": "2026-06-26T16:25:13.916Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -188,13 +188,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.45,
-      "stock": 51,
+      "stock": 49,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T15:57:11.936Z",
-      "lastChangedAt": "2026-06-26T15:57:11.936Z",
+      "lastSeenAt": "2026-06-26T16:25:13.916Z",
+      "lastChangedAt": "2026-06-26T16:25:13.916Z",
       "missingSince": null
     },
     "l3jsoj": {
@@ -256,13 +256,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 26,
-      "stock": 5,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T10:50:18.020Z",
-      "lastChangedAt": "2026-06-26T10:50:18.020Z",
+      "lastSeenAt": "2026-06-26T16:25:13.916Z",
+      "lastChangedAt": "2026-06-26T16:25:13.916Z",
       "missingSince": null
     },
     "s1pix7": {
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 163,
+      "stock": 162,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T14:20:21.514Z",
-      "lastChangedAt": "2026-06-26T14:20:21.514Z",
+      "lastSeenAt": "2026-06-26T16:25:13.916Z",
+      "lastChangedAt": "2026-06-26T16:25:13.916Z",
       "missingSince": null
     },
     "2zjran": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 52,
+      "stock": 124,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-26T16:20:21.584Z",
-      "lastChangedAt": "2026-06-26T16:20:21.584Z",
+      "lastSeenAt": "2026-06-26T16:25:13.916Z",
+      "lastChangedAt": "2026-06-26T16:25:13.916Z",
       "missingSince": null
     },
     "v1dwzl": {
