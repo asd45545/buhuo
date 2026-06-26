@@ -28,3 +28,9 @@ test("queue workflows retry push after rebasing remote changes", async () => {
     assert.match(workflow, /git push && break/, `${workflowPath} must stop retrying after a successful push`);
   }
 });
+
+test("telegram delete workflow runs on a 5 minute schedule", async () => {
+  const workflow = await readFile(".github/workflows/telegram-delete.yml", "utf8");
+
+  assert.match(workflow, /schedule:\s*\n\s*-\s*cron:\s*"\*\/5 \* \* \* \*"/);
+});
