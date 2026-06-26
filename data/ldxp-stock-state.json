@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 701,
+  "runs": 702,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T13:45:16.743Z",
+  "updatedAt": "2026-06-26T13:47:12.594Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 296,
+      "stock": 295,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T13:45:16.743Z",
-      "lastChangedAt": "2026-06-26T13:45:16.743Z",
+      "lastSeenAt": "2026-06-26T13:47:12.594Z",
+      "lastChangedAt": "2026-06-26T13:47:12.594Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1123,13 +1123,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 16,
-      "stock": 349,
+      "stock": 348,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T09:55:12.332Z",
-      "lastChangedAt": "2026-06-26T09:55:12.332Z",
+      "lastSeenAt": "2026-06-26T13:47:12.594Z",
+      "lastChangedAt": "2026-06-26T13:47:12.594Z",
       "missingSince": null
     },
     "bzposi": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 81.6,
-      "stock": 7,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T13:40:17.735Z",
-      "lastChangedAt": "2026-06-26T13:40:17.735Z",
+      "lastSeenAt": "2026-06-26T13:47:12.594Z",
+      "lastChangedAt": "2026-06-26T13:47:12.594Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 63,
+      "stock": 192,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-26T13:45:16.743Z",
-      "lastChangedAt": "2026-06-26T13:45:16.743Z",
+      "lastSeenAt": "2026-06-26T13:47:12.594Z",
+      "lastChangedAt": "2026-06-26T13:47:12.594Z",
       "missingSince": null
     },
     "4i7q19": {
