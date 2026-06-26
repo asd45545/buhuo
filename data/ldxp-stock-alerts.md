@@ -1499,3 +1499,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/xxtbqq
 
+## 2026-06-26T07:05:13.658Z
+- 美国雅虎（yahoo）邮箱 30天以上老号 业务自测 【pop】不能网页登入 看清楚！！
+  - Stock: 0 -> 10
+  - Price: 2.25
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/n0soy3
+- chat gpt plus 带rt
+  - Stock: 0 -> 2
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/lxak6h
+
