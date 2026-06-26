@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 807,
+  "runs": 808,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T23:10:21.568Z",
+  "updatedAt": "2026-06-26T23:15:16.323Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 8.1,
-      "stock": 30,
+      "stock": 29,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T23:05:14.236Z",
-      "lastChangedAt": "2026-06-26T23:05:14.236Z",
+      "lastSeenAt": "2026-06-26T23:15:16.323Z",
+      "lastChangedAt": "2026-06-26T23:15:16.323Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -664,13 +664,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-26T15:35:13.491Z",
+      "stock": 3,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T15:35:13.491Z",
-      "lastChangedAt": "2026-06-26T15:35:13.491Z",
+      "lastSeenAt": "2026-06-26T23:15:16.323Z",
+      "lastChangedAt": "2026-06-26T23:15:16.323Z",
       "missingSince": null
     },
     "pfrifg": {
@@ -2611,5 +2611,25 @@
       "lastChangedAt": "2026-06-26T19:15:17.764Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "lxak6h",
+      "name": "chat gpt plus 带rt",
+      "link": "https://pay.ldxp.cn/item/lxak6h",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 15,
+      "stock": 3,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-26T15:35:13.491Z",
+      "checkedAt": "2026-06-26T23:15:16.323Z",
+      "alertId": "restocked|lxak6h|0|3|2026-06-26T15:35:13.491Z",
+      "queuedAt": "2026-06-26T23:15:16.323Z"
+    }
+  ]
 }
