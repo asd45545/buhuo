@@ -1755,3 +1755,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-26T14:10:21.561Z
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 48
+  - Price: 22.1
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+
