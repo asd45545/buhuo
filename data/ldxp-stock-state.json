@@ -2526,25 +2526,5 @@
       "lastChangedAt": "2026-06-26T16:05:15.231Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "lv4tcc",
-      "name": "Gmail 谷歌邮箱 质保首登 带2fa 号内送gemini 18个月会员",
-      "link": "https://pay.ldxp.cn/item/lv4tcc",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 14,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T15:25:14.763Z",
-      "checkedAt": "2026-06-26T16:05:15.231Z",
-      "alertId": "restocked|lv4tcc|0|5|2026-06-26T15:25:14.763Z",
-      "queuedAt": "2026-06-26T16:05:15.231Z"
-    }
-  ]
+  }
 }
