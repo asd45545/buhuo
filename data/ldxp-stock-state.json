@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 732,
+  "runs": 733,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T16:00:31.905Z",
+  "updatedAt": "2026-06-26T16:05:15.231Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 8.1,
-      "stock": 75,
+      "stock": 73,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T15:55:13.799Z",
-      "lastChangedAt": "2026-06-26T15:55:13.799Z",
+      "lastSeenAt": "2026-06-26T16:05:15.231Z",
+      "lastChangedAt": "2026-06-26T16:05:15.231Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 551,
+      "stock": 550,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T15:57:11.936Z",
-      "lastChangedAt": "2026-06-26T15:57:11.936Z",
+      "lastSeenAt": "2026-06-26T16:05:15.231Z",
+      "lastChangedAt": "2026-06-26T16:05:15.231Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 10,
-      "stock": 33,
+      "stock": 53,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T15:50:19.256Z",
-      "lastChangedAt": "2026-06-26T15:50:19.256Z",
+      "lastSeenAt": "2026-06-26T16:05:15.231Z",
+      "lastChangedAt": "2026-06-26T16:05:15.231Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2211,13 +2211,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 14,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-26T15:25:14.763Z",
+      "stock": 5,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T14:05:13.821Z",
-      "lastSeenAt": "2026-06-26T15:25:14.763Z",
-      "lastChangedAt": "2026-06-26T15:25:14.763Z",
+      "lastSeenAt": "2026-06-26T16:05:15.231Z",
+      "lastChangedAt": "2026-06-26T16:05:15.231Z",
       "missingSince": null
     },
     "nvnqc8": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 76,
+      "stock": 70,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-26T16:00:31.905Z",
-      "lastChangedAt": "2026-06-26T16:00:31.905Z",
+      "lastSeenAt": "2026-06-26T16:05:15.231Z",
+      "lastChangedAt": "2026-06-26T16:05:15.231Z",
       "missingSince": null
     },
     "v1dwzl": {
@@ -2517,14 +2517,34 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 25.84,
-      "stock": 14,
+      "stock": 13,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:45:17.769Z",
-      "lastSeenAt": "2026-06-26T15:50:19.256Z",
-      "lastChangedAt": "2026-06-26T15:50:19.256Z",
+      "lastSeenAt": "2026-06-26T16:05:15.231Z",
+      "lastChangedAt": "2026-06-26T16:05:15.231Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "lv4tcc",
+      "name": "Gmail 谷歌邮箱 质保首登 带2fa 号内送gemini 18个月会员",
+      "link": "https://pay.ldxp.cn/item/lv4tcc",
+      "goodsType": "card",
+      "categoryId": 111634,
+      "categoryName": "各类邮箱",
+      "price": 14,
+      "stock": 5,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-26T15:25:14.763Z",
+      "checkedAt": "2026-06-26T16:05:15.231Z",
+      "alertId": "restocked|lv4tcc|0|5|2026-06-26T15:25:14.763Z",
+      "queuedAt": "2026-06-26T16:05:15.231Z"
+    }
+  ]
 }
