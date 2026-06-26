@@ -1454,3 +1454,15 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/etz0m6
 
+## 2026-06-26T06:25:13.016Z
+- 【质保28天】【新开号】 icloud 高质量邮箱 plus成品，一卡一绑
+  - Stock: 0 -> 1
+  - Price: 99
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/l3jsoj
+- ChatGpt Free号（提供邮箱接码 已经接码）| 注册地美国 | outlook.com | 家庭宽带注册
+  - Stock: 0 -> 16
+  - Price: 0.83
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/pfrifg
+
