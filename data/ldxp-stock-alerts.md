@@ -1539,3 +1539,25 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/lxak6h
 
+## 2026-06-26T07:55:12.428Z
+- 【质保28天】【新开号】 icloud 高质量邮箱 plus成品，一卡一绑
+  - Stock: 0 -> 1
+  - Price: 99
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/l3jsoj
+- Google 接码-美区 【长效30天】全系谷歌邮箱
+  - Stock: 0 -> 9
+  - Price: 4.5
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/ruukne
+- GPT PLUS成品号
+  - Stock: 0 -> 4
+  - Price: 20
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- gpt美卡接码（有效期25-30天）
+  - Stock: 0 -> 172
+  - Price: 5.5
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/lwhjp0
+
