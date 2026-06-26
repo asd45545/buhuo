@@ -65,7 +65,7 @@ async function processDeletionQueue(queue, options = {}) {
         lastTriedAt: now.toISOString(),
       };
       failed.push(failedEntry);
-      if (!error.permanent) {
+      if (!error.treatAsDeleted) {
         remaining.push(failedEntry);
       }
     }
@@ -97,9 +97,7 @@ async function deleteTelegramMessage(botToken, entry) {
 
   const description = result.description || `HTTP ${response.status}`;
   const error = new Error(`Telegram deleteMessage failed for ${entry.messageId}: ${description}`);
-  error.permanent =
-    response.status === 400 ||
-    /message to delete not found|message can't be deleted|message identifier is not specified/i.test(description);
+  error.treatAsDeleted = /message to delete not found/i.test(description);
   throw error;
 }
 
