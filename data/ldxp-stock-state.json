@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 768,
+  "runs": 769,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T18:55:13.639Z",
+  "updatedAt": "2026-06-26T19:00:31.080Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1582,
+      "stock": 1581,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T15:00:33.638Z",
-      "lastChangedAt": "2026-06-26T15:00:33.638Z",
+      "lastSeenAt": "2026-06-26T19:00:31.080Z",
+      "lastChangedAt": "2026-06-26T19:00:31.080Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 8.1,
-      "stock": 55,
+      "stock": 48,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T18:45:16.433Z",
-      "lastChangedAt": "2026-06-26T18:45:16.433Z",
+      "lastSeenAt": "2026-06-26T19:00:31.080Z",
+      "lastChangedAt": "2026-06-26T19:00:31.080Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -256,13 +256,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 26,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T16:25:13.916Z",
-      "lastChangedAt": "2026-06-26T16:25:13.916Z",
+      "lastSeenAt": "2026-06-26T19:00:31.080Z",
+      "lastChangedAt": "2026-06-26T19:00:31.080Z",
       "missingSince": null
     },
     "s1pix7": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 229,
+      "stock": 228,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T18:35:13.311Z",
-      "lastChangedAt": "2026-06-26T18:35:13.311Z",
+      "lastSeenAt": "2026-06-26T19:00:31.080Z",
+      "lastChangedAt": "2026-06-26T19:00:31.080Z",
       "missingSince": null
     },
     "4wvlfu": {
