@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 675,
+  "runs": 676,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T11:40:18.471Z",
+  "updatedAt": "2026-06-26T11:45:16.390Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-26T11:40:18.471Z",
+      "stock": 159,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T11:40:18.471Z",
-      "lastChangedAt": "2026-06-26T11:40:18.471Z",
+      "lastSeenAt": "2026-06-26T11:45:16.390Z",
+      "lastChangedAt": "2026-06-26T11:45:16.390Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 294,
+      "stock": 293,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T11:20:19.277Z",
-      "lastChangedAt": "2026-06-26T11:20:19.277Z",
+      "lastSeenAt": "2026-06-26T11:45:16.390Z",
+      "lastChangedAt": "2026-06-26T11:45:16.390Z",
       "missingSince": null
     },
     "e2913c": {
@@ -2126,13 +2126,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 696,
-      "stock": 269,
+      "stock": 268,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T17:15:19.402Z",
-      "lastSeenAt": "2026-06-25T14:40:19.883Z",
-      "lastChangedAt": "2026-06-25T14:40:19.883Z",
+      "lastSeenAt": "2026-06-26T11:45:16.390Z",
+      "lastChangedAt": "2026-06-26T11:45:16.390Z",
       "missingSince": null
     },
     "xn9zj4": {
@@ -2381,13 +2381,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 6,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
-      "lastSeenAt": "2026-06-26T10:25:12.799Z",
-      "lastChangedAt": "2026-06-26T10:25:12.799Z",
+      "lastSeenAt": "2026-06-26T11:45:16.390Z",
+      "lastChangedAt": "2026-06-26T11:45:16.390Z",
       "missingSince": null
     },
     "ow0rhy": {
