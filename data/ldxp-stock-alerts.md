@@ -1646,3 +1646,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4rukz6
 
+## 2026-06-26T10:30:23.290Z
+- chat gpt plus 带rt
+  - Stock: 0 -> 1
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/lxak6h
+
