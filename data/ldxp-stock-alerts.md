@@ -1573,3 +1573,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kdsr0p
 
+## 2026-06-26T08:20:18.009Z
+- Claude Max 5x 成品号【不质保特价·已过KYC】
+  - Stock: 0 -> 10
+  - Price: 507
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/9vso1a
+
