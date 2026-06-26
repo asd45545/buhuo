@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 773,
+  "runs": 774,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T19:25:14.543Z",
+  "updatedAt": "2026-06-26T19:30:27.460Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 26.25,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-26T18:15:16.790Z",
+      "stock": 17,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T18:15:16.790Z",
-      "lastChangedAt": "2026-06-26T18:15:16.790Z",
+      "lastSeenAt": "2026-06-26T19:30:27.460Z",
+      "lastChangedAt": "2026-06-26T19:30:27.460Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -2611,5 +2611,25 @@
       "lastChangedAt": "2026-06-26T19:15:17.764Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "kdsr0p",
+      "name": "GPT PLUS成品号（质保三天）",
+      "link": "https://pay.ldxp.cn/item/kdsr0p",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 26.25,
+      "stock": 17,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-26T18:15:16.790Z",
+      "checkedAt": "2026-06-26T19:30:27.460Z",
+      "alertId": "restocked|kdsr0p|0|17|2026-06-26T18:15:16.790Z",
+      "queuedAt": "2026-06-26T19:30:27.460Z"
+    }
+  ]
 }
