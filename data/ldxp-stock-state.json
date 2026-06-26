@@ -2611,25 +2611,5 @@
       "lastChangedAt": "2026-06-26T19:15:17.764Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "zmyvr8",
-      "name": "gpt plus 荷兰渠道 未接码 icloud邮箱 无质保",
-      "link": "https://pay.ldxp.cn/item/zmyvr8",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 32.5,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T21:45:17.003Z",
-      "checkedAt": "2026-06-26T22:00:29.820Z",
-      "alertId": "restocked|zmyvr8|0|4|2026-06-26T21:45:17.003Z",
-      "queuedAt": "2026-06-26T22:00:29.820Z"
-    }
-  ]
+  }
 }
