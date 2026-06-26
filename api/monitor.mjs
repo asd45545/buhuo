@@ -50,12 +50,18 @@ export default async function handler(req, res) {
     const cfg = createMonitorConfig();
     const goods = await fetchAllGoods(cfg, state.visitorId || makeVisitorId());
     const { nextState, alerts } = buildNextState(state, goods, checkedAt, cfg);
+    const pendingAlerts = mergePendingAlerts(state.pendingAlerts, alerts, checkedAt);
+    const nextStateWithPending = setPendingAlerts(nextState, pendingAlerts);
     const summary = summarize(goods, alerts);
     summary.checkedAt = checkedAt;
-    const stateChanged = !isDeepStrictEqual(nextState, state);
+    const stateChanged = !isDeepStrictEqual(nextStateWithPending, state);
 
     if (stateChanged) {
-      await store.writeJson(nextState, store.statePath, `chore: update ldxp stock state ${checkedAt} [skip ci]`);
+      await store.writeJson(
+        nextStateWithPending,
+        store.statePath,
+        `chore: update ldxp stock state ${checkedAt} [skip ci]`,
+      );
     }
 
     if (alerts.length > 0) {
@@ -66,8 +72,16 @@ export default async function handler(req, res) {
       );
     }
 
-    if (alerts.length > 0) {
-      await dispatchTelegramNotifications(store, alerts);
+    let notificationsSent = 0;
+    if (pendingAlerts.length > 0) {
+      await dispatchTelegramNotifications(store, pendingAlerts);
+      notificationsSent = pendingAlerts.length;
+      const clearedState = setPendingAlerts(nextStateWithPending, []);
+      await store.writeJson(
+        clearedState,
+        store.statePath,
+        `chore: clear ldxp pending alerts ${checkedAt} [skip ci]`,
+      );
     }
 
     return sendJson(res, 200, {
@@ -77,9 +91,11 @@ export default async function handler(req, res) {
       outOfStockCount: summary.outOfStockCount,
       restockedCount: summary.restockedCount,
       stateChanged,
-      notificationsSent: alerts.length,
+      notificationsSent,
+      pendingNotifications: pendingAlerts.length - notificationsSent,
       telegramCleanupRequested,
-      alerts: alerts.map((alert) => ({
+      alerts: pendingAlerts.map((alert) => ({
+        alertType: alert.alertType,
         name: alert.name,
         previousStock: alert.previousStock,
         stock: alert.stock,
@@ -122,6 +138,7 @@ function normalizeState(state, checkedAt) {
   next.version ||= 1;
   next.runs ||= 0;
   next.createdAt ||= checkedAt;
+  if (!Array.isArray(next.pendingAlerts)) delete next.pendingAlerts;
   return next;
 }
 
@@ -234,6 +251,47 @@ function createGitHubStore() {
 
 async function dispatchTelegramNotifications(store, alerts) {
   await store.dispatchTelegram(alerts.map((alert) => formatTelegramMessage(alert)).join("\n\n"));
+}
+
+function mergePendingAlerts(existingAlerts, detectedAlerts, checkedAt) {
+  const pending = new Map();
+
+  for (const alert of Array.isArray(existingAlerts) ? existingAlerts : []) {
+    if (!alert || typeof alert !== "object") continue;
+    const alertId = alert.alertId || makeAlertId(alert);
+    pending.set(alertId, { ...alert, alertId });
+  }
+
+  for (const alert of detectedAlerts) {
+    const alertId = makeAlertId(alert);
+    pending.set(alertId, {
+      ...alert,
+      alertId,
+      queuedAt: alert.queuedAt || checkedAt,
+    });
+  }
+
+  return [...pending.values()];
+}
+
+function makeAlertId(alert) {
+  return [
+    alert.alertType || "restocked",
+    alert.key || alert.link || alert.name || "",
+    String(alert.previousStock ?? ""),
+    String(alert.stock ?? ""),
+    alert.outOfStockSince || "",
+  ].join("|");
+}
+
+function setPendingAlerts(state, pendingAlerts) {
+  const next = { ...state };
+  if (pendingAlerts.length > 0) {
+    next.pendingAlerts = pendingAlerts;
+  } else {
+    delete next.pendingAlerts;
+  }
+  return next;
 }
 
 function hasDueTelegramDeletion(queue, checkedAt) {
