@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 793,
+  "runs": 794,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T21:30:23.894Z",
+  "updatedAt": "2026-06-26T21:35:12.639Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 8.1,
-      "stock": 35,
+      "stock": 33,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T21:10:18.205Z",
-      "lastChangedAt": "2026-06-26T21:10:18.205Z",
+      "lastSeenAt": "2026-06-26T21:35:12.639Z",
+      "lastChangedAt": "2026-06-26T21:35:12.639Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 569,
+      "stock": 612,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-26T21:25:13.025Z",
-      "lastChangedAt": "2026-06-26T21:25:13.025Z",
+      "lastSeenAt": "2026-06-26T21:35:12.639Z",
+      "lastChangedAt": "2026-06-26T21:35:12.639Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2534,13 +2534,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20.8,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-26T21:05:12.836Z",
+      "stock": 6,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T16:15:19.278Z",
-      "lastSeenAt": "2026-06-26T21:05:12.836Z",
-      "lastChangedAt": "2026-06-26T21:05:12.836Z",
+      "lastSeenAt": "2026-06-26T21:35:12.639Z",
+      "lastChangedAt": "2026-06-26T21:35:12.639Z",
       "missingSince": null
     },
     "caj7xa": {
@@ -2611,5 +2611,25 @@
       "lastChangedAt": "2026-06-26T19:15:17.764Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "zmyvr8",
+      "name": "gpt plus 荷兰渠道 未接码 icloud邮箱 无质保",
+      "link": "https://pay.ldxp.cn/item/zmyvr8",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 20.8,
+      "stock": 6,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-26T21:05:12.836Z",
+      "checkedAt": "2026-06-26T21:35:12.639Z",
+      "alertId": "restocked|zmyvr8|0|6|2026-06-26T21:05:12.836Z",
+      "queuedAt": "2026-06-26T21:35:12.639Z"
+    }
+  ]
 }
