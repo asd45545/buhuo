@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 594,
+  "runs": 595,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T05:05:13.014Z",
+  "updatedAt": "2026-06-26T05:10:18.638Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -290,13 +290,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 39.9,
-      "stock": 14,
+      "stock": 13,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T03:30:25.459Z",
-      "lastChangedAt": "2026-06-26T03:30:25.459Z",
+      "lastSeenAt": "2026-06-26T05:10:18.638Z",
+      "lastChangedAt": "2026-06-26T05:10:18.638Z",
       "missingSince": null
     },
     "2rdly8": {
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 70,
+      "stock": 67,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T04:40:17.363Z",
-      "lastChangedAt": "2026-06-26T04:40:17.363Z",
+      "lastSeenAt": "2026-06-26T05:10:18.638Z",
+      "lastChangedAt": "2026-06-26T05:10:18.638Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 59,
+      "stock": 58,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:05:13.014Z",
-      "lastChangedAt": "2026-06-26T05:05:13.014Z",
+      "lastSeenAt": "2026-06-26T05:10:18.638Z",
+      "lastChangedAt": "2026-06-26T05:10:18.638Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 36,
+      "stock": 33,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:05:13.014Z",
-      "lastChangedAt": "2026-06-26T05:05:13.014Z",
+      "lastSeenAt": "2026-06-26T05:10:18.638Z",
+      "lastChangedAt": "2026-06-26T05:10:18.638Z",
       "missingSince": null
     },
     "go054j": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.3,
-      "stock": 29,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-06-26T05:05:13.014Z",
-      "lastChangedAt": "2026-06-26T05:05:13.014Z",
+      "lastSeenAt": "2026-06-26T05:10:18.638Z",
+      "lastChangedAt": "2026-06-26T05:10:18.638Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2228,13 +2228,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.9,
-      "stock": 499,
+      "stock": 498,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T17:50:17.534Z",
-      "lastSeenAt": "2026-06-26T04:30:23.872Z",
-      "lastChangedAt": "2026-06-26T04:30:23.872Z",
+      "lastSeenAt": "2026-06-26T05:10:18.638Z",
+      "lastChangedAt": "2026-06-26T05:10:18.638Z",
       "missingSince": null
     }
   }
