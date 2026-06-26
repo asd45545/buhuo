@@ -1786,3 +1786,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-26T15:20:19.080Z
+- PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号
+  - Stock: 0 -> 1
+  - Price: 31.85
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g7n6gs
+
