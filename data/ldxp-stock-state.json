@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 702,
+  "runs": 703,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T13:47:12.594Z",
+  "updatedAt": "2026-06-26T13:50:18.322Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -834,13 +834,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 507,
-      "stock": 8,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T12:25:14.359Z",
-      "lastChangedAt": "2026-06-26T12:25:14.359Z",
+      "lastSeenAt": "2026-06-26T13:50:18.322Z",
+      "lastChangedAt": "2026-06-26T13:50:18.322Z",
       "missingSince": null
     },
     "u883y2": {
@@ -1055,13 +1055,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 20.8,
-      "stock": 2,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T13:00:30.426Z",
-      "lastChangedAt": "2026-06-26T13:00:30.426Z",
+      "lastSeenAt": "2026-06-26T13:50:18.322Z",
+      "lastChangedAt": "2026-06-26T13:50:18.322Z",
       "missingSince": null
     },
     "iyuoym": {
