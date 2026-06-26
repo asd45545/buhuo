@@ -2560,25 +2560,5 @@
       "lastChangedAt": "2026-06-26T16:15:19.278Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "caj7xa",
-      "name": "GPTplus成品号 质保封号25天",
-      "link": "https://pay.ldxp.cn/item/caj7xa",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 91,
-      "stock": 96,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-06-26T16:15:19.278Z",
-      "alertId": "new_in_stock|caj7xa|新上架|96|",
-      "queuedAt": "2026-06-26T16:15:19.278Z"
-    }
-  ]
+  }
 }
