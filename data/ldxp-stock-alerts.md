@@ -1620,3 +1620,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-26T09:20:18.144Z
+- GPT PLUS成品号
+  - Stock: 0 -> 4
+  - Price: 20
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
