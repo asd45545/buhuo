@@ -1335,3 +1335,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-26T03:45:16.957Z
+- 【GCP/CLI可用】Gemini Pro 12个月成品【质保首登丨官方订阅】美区20-24年高权重老邮箱账号
+  - Stock: 0 -> 1
+  - Price: 26
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/2grcfq
+
