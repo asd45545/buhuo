@@ -1385,3 +1385,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4rukz6
 
+## 2026-06-26T04:40:17.363Z
+- 【质保28天】【新开号】 icloud 高质量邮箱 plus成品，一卡一绑
+  - Stock: 0 -> 1
+  - Price: 99
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/l3jsoj
+
