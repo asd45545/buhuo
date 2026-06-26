@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 664,
+  "runs": 665,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T10:50:18.020Z",
+  "updatedAt": "2026-06-26T10:55:13.160Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1636,
+      "stock": 1631,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T10:40:17.521Z",
-      "lastChangedAt": "2026-06-26T10:40:17.521Z",
+      "lastSeenAt": "2026-06-26T10:55:13.160Z",
+      "lastChangedAt": "2026-06-26T10:55:13.160Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 81.6,
-      "stock": 3,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-26T10:55:13.160Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T10:45:16.512Z",
-      "lastChangedAt": "2026-06-26T10:45:16.512Z",
+      "lastSeenAt": "2026-06-26T10:55:13.160Z",
+      "lastChangedAt": "2026-06-26T10:55:13.160Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 175,
+      "stock": 174,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T10:45:16.512Z",
-      "lastChangedAt": "2026-06-26T10:45:16.512Z",
+      "lastSeenAt": "2026-06-26T10:55:13.160Z",
+      "lastChangedAt": "2026-06-26T10:55:13.160Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 27,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-26T10:25:12.799Z",
-      "lastChangedAt": "2026-06-26T10:25:12.799Z",
+      "lastSeenAt": "2026-06-26T10:55:13.160Z",
+      "lastChangedAt": "2026-06-26T10:55:13.160Z",
       "missingSince": null
     },
     "r06ima": {
