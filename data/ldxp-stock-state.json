@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 726,
+  "runs": 727,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T15:35:13.491Z",
+  "updatedAt": "2026-06-26T15:40:19.456Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -290,13 +290,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 39.9,
-      "stock": 16,
+      "stock": 15,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T13:45:16.743Z",
-      "lastChangedAt": "2026-06-26T13:45:16.743Z",
+      "lastSeenAt": "2026-06-26T15:40:19.456Z",
+      "lastChangedAt": "2026-06-26T15:40:19.456Z",
       "missingSince": null
     },
     "2rdly8": {
@@ -1667,13 +1667,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 31.85,
-      "stock": 1,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T15:20:19.080Z",
-      "lastChangedAt": "2026-06-26T15:20:19.080Z",
+      "lastSeenAt": "2026-06-26T15:40:19.456Z",
+      "lastChangedAt": "2026-06-26T15:40:19.456Z",
       "missingSince": null
     },
     "2pkod2": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 21,
+      "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-26T14:00:28.588Z",
-      "lastChangedAt": "2026-06-26T14:00:28.588Z",
+      "lastSeenAt": "2026-06-26T15:40:19.456Z",
+      "lastChangedAt": "2026-06-26T15:40:19.456Z",
       "missingSince": null
     },
     "r06ima": {
@@ -2228,13 +2228,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.9,
-      "stock": 463,
+      "stock": 462,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T17:50:17.534Z",
-      "lastSeenAt": "2026-06-26T15:15:16.648Z",
-      "lastChangedAt": "2026-06-26T15:15:16.648Z",
+      "lastSeenAt": "2026-06-26T15:40:19.456Z",
+      "lastChangedAt": "2026-06-26T15:40:19.456Z",
       "missingSince": null
     },
     "p8x1sk": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 14,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-26T15:35:13.491Z",
-      "lastChangedAt": "2026-06-26T15:35:13.491Z",
+      "lastSeenAt": "2026-06-26T15:40:19.456Z",
+      "lastChangedAt": "2026-06-26T15:40:19.456Z",
       "missingSince": null
     },
     "v1dwzl": {
@@ -2490,6 +2490,23 @@
       "firstSeenAt": "2026-06-26T15:15:16.648Z",
       "lastSeenAt": "2026-06-26T15:20:19.080Z",
       "lastChangedAt": "2026-06-26T15:20:19.080Z",
+      "missingSince": null
+    },
+    "6d1eir": {
+      "key": "6d1eir",
+      "name": "ChatGPT月卡成品号 - icloud全新技术 - 高稳定版本",
+      "link": "https://pay.ldxp.cn/item/6d1eir",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 33.8,
+      "stock": 6,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-06-26T15:40:19.456Z",
+      "lastSeenAt": "2026-06-26T15:40:19.456Z",
+      "lastChangedAt": "2026-06-26T15:40:19.456Z",
       "missingSince": null
     }
   }
