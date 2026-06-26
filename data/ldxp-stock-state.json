@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 777,
+  "runs": 778,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T19:45:18.715Z",
+  "updatedAt": "2026-06-26T19:50:18.777Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -42,7 +42,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-23T17:30:12.384Z",
       "lastChangedAt": "2026-06-23T08:43:13.608Z",
-      "missingSince": null
+      "missingSince": "2026-06-26T19:50:18.777Z"
     },
     "7elqlu": {
       "key": "7elqlu",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 8.1,
-      "stock": 41,
+      "stock": 40,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T19:45:18.715Z",
-      "lastChangedAt": "2026-06-26T19:45:18.715Z",
+      "lastSeenAt": "2026-06-26T19:50:18.777Z",
+      "lastChangedAt": "2026-06-26T19:50:18.777Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -705,7 +705,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-23T17:30:12.384Z",
       "lastChangedAt": "2026-06-23T08:43:13.608Z",
-      "missingSince": null
+      "missingSince": "2026-06-26T19:50:18.777Z"
     },
     "f9zo4i": {
       "key": "f9zo4i",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 10,
-      "stock": 61,
+      "stock": 60,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T18:55:13.639Z",
-      "lastChangedAt": "2026-06-26T18:55:13.639Z",
+      "lastSeenAt": "2026-06-26T19:50:18.777Z",
+      "lastChangedAt": "2026-06-26T19:50:18.777Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2415,13 +2415,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.49,
-      "stock": 43,
+      "stock": 42,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
-      "lastSeenAt": "2026-06-26T15:25:14.763Z",
-      "lastChangedAt": "2026-06-26T15:25:14.763Z",
+      "lastSeenAt": "2026-06-26T19:50:18.777Z",
+      "lastChangedAt": "2026-06-26T19:50:18.777Z",
       "missingSince": null
     },
     "z2b577": {
