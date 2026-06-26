@@ -1873,3 +1873,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/s42at5
 
+## 2026-06-26T18:15:16.790Z
+- 【upi渠道】icloud精品邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 新上架 -> 4
+  - Price: 26
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kbzxt2
+
