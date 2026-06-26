@@ -2611,43 +2611,5 @@
       "lastChangedAt": "2026-06-26T19:15:17.764Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "cw5zul",
-      "name": "谷歌邮箱【成品plus】质保7天，6月23新货，不是库存",
-      "link": "https://pay.ldxp.cn/item/cw5zul",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 52,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T13:45:16.743Z",
-      "checkedAt": "2026-06-26T19:45:18.715Z",
-      "alertId": "restocked|cw5zul|0|1|2026-06-26T13:45:16.743Z",
-      "queuedAt": "2026-06-26T19:45:18.715Z"
-    },
-    {
-      "key": "pfz6mj",
-      "name": "已接码🔥UPI渠道日抛Plus成品带RT 可登网页 codex/cpa/sub 保首登",
-      "link": "https://pay.ldxp.cn/item/pfz6mj",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 14.25,
-      "stock": 14,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T15:57:11.936Z",
-      "checkedAt": "2026-06-26T19:45:18.715Z",
-      "alertId": "restocked|pfz6mj|0|14|2026-06-26T15:57:11.936Z",
-      "queuedAt": "2026-06-26T19:45:18.715Z"
-    }
-  ]
+  }
 }
