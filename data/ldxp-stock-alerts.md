@@ -1580,3 +1580,15 @@
   - Category: Claude
   - Link: https://pay.ldxp.cn/item/9vso1a
 
+## 2026-06-26T08:22:31.806Z
+- GPT PLUS成品号
+  - Stock: 0 -> 4
+  - Price: 20
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 3
+  - Price: 26.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
