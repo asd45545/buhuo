@@ -1442,3 +1442,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/xxtbqq
 
+## 2026-06-26T06:10:17.539Z
+- 【随机】谷歌邮箱20-24年
+  - Stock: 0 -> 30
+  - Price: 8.45
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/htc8s3
+- Google 谷歌邮箱【高质量 包gcp】美区 2020--2024年 老邮箱
+  - Stock: 0 -> 4
+  - Price: 11.69
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/etz0m6
+
