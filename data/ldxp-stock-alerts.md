@@ -1710,3 +1710,10 @@
   - Category: Claude
   - Link: https://pay.ldxp.cn/item/kgu373
 
+## 2026-06-26T12:45:17.578Z
+- Google 谷歌邮箱【高质量 包gcp】美区 2020--2024年 老邮箱
+  - Stock: 0 -> 10
+  - Price: 11.69
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/etz0m6
+
