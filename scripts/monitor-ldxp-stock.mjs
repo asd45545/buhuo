@@ -390,19 +390,26 @@ function buildNextState(previousState, goods, checkedAt, cfg) {
   const nextItems = { ...previousItems };
   const alerts = [];
   const seenKeys = new Set();
+  const hasEstablishedSnapshot =
+    Object.keys(previousItems).length > 0 ||
+    Number(previousState.runs || 0) > 0 ||
+    Boolean(previousState.updatedAt);
   let stateChanged = false;
 
   for (const item of goods) {
     const prev = previousItems[item.key];
     const previousStock = Number(prev?.stock ?? 0);
-    const isRestocked = Boolean(prev) && !prev.missingSince && previousStock <= 0 && item.stock > 0;
+    const isRestocked = Boolean(prev) && previousStock <= 0 && item.stock > 0;
+    const isNewInStock = !prev && hasEstablishedSnapshot && item.stock > 0;
     const changed = hasItemChanged(prev, item);
 
-    if (isRestocked) {
+    if (isRestocked || isNewInStock) {
       alerts.push({
         ...item,
-        previousStock,
-        outOfStockSince: prev.outOfStockSince || null,
+        alertType: isNewInStock ? "new_in_stock" : "restocked",
+        previousStock: isNewInStock ? "新上架" : previousStock,
+        previousStockValue: isNewInStock ? null : previousStock,
+        outOfStockSince: prev?.outOfStockSince || null,
         checkedAt,
       });
     }
@@ -514,10 +521,12 @@ function formatTelegramMessage(alert) {
   const name = escapeTelegramHtml(alert.name);
   const link = escapeTelegramHtml(alert.link);
   const price = Number.isFinite(Number(alert.price)) ? Number(alert.price).toFixed(2) : String(alert.price);
+  const previousStock = escapeTelegramHtml(alert.previousStock);
+  const currentStock = escapeTelegramHtml(alert.stock);
 
   return [
     `商品：${name}`,
-    `库存：${alert.previousStock} → ${alert.stock}`,
+    `库存：${previousStock} → ${currentStock}`,
     `售价：¥${price}`,
     `商品链接：${link}`,
   ].join("\n");
