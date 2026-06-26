@@ -1466,3 +1466,15 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/pfrifg
 
+## 2026-06-26T06:30:22.989Z
+- chat gpt plus 带rt
+  - Stock: 0 -> 4
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/lxak6h
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 25
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
