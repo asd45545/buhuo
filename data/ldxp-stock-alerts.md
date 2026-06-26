@@ -1833,3 +1833,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/lv4tcc
 
+## 2026-06-26T16:15:19.278Z
+- GPTplus成品号 质保封号25天
+  - Stock: 新上架 -> 96
+  - Price: 91
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/caj7xa
+
