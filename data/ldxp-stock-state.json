@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 621,
+  "runs": 622,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T07:20:16.976Z",
+  "updatedAt": "2026-06-26T07:25:12.360Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -460,13 +460,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道pro代充",
       "price": 145,
-      "stock": 107,
+      "stock": 106,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T07:15:16.741Z",
-      "lastChangedAt": "2026-06-26T07:15:16.741Z",
+      "lastSeenAt": "2026-06-26T07:25:12.360Z",
+      "lastChangedAt": "2026-06-26T07:25:12.360Z",
       "missingSince": null
     },
     "8ra67m": {
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 191,
+      "stock": 190,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T07:10:18.617Z",
-      "lastChangedAt": "2026-06-26T07:10:18.617Z",
+      "lastSeenAt": "2026-06-26T07:25:12.360Z",
+      "lastChangedAt": "2026-06-26T07:25:12.360Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1343,13 +1343,13 @@
       "goodsType": "card",
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 248,
+      "price": 270,
       "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T07:20:16.976Z",
+      "lastSeenAt": "2026-06-26T07:25:12.360Z",
       "lastChangedAt": "2026-06-26T07:20:16.976Z",
       "missingSince": null
     },
@@ -2211,13 +2211,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 14,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T14:05:13.821Z",
-      "lastSeenAt": "2026-06-25T14:05:13.821Z",
-      "lastChangedAt": "2026-06-25T14:05:13.821Z",
+      "lastSeenAt": "2026-06-26T07:25:12.360Z",
+      "lastChangedAt": "2026-06-26T07:25:12.360Z",
       "missingSince": null
     },
     "nvnqc8": {
@@ -2235,6 +2235,23 @@
       "firstSeenAt": "2026-06-25T17:50:17.534Z",
       "lastSeenAt": "2026-06-26T07:20:16.976Z",
       "lastChangedAt": "2026-06-26T07:20:16.976Z",
+      "missingSince": null
+    },
+    "p8x1sk": {
+      "key": "p8x1sk",
+      "name": "精品稳定个人谷歌Gmail邮箱老号  至少两年以上，2FA/带手机链接 随机地区美区居多",
+      "link": "https://pay.ldxp.cn/item/p8x1sk",
+      "goodsType": "card",
+      "categoryId": 111634,
+      "categoryName": "各类邮箱",
+      "price": 8.97,
+      "stock": 23,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-06-26T07:25:12.360Z",
+      "lastSeenAt": "2026-06-26T07:25:12.360Z",
+      "lastChangedAt": "2026-06-26T07:25:12.360Z",
       "missingSince": null
     }
   }
