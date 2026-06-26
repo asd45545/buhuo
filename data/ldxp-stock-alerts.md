@@ -1717,3 +1717,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/etz0m6
 
+## 2026-06-26T13:25:13.785Z
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 58
+  - Price: 0.65
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+
