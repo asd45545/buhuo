@@ -24,6 +24,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Sync latest main
+        run: git pull --rebase origin main
+
       - name: Send Telegram notification
         id: send
         env:
@@ -96,6 +99,6 @@ jobs:
             echo "No delete queue changes to commit."
           else
             git commit -m "chore: queue telegram message deletion [skip ci]"
-            git pull --rebase
+            git pull --rebase origin main
             git push
           fi

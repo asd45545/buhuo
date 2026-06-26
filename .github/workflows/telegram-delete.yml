@@ -19,6 +19,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Sync latest main
+        run: git pull --rebase origin main
+
       - name: Delete expired Telegram notifications
         env:
           LDXP_TELEGRAM_BOT_TOKEN: ${{ secrets.LDXP_TELEGRAM_BOT_TOKEN }}
@@ -35,6 +38,6 @@ jobs:
             echo "No delete queue changes to commit."
           else
             git commit -m "chore: prune telegram delete queue [skip ci]"
-            git pull --rebase
+            git pull --rebase origin main
             git push
           fi

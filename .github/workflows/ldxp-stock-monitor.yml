@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Sync latest main
+        run: git pull --rebase origin main
+
       - name: Trigger Vercel monitor
         env:
           MONITOR_URL: ${{ secrets.LDXP_MONITOR_URL || 'https://buhuo-monitor.vercel.app/api/monitor' }}
@@ -62,6 +65,6 @@ jobs:
             echo "No delete queue changes to commit."
           else
             git commit -m "chore: prune telegram delete queue [skip ci]"
-            git pull --rebase
+            git pull --rebase origin main
             git push
           fi
