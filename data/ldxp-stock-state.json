@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 670,
+  "runs": 671,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T11:20:19.277Z",
+  "updatedAt": "2026-06-26T11:23:20.403Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 771,
+      "stock": 766,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T11:15:15.720Z",
-      "lastChangedAt": "2026-06-26T11:15:15.720Z",
+      "lastSeenAt": "2026-06-26T11:23:20.403Z",
+      "lastChangedAt": "2026-06-26T11:23:20.403Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 10,
-      "stock": 56,
+      "stock": 46,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T10:45:16.512Z",
-      "lastChangedAt": "2026-06-26T10:45:16.512Z",
+      "lastSeenAt": "2026-06-26T11:23:20.403Z",
+      "lastChangedAt": "2026-06-26T11:23:20.403Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 25,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-26T11:20:19.277Z",
-      "lastChangedAt": "2026-06-26T11:20:19.277Z",
+      "lastSeenAt": "2026-06-26T11:23:20.403Z",
+      "lastChangedAt": "2026-06-26T11:23:20.403Z",
       "missingSince": null
     },
     "r06ima": {
