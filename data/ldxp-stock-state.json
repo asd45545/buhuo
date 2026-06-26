@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 680,
+  "runs": 681,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T12:05:12.216Z",
+  "updatedAt": "2026-06-26T12:10:18.764Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1607,
+      "stock": 1606,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T12:05:12.216Z",
-      "lastChangedAt": "2026-06-26T12:05:12.216Z",
+      "lastSeenAt": "2026-06-26T12:10:18.764Z",
+      "lastChangedAt": "2026-06-26T12:10:18.764Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -562,13 +562,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 84,
+      "stock": 81,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:25:12.931Z",
-      "lastChangedAt": "2026-06-26T05:25:12.931Z",
+      "lastSeenAt": "2026-06-26T12:10:18.764Z",
+      "lastChangedAt": "2026-06-26T12:10:18.764Z",
       "missingSince": null
     },
     "6byvu1": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 765,
+      "stock": 705,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T12:00:32.911Z",
-      "lastChangedAt": "2026-06-26T12:00:32.911Z",
+      "lastSeenAt": "2026-06-26T12:10:18.764Z",
+      "lastChangedAt": "2026-06-26T12:10:18.764Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -936,13 +936,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.45,
-      "stock": 368,
+      "stock": 367,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T11:30:25.490Z",
-      "lastChangedAt": "2026-06-26T11:30:25.490Z",
+      "lastSeenAt": "2026-06-26T12:10:18.764Z",
+      "lastChangedAt": "2026-06-26T12:10:18.764Z",
       "missingSince": null
     },
     "ttuq5u": {
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 167,
+      "stock": 166,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T11:35:14.205Z",
-      "lastChangedAt": "2026-06-26T11:35:14.205Z",
+      "lastSeenAt": "2026-06-26T12:10:18.764Z",
+      "lastChangedAt": "2026-06-26T12:10:18.764Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1009,9 +1009,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T09:50:19.332Z",
+      "lastSeenAt": "2026-06-26T12:10:18.764Z",
       "lastChangedAt": "2026-06-26T09:50:19.332Z",
-      "missingSince": "2026-06-26T09:55:12.332Z"
+      "missingSince": null
     },
     "5dsz18": {
       "key": "5dsz18",
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 42,
+      "stock": 41,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T12:05:12.216Z",
-      "lastChangedAt": "2026-06-26T12:05:12.216Z",
+      "lastSeenAt": "2026-06-26T12:10:18.764Z",
+      "lastChangedAt": "2026-06-26T12:10:18.764Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -2381,13 +2381,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 5,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
-      "lastSeenAt": "2026-06-26T11:45:16.390Z",
-      "lastChangedAt": "2026-06-26T11:45:16.390Z",
+      "lastSeenAt": "2026-06-26T12:10:18.764Z",
+      "lastChangedAt": "2026-06-26T12:10:18.764Z",
       "missingSince": null
     },
     "ow0rhy": {
