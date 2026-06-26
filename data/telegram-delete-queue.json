@@ -1,191 +1,191 @@
-﻿[
-    {
-        "createdAt":  "2026-06-26T05:30:40.000Z",
-        "attempts":  0,
-        "chatId":  "-1004429750164",
-        "messageId":  467,
-        "deleteAt":  "2026-06-26T10:30:40.000Z"
-    },
-    {
-        "createdAt":  "2026-06-26T05:45:32.000Z",
-        "attempts":  0,
-        "chatId":  "-1004429750164",
-        "messageId":  470,
-        "deleteAt":  "2026-06-26T10:45:32.000Z"
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  472,
-        "deleteAt":  "2026-06-26T11:10:32.902Z",
-        "createdAt":  "2026-06-26T06:10:32.902Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  474,
-        "deleteAt":  "2026-06-26T11:25:31.266Z",
-        "createdAt":  "2026-06-26T06:25:31.266Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  476,
-        "deleteAt":  "2026-06-26T11:30:37.622Z",
-        "createdAt":  "2026-06-26T06:30:37.622Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  478,
-        "deleteAt":  "2026-06-26T11:35:34.422Z",
-        "createdAt":  "2026-06-26T06:35:34.422Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  479,
-        "deleteAt":  "2026-06-26T11:40:35.456Z",
-        "createdAt":  "2026-06-26T06:40:35.456Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  480,
-        "deleteAt":  "2026-06-26T11:55:28.994Z",
-        "createdAt":  "2026-06-26T06:55:28.994Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  485,
-        "deleteAt":  "2026-06-26T12:05:28.816Z",
-        "createdAt":  "2026-06-26T07:05:28.816Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  487,
-        "deleteAt":  "2026-06-26T12:10:33.021Z",
-        "createdAt":  "2026-06-26T07:10:33.021Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  488,
-        "deleteAt":  "2026-06-26T12:15:31.158Z",
-        "createdAt":  "2026-06-26T07:15:31.158Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  489,
-        "deleteAt":  "2026-06-26T12:20:37.839Z",
-        "createdAt":  "2026-06-26T07:20:37.839Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  492,
-        "deleteAt":  "2026-06-26T12:40:34.104Z",
-        "createdAt":  "2026-06-26T07:40:34.104Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  493,
-        "deleteAt":  "2026-06-26T12:55:28.393Z",
-        "createdAt":  "2026-06-26T07:55:28.393Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  495,
-        "deleteAt":  "2026-06-26T13:10:37.337Z",
-        "createdAt":  "2026-06-26T08:10:37.337Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  497,
-        "deleteAt":  "2026-06-26T13:20:33.560Z",
-        "createdAt":  "2026-06-26T08:20:33.560Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  498,
-        "deleteAt":  "2026-06-26T13:22:53.313Z",
-        "createdAt":  "2026-06-26T08:22:53.313Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  499,
-        "deleteAt":  "2026-06-26T13:25:30.223Z",
-        "createdAt":  "2026-06-26T08:25:30.223Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  500,
-        "deleteAt":  "2026-06-26T13:40:33.336Z",
-        "createdAt":  "2026-06-26T08:40:33.336Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  501,
-        "deleteAt":  "2026-06-26T14:00:48.601Z",
-        "createdAt":  "2026-06-26T09:00:48.601Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  502,
-        "deleteAt":  "2026-06-26T14:05:27.630Z",
-        "createdAt":  "2026-06-26T09:05:27.630Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  505,
-        "deleteAt":  "2026-06-26T14:20:33.272Z",
-        "createdAt":  "2026-06-26T09:20:33.272Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  506,
-        "deleteAt":  "2026-06-26T14:25:33.255Z",
-        "createdAt":  "2026-06-26T09:25:33.255Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  507,
-        "deleteAt":  "2026-06-26T14:55:29.597Z",
-        "createdAt":  "2026-06-26T09:55:29.597Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  508,
-        "deleteAt":  "2026-06-26T15:30:37.900Z",
-        "createdAt":  "2026-06-26T10:30:37.900Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  509,
-        "deleteAt":  "2026-06-26T16:05:28.649Z",
-        "createdAt":  "2026-06-26T11:05:28.649Z",
-        "attempts":  0
-    },
-    {
-        "chatId":  "-1004429750164",
-        "messageId":  510,
-        "deleteAt":  "2026-06-26T16:05:38.045Z",
-        "createdAt":  "2026-06-26T11:05:38.045Z",
-        "attempts":  0
-    }
+[
+  {
+    "createdAt": "2026-06-26T05:30:40.000Z",
+    "attempts": 0,
+    "chatId": "-1004429750164",
+    "messageId": 467,
+    "deleteAt": "2026-06-26T10:30:40.000Z"
+  },
+  {
+    "createdAt": "2026-06-26T05:45:32.000Z",
+    "attempts": 0,
+    "chatId": "-1004429750164",
+    "messageId": 470,
+    "deleteAt": "2026-06-26T10:45:32.000Z"
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 472,
+    "deleteAt": "2026-06-26T11:10:32.902Z",
+    "createdAt": "2026-06-26T06:10:32.902Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 474,
+    "deleteAt": "2026-06-26T11:25:31.266Z",
+    "createdAt": "2026-06-26T06:25:31.266Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 476,
+    "deleteAt": "2026-06-26T11:30:37.622Z",
+    "createdAt": "2026-06-26T06:30:37.622Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 478,
+    "deleteAt": "2026-06-26T11:35:34.422Z",
+    "createdAt": "2026-06-26T06:35:34.422Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 479,
+    "deleteAt": "2026-06-26T11:40:35.456Z",
+    "createdAt": "2026-06-26T06:40:35.456Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 480,
+    "deleteAt": "2026-06-26T11:55:28.994Z",
+    "createdAt": "2026-06-26T06:55:28.994Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 485,
+    "deleteAt": "2026-06-26T12:05:28.816Z",
+    "createdAt": "2026-06-26T07:05:28.816Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 487,
+    "deleteAt": "2026-06-26T12:10:33.021Z",
+    "createdAt": "2026-06-26T07:10:33.021Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 488,
+    "deleteAt": "2026-06-26T12:15:31.158Z",
+    "createdAt": "2026-06-26T07:15:31.158Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 489,
+    "deleteAt": "2026-06-26T12:20:37.839Z",
+    "createdAt": "2026-06-26T07:20:37.839Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 492,
+    "deleteAt": "2026-06-26T12:40:34.104Z",
+    "createdAt": "2026-06-26T07:40:34.104Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 493,
+    "deleteAt": "2026-06-26T12:55:28.393Z",
+    "createdAt": "2026-06-26T07:55:28.393Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 495,
+    "deleteAt": "2026-06-26T13:10:37.337Z",
+    "createdAt": "2026-06-26T08:10:37.337Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 497,
+    "deleteAt": "2026-06-26T13:20:33.560Z",
+    "createdAt": "2026-06-26T08:20:33.560Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 498,
+    "deleteAt": "2026-06-26T13:22:53.313Z",
+    "createdAt": "2026-06-26T08:22:53.313Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 499,
+    "deleteAt": "2026-06-26T13:25:30.223Z",
+    "createdAt": "2026-06-26T08:25:30.223Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 500,
+    "deleteAt": "2026-06-26T13:40:33.336Z",
+    "createdAt": "2026-06-26T08:40:33.336Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 501,
+    "deleteAt": "2026-06-26T14:00:48.601Z",
+    "createdAt": "2026-06-26T09:00:48.601Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 502,
+    "deleteAt": "2026-06-26T14:05:27.630Z",
+    "createdAt": "2026-06-26T09:05:27.630Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 505,
+    "deleteAt": "2026-06-26T14:20:33.272Z",
+    "createdAt": "2026-06-26T09:20:33.272Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 506,
+    "deleteAt": "2026-06-26T14:25:33.255Z",
+    "createdAt": "2026-06-26T09:25:33.255Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 507,
+    "deleteAt": "2026-06-26T14:55:29.597Z",
+    "createdAt": "2026-06-26T09:55:29.597Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 508,
+    "deleteAt": "2026-06-26T15:30:37.900Z",
+    "createdAt": "2026-06-26T10:30:37.900Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 509,
+    "deleteAt": "2026-06-26T16:05:28.649Z",
+    "createdAt": "2026-06-26T11:05:28.649Z",
+    "attempts": 0
+  },
+  {
+    "chatId": "-1004429750164",
+    "messageId": 510,
+    "deleteAt": "2026-06-26T16:05:38.045Z",
+    "createdAt": "2026-06-26T11:05:38.045Z",
+    "attempts": 0
+  }
 ]
