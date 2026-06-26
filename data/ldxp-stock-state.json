@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 665,
+  "runs": 666,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T10:55:13.160Z",
+  "updatedAt": "2026-06-26T11:00:30.740Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 174,
+      "stock": 173,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T10:55:13.160Z",
-      "lastChangedAt": "2026-06-26T10:55:13.160Z",
+      "lastSeenAt": "2026-06-26T11:00:30.740Z",
+      "lastChangedAt": "2026-06-26T11:00:30.740Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -2439,6 +2439,23 @@
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
       "lastSeenAt": "2026-06-26T07:40:17.770Z",
       "lastChangedAt": "2026-06-26T07:40:17.770Z",
+      "missingSince": null
+    },
+    "unu10b": {
+      "key": "unu10b",
+      "name": "iCloud邮箱-PLUS成品号-质保首登-带2FA认证",
+      "link": "https://pay.ldxp.cn/item/unu10b",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 22.1,
+      "stock": 6,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-06-26T11:00:30.740Z",
+      "lastSeenAt": "2026-06-26T11:00:30.740Z",
+      "lastChangedAt": "2026-06-26T11:00:30.740Z",
       "missingSince": null
     }
   }
