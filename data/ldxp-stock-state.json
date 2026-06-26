@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 590,
+  "runs": 591,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T04:45:16.522Z",
+  "updatedAt": "2026-06-26T04:50:17.564Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1868,
+      "stock": 1768,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T04:42:48.166Z",
-      "lastChangedAt": "2026-06-26T04:42:48.166Z",
+      "lastSeenAt": "2026-06-26T04:50:17.564Z",
+      "lastChangedAt": "2026-06-26T04:50:17.564Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 62,
+      "stock": 60,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T04:42:48.166Z",
-      "lastChangedAt": "2026-06-26T04:42:48.166Z",
+      "lastSeenAt": "2026-06-26T04:50:17.564Z",
+      "lastChangedAt": "2026-06-26T04:50:17.564Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 22,
+      "stock": 21,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T04:45:16.522Z",
-      "lastChangedAt": "2026-06-26T04:45:16.522Z",
+      "lastSeenAt": "2026-06-26T04:50:17.564Z",
+      "lastChangedAt": "2026-06-26T04:50:17.564Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 26.25,
-      "stock": 8,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T04:35:13.110Z",
-      "lastChangedAt": "2026-06-26T04:35:13.110Z",
+      "lastSeenAt": "2026-06-26T04:50:17.564Z",
+      "lastChangedAt": "2026-06-26T04:50:17.564Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.3,
-      "stock": 33,
+      "stock": 32,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-06-26T04:45:16.522Z",
-      "lastChangedAt": "2026-06-26T04:45:16.522Z",
+      "lastSeenAt": "2026-06-26T04:50:17.564Z",
+      "lastChangedAt": "2026-06-26T04:50:17.564Z",
       "missingSince": null
     },
     "n0soy3": {
