@@ -2560,25 +2560,5 @@
       "lastChangedAt": "2026-06-26T16:15:19.278Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "s42at5",
-      "name": "Gpt Free（双接码 | 反代 | Codex | 网页）| outlook | 美国 | 长效邮箱",
-      "link": "https://pay.ldxp.cn/item/s42at5",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.8,
-      "stock": 200,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T16:40:20.734Z",
-      "checkedAt": "2026-06-26T17:05:13.280Z",
-      "alertId": "restocked|s42at5|0|200|2026-06-26T16:40:20.734Z",
-      "queuedAt": "2026-06-26T17:05:13.280Z"
-    }
-  ]
+  }
 }
