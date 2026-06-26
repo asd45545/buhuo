@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 537,
+  "runs": 538,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T00:25:12.434Z",
+  "updatedAt": "2026-06-26T00:30:24.868Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 562,
+      "stock": 561,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T18:45:15.984Z",
-      "lastChangedAt": "2026-06-25T18:45:15.984Z",
+      "lastSeenAt": "2026-06-26T00:30:24.868Z",
+      "lastChangedAt": "2026-06-26T00:30:24.868Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 114,
+      "stock": 113,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T17:00:28.935Z",
-      "lastChangedAt": "2026-06-25T17:00:28.935Z",
+      "lastSeenAt": "2026-06-26T00:30:24.868Z",
+      "lastChangedAt": "2026-06-26T00:30:24.868Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 956,
+      "stock": 946,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T00:00:30.650Z",
-      "lastChangedAt": "2026-06-26T00:00:30.650Z",
+      "lastSeenAt": "2026-06-26T00:30:24.868Z",
+      "lastChangedAt": "2026-06-26T00:30:24.868Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 499,
+      "stock": 489,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-25T23:40:17.518Z",
-      "lastChangedAt": "2026-06-25T23:40:17.518Z",
+      "lastSeenAt": "2026-06-26T00:30:24.868Z",
+      "lastChangedAt": "2026-06-26T00:30:24.868Z",
       "missingSince": null
     },
     "4i7q19": {
