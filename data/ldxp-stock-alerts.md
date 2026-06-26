@@ -1653,3 +1653,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/lxak6h
 
+## 2026-06-26T11:05:14.431Z
+- 【随机】谷歌邮箱20-24年
+  - Stock: 0 -> 1
+  - Price: 8.45
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/htc8s3
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 1
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
