@@ -65,6 +65,13 @@ jobs:
             echo "No delete queue changes to commit."
           else
             git commit -m "chore: prune telegram delete queue [skip ci]"
-            git pull --rebase origin main
-            git push
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main
+              git push && break
+              if [ "$attempt" = "5" ]; then
+                echo "::error::Failed to push queue changes after $attempt attempts"
+                exit 1
+              fi
+              sleep 2
+            done
           fi

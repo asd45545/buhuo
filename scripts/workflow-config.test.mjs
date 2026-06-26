@@ -19,3 +19,12 @@ test("queue workflows sync latest main before touching the delete queue", async 
     assert.ok(syncIndex < queueIndex, `${workflowPath} sync must happen before queue processing`);
   }
 });
+
+test("queue workflows retry push after rebasing remote changes", async () => {
+  for (const workflowPath of workflowPaths) {
+    const workflow = await readFile(workflowPath, "utf8");
+    assert.match(workflow, /for attempt in 1 2 3 4 5/, `${workflowPath} must retry queue pushes`);
+    assert.match(workflow, /git pull --rebase origin main/, `${workflowPath} must rebase before retry push`);
+    assert.match(workflow, /git push && break/, `${workflowPath} must stop retrying after a successful push`);
+  }
+});
