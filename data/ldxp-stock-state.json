@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 720,
+  "runs": 721,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T15:05:13.238Z",
+  "updatedAt": "2026-06-26T15:10:18.910Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -460,13 +460,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道pro代充",
       "price": 145,
-      "stock": 84,
+      "stock": 83,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T14:20:21.514Z",
-      "lastChangedAt": "2026-06-26T14:20:21.514Z",
+      "lastSeenAt": "2026-06-26T15:10:18.910Z",
+      "lastChangedAt": "2026-06-26T15:10:18.910Z",
       "missingSince": null
     },
     "8ra67m": {
@@ -732,13 +732,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 6.5,
-      "stock": 61,
+      "stock": 60,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T14:00:28.588Z",
-      "lastChangedAt": "2026-06-26T12:30:29.682Z",
+      "lastSeenAt": "2026-06-26T15:10:18.910Z",
+      "lastChangedAt": "2026-06-26T15:10:18.910Z",
       "missingSince": null
     },
     "alnlyi": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 249,
+      "stock": 248,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T15:05:13.238Z",
-      "lastChangedAt": "2026-06-26T15:05:13.238Z",
+      "lastSeenAt": "2026-06-26T15:10:18.910Z",
+      "lastChangedAt": "2026-06-26T15:10:18.910Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -2456,6 +2456,23 @@
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
       "lastSeenAt": "2026-06-26T15:04:29.549Z",
       "lastChangedAt": "2026-06-26T15:04:29.549Z",
+      "missingSince": null
+    },
+    "wntyd1": {
+      "key": "wntyd1",
+      "name": "【仅质保首登】K12 GPT team，一个号平均额度100刀。cpa格式，需要其他格式自己转换",
+      "link": "https://pay.ldxp.cn/item/wntyd1",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 5.2,
+      "stock": 33,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-06-26T15:10:18.910Z",
+      "lastSeenAt": "2026-06-26T15:10:18.910Z",
+      "lastChangedAt": "2026-06-26T15:10:18.910Z",
       "missingSince": null
     }
   }
