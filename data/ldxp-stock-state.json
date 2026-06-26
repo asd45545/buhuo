@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 633,
+  "runs": 634,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T08:20:18.009Z",
+  "updatedAt": "2026-06-26T08:22:31.806Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -290,13 +290,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 39.9,
-      "stock": 2,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T08:10:17.016Z",
-      "lastChangedAt": "2026-06-26T08:10:17.016Z",
+      "lastSeenAt": "2026-06-26T08:22:31.806Z",
+      "lastChangedAt": "2026-06-26T08:22:31.806Z",
       "missingSince": null
     },
     "2rdly8": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 529,
+      "stock": 528,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T08:20:18.009Z",
-      "lastChangedAt": "2026-06-26T08:20:18.009Z",
+      "lastSeenAt": "2026-06-26T08:22:31.806Z",
+      "lastChangedAt": "2026-06-26T08:22:31.806Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1123,13 +1123,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 16,
-      "stock": 351,
+      "stock": 350,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T08:10:17.016Z",
-      "lastChangedAt": "2026-06-26T08:10:17.016Z",
+      "lastSeenAt": "2026-06-26T08:22:31.806Z",
+      "lastChangedAt": "2026-06-26T08:22:31.806Z",
       "missingSince": null
     },
     "bzposi": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-26T08:20:18.009Z",
+      "stock": 4,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T08:20:18.009Z",
-      "lastChangedAt": "2026-06-26T08:20:18.009Z",
+      "lastSeenAt": "2026-06-26T08:22:31.806Z",
+      "lastChangedAt": "2026-06-26T08:22:31.806Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 26.25,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-26T08:20:18.009Z",
+      "stock": 3,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T08:20:18.009Z",
-      "lastChangedAt": "2026-06-26T08:20:18.009Z",
+      "lastSeenAt": "2026-06-26T08:22:31.806Z",
+      "lastChangedAt": "2026-06-26T08:22:31.806Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -1961,9 +1961,9 @@
       "watchOutOfStock": true,
       "outOfStockSince": "2026-06-25T07:30:25.769Z",
       "firstSeenAt": "2026-06-23T17:00:17.608Z",
-      "lastSeenAt": "2026-06-25T07:30:25.769Z",
+      "lastSeenAt": "2026-06-26T08:22:31.806Z",
       "lastChangedAt": "2026-06-25T07:30:25.769Z",
-      "missingSince": "2026-06-25T12:25:13.675Z"
+      "missingSince": null
     },
     "6wtck4": {
       "key": "6wtck4",
@@ -2381,13 +2381,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 8,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
-      "lastSeenAt": "2026-06-26T08:10:17.016Z",
-      "lastChangedAt": "2026-06-26T08:10:17.016Z",
+      "lastSeenAt": "2026-06-26T08:22:31.806Z",
+      "lastChangedAt": "2026-06-26T08:22:31.806Z",
       "missingSince": null
     },
     "ow0rhy": {
