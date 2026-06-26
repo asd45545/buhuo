@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 603,
+  "runs": 604,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T05:50:16.627Z",
+  "updatedAt": "2026-06-26T05:55:12.163Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 65,
+      "stock": 200,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:20:18.202Z",
-      "lastChangedAt": "2026-06-26T05:20:18.202Z",
+      "lastSeenAt": "2026-06-26T05:55:12.163Z",
+      "lastChangedAt": "2026-06-26T05:55:12.163Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1004,13 +1004,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.78,
-      "stock": 70,
+      "stock": 65,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:35:14.155Z",
-      "lastChangedAt": "2026-06-25T13:55:14.016Z",
+      "lastSeenAt": "2026-06-26T05:55:12.163Z",
+      "lastChangedAt": "2026-06-26T05:55:12.163Z",
       "missingSince": null
     },
     "5dsz18": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 18,
-      "stock": 46,
+      "stock": 44,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:40:17.223Z",
-      "lastChangedAt": "2026-06-26T05:40:17.223Z",
+      "lastSeenAt": "2026-06-26T05:55:12.163Z",
+      "lastChangedAt": "2026-06-26T05:55:12.163Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 11,
+      "stock": 14,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:50:16.627Z",
-      "lastChangedAt": "2026-06-26T05:50:16.627Z",
+      "lastSeenAt": "2026-06-26T05:55:12.163Z",
+      "lastChangedAt": "2026-06-26T05:55:12.163Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 26.25,
-      "stock": 2,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:50:16.627Z",
-      "lastChangedAt": "2026-06-26T05:50:16.627Z",
+      "lastSeenAt": "2026-06-26T05:55:12.163Z",
+      "lastChangedAt": "2026-06-26T05:55:12.163Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -1672,9 +1672,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:40:17.223Z",
+      "lastSeenAt": "2026-06-26T05:55:12.163Z",
       "lastChangedAt": "2026-06-26T05:40:17.223Z",
-      "missingSince": "2026-06-26T05:50:16.627Z"
+      "missingSince": null
     },
     "2pkod2": {
       "key": "2pkod2",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 10,
-      "stock": 27,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T05:45:16.399Z",
-      "lastChangedAt": "2026-06-26T05:45:16.399Z",
+      "lastSeenAt": "2026-06-26T05:55:12.163Z",
+      "lastChangedAt": "2026-06-26T05:55:12.163Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1844,7 +1844,7 @@
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
       "lastSeenAt": "2026-06-26T05:50:16.627Z",
       "lastChangedAt": "2026-06-26T05:50:16.627Z",
-      "missingSince": null
+      "missingSince": "2026-06-26T05:55:12.163Z"
     },
     "n0soy3": {
       "key": "n0soy3",
