@@ -2577,25 +2577,5 @@
       "lastChangedAt": "2026-06-26T18:15:16.790Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "kbzxt2",
-      "name": "【upi渠道】icloud精品邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex",
-      "link": "https://pay.ldxp.cn/item/kbzxt2",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 26,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-06-26T18:15:16.790Z",
-      "alertId": "new_in_stock|kbzxt2|新上架|4|",
-      "queuedAt": "2026-06-26T18:15:16.790Z"
-    }
-  ]
+  }
 }
