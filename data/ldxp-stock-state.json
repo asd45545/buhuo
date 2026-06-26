@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 688,
+  "runs": 689,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T12:45:17.578Z",
+  "updatedAt": "2026-06-26T12:50:19.184Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -154,13 +154,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19.9,
-      "stock": 25,
+      "stock": 24,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T11:40:18.471Z",
-      "lastChangedAt": "2026-06-26T11:40:18.471Z",
+      "lastSeenAt": "2026-06-26T12:50:19.184Z",
+      "lastChangedAt": "2026-06-26T12:50:19.184Z",
       "missingSince": null
     },
     "55cstm": {
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1605,
+      "stock": 1603,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T12:45:17.578Z",
-      "lastChangedAt": "2026-06-26T12:45:17.578Z",
+      "lastSeenAt": "2026-06-26T12:50:19.184Z",
+      "lastChangedAt": "2026-06-26T12:50:19.184Z",
       "missingSince": null
     },
     "htc8s3": {
