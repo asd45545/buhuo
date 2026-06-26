@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 544,
+  "runs": 545,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-26T01:00:30.346Z",
+  "updatedAt": "2026-06-26T01:05:13.883Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 586,
+      "stock": 465,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T01:00:30.346Z",
-      "lastChangedAt": "2026-06-26T01:00:30.346Z",
+      "lastSeenAt": "2026-06-26T01:05:13.883Z",
+      "lastChangedAt": "2026-06-26T01:05:13.883Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1378,13 +1378,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 240,
-      "stock": 10,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-25T17:00:28.935Z",
-      "lastChangedAt": "2026-06-25T07:05:14.684Z",
+      "lastSeenAt": "2026-06-26T01:05:13.883Z",
+      "lastChangedAt": "2026-06-26T01:05:13.883Z",
       "missingSince": null
     },
     "lwhjp0": {
@@ -1786,13 +1786,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.8,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-26T01:05:13.883Z",
       "firstSeenAt": "2026-06-23T10:19:27.990Z",
-      "lastSeenAt": "2026-06-26T01:00:30.346Z",
-      "lastChangedAt": "2026-06-26T01:00:30.346Z",
+      "lastSeenAt": "2026-06-26T01:05:13.883Z",
+      "lastChangedAt": "2026-06-26T01:05:13.883Z",
       "missingSince": null
     },
     "akz9ns": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.3,
-      "stock": 170,
+      "stock": 69,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-06-26T00:35:12.787Z",
-      "lastChangedAt": "2026-06-26T00:35:12.787Z",
+      "lastSeenAt": "2026-06-26T01:05:13.883Z",
+      "lastChangedAt": "2026-06-26T01:05:13.883Z",
       "missingSince": null
     },
     "n0soy3": {
