@@ -1418,3 +1418,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g7n6gs
 
+## 2026-06-26T05:45:16.399Z
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 3
+  - Price: 26.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+- Grok Super官方正规充值1个月卡密（质保不掉订阅）
+  - Stock: 0 -> 3
+  - Price: 95.2
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/rzm7z0
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 7
+  - Price: 16.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
