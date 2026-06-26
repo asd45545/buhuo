@@ -1342,3 +1342,20 @@
   - Category: Gemini
   - Link: https://pay.ldxp.cn/item/2grcfq
 
+## 2026-06-26T03:55:12.498Z
+- 📮谷歌邮箱，方便注册chatgpt，提高权重质量，自提全自动，支持验证码api
+  - Stock: 0 -> 500
+  - Price: 0.9
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/nvnqc8
+- GPT PLUS成品号
+  - Stock: 0 -> 15
+  - Price: 20
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 2
+  - Price: 26.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
