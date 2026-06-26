@@ -396,3 +396,139 @@ test("monitor dispatches telegram notifications for restocks", async () => {
     globalThis.fetch = originalFetch;
   }
 });
+
+test("monitor batches multiple restocks into one telegram notification", async () => {
+  const previousState = {
+    version: 1,
+    visitorId: "visitor-1",
+    items: {
+      goods_1: {
+        key: "goods_1",
+        name: "ChatGPT Plus 月卡",
+        link: "https://pay.ldxp.cn/item/goods_1",
+        goodsType: "card",
+        categoryId: null,
+        categoryName: "",
+        price: 19.9,
+        stock: 0,
+        inStock: false,
+        watchOutOfStock: true,
+        outOfStockSince: "2026-01-01T00:00:00.000Z",
+        firstSeenAt: "2026-01-01T00:00:00.000Z",
+        lastSeenAt: "2026-01-01T00:00:00.000Z",
+        lastChangedAt: "2026-01-01T00:00:00.000Z",
+        missingSince: null,
+      },
+      goods_2: {
+        key: "goods_2",
+        name: "Claude Pro 月卡",
+        link: "https://pay.ldxp.cn/item/goods_2",
+        goodsType: "card",
+        categoryId: null,
+        categoryName: "",
+        price: 99,
+        stock: 0,
+        inStock: false,
+        watchOutOfStock: true,
+        outOfStockSince: "2026-01-01T00:00:00.000Z",
+        firstSeenAt: "2026-01-01T00:00:00.000Z",
+        lastSeenAt: "2026-01-01T00:00:00.000Z",
+        lastChangedAt: "2026-01-01T00:00:00.000Z",
+        missingSince: null,
+      },
+    },
+    runs: 1,
+    createdAt: "2026-01-01T00:00:00.000Z",
+    updatedAt: "2026-01-01T00:00:00.000Z",
+    shop: "https://pay.ldxp.cn/shop/jisuai",
+    shopToken: "jisuai",
+    goodsTypes: ["card"],
+  };
+
+  const stateContent = base64Json(previousState);
+  const dispatchBodies = [];
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async (url, options = {}) => {
+    const target = String(url);
+
+    if (target.includes("/contents/data/ldxp-stock-state.json?ref=main")) {
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({ sha: "sha1", content: stateContent }),
+        text: async () => "ok",
+      };
+    }
+
+    if (target.includes("/contents/data/telegram-delete-queue.json?ref=main")) {
+      return {
+        ok: true,
+        status: 200,
+        json: async () => ({ sha: "queue-sha", content: base64Json([]) }),
+        text: async () => "ok",
+      };
+    }
+
+    if (target.includes("/shopApi/Shop/goodsList")) {
+      return {
+        ok: true,
+        status: 200,
+        headers: {
+          get: (name) => (name === "content-type" ? "application/json" : null),
+          getSetCookie: () => [],
+        },
+        text: async () =>
+          JSON.stringify({
+            code: 1,
+            data: {
+              total: 2,
+              list: [
+                {
+                  goods_key: "goods_1",
+                  name: "ChatGPT Plus 月卡",
+                  link: "https://pay.ldxp.cn/item/goods_1",
+                  goods_type: "card",
+                  price: 19.9,
+                  extend: { stock_count: 18 },
+                },
+                {
+                  goods_key: "goods_2",
+                  name: "Claude Pro 月卡",
+                  link: "https://pay.ldxp.cn/item/goods_2",
+                  goods_type: "card",
+                  price: 99,
+                  extend: { stock_count: 3 },
+                },
+              ],
+            },
+          }),
+      };
+    }
+
+    if (target.includes("/actions/workflows/telegram-notify.yml/dispatches")) {
+      dispatchBodies.push(JSON.parse(options.body));
+      return { ok: true, status: 204, text: async () => "" };
+    }
+
+    return { ok: true, status: 200, text: async () => "ok", json: async () => ({}) };
+  };
+
+  try {
+    process.env.CRON_SECRET = "correct-secret";
+    process.env.LDXP_GITHUB_TOKEN = "token";
+    const res = createResponse();
+    await handler({ method: "GET", url: "/api/monitor?secret=correct-secret", headers: {} }, res);
+
+    assert.equal(res.statusCode, 200);
+    const body = JSON.parse(res.body());
+    assert.equal(body.restockedCount, 2);
+    assert.equal(body.notificationsSent, 2);
+    assert.equal(dispatchBodies.length, 1);
+    assert.match(dispatchBodies[0].inputs.text, /商品：ChatGPT Plus 月卡/);
+    assert.match(dispatchBodies[0].inputs.text, /库存：0 → 18/);
+    assert.match(dispatchBodies[0].inputs.text, /商品：Claude Pro 月卡/);
+    assert.match(dispatchBodies[0].inputs.text, /库存：0 → 3/);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});

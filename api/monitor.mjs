@@ -233,9 +233,7 @@ function createGitHubStore() {
 }
 
 async function dispatchTelegramNotifications(store, alerts) {
-  for (const alert of alerts) {
-    await store.dispatchTelegram(formatTelegramMessage(alert));
-  }
+  await store.dispatchTelegram(alerts.map((alert) => formatTelegramMessage(alert)).join("\n\n"));
 }
 
 function hasDueTelegramDeletion(queue, checkedAt) {
