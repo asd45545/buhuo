@@ -14,7 +14,7 @@ const rootDir = path.resolve(__dirname, "..");
 const defaults = {
   baseUrl: "https://pay.ldxp.cn",
   shopToken: "jisuai",
-  goodsTypes: ["card"],
+  goodsTypes: parseGoodsTypes(process.env.LDXP_GOODS_TYPES, ["card"]),
   pageSize: 100,
   requestDelayMs: 250,
   apiRetries: Number(process.env.LDXP_API_RETRIES || 8),
@@ -135,6 +135,7 @@ Options:
 
 Environment:
   LDXP_NOTIFY_WEBHOOK     Optional generic JSON webhook URL.
+  LDXP_GOODS_TYPES        Comma-separated goods types to scan, default: card.
   LDXP_API_RETRIES        Shop API retry count.
   LDXP_API_RETRY_DELAY_MS Shop API retry backoff base in milliseconds.
   LDXP_TELEGRAM_BOT_TOKEN Telegram bot token.
@@ -153,6 +154,15 @@ Environment:
 function parseBool(value, fallback) {
   if (value === undefined || value === null || value === "") return fallback;
   return ["1", "true", "yes", "y", "on"].includes(String(value).toLowerCase());
+}
+
+function parseGoodsTypes(value, fallback) {
+  if (!value) return fallback;
+  const goodsTypes = String(value)
+    .split(",")
+    .map((type) => type.trim())
+    .filter(Boolean);
+  return goodsTypes.length > 0 ? goodsTypes : fallback;
 }
 
 function makeVisitorId() {
