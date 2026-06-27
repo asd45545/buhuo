@@ -2628,25 +2628,5 @@
       "lastChangedAt": "2026-06-27T06:30:23.927Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "9tfn9v",
-      "name": "GPT Plus 成品 渠道🔥 没接码｜ 可网页也支持 Codex 反代| 没绑定手机",
-      "link": "https://pay.ldxp.cn/item/9tfn9v",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 26,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T06:25:12.174Z",
-      "checkedAt": "2026-06-27T06:35:11.775Z",
-      "alertId": "restocked|9tfn9v|0|1|2026-06-27T06:25:12.174Z",
-      "queuedAt": "2026-06-27T06:35:11.775Z"
-    }
-  ]
+  }
 }
