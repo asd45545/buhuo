@@ -2407,3 +2407,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/pfz6mj
 
+## 2026-06-27T14:15:16.774Z
+- 纯手搓Kiro Pro 1000额度 可超额，客户反馈质量稳定、可靠，服务到位～～～
+  - Stock: 新上架 -> 47
+  - Price: 136.5
+  - Category: kiro pro
+  - Link: https://pay.ldxp.cn/item/jf92gc
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 2
+  - Price: 26.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
