@@ -2611,43 +2611,5 @@
       "lastChangedAt": "2026-06-26T19:15:17.764Z",
       "missingSince": "2026-06-27T02:00:28.250Z"
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "lxak6h",
-      "name": "chat gpt plus 带rt",
-      "link": "https://pay.ldxp.cn/item/lxak6h",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 15,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T02:05:14.278Z",
-      "checkedAt": "2026-06-27T03:05:12.399Z",
-      "alertId": "restocked|lxak6h|0|1|2026-06-27T02:05:14.278Z",
-      "queuedAt": "2026-06-27T03:05:12.399Z"
-    },
-    {
-      "key": "9tfn9v",
-      "name": "GPT Plus 成品 渠道🔥 没接码｜ 可网页也支持 Codex 反代| 没绑定手机",
-      "link": "https://pay.ldxp.cn/item/9tfn9v",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 24.7,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T02:55:13.416Z",
-      "checkedAt": "2026-06-27T03:05:12.399Z",
-      "alertId": "restocked|9tfn9v|0|2|2026-06-27T02:55:13.416Z",
-      "queuedAt": "2026-06-27T03:05:12.399Z"
-    }
-  ]
+  }
 }
