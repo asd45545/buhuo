@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1009,
+  "runs": 1010,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T16:05:12.819Z",
+  "updatedAt": "2026-06-27T16:10:18.341Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 6.45,
-      "stock": 162,
+      "stock": 150,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T16:05:12.819Z",
-      "lastChangedAt": "2026-06-27T16:05:12.819Z",
+      "lastSeenAt": "2026-06-27T16:10:18.341Z",
+      "lastChangedAt": "2026-06-27T16:10:18.341Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 32.25,
-      "stock": 32,
+      "stock": 30,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T16:05:12.819Z",
-      "lastChangedAt": "2026-06-27T16:05:12.819Z",
+      "lastSeenAt": "2026-06-27T16:10:18.341Z",
+      "lastChangedAt": "2026-06-27T16:10:18.341Z",
       "missingSince": null
     },
     "omh53e": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 220,
+      "stock": 218,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T15:55:12.487Z",
-      "lastChangedAt": "2026-06-27T15:55:12.487Z",
+      "lastSeenAt": "2026-06-27T16:10:18.341Z",
+      "lastChangedAt": "2026-06-27T16:10:18.341Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 10,
-      "stock": 47,
+      "stock": 45,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T16:05:12.819Z",
-      "lastChangedAt": "2026-06-27T16:05:12.819Z",
+      "lastSeenAt": "2026-06-27T16:10:18.341Z",
+      "lastChangedAt": "2026-06-27T16:10:18.341Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 19,
-      "stock": 9,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T15:00:28.820Z",
-      "lastChangedAt": "2026-06-27T15:00:28.820Z",
+      "lastSeenAt": "2026-06-27T16:10:18.341Z",
+      "lastChangedAt": "2026-06-27T16:10:18.341Z",
       "missingSince": null
     },
     "zdsmzz": {
