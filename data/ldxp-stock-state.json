@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1052,
+  "runs": 1053,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T19:45:15.416Z",
+  "updatedAt": "2026-06-27T19:49:18.540Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1123,13 +1123,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 16,
-      "stock": 340,
+      "stock": 339,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:10:19.795Z",
-      "lastChangedAt": "2026-06-27T17:10:19.795Z",
+      "lastSeenAt": "2026-06-27T19:49:18.540Z",
+      "lastChangedAt": "2026-06-27T19:49:18.540Z",
       "missingSince": null
     },
     "bzposi": {
@@ -2585,13 +2585,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 26,
-      "stock": 14,
+      "stock": 13,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T19:15:17.764Z",
-      "lastSeenAt": "2026-06-27T18:30:23.109Z",
-      "lastChangedAt": "2026-06-27T18:30:23.109Z",
+      "lastSeenAt": "2026-06-27T19:49:18.540Z",
+      "lastChangedAt": "2026-06-27T19:49:18.540Z",
       "missingSince": null
     },
     "di5fjv": {
