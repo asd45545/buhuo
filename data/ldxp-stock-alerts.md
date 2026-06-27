@@ -2320,3 +2320,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-27T10:55:12.173Z
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 1
+  - Price: 19.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
