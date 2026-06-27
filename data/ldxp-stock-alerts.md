@@ -2188,3 +2188,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/gjokwl
 
+## 2026-06-27T07:50:18.207Z
+- 普拉斯 成品号，荷兰渠道，未接码
+  - Stock: 新上架 -> 8
+  - Price: 23.4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/yufna6
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 6
+  - Price: 22.1
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+
