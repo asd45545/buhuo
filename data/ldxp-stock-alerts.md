@@ -2306,3 +2306,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kdsr0p
 
+## 2026-06-27T10:45:16.065Z
+- 【质保1次】GPT Pro20x 1小时掉订阅补1次！【黑充号非退款流时抛号可比】
+  - Stock: 0 -> 20
+  - Price: 240
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/l3su3k
+
