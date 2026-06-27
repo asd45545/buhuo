@@ -2611,25 +2611,5 @@
       "lastChangedAt": "2026-06-26T19:15:17.764Z",
       "missingSince": "2026-06-27T02:00:28.250Z"
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "6d1eir",
-      "name": "ChatGPT月卡成品号 - icloud全新技术 - 高稳定版本",
-      "link": "https://pay.ldxp.cn/item/6d1eir",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 33.8,
-      "stock": 15,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T04:55:13.013Z",
-      "checkedAt": "2026-06-27T05:10:17.770Z",
-      "alertId": "restocked|6d1eir|0|15|2026-06-27T04:55:13.013Z",
-      "queuedAt": "2026-06-27T05:10:17.770Z"
-    }
-  ]
+  }
 }
