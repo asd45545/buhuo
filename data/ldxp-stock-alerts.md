@@ -2440,3 +2440,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/w6ql6z
 
+## 2026-06-27T14:55:13.202Z
+- gpt plus 成品【已接码 支持二验 邮箱登录 非日抛 看运气】
+  - Stock: 0 -> 20
+  - Price: 23.4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/1dquh6
+
