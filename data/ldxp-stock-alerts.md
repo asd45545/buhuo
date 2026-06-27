@@ -2362,3 +2362,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/pfz6mj
 
+## 2026-06-27T11:50:18.553Z
+- GPT PLUS成品号
+  - Stock: 0 -> 7
+  - Price: 20
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代
+  - Stock: 0 -> 100
+  - Price: 4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/w6ql6z
+
