@@ -2662,25 +2662,5 @@
       "lastChangedAt": "2026-06-27T07:45:16.380Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "gjokwl",
-      "name": "欧洲gpt plus的rt",
-      "link": "https://pay.ldxp.cn/item/gjokwl",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 19.5,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-06-27T07:45:16.380Z",
-      "alertId": "new_in_stock|gjokwl|新上架|2|",
-      "queuedAt": "2026-06-27T07:45:16.380Z"
-    }
-  ]
+  }
 }
