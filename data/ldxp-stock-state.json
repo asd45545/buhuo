@@ -2696,43 +2696,5 @@
       "lastChangedAt": "2026-06-27T11:35:13.415Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4xsj1w",
-      "name": "GPT PLUS成品号",
-      "link": "https://pay.ldxp.cn/item/4xsj1w",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 20,
-      "stock": 7,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T11:35:13.415Z",
-      "checkedAt": "2026-06-27T11:50:18.553Z",
-      "alertId": "restocked|4xsj1w|0|7|2026-06-27T11:35:13.415Z",
-      "queuedAt": "2026-06-27T11:50:18.553Z"
-    },
-    {
-      "key": "w6ql6z",
-      "name": "k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代",
-      "link": "https://pay.ldxp.cn/item/w6ql6z",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-23T08:43:13.608Z",
-      "checkedAt": "2026-06-27T11:50:18.553Z",
-      "alertId": "restocked|w6ql6z|0|100|2026-06-23T08:43:13.608Z",
-      "queuedAt": "2026-06-27T11:50:18.553Z"
-    }
-  ]
+  }
 }
