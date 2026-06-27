@@ -1979,3 +1979,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/budolx
 
+## 2026-06-27T03:35:14.178Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 8
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
