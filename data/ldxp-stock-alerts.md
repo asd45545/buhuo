@@ -2056,3 +2056,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/6d1eir
 
+## 2026-06-27T05:20:18.744Z
+- Gpt Free（双接码 | 反代 | Codex | 网页）| outlook | 美国 | 长效邮箱
+  - Stock: 0 -> 200
+  - Price: 0.8
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/s42at5
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 3
+  - Price: 81.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
