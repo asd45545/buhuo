@@ -2480,3 +2480,15 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/l3su3k
 
+## 2026-06-27T16:20:18.299Z
+- 【6.26pp渠道】微软邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 7
+  - Price: 19.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/v1dwzl
+- 日本pp实卡接码一天有效期api（日区PayPal）
+  - Stock: 0 -> 10
+  - Price: 15
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/qf6fdm
+
