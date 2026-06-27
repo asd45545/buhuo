@@ -2713,43 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "b2ggf2",
-      "name": "Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码",
-      "link": "https://pay.ldxp.cn/item/b2ggf2",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.65,
-      "stock": 367,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T02:45:16.694Z",
-      "checkedAt": "2026-06-27T15:05:14.850Z",
-      "alertId": "restocked|b2ggf2|0|367|2026-06-27T02:45:16.694Z",
-      "queuedAt": "2026-06-27T15:05:14.850Z"
-    },
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 85.02,
-      "stock": 6,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T15:00:28.820Z",
-      "checkedAt": "2026-06-27T15:05:14.850Z",
-      "alertId": "restocked|ktiyr3|0|6|2026-06-27T15:00:28.820Z",
-      "queuedAt": "2026-06-27T15:05:14.850Z"
-    }
-  ]
+  }
 }
