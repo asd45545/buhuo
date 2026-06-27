@@ -2696,43 +2696,5 @@
       "lastChangedAt": "2026-06-27T11:35:13.415Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "kgu373",
-      "name": "Claude pro尼区ios卡密",
-      "link": "https://pay.ldxp.cn/item/kgu373",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 146.3,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T08:00:28.344Z",
-      "checkedAt": "2026-06-27T12:05:12.162Z",
-      "alertId": "restocked|kgu373|0|5|2026-06-27T08:00:28.344Z",
-      "queuedAt": "2026-06-27T12:05:12.162Z"
-    },
-    {
-      "key": "kdsr0p",
-      "name": "GPT PLUS成品号（质保三天）",
-      "link": "https://pay.ldxp.cn/item/kdsr0p",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 26.25,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T11:55:11.604Z",
-      "checkedAt": "2026-06-27T12:05:12.162Z",
-      "alertId": "restocked|kdsr0p|0|5|2026-06-27T11:55:11.604Z",
-      "queuedAt": "2026-06-27T12:05:12.162Z"
-    }
-  ]
+  }
 }
