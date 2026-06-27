@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 944,
+  "runs": 945,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T10:45:16.065Z",
+  "updatedAt": "2026-06-27T10:50:19.307Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -834,13 +834,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 507,
-      "stock": 2,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T07:25:12.722Z",
-      "lastChangedAt": "2026-06-27T07:25:12.722Z",
+      "lastSeenAt": "2026-06-27T10:50:19.307Z",
+      "lastChangedAt": "2026-06-27T10:50:19.307Z",
       "missingSince": null
     },
     "u883y2": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-27T10:45:16.065Z",
+      "stock": 6,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T10:45:16.065Z",
-      "lastChangedAt": "2026-06-27T10:45:16.065Z",
+      "lastSeenAt": "2026-06-27T10:50:19.307Z",
+      "lastChangedAt": "2026-06-27T10:50:19.307Z",
       "missingSince": null
     },
     "go054j": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 258,
+      "stock": 257,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T10:40:18.691Z",
-      "lastChangedAt": "2026-06-27T10:40:18.691Z",
+      "lastSeenAt": "2026-06-27T10:50:19.307Z",
+      "lastChangedAt": "2026-06-27T10:50:19.307Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 19,
-      "stock": 17,
+      "stock": 16,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T09:30:25.152Z",
-      "lastChangedAt": "2026-06-27T09:30:25.152Z",
+      "lastSeenAt": "2026-06-27T10:50:19.307Z",
+      "lastChangedAt": "2026-06-27T10:50:19.307Z",
       "missingSince": null
     },
     "zdsmzz": {
@@ -2696,5 +2696,25 @@
       "lastChangedAt": "2026-06-27T10:10:17.690Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "4xsj1w",
+      "name": "GPT PLUS成品号",
+      "link": "https://pay.ldxp.cn/item/4xsj1w",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 20,
+      "stock": 6,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-27T10:45:16.065Z",
+      "checkedAt": "2026-06-27T10:50:19.307Z",
+      "alertId": "restocked|4xsj1w|0|6|2026-06-27T10:45:16.065Z",
+      "queuedAt": "2026-06-27T10:50:19.307Z"
+    }
+  ]
 }
