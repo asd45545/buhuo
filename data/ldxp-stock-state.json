@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1059,
+  "runs": 1060,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T20:20:17.184Z",
+  "updatedAt": "2026-06-27T20:25:12.815Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -2584,13 +2584,13 @@
       "goodsType": "card",
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
-      "price": 26,
+      "price": 20.8,
       "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T19:15:17.764Z",
-      "lastSeenAt": "2026-06-27T20:20:17.184Z",
+      "lastSeenAt": "2026-06-27T20:25:12.815Z",
       "lastChangedAt": "2026-06-27T20:20:17.184Z",
       "missingSince": null
     },
