@@ -2713,25 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "1dquh6",
-      "name": "gpt plus 成品【已接码 支持二验 邮箱登录 非日抛 看运气】",
-      "link": "https://pay.ldxp.cn/item/1dquh6",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 23.4,
-      "stock": 20,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T12:40:18.410Z",
-      "checkedAt": "2026-06-27T14:55:13.202Z",
-      "alertId": "restocked|1dquh6|0|20|2026-06-27T12:40:18.410Z",
-      "queuedAt": "2026-06-27T14:55:13.202Z"
-    }
-  ]
+  }
 }
