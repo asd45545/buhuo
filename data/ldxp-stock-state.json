@@ -2713,43 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "jf92gc",
-      "name": "纯手搓Kiro Pro 1000额度 可超额，客户反馈质量稳定、可靠，服务到位～～～",
-      "link": "https://pay.ldxp.cn/item/jf92gc",
-      "goodsType": "card",
-      "categoryId": 113752,
-      "categoryName": "kiro pro",
-      "price": 136.5,
-      "stock": 47,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-06-27T14:15:16.774Z",
-      "alertId": "new_in_stock|jf92gc|新上架|47|",
-      "queuedAt": "2026-06-27T14:15:16.774Z"
-    },
-    {
-      "key": "kdsr0p",
-      "name": "GPT PLUS成品号（质保三天）",
-      "link": "https://pay.ldxp.cn/item/kdsr0p",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 26.25,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T13:50:17.861Z",
-      "checkedAt": "2026-06-27T14:15:16.774Z",
-      "alertId": "restocked|kdsr0p|0|2|2026-06-27T13:50:17.861Z",
-      "queuedAt": "2026-06-27T14:15:16.774Z"
-    }
-  ]
+  }
 }
