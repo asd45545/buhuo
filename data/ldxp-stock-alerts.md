@@ -2459,3 +2459,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-27T15:30:24.152Z
+- 谷歌邮箱【成品plus】质保7天，6月23新货，不是库存
+  - Stock: 0 -> 25
+  - Price: 39
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/cw5zul
+
