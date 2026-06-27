@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 820,
+  "runs": 821,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T00:20:18.397Z",
+  "updatedAt": "2026-06-27T00:25:13.111Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -154,13 +154,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19.9,
-      "stock": 24,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T12:50:19.184Z",
-      "lastChangedAt": "2026-06-26T12:50:19.184Z",
+      "lastSeenAt": "2026-06-27T00:25:13.111Z",
+      "lastChangedAt": "2026-06-27T00:25:13.111Z",
       "missingSince": null
     },
     "55cstm": {
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 8.1,
-      "stock": 24,
+      "stock": 22,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T00:09:39.532Z",
-      "lastChangedAt": "2026-06-27T00:09:39.532Z",
+      "lastSeenAt": "2026-06-27T00:25:13.111Z",
+      "lastChangedAt": "2026-06-27T00:25:13.111Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 11,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T00:20:18.397Z",
-      "lastChangedAt": "2026-06-27T00:20:18.397Z",
+      "lastSeenAt": "2026-06-27T00:25:13.111Z",
+      "lastChangedAt": "2026-06-27T00:25:13.111Z",
       "missingSince": null
     },
     "go054j": {
@@ -1344,13 +1344,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 270,
-      "stock": 20,
+      "stock": 18,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T18:20:19.097Z",
-      "lastChangedAt": "2026-06-26T18:20:19.097Z",
+      "lastSeenAt": "2026-06-27T00:25:13.111Z",
+      "lastChangedAt": "2026-06-27T00:25:13.111Z",
       "missingSince": null
     },
     "8rmime": {
