@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 825,
+  "runs": 826,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T00:45:17.381Z",
+  "updatedAt": "2026-06-27T00:50:18.856Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 8.1,
-      "stock": 18,
+      "stock": 14,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T00:45:17.381Z",
-      "lastChangedAt": "2026-06-27T00:45:17.381Z",
+      "lastSeenAt": "2026-06-27T00:50:18.856Z",
+      "lastChangedAt": "2026-06-27T00:50:18.856Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 538,
+      "stock": 528,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T00:45:17.381Z",
-      "lastChangedAt": "2026-06-27T00:45:17.381Z",
+      "lastSeenAt": "2026-06-27T00:50:18.856Z",
+      "lastChangedAt": "2026-06-27T00:50:18.856Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 8,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T00:35:13.624Z",
-      "lastChangedAt": "2026-06-27T00:35:13.624Z",
+      "lastSeenAt": "2026-06-27T00:50:18.856Z",
+      "lastChangedAt": "2026-06-27T00:50:18.856Z",
       "missingSince": null
     },
     "go054j": {
@@ -2228,13 +2228,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.9,
-      "stock": 459,
+      "stock": 448,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T17:50:17.534Z",
-      "lastSeenAt": "2026-06-26T21:45:17.003Z",
-      "lastChangedAt": "2026-06-26T21:45:17.003Z",
+      "lastSeenAt": "2026-06-27T00:50:18.856Z",
+      "lastChangedAt": "2026-06-27T00:50:18.856Z",
       "missingSince": null
     },
     "p8x1sk": {
