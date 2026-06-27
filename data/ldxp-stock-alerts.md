@@ -2155,3 +2155,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g7n6gs
 
+## 2026-06-27T06:35:11.775Z
+- GPT Plus 成品 渠道🔥 没接码｜ 可网页也支持 Codex 反代| 没绑定手机
+  - Stock: 0 -> 1
+  - Price: 26
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/9tfn9v
+
