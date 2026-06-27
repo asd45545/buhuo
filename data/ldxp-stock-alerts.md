@@ -2278,3 +2278,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-27T09:55:13.056Z
+- GPT RT Plus 成品号（欧洲渠道）
+  - Stock: 0 -> 5
+  - Price: 18
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/uvtzzz
+
