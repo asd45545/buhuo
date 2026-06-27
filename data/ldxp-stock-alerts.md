@@ -2119,3 +2119,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g7n6gs
 
+## 2026-06-27T06:10:17.476Z
+- 【6.26pp渠道】微软邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 6
+  - Price: 23.4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/v1dwzl
+- 【codex-反代】k12team成品（只能反代，买错不退）
+  - Stock: 0 -> 20
+  - Price: 8.1
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+- GPT  Team成品JSON 反代 发cpa 质保首登
+  - Stock: 新上架 -> 100
+  - Price: 7.77
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/s80xga
+
