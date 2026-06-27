@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1026,
+  "runs": 1027,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T17:30:25.159Z",
+  "updatedAt": "2026-06-27T17:35:12.808Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -936,13 +936,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.45,
-      "stock": 331,
+      "stock": 330,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:00:28.038Z",
-      "lastChangedAt": "2026-06-27T17:00:28.038Z",
+      "lastSeenAt": "2026-06-27T17:35:12.808Z",
+      "lastChangedAt": "2026-06-27T17:35:12.808Z",
       "missingSince": null
     },
     "ttuq5u": {
@@ -1191,13 +1191,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.77,
-      "stock": 1356,
+      "stock": 1355,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:00:28.038Z",
-      "lastChangedAt": "2026-06-27T17:00:28.038Z",
+      "lastSeenAt": "2026-06-27T17:35:12.808Z",
+      "lastChangedAt": "2026-06-27T17:35:12.808Z",
       "missingSince": null
     },
     "s42at5": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 161,
+      "stock": 160,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-27T17:30:25.159Z",
-      "lastChangedAt": "2026-06-27T17:30:25.159Z",
+      "lastSeenAt": "2026-06-27T17:35:12.808Z",
+      "lastChangedAt": "2026-06-27T17:35:12.808Z",
       "missingSince": null
     },
     "v1dwzl": {
