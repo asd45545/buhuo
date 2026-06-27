@@ -2713,25 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "3uoyst",
-      "name": "谷歌邮箱【成品plus】质保25天，6月25新货，不是库存",
-      "link": "https://pay.ldxp.cn/item/3uoyst",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 91,
-      "stock": 6,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T07:30:22.822Z",
-      "checkedAt": "2026-06-27T19:00:29.475Z",
-      "alertId": "restocked|3uoyst|0|6|2026-06-26T07:30:22.822Z",
-      "queuedAt": "2026-06-27T19:00:29.475Z"
-    }
-  ]
+  }
 }
