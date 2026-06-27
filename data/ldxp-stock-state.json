@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 828,
+  "runs": 829,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T01:00:30.350Z",
+  "updatedAt": "2026-06-27T01:05:15.201Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 8.1,
-      "stock": 13,
+      "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T01:00:30.350Z",
-      "lastChangedAt": "2026-06-27T01:00:30.350Z",
+      "lastSeenAt": "2026-06-27T01:05:15.201Z",
+      "lastChangedAt": "2026-06-27T01:05:15.201Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1317,7 +1317,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-27T01:00:30.350Z",
       "lastChangedAt": "2026-06-27T01:00:30.350Z",
-      "missingSince": null
+      "missingSince": "2026-06-27T01:05:15.201Z"
     },
     "zh9cir": {
       "key": "zh9cir",
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 293,
+      "stock": 292,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T11:45:16.390Z",
-      "lastChangedAt": "2026-06-26T11:45:16.390Z",
+      "lastSeenAt": "2026-06-27T01:05:15.201Z",
+      "lastChangedAt": "2026-06-27T01:05:15.201Z",
       "missingSince": null
     },
     "e2913c": {
