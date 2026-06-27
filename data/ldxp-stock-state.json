@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 835,
+  "runs": 836,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T01:35:13.655Z",
+  "updatedAt": "2026-06-27T01:40:19.294Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 1,
+      "stock": 180,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-26T22:15:16.145Z",
-      "lastChangedAt": "2026-06-26T22:15:16.145Z",
+      "lastSeenAt": "2026-06-27T01:40:19.294Z",
+      "lastChangedAt": "2026-06-27T01:40:19.294Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 10,
-      "stock": 42,
+      "stock": 41,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T01:35:13.655Z",
-      "lastChangedAt": "2026-06-27T01:35:13.655Z",
+      "lastSeenAt": "2026-06-27T01:40:19.294Z",
+      "lastChangedAt": "2026-06-27T01:40:19.294Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 585,
+      "stock": 565,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-27T01:25:13.268Z",
-      "lastChangedAt": "2026-06-27T01:25:13.268Z",
+      "lastSeenAt": "2026-06-27T01:40:19.294Z",
+      "lastChangedAt": "2026-06-27T01:40:19.294Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2449,13 +2449,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 22.1,
-      "stock": 30,
+      "stock": 27,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
-      "lastSeenAt": "2026-06-27T01:30:25.828Z",
-      "lastChangedAt": "2026-06-27T01:30:25.828Z",
+      "lastSeenAt": "2026-06-27T01:40:19.294Z",
+      "lastChangedAt": "2026-06-27T01:40:19.294Z",
       "missingSince": null
     },
     "wntyd1": {
