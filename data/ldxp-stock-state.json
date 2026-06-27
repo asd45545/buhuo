@@ -2628,43 +2628,5 @@
       "lastChangedAt": "2026-06-27T06:10:17.476Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "9tfn9v",
-      "name": "GPT Plus 成品 渠道🔥 没接码｜ 可网页也支持 Codex 反代| 没绑定手机",
-      "link": "https://pay.ldxp.cn/item/9tfn9v",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 26,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T06:10:17.476Z",
-      "checkedAt": "2026-06-27T06:20:18.384Z",
-      "alertId": "restocked|9tfn9v|0|1|2026-06-27T06:10:17.476Z",
-      "queuedAt": "2026-06-27T06:20:18.384Z"
-    },
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 85.02,
-      "stock": 35,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T05:40:18.117Z",
-      "checkedAt": "2026-06-27T06:20:18.384Z",
-      "alertId": "restocked|ktiyr3|0|35|2026-06-27T05:40:18.117Z",
-      "queuedAt": "2026-06-27T06:20:18.384Z"
-    }
-  ]
+  }
 }
