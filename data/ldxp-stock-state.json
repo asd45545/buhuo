@@ -2713,43 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "v1dwzl",
-      "name": "【6.26pp渠道】微软邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex",
-      "link": "https://pay.ldxp.cn/item/v1dwzl",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 19.5,
-      "stock": 7,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T15:05:14.850Z",
-      "checkedAt": "2026-06-27T16:20:18.299Z",
-      "alertId": "restocked|v1dwzl|0|7|2026-06-27T15:05:14.850Z",
-      "queuedAt": "2026-06-27T16:20:18.299Z"
-    },
-    {
-      "key": "qf6fdm",
-      "name": "日本pp实卡接码一天有效期api（日区PayPal）",
-      "link": "https://pay.ldxp.cn/item/qf6fdm",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 15,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-25T20:40:16.910Z",
-      "checkedAt": "2026-06-27T16:20:18.299Z",
-      "alertId": "restocked|qf6fdm|0|10|2026-06-25T20:40:16.910Z",
-      "queuedAt": "2026-06-27T16:20:18.299Z"
-    }
-  ]
+  }
 }
