@@ -2221,3 +2221,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/unu10b
 
+## 2026-06-27T08:40:19.282Z
+- GPT PLUS成品号
+  - Stock: 0 -> 12
+  - Price: 20
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
