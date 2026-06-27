@@ -1953,3 +1953,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/1dquh6
 
+## 2026-06-27T03:05:12.399Z
+- chat gpt plus 带rt
+  - Stock: 0 -> 1
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/lxak6h
+- GPT Plus 成品 渠道🔥 没接码｜ 可网页也支持 Codex 反代| 没绑定手机
+  - Stock: 0 -> 2
+  - Price: 24.7
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/9tfn9v
+
