@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 988,
+  "runs": 989,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T14:15:16.774Z",
+  "updatedAt": "2026-06-27T14:20:17.879Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1011,7 +1011,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-27T14:10:18.855Z",
       "lastChangedAt": "2026-06-27T14:10:18.855Z",
-      "missingSince": null
+      "missingSince": "2026-06-27T14:20:17.879Z"
     },
     "5dsz18": {
       "key": "5dsz18",
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 85.02,
-      "stock": 14,
+      "stock": 13,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T14:15:16.774Z",
-      "lastChangedAt": "2026-06-27T14:15:16.774Z",
+      "lastSeenAt": "2026-06-27T14:20:17.879Z",
+      "lastChangedAt": "2026-06-27T14:20:17.879Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-27T14:15:16.774Z",
+      "stock": 3,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T14:15:16.774Z",
-      "lastChangedAt": "2026-06-27T14:15:16.774Z",
+      "lastSeenAt": "2026-06-27T14:20:17.879Z",
+      "lastChangedAt": "2026-06-27T14:20:17.879Z",
       "missingSince": null
     },
     "go054j": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 10,
-      "stock": 64,
+      "stock": 63,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T14:00:28.615Z",
-      "lastChangedAt": "2026-06-27T14:00:28.615Z",
+      "lastSeenAt": "2026-06-27T14:20:17.879Z",
+      "lastChangedAt": "2026-06-27T14:20:17.879Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2228,13 +2228,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.9,
-      "stock": 367,
+      "stock": 363,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T17:50:17.534Z",
-      "lastSeenAt": "2026-06-27T13:05:13.127Z",
-      "lastChangedAt": "2026-06-27T13:05:13.127Z",
+      "lastSeenAt": "2026-06-27T14:20:17.879Z",
+      "lastChangedAt": "2026-06-27T14:20:17.879Z",
       "missingSince": null
     },
     "p8x1sk": {
@@ -2483,13 +2483,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 19.5,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:15:16.648Z",
-      "lastSeenAt": "2026-06-27T13:40:18.842Z",
-      "lastChangedAt": "2026-06-27T10:15:16.314Z",
+      "lastSeenAt": "2026-06-27T14:20:17.879Z",
+      "lastChangedAt": "2026-06-27T14:20:17.879Z",
       "missingSince": null
     },
     "6d1eir": {
@@ -2713,5 +2713,25 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "4xsj1w",
+      "name": "GPT PLUS成品号",
+      "link": "https://pay.ldxp.cn/item/4xsj1w",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 20,
+      "stock": 3,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-27T14:15:16.774Z",
+      "checkedAt": "2026-06-27T14:20:17.879Z",
+      "alertId": "restocked|4xsj1w|0|3|2026-06-27T14:15:16.774Z",
+      "queuedAt": "2026-06-27T14:20:17.879Z"
+    }
+  ]
 }
