@@ -2611,43 +2611,5 @@
       "lastChangedAt": "2026-06-26T19:15:17.764Z",
       "missingSince": "2026-06-27T02:00:28.250Z"
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "omjbr8",
-      "name": "gpt plus 成品【已接码 日抛 只发json 只能反代使用 内附登录教程 看不懂不要拍】",
-      "link": "https://pay.ldxp.cn/item/omjbr8",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 17,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-24T08:10:27.854Z",
-      "checkedAt": "2026-06-27T02:05:14.278Z",
-      "alertId": "restocked|omjbr8|0|30|2026-06-24T08:10:27.854Z",
-      "queuedAt": "2026-06-27T02:05:14.278Z"
-    },
-    {
-      "key": "1dquh6",
-      "name": "gpt plus 成品【已接码 支持二验 邮箱登录 非日抛 看运气】",
-      "link": "https://pay.ldxp.cn/item/1dquh6",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 22.75,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T19:15:17.764Z",
-      "checkedAt": "2026-06-27T02:05:14.278Z",
-      "alertId": "restocked|1dquh6|0|4|2026-06-26T19:15:17.764Z",
-      "queuedAt": "2026-06-27T02:05:14.278Z"
-    }
-  ]
+  }
 }
