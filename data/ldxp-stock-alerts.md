@@ -2107,3 +2107,15 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/c2zw5w
 
+## 2026-06-27T06:00:28.857Z
+- chat gpt plus 带rt
+  - Stock: 0 -> 3
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/lxak6h
+- PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号
+  - Stock: 0 -> 2
+  - Price: 31.85
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g7n6gs
+
