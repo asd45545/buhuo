@@ -2000,3 +2000,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/s42at5
 
+## 2026-06-27T04:05:14.417Z
+- GPT Plus 成品 渠道🔥 没接码｜ 可网页也支持 Codex 反代| 没绑定手机
+  - Stock: 0 -> 3
+  - Price: 26
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/9tfn9v
+
