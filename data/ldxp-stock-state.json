@@ -2679,43 +2679,5 @@
       "lastChangedAt": "2026-06-27T07:50:18.207Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "yufna6",
-      "name": "普拉斯 成品号，荷兰渠道，未接码",
-      "link": "https://pay.ldxp.cn/item/yufna6",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 23.4,
-      "stock": 8,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-06-27T07:50:18.207Z",
-      "alertId": "new_in_stock|yufna6|新上架|8|",
-      "queuedAt": "2026-06-27T07:50:18.207Z"
-    },
-    {
-      "key": "unu10b",
-      "name": "iCloud邮箱-PLUS成品号-质保首登-带2FA认证",
-      "link": "https://pay.ldxp.cn/item/unu10b",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 22.1,
-      "stock": 6,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T07:40:18.661Z",
-      "checkedAt": "2026-06-27T07:50:18.207Z",
-      "alertId": "restocked|unu10b|0|6|2026-06-27T07:40:18.661Z",
-      "queuedAt": "2026-06-27T07:50:18.207Z"
-    }
-  ]
+  }
 }
