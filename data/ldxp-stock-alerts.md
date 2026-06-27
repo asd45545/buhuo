@@ -2228,3 +2228,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-27T09:00:29.890Z
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 16
+  - Price: 22.1
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 3
+  - Price: 19.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 4
+  - Price: 24.05
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g2u9g7
+
