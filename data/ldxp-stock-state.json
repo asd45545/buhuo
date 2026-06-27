@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1083,
+  "runs": 1084,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T23:25:12.435Z",
+  "updatedAt": "2026-06-27T23:30:22.741Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -188,13 +188,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.45,
-      "stock": 27,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:25:12.185Z",
-      "lastChangedAt": "2026-06-27T17:25:12.185Z",
+      "lastSeenAt": "2026-06-27T23:30:22.741Z",
+      "lastChangedAt": "2026-06-27T23:30:22.741Z",
       "missingSince": null
     },
     "l3jsoj": {
@@ -562,13 +562,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 29,
+      "stock": 24,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T21:15:15.373Z",
-      "lastChangedAt": "2026-06-27T21:15:15.373Z",
+      "lastSeenAt": "2026-06-27T23:30:22.741Z",
+      "lastChangedAt": "2026-06-27T23:30:22.741Z",
       "missingSince": null
     },
     "6byvu1": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 13,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T22:35:12.251Z",
-      "lastChangedAt": "2026-06-27T22:35:12.251Z",
+      "lastSeenAt": "2026-06-27T23:30:22.741Z",
+      "lastChangedAt": "2026-06-27T23:30:22.741Z",
       "missingSince": null
     },
     "go054j": {
@@ -2626,7 +2626,7 @@
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
       "lastSeenAt": "2026-06-27T22:02:52.168Z",
       "lastChangedAt": "2026-06-27T22:02:52.168Z",
-      "missingSince": null
+      "missingSince": "2026-06-27T23:30:22.741Z"
     },
     "5jylhj": {
       "key": "5jylhj",
