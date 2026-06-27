@@ -2400,3 +2400,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4rukz6
 
+## 2026-06-27T14:10:18.855Z
+- 已接码🔥UPI渠道日抛Plus成品带RT 可登网页 codex/cpa/sub 保首登
+  - Stock: 0 -> 13
+  - Price: 14.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/pfz6mj
+
