@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1027,
+  "runs": 1028,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T17:35:12.808Z",
+  "updatedAt": "2026-06-27T17:40:18.219Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 6.45,
-      "stock": 119,
+      "stock": 118,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:20:18.421Z",
-      "lastChangedAt": "2026-06-27T17:20:18.421Z",
+      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastChangedAt": "2026-06-27T17:40:18.219Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 205,
+      "stock": 204,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:30:25.159Z",
-      "lastChangedAt": "2026-06-27T17:30:25.159Z",
+      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastChangedAt": "2026-06-27T17:40:18.219Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.8,
-      "stock": 294,
+      "stock": 293,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:10:19.795Z",
-      "lastChangedAt": "2026-06-27T17:10:19.795Z",
+      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastChangedAt": "2026-06-27T17:40:18.219Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-27T17:30:25.159Z",
+      "stock": 24,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:30:25.159Z",
-      "lastChangedAt": "2026-06-27T17:30:25.159Z",
+      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastChangedAt": "2026-06-27T17:40:18.219Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 26.25,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-27T17:30:25.159Z",
+      "stock": 5,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:30:25.159Z",
-      "lastChangedAt": "2026-06-27T17:30:25.159Z",
+      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastChangedAt": "2026-06-27T17:40:18.219Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -1378,13 +1378,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 250,
-      "stock": 21,
+      "stock": 19,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T14:55:13.202Z",
-      "lastChangedAt": "2026-06-27T14:55:13.202Z",
+      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastChangedAt": "2026-06-27T17:40:18.219Z",
       "missingSince": null
     },
     "lwhjp0": {
@@ -1582,13 +1582,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.5,
-      "stock": 134,
+      "stock": 133,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:30:25.159Z",
-      "lastChangedAt": "2026-06-27T17:30:25.159Z",
+      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastChangedAt": "2026-06-27T17:40:18.219Z",
       "missingSince": null
     },
     "s3o0c6": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 360,
+      "stock": 309,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-27T17:00:28.038Z",
-      "lastChangedAt": "2026-06-27T17:00:28.038Z",
+      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastChangedAt": "2026-06-27T17:40:18.219Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2713,5 +2713,43 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "4xsj1w",
+      "name": "GPT PLUS成品号",
+      "link": "https://pay.ldxp.cn/item/4xsj1w",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 20,
+      "stock": 24,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-27T17:30:25.159Z",
+      "checkedAt": "2026-06-27T17:40:18.219Z",
+      "alertId": "restocked|4xsj1w|0|24|2026-06-27T17:30:25.159Z",
+      "queuedAt": "2026-06-27T17:40:18.219Z"
+    },
+    {
+      "key": "kdsr0p",
+      "name": "GPT PLUS成品号（质保三天）",
+      "link": "https://pay.ldxp.cn/item/kdsr0p",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 26.25,
+      "stock": 5,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-27T17:30:25.159Z",
+      "checkedAt": "2026-06-27T17:40:18.219Z",
+      "alertId": "restocked|kdsr0p|0|5|2026-06-27T17:30:25.159Z",
+      "queuedAt": "2026-06-27T17:40:18.219Z"
+    }
+  ]
 }
