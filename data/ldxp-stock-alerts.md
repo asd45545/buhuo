@@ -2313,3 +2313,10 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/l3su3k
 
+## 2026-06-27T10:50:19.307Z
+- GPT PLUS成品号
+  - Stock: 0 -> 6
+  - Price: 20
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
