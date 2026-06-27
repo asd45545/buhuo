@@ -2696,25 +2696,5 @@
       "lastChangedAt": "2026-06-27T11:35:13.415Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "hia70r",
-      "name": "谷歌邮箱【成品plus】质保首登，6月24新货，不是库存",
-      "link": "https://pay.ldxp.cn/item/hia70r",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 24.7,
-      "stock": 23,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T03:00:28.711Z",
-      "checkedAt": "2026-06-27T12:50:18.988Z",
-      "alertId": "restocked|hia70r|0|23|2026-06-27T03:00:28.711Z",
-      "queuedAt": "2026-06-27T12:50:18.988Z"
-    }
-  ]
+  }
 }
