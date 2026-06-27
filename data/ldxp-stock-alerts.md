@@ -1941,3 +1941,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/unu10b
 
+## 2026-06-27T02:05:14.278Z
+- gpt plus 成品【已接码 日抛 只发json 只能反代使用 内附登录教程 看不懂不要拍】
+  - Stock: 0 -> 30
+  - Price: 17
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/omjbr8
+- gpt plus 成品【已接码 支持二验 邮箱登录 非日抛 看运气】
+  - Stock: 0 -> 4
+  - Price: 22.75
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/1dquh6
+
