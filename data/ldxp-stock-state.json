@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1049,
+  "runs": 1050,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T19:25:12.582Z",
+  "updatedAt": "2026-06-27T19:30:22.718Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1264,9 +1264,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastSeenAt": "2026-06-27T19:30:22.718Z",
       "lastChangedAt": "2026-06-27T17:40:18.219Z",
-      "missingSince": "2026-06-27T17:50:17.813Z"
+      "missingSince": null
     },
     "go054j": {
       "key": "go054j",
@@ -1315,9 +1315,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T17:40:18.219Z",
+      "lastSeenAt": "2026-06-27T19:30:22.718Z",
       "lastChangedAt": "2026-06-27T17:40:18.219Z",
-      "missingSince": "2026-06-27T17:50:17.813Z"
+      "missingSince": null
     },
     "zh9cir": {
       "key": "zh9cir",
@@ -2449,13 +2449,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 22.1,
-      "stock": 7,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
-      "lastSeenAt": "2026-06-27T17:50:17.813Z",
-      "lastChangedAt": "2026-06-27T17:50:17.813Z",
+      "lastSeenAt": "2026-06-27T19:30:22.718Z",
+      "lastChangedAt": "2026-06-27T19:30:22.718Z",
       "missingSince": null
     },
     "wntyd1": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 118,
+      "stock": 117,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-27T19:15:17.315Z",
-      "lastChangedAt": "2026-06-27T19:15:17.315Z",
+      "lastSeenAt": "2026-06-27T19:30:22.718Z",
+      "lastChangedAt": "2026-06-27T19:30:22.718Z",
       "missingSince": null
     },
     "v1dwzl": {
