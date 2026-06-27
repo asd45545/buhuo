@@ -2100,3 +2100,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/9tfn9v
 
+## 2026-06-27T05:30:25.615Z
+- gpt pro 20x cdk 谷歌订阅自助充值，质保充值成功和秒抛
+  - Stock: 0 -> 50
+  - Price: 270
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/c2zw5w
+
