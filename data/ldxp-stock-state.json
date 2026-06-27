@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 960,
+  "runs": 961,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-27T12:00:31.410Z",
+  "updatedAt": "2026-06-27T12:05:12.162Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.83,
-      "stock": 196,
+      "stock": 194,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T11:50:18.553Z",
-      "lastChangedAt": "2026-06-27T11:50:18.553Z",
+      "lastSeenAt": "2026-06-27T12:05:12.162Z",
+      "lastChangedAt": "2026-06-27T12:05:12.162Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -885,13 +885,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 146.3,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-27T08:00:28.344Z",
+      "stock": 5,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T08:00:28.344Z",
-      "lastChangedAt": "2026-06-27T08:00:28.344Z",
+      "lastSeenAt": "2026-06-27T12:05:12.162Z",
+      "lastChangedAt": "2026-06-27T12:05:12.162Z",
       "missingSince": null
     },
     "y13fah": {
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 123,
+      "stock": 122,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T11:30:27.952Z",
-      "lastChangedAt": "2026-06-27T11:30:27.952Z",
+      "lastSeenAt": "2026-06-27T12:05:12.162Z",
+      "lastChangedAt": "2026-06-27T12:05:12.162Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20,
-      "stock": 4,
+      "stock": 20,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T11:55:11.604Z",
-      "lastChangedAt": "2026-06-27T11:55:11.604Z",
+      "lastSeenAt": "2026-06-27T12:05:12.162Z",
+      "lastChangedAt": "2026-06-27T12:05:12.162Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 26.25,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-27T11:55:11.604Z",
+      "stock": 5,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-27T11:55:11.604Z",
-      "lastChangedAt": "2026-06-27T11:55:11.604Z",
+      "lastSeenAt": "2026-06-27T12:05:12.162Z",
+      "lastChangedAt": "2026-06-27T12:05:12.162Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 61,
+      "stock": 55,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-27T12:00:31.410Z",
-      "lastChangedAt": "2026-06-27T12:00:31.410Z",
+      "lastSeenAt": "2026-06-27T12:05:12.162Z",
+      "lastChangedAt": "2026-06-27T12:05:12.162Z",
       "missingSince": null
     },
     "v1dwzl": {
@@ -2696,5 +2696,43 @@
       "lastChangedAt": "2026-06-27T11:35:13.415Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "kgu373",
+      "name": "Claude pro尼区ios卡密",
+      "link": "https://pay.ldxp.cn/item/kgu373",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 146.3,
+      "stock": 5,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-27T08:00:28.344Z",
+      "checkedAt": "2026-06-27T12:05:12.162Z",
+      "alertId": "restocked|kgu373|0|5|2026-06-27T08:00:28.344Z",
+      "queuedAt": "2026-06-27T12:05:12.162Z"
+    },
+    {
+      "key": "kdsr0p",
+      "name": "GPT PLUS成品号（质保三天）",
+      "link": "https://pay.ldxp.cn/item/kdsr0p",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 26.25,
+      "stock": 5,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-27T11:55:11.604Z",
+      "checkedAt": "2026-06-27T12:05:12.162Z",
+      "alertId": "restocked|kdsr0p|0|5|2026-06-27T11:55:11.604Z",
+      "queuedAt": "2026-06-27T12:05:12.162Z"
+    }
+  ]
 }
