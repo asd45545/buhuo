@@ -2781,43 +2781,5 @@
       "lastChangedAt": "2026-06-28T12:40:17.147Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "budolx",
-      "name": "最新PP渠道 iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码登录",
-      "link": "https://pay.ldxp.cn/item/budolx",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 21,
-      "stock": 3,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T10:00:26.475Z",
-      "checkedAt": "2026-06-28T12:55:12.043Z",
-      "alertId": "restocked|budolx|0|3|2026-06-28T10:00:26.475Z",
-      "queuedAt": "2026-06-28T12:55:12.043Z"
-    },
-    {
-      "key": "h4vvrc",
-      "name": "iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码",
-      "link": "https://pay.ldxp.cn/item/h4vvrc",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 19.5,
-      "stock": 47,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T08:20:16.952Z",
-      "checkedAt": "2026-06-28T12:55:12.043Z",
-      "alertId": "restocked|h4vvrc|0|47|2026-06-28T08:20:16.952Z",
-      "queuedAt": "2026-06-28T12:55:12.043Z"
-    }
-  ]
+  }
 }
