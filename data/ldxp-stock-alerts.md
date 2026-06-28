@@ -2748,3 +2748,10 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/b6yp1v
 
+## 2026-06-28T09:28:11.214Z
+- GPTpro20x CDK自行兑换
+  - Stock: 0 -> 18
+  - Price: 220
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/3u60wr
+
