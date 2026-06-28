@@ -2781,25 +2781,5 @@
       "lastChangedAt": "2026-06-28T12:40:17.147Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "omjbr8",
-      "name": "gpt plus 成品【已接码 日抛 只发json 只能反代使用 内附登录教程 看不懂不要拍】",
-      "link": "https://pay.ldxp.cn/item/omjbr8",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 16,
-      "stock": 50,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T08:25:13.582Z",
-      "checkedAt": "2026-06-28T13:05:12.641Z",
-      "alertId": "restocked|omjbr8|0|50|2026-06-27T08:25:13.582Z",
-      "queuedAt": "2026-06-28T13:05:12.641Z"
-    }
-  ]
+  }
 }
