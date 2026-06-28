@@ -2861,3 +2861,15 @@
   - Category: Gemini
   - Link: https://pay.ldxp.cn/item/iyuoym
 
+## 2026-06-28T18:05:12.756Z
+- Gemini Pro 12个月成品【质保首登丨官方订阅】20-24年高权重老邮箱账号
+  - Stock: 0 -> 1
+  - Price: 21
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/iyuoym
+- GPT pro20x 成品保首登
+  - Stock: 0 -> 1
+  - Price: 220
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/3u60wr
+
