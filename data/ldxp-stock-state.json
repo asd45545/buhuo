@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1320,
+  "runs": 1321,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-28T19:00:28.257Z",
+  "updatedAt": "2026-06-28T19:05:12.135Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -154,13 +154,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19.9,
-      "stock": 18,
+      "stock": 17,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T06:35:13.065Z",
-      "lastChangedAt": "2026-06-28T06:35:13.065Z",
+      "lastSeenAt": "2026-06-28T19:05:12.135Z",
+      "lastChangedAt": "2026-06-28T19:05:12.135Z",
       "missingSince": null
     },
     "55cstm": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.78,
-      "stock": 307,
+      "stock": 507,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T18:40:18.498Z",
-      "lastChangedAt": "2026-06-28T18:40:18.498Z",
+      "lastSeenAt": "2026-06-28T19:05:12.135Z",
+      "lastChangedAt": "2026-06-28T19:05:12.135Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 11.25,
-      "stock": 28,
+      "stock": 27,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T18:40:18.498Z",
-      "lastChangedAt": "2026-06-28T18:40:18.498Z",
+      "lastSeenAt": "2026-06-28T19:05:12.135Z",
+      "lastChangedAt": "2026-06-28T19:05:12.135Z",
       "missingSince": null
     },
     "zcj8wf": {
