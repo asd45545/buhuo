@@ -2814,3 +2814,15 @@
   - Category: Grok
   - Link: https://pay.ldxp.cn/item/zcj8wf
 
+## 2026-06-28T12:55:12.043Z
+- 最新PP渠道 iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码登录
+  - Stock: 0 -> 3
+  - Price: 21
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/budolx
+- iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码
+  - Stock: 0 -> 47
+  - Price: 19.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/h4vvrc
+
