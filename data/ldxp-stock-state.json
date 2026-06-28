@@ -2781,43 +2781,5 @@
       "lastChangedAt": "2026-06-28T18:05:12.756Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "iyuoym",
-      "name": "Gemini Pro 12个月成品【质保首登丨官方订阅】20-24年高权重老邮箱账号",
-      "link": "https://pay.ldxp.cn/item/iyuoym",
-      "goodsType": "card",
-      "categoryId": 111637,
-      "categoryName": "Gemini",
-      "price": 21,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T18:00:26.106Z",
-      "checkedAt": "2026-06-28T18:05:12.756Z",
-      "alertId": "restocked|iyuoym|0|1|2026-06-28T18:00:26.106Z",
-      "queuedAt": "2026-06-28T18:05:12.756Z"
-    },
-    {
-      "key": "3u60wr",
-      "name": "GPT pro20x 成品保首登",
-      "link": "https://pay.ldxp.cn/item/3u60wr",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 220,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T13:35:14.237Z",
-      "checkedAt": "2026-06-28T18:05:12.756Z",
-      "alertId": "restocked|3u60wr|0|1|2026-06-28T13:35:14.237Z",
-      "queuedAt": "2026-06-28T18:05:12.756Z"
-    }
-  ]
+  }
 }
