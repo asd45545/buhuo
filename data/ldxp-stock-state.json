@@ -2713,25 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "v1dwzl",
-      "name": "【6.26pp渠道】微软邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex",
-      "link": "https://pay.ldxp.cn/item/v1dwzl",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 19.5,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T04:30:25.007Z",
-      "checkedAt": "2026-06-28T05:25:13.349Z",
-      "alertId": "restocked|v1dwzl|0|4|2026-06-28T04:30:25.007Z",
-      "queuedAt": "2026-06-28T05:25:13.349Z"
-    }
-  ]
+  }
 }
