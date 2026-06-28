@@ -2854,3 +2854,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/1dquh6
 
+## 2026-06-28T17:40:16.832Z
+- Gemini Pro 12个月成品【质保首登丨官方订阅】20-24年高权重老邮箱账号
+  - Stock: 0 -> 1
+  - Price: 21
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/iyuoym
+
