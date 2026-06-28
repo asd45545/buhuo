@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1323,
+  "runs": 1324,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-28T19:15:16.744Z",
+  "updatedAt": "2026-06-28T19:20:18.358Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -562,13 +562,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 15,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T17:10:16.572Z",
-      "lastChangedAt": "2026-06-28T17:10:16.572Z",
+      "lastSeenAt": "2026-06-28T19:20:18.358Z",
+      "lastChangedAt": "2026-06-28T19:20:18.358Z",
       "missingSince": null
     },
     "6byvu1": {
@@ -1888,13 +1888,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.05,
-      "stock": 42,
+      "stock": 41,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:47:48.119Z",
-      "lastSeenAt": "2026-06-28T13:40:17.335Z",
-      "lastChangedAt": "2026-06-28T13:40:17.335Z",
+      "lastSeenAt": "2026-06-28T19:20:18.358Z",
+      "lastChangedAt": "2026-06-28T19:20:18.358Z",
       "missingSince": null
     },
     "3v5tqo": {
