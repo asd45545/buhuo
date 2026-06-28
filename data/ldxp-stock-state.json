@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1141,
+  "runs": 1142,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-28T04:15:16.030Z",
+  "updatedAt": "2026-06-28T04:20:17.098Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1326,
+      "stock": 1320,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T04:00:27.626Z",
-      "lastChangedAt": "2026-06-28T04:00:27.626Z",
+      "lastSeenAt": "2026-06-28T04:20:17.098Z",
+      "lastChangedAt": "2026-06-28T04:20:17.098Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -324,13 +324,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 134,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-28T04:05:12.903Z",
+      "stock": 10,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T04:05:12.903Z",
-      "lastChangedAt": "2026-06-28T04:05:12.903Z",
+      "lastSeenAt": "2026-06-28T04:20:17.098Z",
+      "lastChangedAt": "2026-06-28T04:20:17.098Z",
       "missingSince": null
     },
     "ir7b3h": {
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 105,
+      "stock": 104,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T04:15:16.030Z",
-      "lastChangedAt": "2026-06-28T04:15:16.030Z",
+      "lastSeenAt": "2026-06-28T04:20:17.098Z",
+      "lastChangedAt": "2026-06-28T04:20:17.098Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1011,7 +1011,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-28T02:10:17.812Z",
       "lastChangedAt": "2026-06-28T02:10:17.812Z",
-      "missingSince": null
+      "missingSince": "2026-06-28T04:20:17.098Z"
     },
     "5dsz18": {
       "key": "5dsz18",
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 188,
+      "stock": 180,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-28T03:45:16.508Z",
-      "lastChangedAt": "2026-06-28T03:45:16.508Z",
+      "lastSeenAt": "2026-06-28T04:20:17.098Z",
+      "lastChangedAt": "2026-06-28T04:20:17.098Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2449,13 +2449,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 23.4,
-      "stock": 30,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
-      "lastSeenAt": "2026-06-28T04:15:16.030Z",
-      "lastChangedAt": "2026-06-28T04:15:16.030Z",
+      "lastSeenAt": "2026-06-28T04:20:17.098Z",
+      "lastChangedAt": "2026-06-28T04:20:17.098Z",
       "missingSince": null
     },
     "wntyd1": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 133,
+      "stock": 120,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-28T04:15:16.030Z",
-      "lastChangedAt": "2026-06-28T04:15:16.030Z",
+      "lastSeenAt": "2026-06-28T04:20:17.098Z",
+      "lastChangedAt": "2026-06-28T04:20:17.098Z",
       "missingSince": null
     },
     "v1dwzl": {
@@ -2713,5 +2713,25 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "dt897i",
+      "name": "🌟GPT Plus  卡密【官方卡冲~保订阅】（菲区卡充）【可自助兑换】支持续费【端午特价来袭】",
+      "link": "https://pay.ldxp.cn/item/dt897i",
+      "goodsType": "card",
+      "categoryId": 111628,
+      "categoryName": "✅GPT 正规渠道代充",
+      "price": 134,
+      "stock": 10,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-28T04:05:12.903Z",
+      "checkedAt": "2026-06-28T04:20:17.098Z",
+      "alertId": "restocked|dt897i|0|10|2026-06-28T04:05:12.903Z",
+      "queuedAt": "2026-06-28T04:20:17.098Z"
+    }
+  ]
 }
