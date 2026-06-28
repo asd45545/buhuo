@@ -2741,3 +2741,10 @@
   - Category: 接码
   - Link: https://pay.ldxp.cn/item/r06ima
 
+## 2026-06-28T09:20:17.309Z
+- 可批发 GPT Pro20x CDK充值 包激活 激活后无质保
+  - Stock: 0 -> 1
+  - Price: 250
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/b6yp1v
+
