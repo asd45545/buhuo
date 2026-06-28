@@ -2586,3 +2586,40 @@
   - Category: ✅GPT 正规渠道代充
   - Link: https://pay.ldxp.cn/item/dt897i
 
+## 2026-06-28T04:45:17.234Z
+- 100个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 5
+  - Price: 573.33
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/ir7b3h
+- 1个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 499
+  - Price: 6.45
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 30个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 16
+  - Price: 180.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+- 50个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 10
+  - Price: 286.67
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/nq08tb
+- 5个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 100
+  - Price: 32.25
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 1
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- GPT PLUS成品号
+  - Stock: 0 -> 26
+  - Price: 20
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
