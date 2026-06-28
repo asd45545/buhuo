@@ -2546,3 +2546,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/budolx
 
+## 2026-06-28T02:30:22.866Z
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 3
+  - Price: 23.4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+
