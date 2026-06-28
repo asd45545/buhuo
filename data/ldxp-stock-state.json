@@ -2781,25 +2781,5 @@
       "lastChangedAt": "2026-06-28T13:35:14.237Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "iyuoym",
-      "name": "Gemini Pro 12个月成品【质保首登丨官方订阅】20-24年高权重老邮箱账号",
-      "link": "https://pay.ldxp.cn/item/iyuoym",
-      "goodsType": "card",
-      "categoryId": 111637,
-      "categoryName": "Gemini",
-      "price": 21,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T17:10:16.572Z",
-      "checkedAt": "2026-06-28T17:40:16.832Z",
-      "alertId": "restocked|iyuoym|0|1|2026-06-28T17:10:16.572Z",
-      "queuedAt": "2026-06-28T17:40:16.832Z"
-    }
-  ]
+  }
 }
