@@ -2713,25 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80.03,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T04:50:20.299Z",
-      "checkedAt": "2026-06-28T04:55:12.871Z",
-      "alertId": "restocked|ktiyr3|0|2|2026-06-28T04:50:20.299Z",
-      "queuedAt": "2026-06-28T04:55:12.871Z"
-    }
-  ]
+  }
 }
