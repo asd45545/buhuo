@@ -2713,25 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "budolx",
-      "name": "最新PP渠道 iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码登录",
-      "link": "https://pay.ldxp.cn/item/budolx",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 21,
-      "stock": 20,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T07:05:12.797Z",
-      "checkedAt": "2026-06-28T02:25:12.630Z",
-      "alertId": "restocked|budolx|0|20|2026-06-27T07:05:12.797Z",
-      "queuedAt": "2026-06-28T02:25:12.630Z"
-    }
-  ]
+  }
 }
