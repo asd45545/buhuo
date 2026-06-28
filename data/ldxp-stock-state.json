@@ -2781,25 +2781,5 @@
       "lastChangedAt": "2026-06-28T08:40:16.902Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "b6yp1v",
-      "name": "可批发 GPT Pro20x CDK充值 包激活 激活后无质保",
-      "link": "https://pay.ldxp.cn/item/b6yp1v",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 250,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T09:10:20.090Z",
-      "checkedAt": "2026-06-28T09:20:17.309Z",
-      "alertId": "restocked|b6yp1v|0|1|2026-06-28T09:10:20.090Z",
-      "queuedAt": "2026-06-28T09:20:17.309Z"
-    }
-  ]
+  }
 }
