@@ -2647,3 +2647,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-28T05:05:13.375Z
+- 【codex-反代】k12team成品（只能反代，买错不退）
+  - Stock: 0 -> 80
+  - Price: 7
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+
