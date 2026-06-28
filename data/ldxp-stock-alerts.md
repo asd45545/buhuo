@@ -2826,3 +2826,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/h4vvrc
 
+## 2026-06-28T13:05:12.641Z
+- gpt plus 成品【已接码 日抛 只发json 只能反代使用 内附登录教程 看不懂不要拍】
+  - Stock: 0 -> 50
+  - Price: 16
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/omjbr8
+
