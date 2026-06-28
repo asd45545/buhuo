@@ -2654,3 +2654,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zak7xw
 
+## 2026-06-28T05:25:13.349Z
+- 【6.26pp渠道】微软邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 4
+  - Price: 19.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/v1dwzl
+
