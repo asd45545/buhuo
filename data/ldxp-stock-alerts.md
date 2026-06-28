@@ -2623,3 +2623,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-28T04:50:20.299Z
+- 微软长效-outlook-【gr/o2双令牌号】-【英文随机+数字】Graph令牌号和OAuth2-IMAP-POP3
+  - Stock: 0 -> 100
+  - Price: 0.28
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/6byvu1
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 4
+  - Price: 26.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+- k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代
+  - Stock: 0 -> 299
+  - Price: 5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/w6ql6z
+
