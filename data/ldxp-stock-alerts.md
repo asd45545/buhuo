@@ -2682,3 +2682,15 @@
   - Category: Grok
   - Link: https://pay.ldxp.cn/item/zwpqer
 
+## 2026-06-28T07:10:16.804Z
+- gpt plus 成品【已接码 支持二验 邮箱登录 非日抛 看运气】
+  - Stock: 0 -> 9
+  - Price: 23.4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/1dquh6
+- gpt pro 20x
+  - Stock: 新上架 -> 4
+  - Price: 230
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/ic135w
+
