@@ -2722,3 +2722,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-06-28T08:40:16.902Z
+- GPT  Team成品JSON 反代 发cpa 质保首登
+  - Stock: 0 -> 100
+  - Price: 5.85
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/s80xga
+- GPT PLUS成品号
+  - Stock: 0 -> 10
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
