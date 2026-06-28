@@ -2532,3 +2532,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/q0lb2o
 
+## 2026-06-28T02:20:18.501Z
+- iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码
+  - Stock: 0 -> 51
+  - Price: 19.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/h4vvrc
+
