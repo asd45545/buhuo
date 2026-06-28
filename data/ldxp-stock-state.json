@@ -2713,25 +2713,5 @@
       "lastChangedAt": "2026-06-27T14:15:16.774Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "q0lb2o",
-      "name": "Free 已接码",
-      "link": "https://pay.ldxp.cn/item/q0lb2o",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.72,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-27T16:55:12.194Z",
-      "checkedAt": "2026-06-28T02:10:17.812Z",
-      "alertId": "restocked|q0lb2o|0|30|2026-06-27T16:55:12.194Z",
-      "queuedAt": "2026-06-28T02:10:17.812Z"
-    }
-  ]
+  }
 }
