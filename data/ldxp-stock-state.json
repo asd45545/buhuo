@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1203,
+  "runs": 1204,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-28T09:28:11.214Z",
+  "updatedAt": "2026-06-28T09:30:23.573Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 7,
-      "stock": 165,
+      "stock": 164,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T08:25:12.174Z",
-      "lastChangedAt": "2026-06-28T08:25:12.174Z",
+      "lastSeenAt": "2026-06-28T09:30:23.573Z",
+      "lastChangedAt": "2026-06-28T09:30:23.573Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1582,13 +1582,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5,
-      "stock": 58,
+      "stock": 55,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T09:25:12.136Z",
-      "lastChangedAt": "2026-06-28T09:25:12.136Z",
+      "lastSeenAt": "2026-06-28T09:30:23.573Z",
+      "lastChangedAt": "2026-06-28T09:30:23.573Z",
       "missingSince": null
     },
     "s3o0c6": {
@@ -2449,13 +2449,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 23.4,
-      "stock": 36,
+      "stock": 35,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
-      "lastSeenAt": "2026-06-28T09:20:17.309Z",
-      "lastChangedAt": "2026-06-28T09:20:17.309Z",
+      "lastSeenAt": "2026-06-28T09:30:23.573Z",
+      "lastChangedAt": "2026-06-28T09:30:23.573Z",
       "missingSince": null
     },
     "wntyd1": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 82,
+      "stock": 79,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-28T09:25:12.136Z",
-      "lastChangedAt": "2026-06-28T09:25:12.136Z",
+      "lastSeenAt": "2026-06-28T09:30:23.573Z",
+      "lastChangedAt": "2026-06-28T09:30:23.573Z",
       "missingSince": null
     },
     "v1dwzl": {
@@ -2766,19 +2766,19 @@
     },
     "3u60wr": {
       "key": "3u60wr",
-      "name": "GPTpro20x CDK自行兑换",
+      "name": "GPT pro20x 成品保首登",
       "link": "https://pay.ldxp.cn/item/3u60wr",
       "goodsType": "card",
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 18,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:40:16.902Z",
-      "lastSeenAt": "2026-06-28T09:28:11.214Z",
-      "lastChangedAt": "2026-06-28T09:28:11.214Z",
+      "lastSeenAt": "2026-06-28T09:30:23.573Z",
+      "lastChangedAt": "2026-06-28T09:30:23.573Z",
       "missingSince": null
     }
   }
