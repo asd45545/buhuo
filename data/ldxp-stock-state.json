@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1135,
+  "runs": 1136,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-28T03:45:16.508Z",
+  "updatedAt": "2026-06-28T03:50:19.492Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -188,13 +188,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.45,
-      "stock": 11,
+      "stock": 10,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T03:30:22.927Z",
-      "lastChangedAt": "2026-06-28T03:30:22.927Z",
+      "lastSeenAt": "2026-06-28T03:50:19.492Z",
+      "lastChangedAt": "2026-06-28T03:50:19.492Z",
       "missingSince": null
     },
     "l3jsoj": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 197,
+      "stock": 196,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T03:45:16.508Z",
-      "lastChangedAt": "2026-06-28T03:45:16.508Z",
+      "lastSeenAt": "2026-06-28T03:50:19.492Z",
+      "lastChangedAt": "2026-06-28T03:50:19.492Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1786,13 +1786,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 19.6,
-      "stock": 1,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T10:19:27.990Z",
-      "lastSeenAt": "2026-06-28T02:45:18.425Z",
-      "lastChangedAt": "2026-06-28T02:45:18.425Z",
+      "lastSeenAt": "2026-06-28T03:50:19.492Z",
+      "lastChangedAt": "2026-06-28T03:50:19.492Z",
       "missingSince": null
     },
     "akz9ns": {
@@ -2296,13 +2296,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 25,
-      "stock": 65,
+      "stock": 64,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-06-28T02:40:17.147Z",
-      "lastChangedAt": "2026-06-28T02:40:17.147Z",
+      "lastSeenAt": "2026-06-28T03:50:19.492Z",
+      "lastChangedAt": "2026-06-28T03:50:19.492Z",
       "missingSince": null
     },
     "hsf9yk": {
