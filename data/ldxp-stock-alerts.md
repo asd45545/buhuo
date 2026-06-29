@@ -3152,3 +3152,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-29T11:30:19.027Z
+- gpt team 反代专用 k12 账号
+  - Stock: 0 -> 75
+  - Price: 4.5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/527re2
+
