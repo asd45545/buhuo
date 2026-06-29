@@ -3133,3 +3133,15 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/3u60wr
 
+## 2026-06-29T10:40:14.626Z
+- 【质保1次】GPT Pro20x 1小时掉订阅补1次！【黑充号非退款流时抛号可比】
+  - Stock: 0 -> 69
+  - Price: 220
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/l3su3k
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 21
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
