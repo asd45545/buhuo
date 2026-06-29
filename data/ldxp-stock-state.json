@@ -2798,25 +2798,5 @@
       "lastChangedAt": "2026-06-29T01:55:12.580Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "h4vvrc",
-      "name": "iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码",
-      "link": "https://pay.ldxp.cn/item/h4vvrc",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 17.6,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-29T01:25:12.928Z",
-      "checkedAt": "2026-06-29T02:15:16.256Z",
-      "alertId": "restocked|h4vvrc|0|2|2026-06-29T01:25:12.928Z",
-      "queuedAt": "2026-06-29T02:15:16.256Z"
-    }
-  ]
+  }
 }
