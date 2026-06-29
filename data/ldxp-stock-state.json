@@ -2798,25 +2798,5 @@
       "lastChangedAt": "2026-06-29T01:50:19.089Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "g682hk",
-      "name": "【628新 RT接码】GPT PLUS （反代使用）",
-      "link": "https://pay.ldxp.cn/item/g682hk",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 11.7,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-06-29T01:50:19.089Z",
-      "alertId": "new_in_stock|g682hk|新上架|2|",
-      "queuedAt": "2026-06-29T01:50:19.089Z"
-    }
-  ]
+  }
 }
