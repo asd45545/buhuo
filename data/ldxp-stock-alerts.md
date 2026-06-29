@@ -3013,3 +3013,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-29T05:30:25.057Z
+- codex接码 如题
+  - Stock: 新上架 -> 26
+  - Price: 2.2
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/sgvpms
+- gpt team 反代专用 k12 账号
+  - Stock: 新上架 -> 306
+  - Price: 4.5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/527re2
+
