@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1380,
+  "runs": 1381,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-29T00:35:13.804Z",
+  "updatedAt": "2026-06-29T00:40:18.162Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1281,
+      "stock": 1251,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T20:55:12.511Z",
-      "lastChangedAt": "2026-06-28T20:55:12.511Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -647,13 +647,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20.4,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-29T00:10:18.929Z",
+      "stock": 7,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T00:10:18.929Z",
-      "lastChangedAt": "2026-06-29T00:10:18.929Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "lxak6h": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.75,
-      "stock": 890,
+      "stock": 880,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-28T17:25:12.207Z",
-      "lastChangedAt": "2026-06-28T16:45:15.689Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 51,
+      "stock": 50,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T00:20:18.464Z",
-      "lastChangedAt": "2026-06-29T00:20:18.464Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "go054j": {
@@ -1548,13 +1548,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 17.6,
-      "stock": 22,
+      "stock": 15,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T00:10:18.929Z",
-      "lastChangedAt": "2026-06-29T00:10:18.929Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "3jzcuc": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 19,
-      "stock": 20,
+      "stock": 19,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T00:20:18.464Z",
-      "lastChangedAt": "2026-06-29T00:20:18.464Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "zdsmzz": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-29T00:40:18.162Z",
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-28T14:40:16.756Z",
-      "lastChangedAt": "2026-06-28T14:40:16.756Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "r06ima": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 55,
+      "stock": 51,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-29T00:35:13.804Z",
-      "lastChangedAt": "2026-06-29T00:35:13.804Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "v1dwzl": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.85,
-      "stock": 7,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-06-29T00:30:25.678Z",
-      "lastChangedAt": "2026-06-29T00:30:25.678Z",
+      "lastSeenAt": "2026-06-29T00:40:18.162Z",
+      "lastChangedAt": "2026-06-29T00:40:18.162Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2781,5 +2781,25 @@
       "lastChangedAt": "2026-06-28T18:15:15.400Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "budolx",
+      "name": "最新PP渠道 iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码登录",
+      "link": "https://pay.ldxp.cn/item/budolx",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 20.4,
+      "stock": 7,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-29T00:10:18.929Z",
+      "checkedAt": "2026-06-29T00:40:18.162Z",
+      "alertId": "restocked|budolx|0|7|2026-06-29T00:10:18.929Z",
+      "queuedAt": "2026-06-29T00:40:18.162Z"
+    }
+  ]
 }
