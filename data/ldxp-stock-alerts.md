@@ -2958,3 +2958,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/w6ql6z
 
+## 2026-06-29T03:20:18.693Z
+- 【仅质保首登】K12 GPT team，一个号平均额度100刀。cpa格式，需要其他格式自己转换
+  - Stock: 0 -> 187
+  - Price: 5.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/wntyd1
+
