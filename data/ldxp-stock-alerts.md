@@ -3107,3 +3107,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/1dquh6
 
+## 2026-06-29T08:35:10.280Z
+- 【628新 RT接码】GPT PLUS （反代使用）
+  - Stock: 0 -> 30
+  - Price: 12.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g682hk
+
