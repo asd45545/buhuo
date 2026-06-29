@@ -3086,3 +3086,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/da2y2b
 
+## 2026-06-29T08:10:25.862Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 16
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
