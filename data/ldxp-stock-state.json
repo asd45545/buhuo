@@ -2832,43 +2832,5 @@
       "lastChangedAt": "2026-06-29T05:30:25.057Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "sgvpms",
-      "name": "codex接码 如题",
-      "link": "https://pay.ldxp.cn/item/sgvpms",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 2.2,
-      "stock": 26,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-06-29T05:30:25.057Z",
-      "alertId": "new_in_stock|sgvpms|新上架|26|",
-      "queuedAt": "2026-06-29T05:30:25.057Z"
-    },
-    {
-      "key": "527re2",
-      "name": "gpt team 反代专用 k12 账号",
-      "link": "https://pay.ldxp.cn/item/527re2",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4.5,
-      "stock": 306,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-06-29T05:30:25.057Z",
-      "alertId": "new_in_stock|527re2|新上架|306|",
-      "queuedAt": "2026-06-29T05:30:25.057Z"
-    }
-  ]
+  }
 }
