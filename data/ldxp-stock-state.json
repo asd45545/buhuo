@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1631,
+  "runs": 1632,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-29T22:30:21.170Z",
+  "updatedAt": "2026-06-29T22:35:10.654Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -188,13 +188,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.45,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-29T16:25:09.962Z",
+      "stock": 9,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T16:25:09.962Z",
-      "lastChangedAt": "2026-06-29T16:25:09.962Z",
+      "lastSeenAt": "2026-06-29T22:35:10.654Z",
+      "lastChangedAt": "2026-06-29T22:35:10.654Z",
       "missingSince": null
     },
     "l3jsoj": {
@@ -2832,5 +2832,25 @@
       "lastChangedAt": "2026-06-29T12:45:12.861Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "htc8s3",
+      "name": "【随机】谷歌邮箱20-24年",
+      "link": "https://pay.ldxp.cn/item/htc8s3",
+      "goodsType": "card",
+      "categoryId": 111634,
+      "categoryName": "各类邮箱",
+      "price": 8.45,
+      "stock": 9,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-29T16:25:09.962Z",
+      "checkedAt": "2026-06-29T22:35:10.654Z",
+      "alertId": "restocked|htc8s3|0|9|2026-06-29T16:25:09.962Z",
+      "queuedAt": "2026-06-29T22:35:10.654Z"
+    }
+  ]
 }
