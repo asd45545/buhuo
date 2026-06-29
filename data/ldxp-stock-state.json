@@ -2832,25 +2832,5 @@
       "lastChangedAt": "2026-06-29T07:35:13.064Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "da2y2b",
-      "name": "微软长效-hotmail-【gr/o2双令牌号】-【英文随机+数字】Graph令牌号和OAuth2-IMAP-POP3",
-      "link": "https://pay.ldxp.cn/item/da2y2b",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 0.28,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-29T07:10:19.582Z",
-      "checkedAt": "2026-06-29T07:35:13.064Z",
-      "alertId": "restocked|da2y2b|0|100|2026-06-29T07:10:19.582Z",
-      "queuedAt": "2026-06-29T07:35:13.064Z"
-    }
-  ]
+  }
 }
