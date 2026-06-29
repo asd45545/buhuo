@@ -2781,25 +2781,5 @@
       "lastChangedAt": "2026-06-28T18:15:15.400Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "zcj8wf",
-      "name": "Super Grok【7-10天】会员号|独享成品【【质保5天】】------带sso｜域名邮箱",
-      "link": "https://pay.ldxp.cn/item/zcj8wf",
-      "goodsType": "card",
-      "categoryId": 112907,
-      "categoryName": "Grok",
-      "price": 19,
-      "stock": 20,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T18:10:18.916Z",
-      "checkedAt": "2026-06-29T00:20:18.464Z",
-      "alertId": "restocked|zcj8wf|0|20|2026-06-28T18:10:18.916Z",
-      "queuedAt": "2026-06-29T00:20:18.464Z"
-    }
-  ]
+  }
 }
