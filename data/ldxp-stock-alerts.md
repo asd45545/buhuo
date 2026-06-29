@@ -2894,3 +2894,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/unu10b
 
+## 2026-06-29T01:30:27.382Z
+- 【仅质保首登】K12 GPT team，一个号平均额度100刀。cpa格式，需要其他格式自己转换
+  - Stock: 0 -> 89
+  - Price: 5.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/wntyd1
+
