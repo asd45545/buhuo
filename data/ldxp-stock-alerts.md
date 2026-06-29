@@ -3194,3 +3194,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-29T15:50:15.133Z
+- Grok Super（官网代充-质保一个月订阅）
+  - Stock: 0 -> 5
+  - Price: 78
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/rf2vm5
+
