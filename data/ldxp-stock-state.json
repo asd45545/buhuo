@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1628,
+  "runs": 1629,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-29T22:15:14.305Z",
+  "updatedAt": "2026-06-29T22:20:15.596Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.8,
-      "stock": 94,
+      "stock": 92,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T17:20:14.786Z",
-      "lastChangedAt": "2026-06-29T17:20:14.786Z",
+      "lastSeenAt": "2026-06-29T22:20:15.596Z",
+      "lastChangedAt": "2026-06-29T22:20:15.596Z",
       "missingSince": null
     },
     "2grcfq": {
