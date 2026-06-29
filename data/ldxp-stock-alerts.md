@@ -3079,3 +3079,10 @@
   - Category: Claude
   - Link: https://pay.ldxp.cn/item/9vso1a
 
+## 2026-06-29T07:35:13.064Z
+- 微软长效-hotmail-【gr/o2双令牌号】-【英文随机+数字】Graph令牌号和OAuth2-IMAP-POP3
+  - Stock: 0 -> 100
+  - Price: 0.28
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/da2y2b
+
