@@ -2901,3 +2901,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/wntyd1
 
+## 2026-06-29T01:50:19.089Z
+- 【628新 RT接码】GPT PLUS （反代使用）
+  - Stock: 新上架 -> 2
+  - Price: 11.7
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g682hk
+
