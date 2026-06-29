@@ -2965,3 +2965,25 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/wntyd1
 
+## 2026-06-29T03:25:13.087Z
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 254
+  - Price: 0.59
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+- GPT  Team成品JSON 反代 发cpa 质保首登
+  - Stock: 0 -> 99
+  - Price: 5.59
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/s80xga
+- GPT PLUS成品号
+  - Stock: 0 -> 30
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 5
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
