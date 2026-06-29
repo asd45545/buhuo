@@ -2908,3 +2908,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g682hk
 
+## 2026-06-29T02:15:16.256Z
+- iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码
+  - Stock: 0 -> 2
+  - Price: 17.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/h4vvrc
+
