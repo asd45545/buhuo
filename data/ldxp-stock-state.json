@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1638,
+  "runs": 1639,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-29T23:25:10.750Z",
+  "updatedAt": "2026-06-29T23:30:21.479Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -69,13 +69,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 52,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T11:15:12.619Z",
-      "lastChangedAt": "2026-06-29T11:15:12.619Z",
+      "lastSeenAt": "2026-06-29T23:30:21.479Z",
+      "lastChangedAt": "2026-06-29T23:30:21.479Z",
       "missingSince": null
     },
     "h9ef9x": {
@@ -987,13 +987,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 8.8,
-      "stock": 6,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T20:45:12.612Z",
-      "lastChangedAt": "2026-06-29T20:45:12.612Z",
+      "lastSeenAt": "2026-06-29T23:30:21.479Z",
+      "lastChangedAt": "2026-06-29T23:30:21.479Z",
       "missingSince": null
     },
     "q0lb2o": {
