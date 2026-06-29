@@ -3166,3 +3166,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-29T13:20:15.308Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 1
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
