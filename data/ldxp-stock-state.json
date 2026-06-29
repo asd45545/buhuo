@@ -2832,25 +2832,5 @@
       "lastChangedAt": "2026-06-29T12:45:12.861Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4wvlfu",
-      "name": "[欧洲]GPTPlus网页质保首登",
-      "link": "https://pay.ldxp.cn/item/4wvlfu",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 13,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-29T07:00:30.685Z",
-      "checkedAt": "2026-06-29T13:40:14.675Z",
-      "alertId": "restocked|4wvlfu|0|4|2026-06-29T07:00:30.685Z",
-      "queuedAt": "2026-06-29T13:40:14.675Z"
-    }
-  ]
+  }
 }
