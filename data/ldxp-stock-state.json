@@ -2832,25 +2832,5 @@
       "lastChangedAt": "2026-06-29T12:45:12.861Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "g7n6gs",
-      "name": "PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号",
-      "link": "https://pay.ldxp.cn/item/g7n6gs",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 18.85,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-29T14:50:14.382Z",
-      "checkedAt": "2026-06-29T15:55:10.204Z",
-      "alertId": "restocked|g7n6gs|0|1|2026-06-29T14:50:14.382Z",
-      "queuedAt": "2026-06-29T15:55:10.204Z"
-    }
-  ]
+  }
 }
