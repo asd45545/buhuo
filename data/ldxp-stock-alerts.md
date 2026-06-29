@@ -3173,3 +3173,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-29T13:30:19.202Z
+- gpt plus 成品【已接码 支持二验 邮箱登录 非日抛 看运气】
+  - Stock: 0 -> 11
+  - Price: 22.75
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/1dquh6
+
