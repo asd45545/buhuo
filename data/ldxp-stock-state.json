@@ -2832,25 +2832,5 @@
       "lastChangedAt": "2026-06-29T08:15:12.950Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "p8x1sk",
-      "name": "精品稳定个人谷歌Gmail邮箱老号  至少两年以上，2FA/带手机链接 随机地区美区居多",
-      "link": "https://pay.ldxp.cn/item/p8x1sk",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 8.97,
-      "stock": 35,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-29T05:35:12.726Z",
-      "checkedAt": "2026-06-29T08:15:12.950Z",
-      "alertId": "restocked|p8x1sk|0|35|2026-06-29T05:35:12.726Z",
-      "queuedAt": "2026-06-29T08:15:12.950Z"
-    }
-  ]
+  }
 }
