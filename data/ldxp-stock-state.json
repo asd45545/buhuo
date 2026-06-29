@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1602,
+  "runs": 1603,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-29T19:15:13.333Z",
+  "updatedAt": "2026-06-29T19:20:15.692Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.5,
-      "stock": 50,
+      "stock": 49,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T19:10:14.854Z",
-      "lastChangedAt": "2026-06-29T19:10:14.854Z",
+      "lastSeenAt": "2026-06-29T19:20:15.692Z",
+      "lastChangedAt": "2026-06-29T19:20:15.692Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -409,13 +409,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 200,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-29T19:20:15.692Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T17:05:09.391Z",
-      "lastChangedAt": "2026-06-29T17:05:09.391Z",
+      "lastSeenAt": "2026-06-29T19:20:15.692Z",
+      "lastChangedAt": "2026-06-29T19:20:15.692Z",
       "missingSince": null
     },
     "2oh41p": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 22.5,
-      "stock": 10,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T18:50:14.505Z",
-      "lastChangedAt": "2026-06-29T18:50:14.505Z",
+      "lastSeenAt": "2026-06-29T19:20:15.692Z",
+      "lastChangedAt": "2026-06-29T19:20:15.692Z",
       "missingSince": null
     },
     "omh53e": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.59,
-      "stock": 23,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-06-29T19:15:13.333Z",
-      "lastChangedAt": "2026-06-29T19:15:13.333Z",
+      "lastSeenAt": "2026-06-29T19:20:15.692Z",
+      "lastChangedAt": "2026-06-29T19:20:15.692Z",
       "missingSince": null
     },
     "4i7q19": {
