@@ -2832,43 +2832,5 @@
       "lastChangedAt": "2026-06-29T12:45:12.861Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "hsf9yk",
-      "name": "【子邮箱】iCloud 隐私邮箱 （开plus 绑定专用） 不会用不要下",
-      "link": "https://pay.ldxp.cn/item/hsf9yk",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 1.28,
-      "stock": 26,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-29T16:14:40.182Z",
-      "checkedAt": "2026-06-29T16:25:09.962Z",
-      "alertId": "restocked|hsf9yk|0|26|2026-06-29T16:14:40.182Z",
-      "queuedAt": "2026-06-29T16:25:09.962Z"
-    },
-    {
-      "key": "w6ql6z",
-      "name": "k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代",
-      "link": "https://pay.ldxp.cn/item/w6ql6z",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4.5,
-      "stock": 99,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-29T16:20:13.787Z",
-      "checkedAt": "2026-06-29T16:25:09.962Z",
-      "alertId": "restocked|w6ql6z|0|99|2026-06-29T16:20:13.787Z",
-      "queuedAt": "2026-06-29T16:25:09.962Z"
-    }
-  ]
+  }
 }
