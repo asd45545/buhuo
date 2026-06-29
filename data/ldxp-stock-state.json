@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1523,
+  "runs": 1524,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-29T12:20:15.284Z",
+  "updatedAt": "2026-06-29T12:25:10.256Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -834,13 +834,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 507,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T12:10:14.299Z",
-      "lastChangedAt": "2026-06-29T12:10:14.299Z",
+      "lastSeenAt": "2026-06-29T12:25:10.256Z",
+      "lastChangedAt": "2026-06-29T12:25:10.256Z",
       "missingSince": null
     },
     "u883y2": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 644,
+      "stock": 643,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T11:45:13.614Z",
-      "lastChangedAt": "2026-06-29T11:45:13.614Z",
+      "lastSeenAt": "2026-06-29T12:25:10.256Z",
+      "lastChangedAt": "2026-06-29T12:25:10.256Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 92,
+      "stock": 91,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T12:10:14.299Z",
-      "lastChangedAt": "2026-06-29T12:10:14.299Z",
+      "lastSeenAt": "2026-06-29T12:25:10.256Z",
+      "lastChangedAt": "2026-06-29T12:25:10.256Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 80.03,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-29T11:05:10.427Z",
+      "stock": 17,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T11:05:10.427Z",
-      "lastChangedAt": "2026-06-29T11:05:10.427Z",
+      "lastSeenAt": "2026-06-29T12:25:10.256Z",
+      "lastChangedAt": "2026-06-29T12:25:10.256Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.9,
-      "stock": 54,
+      "stock": 53,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-06-29T12:15:13.497Z",
-      "lastChangedAt": "2026-06-29T12:15:13.497Z",
+      "lastSeenAt": "2026-06-29T12:25:10.256Z",
+      "lastChangedAt": "2026-06-29T12:25:10.256Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2823,14 +2823,34 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.5,
-      "stock": 32,
+      "stock": 28,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-29T05:30:25.057Z",
-      "lastSeenAt": "2026-06-29T12:20:15.284Z",
-      "lastChangedAt": "2026-06-29T12:20:15.284Z",
+      "lastSeenAt": "2026-06-29T12:25:10.256Z",
+      "lastChangedAt": "2026-06-29T12:25:10.256Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "ktiyr3",
+      "name": "GPT plus 日本稳定号 质保一个月",
+      "link": "https://pay.ldxp.cn/item/ktiyr3",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 80.03,
+      "stock": 17,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-29T11:05:10.427Z",
+      "checkedAt": "2026-06-29T12:25:10.256Z",
+      "alertId": "restocked|ktiyr3|0|17|2026-06-29T11:05:10.427Z",
+      "queuedAt": "2026-06-29T12:25:10.256Z"
+    }
+  ]
 }
