@@ -3060,3 +3060,15 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-06-29T06:45:18.032Z
+- 谷歌邮箱【成品plus】特价，不是库存号
+  - Stock: 0 -> 3
+  - Price: 16.9
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+- 谷歌邮箱【成品plus】质保三天，不是库存号
+  - Stock: 0 -> 8
+  - Price: 22.37
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/hia70r
+
