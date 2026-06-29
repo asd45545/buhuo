@@ -3100,3 +3100,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/p8x1sk
 
+## 2026-06-29T08:20:13.822Z
+- gpt plus 成品【已接码 支持二验 邮箱登录 非日抛 看运气】
+  - Stock: 0 -> 2
+  - Price: 23.4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/1dquh6
+
