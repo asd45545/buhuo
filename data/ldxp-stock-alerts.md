@@ -3093,3 +3093,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-29T08:15:12.950Z
+- 精品稳定个人谷歌Gmail邮箱老号  至少两年以上，2FA/带手机链接 随机地区美区居多
+  - Stock: 0 -> 35
+  - Price: 8.97
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/p8x1sk
+
