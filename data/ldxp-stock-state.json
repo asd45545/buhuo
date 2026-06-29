@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1564,
+  "runs": 1565,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-29T15:45:12.864Z",
+  "updatedAt": "2026-06-29T15:50:15.133Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -290,13 +290,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 41.15,
-      "stock": 2,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T14:20:14.425Z",
-      "lastChangedAt": "2026-06-29T14:20:14.425Z",
+      "lastSeenAt": "2026-06-29T15:50:15.133Z",
+      "lastChangedAt": "2026-06-29T15:50:15.133Z",
       "missingSince": null
     },
     "2rdly8": {
@@ -1446,13 +1446,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 78,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-23T13:29:47.928Z",
+      "stock": 5,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-23T17:30:12.384Z",
-      "lastChangedAt": "2026-06-23T13:29:47.928Z",
+      "lastSeenAt": "2026-06-29T15:50:15.133Z",
+      "lastChangedAt": "2026-06-29T15:50:15.133Z",
       "missingSince": null
     },
     "rzm7z0": {
@@ -1582,13 +1582,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.5,
-      "stock": 197,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T15:30:20.099Z",
-      "lastChangedAt": "2026-06-29T15:30:20.099Z",
+      "lastSeenAt": "2026-06-29T15:50:15.133Z",
+      "lastChangedAt": "2026-06-29T15:50:15.133Z",
       "missingSince": null
     },
     "s3o0c6": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 220,
-      "stock": 24,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-06-29T14:55:09.696Z",
-      "lastChangedAt": "2026-06-29T14:55:09.696Z",
+      "lastSeenAt": "2026-06-29T15:50:15.133Z",
+      "lastChangedAt": "2026-06-29T15:50:15.133Z",
       "missingSince": null
     },
     "r06ima": {
@@ -2245,13 +2245,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.97,
-      "stock": 6,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:25:12.360Z",
-      "lastSeenAt": "2026-06-29T15:45:12.864Z",
-      "lastChangedAt": "2026-06-29T15:45:12.864Z",
+      "lastSeenAt": "2026-06-29T15:50:15.133Z",
+      "lastChangedAt": "2026-06-29T15:50:15.133Z",
       "missingSince": null
     },
     "3uoyst": {
@@ -2465,13 +2465,13 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 4.55,
+      "price": 5.2,
       "stock": 109,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-29T15:45:12.864Z",
+      "lastSeenAt": "2026-06-29T15:50:15.133Z",
       "lastChangedAt": "2026-06-29T15:45:12.864Z",
       "missingSince": null
     },
@@ -2832,5 +2832,25 @@
       "lastChangedAt": "2026-06-29T12:45:12.861Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "rf2vm5",
+      "name": "Grok Super（官网代充-质保一个月订阅）",
+      "link": "https://pay.ldxp.cn/item/rf2vm5",
+      "goodsType": "card",
+      "categoryId": 112907,
+      "categoryName": "Grok",
+      "price": 78,
+      "stock": 5,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-23T13:29:47.928Z",
+      "checkedAt": "2026-06-29T15:50:15.133Z",
+      "alertId": "restocked|rf2vm5|0|5|2026-06-23T13:29:47.928Z",
+      "queuedAt": "2026-06-29T15:50:15.133Z"
+    }
+  ]
 }
