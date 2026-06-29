@@ -2873,3 +2873,10 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/3u60wr
 
+## 2026-06-29T00:20:18.464Z
+- Super Grok【7-10天】会员号|独享成品【【质保5天】】------带sso｜域名邮箱
+  - Stock: 0 -> 20
+  - Price: 19
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/zcj8wf
+
