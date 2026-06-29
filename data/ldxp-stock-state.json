@@ -2832,43 +2832,5 @@
       "lastChangedAt": "2026-06-29T09:25:09.936Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "7j1wqu",
-      "name": "Dreamina Basic 海外即梦｜成品账号7天（900-1200积分）质保1天--替代grok可用",
-      "link": "https://pay.ldxp.cn/item/7j1wqu",
-      "goodsType": "card",
-      "categoryId": 112907,
-      "categoryName": "Grok",
-      "price": 8.8,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T11:30:25.490Z",
-      "checkedAt": "2026-06-29T09:55:10.466Z",
-      "alertId": "restocked|7j1wqu|0|10|2026-06-26T11:30:25.490Z",
-      "queuedAt": "2026-06-29T09:55:10.466Z"
-    },
-    {
-      "key": "3u60wr",
-      "name": "GPT pro20x 成品保首登",
-      "link": "https://pay.ldxp.cn/item/3u60wr",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 220,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-28T18:15:15.400Z",
-      "checkedAt": "2026-06-29T09:55:10.466Z",
-      "alertId": "restocked|3u60wr|0|10|2026-06-28T18:15:15.400Z",
-      "queuedAt": "2026-06-29T09:55:10.466Z"
-    }
-  ]
+  }
 }
