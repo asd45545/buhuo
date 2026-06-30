@@ -3618,3 +3618,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zdsmzz
 
+## 2026-06-30T15:45:13.580Z
+- 【子邮箱】iCloud 隐私邮箱 （开plus 绑定专用） 不会用不要下
+  - Stock: 0 -> 44
+  - Price: 1.05
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/hsf9yk
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 1
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
