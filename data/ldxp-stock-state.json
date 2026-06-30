@@ -2849,25 +2849,5 @@
       "lastChangedAt": "2026-06-30T07:25:11.040Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "z2b577",
-      "name": "YouTube 接码 美区 【长效30天】业务自测 没问题在批量上（不售后）",
-      "link": "https://pay.ldxp.cn/item/z2b577",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 1.26,
-      "stock": 15,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T07:25:11.040Z",
-      "checkedAt": "2026-06-30T07:30:25.063Z",
-      "alertId": "restocked|z2b577|0|15|2026-06-30T07:25:11.040Z",
-      "queuedAt": "2026-06-30T07:30:25.063Z"
-    }
-  ]
+  }
 }
