@@ -2849,43 +2849,5 @@
       "lastChangedAt": "2026-06-30T10:00:26.744Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "htc8s3",
-      "name": "【随机】谷歌邮箱20-24年",
-      "link": "https://pay.ldxp.cn/item/htc8s3",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 8.45,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T07:05:12.523Z",
-      "checkedAt": "2026-06-30T10:15:13.973Z",
-      "alertId": "restocked|htc8s3|0|10|2026-06-30T07:05:12.523Z",
-      "queuedAt": "2026-06-30T10:15:13.973Z"
-    },
-    {
-      "key": "omjbr8",
-      "name": "gpt plus 成品【已接码 日抛 只发json 只能反代使用 内附登录教程 看不懂不要拍】",
-      "link": "https://pay.ldxp.cn/item/omjbr8",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 12,
-      "stock": 25,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T08:22:14.324Z",
-      "checkedAt": "2026-06-30T10:15:13.973Z",
-      "alertId": "restocked|omjbr8|0|25|2026-06-30T08:22:14.324Z",
-      "queuedAt": "2026-06-30T10:15:13.973Z"
-    }
-  ]
+  }
 }
