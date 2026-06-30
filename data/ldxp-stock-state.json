@@ -2849,43 +2849,5 @@
       "lastChangedAt": "2026-06-30T07:00:29.207Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "w6ql6z",
-      "name": "k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代",
-      "link": "https://pay.ldxp.cn/item/w6ql6z",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4.5,
-      "stock": 200,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T05:25:10.925Z",
-      "checkedAt": "2026-06-30T07:00:29.207Z",
-      "alertId": "restocked|w6ql6z|0|200|2026-06-30T05:25:10.925Z",
-      "queuedAt": "2026-06-30T07:00:29.207Z"
-    },
-    {
-      "key": "g7n6gs",
-      "name": "PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号",
-      "link": "https://pay.ldxp.cn/item/g7n6gs",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 18.85,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T06:40:17.150Z",
-      "checkedAt": "2026-06-30T07:00:29.207Z",
-      "alertId": "restocked|g7n6gs|0|4|2026-06-30T06:40:17.150Z",
-      "queuedAt": "2026-06-30T07:00:29.207Z"
-    }
-  ]
+  }
 }
