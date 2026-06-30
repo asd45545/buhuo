@@ -3367,3 +3367,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/w7geuq
 
+## 2026-06-30T06:35:10.921Z
+- Cursor 接码 美区【长效30天】业务自测 没问题在批量上（不售后）
+  - Stock: 0 -> 15
+  - Price: 1.11
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/tb29tl
+
