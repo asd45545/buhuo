@@ -2849,25 +2849,5 @@
       "lastChangedAt": "2026-06-30T06:35:10.921Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "tb29tl",
-      "name": "Cursor 接码 美区【长效30天】业务自测 没问题在批量上（不售后）",
-      "link": "https://pay.ldxp.cn/item/tb29tl",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 1.11,
-      "stock": 15,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T05:00:27.571Z",
-      "checkedAt": "2026-06-30T06:35:10.921Z",
-      "alertId": "restocked|tb29tl|0|15|2026-06-30T05:00:27.571Z",
-      "queuedAt": "2026-06-30T06:35:10.921Z"
-    }
-  ]
+  }
 }
