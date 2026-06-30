@@ -3428,3 +3428,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-06-30T08:15:17.209Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 1
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- Grok Super官方正规充值2个月卡密（质保不掉订阅）
+  - Stock: 0 -> 2
+  - Price: 148.5
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/zwpqer
+
