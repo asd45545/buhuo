@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1644,
+  "runs": 1645,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-30T00:05:10.297Z",
+  "updatedAt": "2026-06-30T00:10:14.935Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.5,
-      "stock": 15,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-30T00:05:10.297Z",
-      "lastChangedAt": "2026-06-30T00:05:10.297Z",
+      "lastSeenAt": "2026-06-30T00:10:14.935Z",
+      "lastChangedAt": "2026-06-30T00:10:14.935Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 22.5,
-      "stock": 3,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-30T00:05:10.297Z",
-      "lastChangedAt": "2026-06-30T00:05:10.297Z",
+      "lastSeenAt": "2026-06-30T00:10:14.935Z",
+      "lastChangedAt": "2026-06-30T00:10:14.935Z",
       "missingSince": null
     },
     "omh53e": {
@@ -2245,13 +2245,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.97,
-      "stock": 21,
+      "stock": 20,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:25:12.360Z",
-      "lastSeenAt": "2026-06-29T17:50:14.030Z",
-      "lastChangedAt": "2026-06-29T17:50:14.030Z",
+      "lastSeenAt": "2026-06-30T00:10:14.935Z",
+      "lastChangedAt": "2026-06-30T00:10:14.935Z",
       "missingSince": null
     },
     "3uoyst": {
