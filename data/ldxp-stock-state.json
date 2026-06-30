@@ -2849,43 +2849,5 @@
       "lastChangedAt": "2026-06-30T15:30:20.793Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "hsf9yk",
-      "name": "【子邮箱】iCloud 隐私邮箱 （开plus 绑定专用） 不会用不要下",
-      "link": "https://pay.ldxp.cn/item/hsf9yk",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 1.05,
-      "stock": 44,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T15:40:15.875Z",
-      "checkedAt": "2026-06-30T15:45:13.580Z",
-      "alertId": "restocked|hsf9yk|0|44|2026-06-30T15:40:15.875Z",
-      "queuedAt": "2026-06-30T15:45:13.580Z"
-    },
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80.03,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T15:25:10.336Z",
-      "checkedAt": "2026-06-30T15:45:13.580Z",
-      "alertId": "restocked|ktiyr3|0|1|2026-06-30T15:25:10.336Z",
-      "queuedAt": "2026-06-30T15:45:13.580Z"
-    }
-  ]
+  }
 }
