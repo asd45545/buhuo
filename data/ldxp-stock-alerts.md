@@ -3414,3 +3414,10 @@
   - Category: 接码
   - Link: https://pay.ldxp.cn/item/z2b577
 
+## 2026-06-30T07:35:10.815Z
+- team成品 只能反代
+  - Stock: 0 -> 50
+  - Price: 4.29
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zdsmzz
+
