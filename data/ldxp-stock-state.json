@@ -2849,25 +2849,5 @@
       "lastChangedAt": "2026-06-30T14:35:09.959Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "zdsmzz",
-      "name": "team成品 只能反代 已接码json",
-      "link": "https://pay.ldxp.cn/item/zdsmzz",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T14:30:21.209Z",
-      "checkedAt": "2026-06-30T14:35:09.959Z",
-      "alertId": "restocked|zdsmzz|0|100|2026-06-30T14:30:21.209Z",
-      "queuedAt": "2026-06-30T14:35:09.959Z"
-    }
-  ]
+  }
 }
