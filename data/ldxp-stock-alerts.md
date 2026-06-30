@@ -3407,3 +3407,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/7201mo
 
+## 2026-06-30T07:30:25.063Z
+- YouTube 接码 美区 【长效30天】业务自测 没问题在批量上（不售后）
+  - Stock: 0 -> 15
+  - Price: 1.26
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/z2b577
+
