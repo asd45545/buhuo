@@ -3272,3 +3272,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/unu10b
 
+## 2026-06-30T03:00:27.814Z
+- 已接码 free（无邮箱链接）
+  - Stock: 0 -> 239
+  - Price: 0.78
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/krexpu
+
