@@ -2849,25 +2849,5 @@
       "lastChangedAt": "2026-06-30T12:15:13.377Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "l3su3k",
-      "name": "【质保1次】GPT Pro20x 1小时掉订阅补1次！【黑充号非退款流时抛号可比】",
-      "link": "https://pay.ldxp.cn/item/l3su3k",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 220,
-      "stock": 6,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T10:40:15.605Z",
-      "checkedAt": "2026-06-30T12:15:13.377Z",
-      "alertId": "restocked|l3su3k|0|6|2026-06-30T10:40:15.605Z",
-      "queuedAt": "2026-06-30T12:15:13.377Z"
-    }
-  ]
+  }
 }
