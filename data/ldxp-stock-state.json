@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1874,
+  "runs": 1875,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-30T18:55:10.379Z",
+  "updatedAt": "2026-06-30T19:00:25.856Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.2,
-      "stock": 76,
+      "stock": 66,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-30T18:55:10.379Z",
-      "lastChangedAt": "2026-06-30T18:55:10.379Z",
+      "lastSeenAt": "2026-06-30T19:00:25.856Z",
+      "lastChangedAt": "2026-06-30T19:00:25.856Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4,
-      "stock": 138,
+      "stock": 136,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-30T18:45:13.218Z",
-      "lastChangedAt": "2026-06-30T18:45:13.218Z",
+      "lastSeenAt": "2026-06-30T19:00:25.856Z",
+      "lastChangedAt": "2026-06-30T19:00:25.856Z",
       "missingSince": null
     },
     "v1dwzl": {
@@ -2840,14 +2840,34 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 11.5,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-30T16:10:15.482Z",
+      "stock": 77,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-30T06:10:17.194Z",
-      "lastSeenAt": "2026-06-30T16:10:15.482Z",
-      "lastChangedAt": "2026-06-30T16:10:15.482Z",
+      "lastSeenAt": "2026-06-30T19:00:25.856Z",
+      "lastChangedAt": "2026-06-30T19:00:25.856Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "w7geuq",
+      "name": "plus 非日抛成品号 未接码 最新荷兰老铁手搓",
+      "link": "https://pay.ldxp.cn/item/w7geuq",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 11.5,
+      "stock": 77,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-30T16:10:15.482Z",
+      "checkedAt": "2026-06-30T19:00:25.856Z",
+      "alertId": "restocked|w7geuq|0|77|2026-06-30T16:10:15.482Z",
+      "queuedAt": "2026-06-30T19:00:25.856Z"
+    }
+  ]
 }
