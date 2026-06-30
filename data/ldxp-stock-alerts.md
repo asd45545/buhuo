@@ -3601,3 +3601,20 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zak7xw
 
+## 2026-06-30T14:55:10.517Z
+- 【仅反代】k12 team成品 质保首登
+  - Stock: 0 -> 30
+  - Price: 4.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/7201mo
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 17
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- team成品 只能反代 已接码json
+  - Stock: 0 -> 100
+  - Price: 3.97
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zdsmzz
+
