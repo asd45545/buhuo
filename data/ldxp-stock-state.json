@@ -2849,25 +2849,5 @@
       "lastChangedAt": "2026-06-30T07:25:11.040Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "7201mo",
-      "name": "【仅反代】k12 team成品 质保首登",
-      "link": "https://pay.ldxp.cn/item/7201mo",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4.2,
-      "stock": 50,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-23T08:43:13.608Z",
-      "checkedAt": "2026-06-30T07:25:11.040Z",
-      "alertId": "restocked|7201mo|0|50|2026-06-23T08:43:13.608Z",
-      "queuedAt": "2026-06-30T07:25:11.040Z"
-    }
-  ]
+  }
 }
