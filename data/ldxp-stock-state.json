@@ -2832,43 +2832,5 @@
       "lastChangedAt": "2026-06-30T04:30:21.849Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80.03,
-      "stock": 12,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T00:55:10.263Z",
-      "checkedAt": "2026-06-30T04:30:21.849Z",
-      "alertId": "restocked|ktiyr3|0|12|2026-06-30T00:55:10.263Z",
-      "queuedAt": "2026-06-30T04:30:21.849Z"
-    },
-    {
-      "key": "g7n6gs",
-      "name": "PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号",
-      "link": "https://pay.ldxp.cn/item/g7n6gs",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 18.85,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T03:45:14.446Z",
-      "checkedAt": "2026-06-30T04:30:21.849Z",
-      "alertId": "restocked|g7n6gs|0|4|2026-06-30T03:45:14.446Z",
-      "queuedAt": "2026-06-30T04:30:21.849Z"
-    }
-  ]
+  }
 }
