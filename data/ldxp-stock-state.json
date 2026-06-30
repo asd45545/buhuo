@@ -2849,43 +2849,5 @@
       "lastChangedAt": "2026-06-30T09:30:20.251Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "whlry4",
-      "name": "Claude Max 20x 成品号【不质保特价·已过KYC】",
-      "link": "https://pay.ldxp.cn/item/whlry4",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 702,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T09:25:10.838Z",
-      "checkedAt": "2026-06-30T09:30:20.251Z",
-      "alertId": "restocked|whlry4|0|10|2026-06-30T09:25:10.838Z",
-      "queuedAt": "2026-06-30T09:30:20.251Z"
-    },
-    {
-      "key": "4xsj1w",
-      "name": "GPT PLUS成品号",
-      "link": "https://pay.ldxp.cn/item/4xsj1w",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 16.25,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T09:15:13.488Z",
-      "checkedAt": "2026-06-30T09:30:20.251Z",
-      "alertId": "restocked|4xsj1w|0|2|2026-06-30T09:15:13.488Z",
-      "queuedAt": "2026-06-30T09:30:20.251Z"
-    }
-  ]
+  }
 }
