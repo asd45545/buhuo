@@ -2832,25 +2832,5 @@
       "lastChangedAt": "2026-06-30T02:50:16.992Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "unu10b",
-      "name": "iCloud邮箱-PLUS成品号-质保首登-带2FA认证",
-      "link": "https://pay.ldxp.cn/item/unu10b",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 20.8,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T02:45:14.477Z",
-      "checkedAt": "2026-06-30T02:50:16.992Z",
-      "alertId": "restocked|unu10b|0|30|2026-06-30T02:45:14.477Z",
-      "queuedAt": "2026-06-30T02:50:16.992Z"
-    }
-  ]
+  }
 }
