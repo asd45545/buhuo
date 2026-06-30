@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1816,
+  "runs": 1817,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-30T14:10:15.313Z",
+  "updatedAt": "2026-06-30T14:15:13.259Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 463,
+      "stock": 462,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-30T14:05:10.334Z",
-      "lastChangedAt": "2026-06-30T14:05:10.334Z",
+      "lastSeenAt": "2026-06-30T14:15:13.259Z",
+      "lastChangedAt": "2026-06-30T14:15:13.259Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 271,
+      "stock": 269,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-30T14:05:10.334Z",
-      "lastChangedAt": "2026-06-30T14:05:10.334Z",
+      "lastSeenAt": "2026-06-30T14:15:13.259Z",
+      "lastChangedAt": "2026-06-30T14:15:13.259Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4,
-      "stock": 69,
+      "stock": 68,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-30T14:10:15.313Z",
-      "lastChangedAt": "2026-06-30T14:10:15.313Z",
+      "lastSeenAt": "2026-06-30T14:15:13.259Z",
+      "lastChangedAt": "2026-06-30T14:15:13.259Z",
       "missingSince": null
     },
     "v1dwzl": {
