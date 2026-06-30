@@ -3279,3 +3279,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/krexpu
 
+## 2026-06-30T03:40:14.702Z
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 5
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
