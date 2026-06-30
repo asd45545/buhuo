@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1645,
+  "runs": 1646,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-30T00:10:14.935Z",
+  "updatedAt": "2026-06-30T00:15:14.312Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.8,
-      "stock": 92,
+      "stock": 91,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-29T22:20:15.596Z",
-      "lastChangedAt": "2026-06-29T22:20:15.596Z",
+      "lastSeenAt": "2026-06-30T00:15:14.312Z",
+      "lastChangedAt": "2026-06-30T00:15:14.312Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 22.5,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-06-30T00:15:14.312Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-30T00:10:14.935Z",
-      "lastChangedAt": "2026-06-30T00:10:14.935Z",
+      "lastSeenAt": "2026-06-30T00:15:14.312Z",
+      "lastChangedAt": "2026-06-30T00:15:14.312Z",
       "missingSince": null
     },
     "omh53e": {
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 37,
+      "stock": 36,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-06-29T21:50:15.860Z",
-      "lastChangedAt": "2026-06-29T21:50:15.860Z",
+      "lastSeenAt": "2026-06-30T00:15:14.312Z",
+      "lastChangedAt": "2026-06-30T00:15:14.312Z",
       "missingSince": null
     },
     "1nim44": {
@@ -2245,13 +2245,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.97,
-      "stock": 20,
+      "stock": 19,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:25:12.360Z",
-      "lastSeenAt": "2026-06-30T00:10:14.935Z",
-      "lastChangedAt": "2026-06-30T00:10:14.935Z",
+      "lastSeenAt": "2026-06-30T00:15:14.312Z",
+      "lastChangedAt": "2026-06-30T00:15:14.312Z",
       "missingSince": null
     },
     "3uoyst": {
