@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 1867,
+  "runs": 1868,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-06-30T18:20:15.639Z",
+  "updatedAt": "2026-06-30T18:25:10.899Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1582,13 +1582,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4,
-      "stock": 85,
+      "stock": 84,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-06-30T17:45:13.401Z",
-      "lastChangedAt": "2026-06-30T17:45:13.401Z",
+      "lastSeenAt": "2026-06-30T18:25:10.899Z",
+      "lastChangedAt": "2026-06-30T18:25:10.899Z",
       "missingSince": null
     },
     "s3o0c6": {
@@ -1990,13 +1990,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 468,
-      "stock": 1,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T17:10:16.453Z",
-      "lastSeenAt": "2026-06-30T00:50:14.533Z",
-      "lastChangedAt": "2026-06-30T00:50:14.533Z",
+      "lastSeenAt": "2026-06-30T18:25:10.899Z",
+      "lastChangedAt": "2026-06-30T18:25:10.899Z",
       "missingSince": null
     },
     "xxtbqq": {
@@ -2466,13 +2466,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4,
-      "stock": 145,
+      "stock": 143,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T15:10:18.910Z",
-      "lastSeenAt": "2026-06-30T18:15:13.540Z",
-      "lastChangedAt": "2026-06-30T18:15:13.540Z",
+      "lastSeenAt": "2026-06-30T18:25:10.899Z",
+      "lastChangedAt": "2026-06-30T18:25:10.899Z",
       "missingSince": null
     },
     "v1dwzl": {
