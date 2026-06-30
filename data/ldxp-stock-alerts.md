@@ -3547,3 +3547,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/w7geuq
 
+## 2026-06-30T10:45:13.913Z
+- 【仅反代】k12 team成品 质保首登
+  - Stock: 0 -> 99
+  - Price: 4.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/7201mo
+
