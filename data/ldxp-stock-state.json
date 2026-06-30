@@ -2849,43 +2849,5 @@
       "lastChangedAt": "2026-06-30T07:50:16.234Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80.03,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T08:05:10.609Z",
-      "checkedAt": "2026-06-30T08:15:17.209Z",
-      "alertId": "restocked|ktiyr3|0|1|2026-06-30T08:05:10.609Z",
-      "queuedAt": "2026-06-30T08:15:17.209Z"
-    },
-    {
-      "key": "zwpqer",
-      "name": "Grok Super官方正规充值2个月卡密（质保不掉订阅）",
-      "link": "https://pay.ldxp.cn/item/zwpqer",
-      "goodsType": "card",
-      "categoryId": 112907,
-      "categoryName": "Grok",
-      "price": 148.5,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T08:05:10.609Z",
-      "checkedAt": "2026-06-30T08:15:17.209Z",
-      "alertId": "restocked|zwpqer|0|2|2026-06-30T08:05:10.609Z",
-      "queuedAt": "2026-06-30T08:15:17.209Z"
-    }
-  ]
+  }
 }
