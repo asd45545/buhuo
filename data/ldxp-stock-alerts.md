@@ -3248,3 +3248,20 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/b2ggf2
 
+## 2026-06-30T02:40:17.435Z
+- 【仅质保首登】K12 GPT team，一个号平均额度100刀。cpa格式，需要其他格式自己转换
+  - Stock: 0 -> 200
+  - Price: 3.9
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/wntyd1
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 14
+  - Price: 0.59
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+- gpt team 反代专用 k12 账号
+  - Stock: 0 -> 791
+  - Price: 4.5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/527re2
+
