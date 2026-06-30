@@ -3575,3 +3575,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kzt2qr
 
+## 2026-06-30T14:05:10.334Z
+- 【GPT-K12充值】理论2年，可用codex
+  - Stock: 0 -> 17
+  - Price: 41.15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/squijt
+- PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号
+  - Stock: 0 -> 1
+  - Price: 18.85
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g7n6gs
+
