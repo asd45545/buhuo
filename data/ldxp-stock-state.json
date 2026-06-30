@@ -2832,25 +2832,5 @@
       "lastChangedAt": "2026-06-30T03:00:27.814Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "krexpu",
-      "name": "已接码 free（无邮箱链接）",
-      "link": "https://pay.ldxp.cn/item/krexpu",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.78,
-      "stock": 239,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-26T09:15:17.266Z",
-      "checkedAt": "2026-06-30T03:00:27.814Z",
-      "alertId": "restocked|krexpu|0|239|2026-06-26T09:15:17.266Z",
-      "queuedAt": "2026-06-30T03:00:27.814Z"
-    }
-  ]
+  }
 }
