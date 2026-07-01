@@ -2883,43 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "kzt2qr",
-      "name": "谷歌邮箱【成品plus】特价，不是库存号",
-      "link": "https://pay.ldxp.cn/item/kzt2qr",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 16.25,
-      "stock": 35,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T11:50:15.964Z",
-      "checkedAt": "2026-07-01T14:25:10.548Z",
-      "alertId": "restocked|kzt2qr|0|35|2026-07-01T11:50:15.964Z",
-      "queuedAt": "2026-07-01T14:25:10.548Z"
-    },
-    {
-      "key": "hia70r",
-      "name": "谷歌邮箱【成品plus】质保三天，不是库存号",
-      "link": "https://pay.ldxp.cn/item/hia70r",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 22,
-      "stock": 26,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T14:20:16.775Z",
-      "checkedAt": "2026-07-01T14:25:10.548Z",
-      "alertId": "restocked|hia70r|0|26|2026-07-01T14:20:16.775Z",
-      "queuedAt": "2026-07-01T14:25:10.548Z"
-    }
-  ]
+  }
 }
