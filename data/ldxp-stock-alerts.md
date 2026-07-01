@@ -4234,3 +4234,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/hia70r
 
+## 2026-07-01T14:30:22.603Z
+- 谷歌邮箱【成品plus】质保25天，封号也保
+  - Stock: 0 -> 10
+  - Price: 88
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/3uoyst
+
