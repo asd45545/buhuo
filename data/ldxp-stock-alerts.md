@@ -3828,3 +3828,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zdsmzz
 
+## 2026-07-01T04:05:10.498Z
+- 【特惠】k12 team成品 仅反代 质保首登
+  - Stock: 0 -> 250
+  - Price: 3.85
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/7201mo
+
