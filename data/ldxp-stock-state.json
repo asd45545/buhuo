@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2080,
+  "runs": 2081,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T14:30:22.603Z",
+  "updatedAt": "2026-07-01T14:35:10.154Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 28,
+      "stock": 27,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:20:16.775Z",
-      "lastChangedAt": "2026-07-01T14:20:16.775Z",
+      "lastSeenAt": "2026-07-01T14:35:10.154Z",
+      "lastChangedAt": "2026-07-01T14:35:10.154Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.75,
-      "stock": 536,
+      "stock": 336,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:10:16.195Z",
-      "lastChangedAt": "2026-07-01T14:10:16.195Z",
+      "lastSeenAt": "2026-07-01T14:35:10.154Z",
+      "lastChangedAt": "2026-07-01T14:35:10.154Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 80.03,
-      "stock": 18,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:30:22.603Z",
-      "lastChangedAt": "2026-07-01T14:30:22.603Z",
+      "lastSeenAt": "2026-07-01T14:35:10.154Z",
+      "lastChangedAt": "2026-07-01T14:35:10.154Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 662,
+      "stock": 661,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:25:10.548Z",
-      "lastChangedAt": "2026-07-01T14:25:10.548Z",
+      "lastSeenAt": "2026-07-01T14:35:10.154Z",
+      "lastChangedAt": "2026-07-01T14:35:10.154Z",
       "missingSince": null
     },
     "4wvlfu": {
