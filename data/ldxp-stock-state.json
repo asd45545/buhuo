@@ -2883,25 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "g5kbl4",
-      "name": "gpt free 优质顶级货已经接码 可升级plus 可网页登录",
-      "link": "https://pay.ldxp.cn/item/g5kbl4",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.77,
-      "stock": 500,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T13:40:15.724Z",
-      "checkedAt": "2026-07-01T20:30:24.857Z",
-      "alertId": "restocked|g5kbl4|0|500|2026-07-01T13:40:15.724Z",
-      "queuedAt": "2026-07-01T20:30:24.857Z"
-    }
-  ]
+  }
 }
