@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2105,
+  "runs": 2106,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T16:30:24.746Z",
+  "updatedAt": "2026-07-01T16:35:10.071Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.2,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-01T14:00:26.891Z",
+      "stock": 100,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:00:26.891Z",
-      "lastChangedAt": "2026-07-01T14:00:26.891Z",
+      "lastSeenAt": "2026-07-01T16:35:10.071Z",
+      "lastChangedAt": "2026-07-01T16:35:10.071Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 218,
+      "stock": 217,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:40:15.693Z",
-      "lastChangedAt": "2026-07-01T14:40:15.693Z",
+      "lastSeenAt": "2026-07-01T16:35:10.071Z",
+      "lastChangedAt": "2026-07-01T16:35:10.071Z",
       "missingSince": null
     },
     "e2913c": {
@@ -2235,7 +2235,7 @@
       "firstSeenAt": "2026-06-25T17:50:17.534Z",
       "lastSeenAt": "2026-07-01T16:30:24.746Z",
       "lastChangedAt": "2026-07-01T16:30:24.746Z",
-      "missingSince": null
+      "missingSince": "2026-07-01T16:35:10.071Z"
     },
     "p8x1sk": {
       "key": "p8x1sk",
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 6.36,
-      "stock": 97,
+      "stock": 77,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-01T16:25:10.310Z",
-      "lastChangedAt": "2026-07-01T16:25:10.310Z",
+      "lastSeenAt": "2026-07-01T16:35:10.071Z",
+      "lastChangedAt": "2026-07-01T16:35:10.071Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 19,
+      "stock": 18,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-01T16:25:10.310Z",
-      "lastChangedAt": "2026-07-01T16:25:10.310Z",
+      "lastSeenAt": "2026-07-01T16:35:10.071Z",
+      "lastChangedAt": "2026-07-01T16:35:10.071Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2883,5 +2883,25 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "zak7xw",
+      "name": "【codex-反代】k12team成品（只能反代，买错不退）",
+      "link": "https://pay.ldxp.cn/item/zak7xw",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 4.2,
+      "stock": 100,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-01T14:00:26.891Z",
+      "checkedAt": "2026-07-01T16:35:10.071Z",
+      "alertId": "restocked|zak7xw|0|100|2026-07-01T14:00:26.891Z",
+      "queuedAt": "2026-07-01T16:35:10.071Z"
+    }
+  ]
 }
