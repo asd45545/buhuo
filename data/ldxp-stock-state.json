@@ -2883,43 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:05:10.244Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "j79pn9",
-      "name": "Gemini 3.1pro 12个月pixel成品号（随机地区20-24年账号）",
-      "link": "https://pay.ldxp.cn/item/j79pn9",
-      "goodsType": "card",
-      "categoryId": 111637,
-      "categoryName": "Gemini",
-      "price": 19,
-      "stock": 50,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T05:00:24.776Z",
-      "checkedAt": "2026-07-01T05:15:12.627Z",
-      "alertId": "restocked|j79pn9|0|50|2026-07-01T05:00:24.776Z",
-      "queuedAt": "2026-07-01T05:15:12.627Z"
-    },
-    {
-      "key": "4xsj1w",
-      "name": "GPT PLUS成品号",
-      "link": "https://pay.ldxp.cn/item/4xsj1w",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 16.25,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T05:00:24.776Z",
-      "checkedAt": "2026-07-01T05:15:12.627Z",
-      "alertId": "restocked|4xsj1w|0|1|2026-07-01T05:00:24.776Z",
-      "queuedAt": "2026-07-01T05:15:12.627Z"
-    }
-  ]
+  }
 }
