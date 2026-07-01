@@ -2866,25 +2866,5 @@
       "lastChangedAt": "2026-07-01T02:35:10.301Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "w6ql6z",
-      "name": "k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代",
-      "link": "https://pay.ldxp.cn/item/w6ql6z",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4,
-      "stock": 199,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T02:25:10.467Z",
-      "checkedAt": "2026-07-01T03:10:14.769Z",
-      "alertId": "restocked|w6ql6z|0|199|2026-07-01T02:25:10.467Z",
-      "queuedAt": "2026-07-01T03:10:14.769Z"
-    }
-  ]
+  }
 }
