@@ -3915,3 +3915,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-07-01T06:15:12.734Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 20
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 2
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+- plus 非日抛成品号 未接码 最新荷兰老铁手搓
+  - Stock: 0 -> 14
+  - Price: 13
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/w7geuq
+
