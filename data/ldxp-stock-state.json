@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2136,
+  "runs": 2137,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T19:05:10.592Z",
+  "updatedAt": "2026-07-01T19:10:19.319Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.77,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-01T18:40:18.477Z",
+      "stock": 185,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T18:40:18.477Z",
-      "lastChangedAt": "2026-07-01T18:40:18.477Z",
+      "lastSeenAt": "2026-07-01T19:10:19.319Z",
+      "lastChangedAt": "2026-07-01T19:10:19.319Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 21,
+      "stock": 20,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T18:20:17.991Z",
-      "lastChangedAt": "2026-07-01T18:20:17.991Z",
+      "lastSeenAt": "2026-07-01T19:10:19.319Z",
+      "lastChangedAt": "2026-07-01T19:10:19.319Z",
       "missingSince": null
     },
     "go054j": {
@@ -2883,5 +2883,25 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "pfrifg",
+      "name": "ChatGpt Free号（提供邮箱接码 已经接码）| 注册地美国 | outlook.com | 家庭宽带注册",
+      "link": "https://pay.ldxp.cn/item/pfrifg",
+      "goodsType": "card",
+      "categoryId": 111665,
+      "categoryName": "GPT Free",
+      "price": 0.77,
+      "stock": 185,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-01T18:40:18.477Z",
+      "checkedAt": "2026-07-01T19:10:19.319Z",
+      "alertId": "restocked|pfrifg|0|185|2026-07-01T18:40:18.477Z",
+      "queuedAt": "2026-07-01T19:10:19.319Z"
+    }
+  ]
 }
