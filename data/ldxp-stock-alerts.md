@@ -3982,3 +3982,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/p8x1sk
 
+## 2026-07-01T08:10:14.238Z
+- 【特惠】k12 team成品 仅反代 质保首登
+  - Stock: 0 -> 249
+  - Price: 3.85
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/7201mo
+
