@@ -4174,3 +4174,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/k4ebdz
 
+## 2026-07-01T13:20:16.139Z
+- 谷歌邮箱【成品plus】质保25天，封号也保
+  - Stock: 0 -> 1
+  - Price: 88
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/3uoyst
+- GPT PLUS成品号
+  - Stock: 0 -> 8
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 2
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
