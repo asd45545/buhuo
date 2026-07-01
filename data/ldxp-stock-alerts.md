@@ -3727,3 +3727,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zak7xw
 
+## 2026-07-01T02:50:16.167Z
+- GPT PLUS成品号
+  - Stock: 0 -> 3
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 31
+  - Price: 20.15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+
