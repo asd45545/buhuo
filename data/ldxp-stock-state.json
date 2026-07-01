@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2084,
+  "runs": 2085,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T14:50:16.852Z",
+  "updatedAt": "2026-07-01T14:55:10.157Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -188,13 +188,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.45,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:00:26.891Z",
-      "lastChangedAt": "2026-07-01T14:00:26.891Z",
+      "lastSeenAt": "2026-07-01T14:55:10.157Z",
+      "lastChangedAt": "2026-07-01T14:55:10.157Z",
       "missingSince": null
     },
     "l3jsoj": {
@@ -936,13 +936,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.65,
-      "stock": 208,
+      "stock": 207,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T13:50:15.181Z",
-      "lastChangedAt": "2026-07-01T13:50:15.181Z",
+      "lastSeenAt": "2026-07-01T14:55:10.157Z",
+      "lastChangedAt": "2026-07-01T14:55:10.157Z",
       "missingSince": null
     },
     "ttuq5u": {
@@ -1463,13 +1463,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 95.2,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-01T14:45:13.390Z",
+      "stock": 10,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:45:13.390Z",
-      "lastChangedAt": "2026-07-01T14:45:13.390Z",
+      "lastSeenAt": "2026-07-01T14:55:10.157Z",
+      "lastChangedAt": "2026-07-01T14:55:10.157Z",
       "missingSince": null
     },
     "zwpqer": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 11.25,
-      "stock": 77,
+      "stock": 76,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:25:10.548Z",
-      "lastChangedAt": "2026-07-01T14:25:10.548Z",
+      "lastSeenAt": "2026-07-01T14:55:10.157Z",
+      "lastChangedAt": "2026-07-01T14:55:10.157Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 19,
-      "stock": 30,
+      "stock": 29,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T14:25:10.548Z",
-      "lastChangedAt": "2026-07-01T14:25:10.548Z",
+      "lastSeenAt": "2026-07-01T14:55:10.157Z",
+      "lastChangedAt": "2026-07-01T14:55:10.157Z",
       "missingSince": null
     },
     "zdsmzz": {
@@ -1786,13 +1786,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.8,
-      "stock": 1,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T10:19:27.990Z",
-      "lastSeenAt": "2026-07-01T14:40:15.693Z",
-      "lastChangedAt": "2026-07-01T14:40:15.693Z",
+      "lastSeenAt": "2026-07-01T14:55:10.157Z",
+      "lastChangedAt": "2026-07-01T14:55:10.157Z",
       "missingSince": null
     },
     "akz9ns": {
@@ -2902,6 +2902,24 @@
       "checkedAt": "2026-07-01T14:50:16.852Z",
       "alertId": "restocked|ktiyr3|0|2|2026-07-01T14:45:13.390Z",
       "queuedAt": "2026-07-01T14:50:16.852Z"
+    },
+    {
+      "key": "rzm7z0",
+      "name": "Grok Super官方正规充值1个月卡密（质保不掉订阅）",
+      "link": "https://pay.ldxp.cn/item/rzm7z0",
+      "goodsType": "card",
+      "categoryId": 112907,
+      "categoryName": "Grok",
+      "price": 95.2,
+      "stock": 10,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-01T14:45:13.390Z",
+      "checkedAt": "2026-07-01T14:55:10.157Z",
+      "alertId": "restocked|rzm7z0|0|10|2026-07-01T14:45:13.390Z",
+      "queuedAt": "2026-07-01T14:55:10.157Z"
     }
   ]
 }
