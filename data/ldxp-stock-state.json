@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2110,
+  "runs": 2111,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T16:55:09.854Z",
+  "updatedAt": "2026-07-01T17:00:29.522Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.2,
-      "stock": 155,
+      "stock": 133,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T16:55:09.854Z",
-      "lastChangedAt": "2026-07-01T16:55:09.854Z",
+      "lastSeenAt": "2026-07-01T17:00:29.522Z",
+      "lastChangedAt": "2026-07-01T17:00:29.522Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.78,
-      "stock": 180,
+      "stock": 181,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T16:55:09.854Z",
-      "lastChangedAt": "2026-07-01T16:55:09.854Z",
+      "lastSeenAt": "2026-07-01T17:00:29.522Z",
+      "lastChangedAt": "2026-07-01T17:00:29.522Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 647,
+      "stock": 637,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T16:50:17.056Z",
-      "lastChangedAt": "2026-07-01T16:50:17.056Z",
+      "lastSeenAt": "2026-07-01T17:00:29.522Z",
+      "lastChangedAt": "2026-07-01T17:00:29.522Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.6,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-01T10:25:10.225Z",
+      "stock": 199,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-01T10:25:10.225Z",
-      "lastChangedAt": "2026-07-01T10:25:10.225Z",
+      "lastSeenAt": "2026-07-01T17:00:29.522Z",
+      "lastChangedAt": "2026-07-01T17:00:29.522Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 17,
+      "stock": 15,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-01T16:40:16.715Z",
-      "lastChangedAt": "2026-07-01T16:40:16.715Z",
+      "lastSeenAt": "2026-07-01T17:00:29.522Z",
+      "lastChangedAt": "2026-07-01T17:00:29.522Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2883,5 +2883,25 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "b2ggf2",
+      "name": "Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码",
+      "link": "https://pay.ldxp.cn/item/b2ggf2",
+      "goodsType": "card",
+      "categoryId": 111665,
+      "categoryName": "GPT Free",
+      "price": 0.6,
+      "stock": 199,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-01T10:25:10.225Z",
+      "checkedAt": "2026-07-01T17:00:29.522Z",
+      "alertId": "restocked|b2ggf2|0|199|2026-07-01T10:25:10.225Z",
+      "queuedAt": "2026-07-01T17:00:29.522Z"
+    }
+  ]
 }
