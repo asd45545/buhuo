@@ -4316,3 +4316,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-07-01T17:00:29.522Z
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 199
+  - Price: 0.6
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+
