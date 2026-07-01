@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2038,
+  "runs": 2039,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T10:55:09.422Z",
+  "updatedAt": "2026-07-01T11:00:26.182Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -579,13 +579,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 96,
+      "stock": 94,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T10:40:15.144Z",
-      "lastChangedAt": "2026-07-01T10:40:15.144Z",
+      "lastSeenAt": "2026-07-01T11:00:26.182Z",
+      "lastChangedAt": "2026-07-01T11:00:26.182Z",
       "missingSince": null
     },
     "9po7w2": {
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 91,
+      "stock": 90,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T10:55:09.422Z",
-      "lastChangedAt": "2026-07-01T10:55:09.422Z",
+      "lastSeenAt": "2026-07-01T11:00:26.182Z",
+      "lastChangedAt": "2026-07-01T11:00:26.182Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 49,
+      "stock": 48,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T10:40:15.144Z",
-      "lastChangedAt": "2026-07-01T10:40:15.144Z",
+      "lastSeenAt": "2026-07-01T11:00:26.182Z",
+      "lastChangedAt": "2026-07-01T11:00:26.182Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1412,13 +1412,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 11,
-      "stock": 6,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T10:55:09.422Z",
-      "lastChangedAt": "2026-07-01T10:55:09.422Z",
+      "lastSeenAt": "2026-07-01T11:00:26.182Z",
+      "lastChangedAt": "2026-07-01T11:00:26.182Z",
       "missingSince": null
     },
     "vy0rw3": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.3,
-      "stock": 127,
+      "stock": 126,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-01T10:40:15.144Z",
-      "lastChangedAt": "2026-07-01T10:40:15.144Z",
+      "lastSeenAt": "2026-07-01T11:00:26.182Z",
+      "lastChangedAt": "2026-07-01T11:00:26.182Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2449,13 +2449,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20.15,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-01T10:40:15.144Z",
+      "stock": 10,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
-      "lastSeenAt": "2026-07-01T10:40:15.144Z",
-      "lastChangedAt": "2026-07-01T10:40:15.144Z",
+      "lastSeenAt": "2026-07-01T11:00:26.182Z",
+      "lastChangedAt": "2026-07-01T11:00:26.182Z",
       "missingSince": null
     },
     "wntyd1": {
@@ -2883,5 +2883,25 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "unu10b",
+      "name": "iCloud邮箱-PLUS成品号-质保首登-带2FA认证",
+      "link": "https://pay.ldxp.cn/item/unu10b",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 20.15,
+      "stock": 10,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-01T10:40:15.144Z",
+      "checkedAt": "2026-07-01T11:00:26.182Z",
+      "alertId": "restocked|unu10b|0|10|2026-07-01T10:40:15.144Z",
+      "queuedAt": "2026-07-01T11:00:26.182Z"
+    }
+  ]
 }
