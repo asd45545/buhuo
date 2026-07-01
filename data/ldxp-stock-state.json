@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2051,
+  "runs": 2052,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T12:00:27.796Z",
+  "updatedAt": "2026-07-01T12:05:09.984Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 388,
+      "stock": 385,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T11:40:15.067Z",
-      "lastChangedAt": "2026-07-01T11:40:15.067Z",
+      "lastSeenAt": "2026-07-01T12:05:09.984Z",
+      "lastChangedAt": "2026-07-01T12:05:09.984Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1249,7 +1249,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-07-01T12:00:27.796Z",
       "lastChangedAt": "2026-07-01T12:00:27.796Z",
-      "missingSince": null
+      "missingSince": "2026-07-01T12:05:09.984Z"
     },
     "4xsj1w": {
       "key": "4xsj1w",
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 13,
+      "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T12:00:27.796Z",
-      "lastChangedAt": "2026-07-01T12:00:27.796Z",
+      "lastSeenAt": "2026-07-01T12:05:09.984Z",
+      "lastChangedAt": "2026-07-01T12:05:09.984Z",
       "missingSince": null
     },
     "go054j": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 579,
+      "stock": 578,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T12:00:27.796Z",
-      "lastChangedAt": "2026-07-01T12:00:27.796Z",
+      "lastSeenAt": "2026-07-01T12:05:09.984Z",
+      "lastChangedAt": "2026-07-01T12:05:09.984Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1752,13 +1752,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 11.69,
-      "stock": 22,
+      "stock": 21,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T09:01:30.481Z",
-      "lastSeenAt": "2026-07-01T09:05:09.983Z",
-      "lastChangedAt": "2026-07-01T09:05:09.983Z",
+      "lastSeenAt": "2026-07-01T12:05:09.984Z",
+      "lastChangedAt": "2026-07-01T12:05:09.984Z",
       "missingSince": null
     },
     "7s3tbk": {
@@ -2228,13 +2228,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.9,
-      "stock": 240,
+      "stock": 239,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T17:50:17.534Z",
-      "lastSeenAt": "2026-07-01T11:40:15.067Z",
-      "lastChangedAt": "2026-07-01T11:40:15.067Z",
+      "lastSeenAt": "2026-07-01T12:05:09.984Z",
+      "lastChangedAt": "2026-07-01T12:05:09.984Z",
       "missingSince": null
     },
     "p8x1sk": {
@@ -2296,13 +2296,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 22,
-      "stock": 19,
+      "stock": 17,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-01T11:30:21.557Z",
-      "lastChangedAt": "2026-07-01T11:30:21.557Z",
+      "lastSeenAt": "2026-07-01T12:05:09.984Z",
+      "lastChangedAt": "2026-07-01T12:05:09.984Z",
       "missingSince": null
     },
     "hsf9yk": {
@@ -2449,13 +2449,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 20.15,
-      "stock": 5,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
-      "lastSeenAt": "2026-07-01T12:00:27.796Z",
-      "lastChangedAt": "2026-07-01T12:00:27.796Z",
+      "lastSeenAt": "2026-07-01T12:05:09.984Z",
+      "lastChangedAt": "2026-07-01T12:05:09.984Z",
       "missingSince": null
     },
     "wntyd1": {
