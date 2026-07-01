@@ -4222,3 +4222,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/unu10b
 
+## 2026-07-01T14:25:10.548Z
+- 谷歌邮箱【成品plus】特价，不是库存号
+  - Stock: 0 -> 35
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+- 谷歌邮箱【成品plus】质保三天，不是库存号
+  - Stock: 0 -> 26
+  - Price: 22
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/hia70r
+
