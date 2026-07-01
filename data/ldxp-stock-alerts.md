@@ -3939,3 +3939,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-07-01T06:45:12.846Z
+- Dreamina Basic 海外即梦｜成品账号7天（900-1200积分）质保1天--替代grok可用
+  - Stock: 0 -> 5
+  - Price: 8.8
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/7j1wqu
+- GPT PLUS成品号
+  - Stock: 0 -> 5
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- plus 非日抛成品号 未接码 最新荷兰老铁手搓
+  - Stock: 0 -> 32
+  - Price: 13
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/w7geuq
+
