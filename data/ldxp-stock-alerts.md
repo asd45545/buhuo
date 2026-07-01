@@ -4167,3 +4167,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/1dquh6
 
+## 2026-07-01T13:10:14.903Z
+- Ideal渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 2
+  - Price: 15.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/k4ebdz
+
