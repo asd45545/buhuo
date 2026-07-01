@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2155,
+  "runs": 2156,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T21:15:13.894Z",
+  "updatedAt": "2026-07-01T21:20:17.961Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -2687,13 +2687,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.24,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-06-29T07:16:59.629Z",
+      "stock": 4,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T10:10:17.690Z",
-      "lastSeenAt": "2026-06-29T11:45:13.614Z",
-      "lastChangedAt": "2026-06-29T07:16:59.629Z",
+      "lastSeenAt": "2026-07-01T21:20:17.961Z",
+      "lastChangedAt": "2026-07-01T21:20:17.961Z",
       "missingSince": null
     },
     "jf92gc": {
@@ -2883,5 +2883,25 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "1dw34e",
+      "name": "GPT-Plus-新渠道成品，无质保售后，稳定性自测，没绑手机号，需要使用CODEX，自行绑定手机号码",
+      "link": "https://pay.ldxp.cn/item/1dw34e",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 16.24,
+      "stock": 4,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-06-29T07:16:59.629Z",
+      "checkedAt": "2026-07-01T21:20:17.961Z",
+      "alertId": "restocked|1dw34e|0|4|2026-06-29T07:16:59.629Z",
+      "queuedAt": "2026-07-01T21:20:17.961Z"
+    }
+  ]
 }
