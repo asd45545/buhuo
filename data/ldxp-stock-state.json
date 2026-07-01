@@ -2883,25 +2883,5 @@
       "lastChangedAt": "2026-07-01T04:55:09.560Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "qpm6uu",
-      "name": "Super Grok 3天会员 质保订阅",
-      "link": "https://pay.ldxp.cn/item/qpm6uu",
-      "goodsType": "card",
-      "categoryId": 112907,
-      "categoryName": "Grok",
-      "price": 6,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-01T04:55:09.560Z",
-      "alertId": "new_in_stock|qpm6uu|新上架|2|",
-      "queuedAt": "2026-07-01T04:55:09.560Z"
-    }
-  ]
+  }
 }
