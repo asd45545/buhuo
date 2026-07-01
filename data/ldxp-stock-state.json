@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2102,
+  "runs": 2103,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T16:15:13.176Z",
+  "updatedAt": "2026-07-01T16:20:16.834Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.78,
-      "stock": 83,
+      "stock": 53,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T16:15:13.176Z",
-      "lastChangedAt": "2026-07-01T16:15:13.176Z",
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 375,
+      "stock": 374,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T15:55:10.393Z",
-      "lastChangedAt": "2026-07-01T15:55:10.393Z",
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-01T16:20:16.834Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T16:15:13.176Z",
-      "lastChangedAt": "2026-07-01T16:15:13.176Z",
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
       "missingSince": null
     },
     "go054j": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 650,
+      "stock": 649,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T16:15:13.176Z",
-      "lastChangedAt": "2026-07-01T16:15:13.176Z",
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1922,13 +1922,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.5,
-      "stock": 92,
+      "stock": 91,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:47:48.119Z",
-      "lastSeenAt": "2026-07-01T16:15:13.176Z",
-      "lastChangedAt": "2026-07-01T16:15:13.176Z",
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
       "missingSince": null
     },
     "3fhihz": {
@@ -2228,13 +2228,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.9,
-      "stock": 200,
+      "stock": 199,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T17:50:17.534Z",
-      "lastSeenAt": "2026-07-01T15:55:10.393Z",
-      "lastChangedAt": "2026-07-01T15:55:10.393Z",
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
       "missingSince": null
     },
     "p8x1sk": {
@@ -2313,13 +2313,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 1.05,
-      "stock": 2,
+      "stock": 47,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:35:13.386Z",
-      "lastSeenAt": "2026-07-01T15:25:09.808Z",
-      "lastChangedAt": "2026-07-01T15:25:09.808Z",
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
       "missingSince": null
     },
     "3a6yim": {
@@ -2618,15 +2618,15 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 4.94,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-01T10:20:14.552Z",
+      "price": 6.36,
+      "stock": 98,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-01T10:20:14.552Z",
-      "lastChangedAt": "2026-07-01T10:20:14.552Z",
-      "missingSince": "2026-07-01T10:25:10.225Z"
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
+      "missingSince": null
     },
     "5jylhj": {
       "key": "5jylhj",
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 21,
+      "stock": 20,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-01T16:05:10.326Z",
-      "lastChangedAt": "2026-07-01T16:05:10.326Z",
+      "lastSeenAt": "2026-07-01T16:20:16.834Z",
+      "lastChangedAt": "2026-07-01T16:20:16.834Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2883,5 +2883,25 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "s80xga",
+      "name": "GPT  Team成品JSON 反代 发cpa 质保首登",
+      "link": "https://pay.ldxp.cn/item/s80xga",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 6.36,
+      "stock": 98,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-01T10:20:14.552Z",
+      "checkedAt": "2026-07-01T16:20:16.834Z",
+      "alertId": "restocked|s80xga|0|98|2026-07-01T10:20:14.552Z",
+      "queuedAt": "2026-07-01T16:20:16.834Z"
+    }
+  ]
 }
