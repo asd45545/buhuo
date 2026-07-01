@@ -4337,3 +4337,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-07-01T19:10:19.319Z
+- ChatGpt Free号（提供邮箱接码 已经接码）| 注册地美国 | outlook.com | 家庭宽带注册
+  - Stock: 0 -> 185
+  - Price: 0.77
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/pfrifg
+
