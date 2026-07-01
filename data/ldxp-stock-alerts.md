@@ -4323,3 +4323,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/b2ggf2
 
+## 2026-07-01T17:05:10.106Z
+- k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代
+  - Stock: 0 -> 199
+  - Price: 4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/w6ql6z
+
