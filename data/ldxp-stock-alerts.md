@@ -3715,3 +3715,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kdsr0p
 
+## 2026-07-01T02:45:12.456Z
+- 【仅质保首登】K12 GPT team，一个号平均额度100刀。cpa格式，需要其他格式自己转换
+  - Stock: 0 -> 191
+  - Price: 4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/wntyd1
+- 【codex-反代】k12team成品（只能反代，买错不退）
+  - Stock: 0 -> 100
+  - Price: 4.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+
