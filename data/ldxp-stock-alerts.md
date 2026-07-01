@@ -4255,3 +4255,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-07-01T14:55:10.157Z
+- Grok Super官方正规充值1个月卡密（质保不掉订阅）
+  - Stock: 0 -> 10
+  - Price: 95.2
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/rzm7z0
+
