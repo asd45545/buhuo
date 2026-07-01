@@ -4302,3 +4302,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/s80xga
 
+## 2026-07-01T16:35:10.071Z
+- 【codex-反代】k12team成品（只能反代，买错不退）
+  - Stock: 0 -> 100
+  - Price: 4.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+
