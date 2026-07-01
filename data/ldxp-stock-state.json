@@ -8,7 +8,7 @@
   "visitorId": "karhg6zka",
   "runs": 2066,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T13:15:12.879Z",
+  "updatedAt": "2026-07-01T13:15:14.840Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -176,8 +176,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T13:15:12.879Z",
-      "lastChangedAt": "2026-07-01T13:15:12.879Z",
+      "lastSeenAt": "2026-07-01T13:15:14.840Z",
+      "lastChangedAt": "2026-07-01T13:15:14.840Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -227,8 +227,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T13:15:12.879Z",
-      "lastChangedAt": "2026-07-01T13:15:12.879Z",
+      "lastSeenAt": "2026-07-01T13:15:14.840Z",
+      "lastChangedAt": "2026-07-01T13:15:14.840Z",
       "missingSince": null
     },
     "zak7xw": {
@@ -686,7 +686,7 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T13:15:12.879Z",
+      "lastSeenAt": "2026-07-01T13:15:14.840Z",
       "lastChangedAt": "2026-07-01T13:05:10.246Z",
       "missingSince": null
     },
@@ -1094,8 +1094,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T13:15:12.879Z",
-      "lastChangedAt": "2026-07-01T13:15:12.879Z",
+      "lastSeenAt": "2026-07-01T13:15:14.840Z",
+      "lastChangedAt": "2026-07-01T13:15:14.840Z",
       "missingSince": null
     },
     "mppniu": {
@@ -1262,10 +1262,10 @@
       "stock": 0,
       "inStock": false,
       "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-01T13:15:12.879Z",
+      "outOfStockSince": "2026-07-01T13:15:14.840Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T13:15:12.879Z",
-      "lastChangedAt": "2026-07-01T13:15:12.879Z",
+      "lastSeenAt": "2026-07-01T13:15:14.840Z",
+      "lastChangedAt": "2026-07-01T13:15:14.840Z",
       "missingSince": null
     },
     "go054j": {
@@ -1400,8 +1400,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T13:15:12.879Z",
-      "lastChangedAt": "2026-07-01T13:15:12.879Z",
+      "lastSeenAt": "2026-07-01T13:15:14.840Z",
+      "lastChangedAt": "2026-07-01T13:15:14.840Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -2301,8 +2301,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-01T13:15:12.879Z",
-      "lastChangedAt": "2026-07-01T13:15:12.879Z",
+      "lastSeenAt": "2026-07-01T13:15:14.840Z",
+      "lastChangedAt": "2026-07-01T13:15:14.840Z",
       "missingSince": null
     },
     "hsf9yk": {
@@ -2641,8 +2641,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T07:30:25.175Z",
-      "lastSeenAt": "2026-07-01T13:15:12.879Z",
-      "lastChangedAt": "2026-07-01T13:15:12.879Z",
+      "lastSeenAt": "2026-07-01T13:15:14.840Z",
+      "lastChangedAt": "2026-07-01T13:15:14.840Z",
       "missingSince": null
     },
     "gjokwl": {
