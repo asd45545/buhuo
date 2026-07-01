@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2042,
+  "runs": 2043,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T11:15:14.099Z",
+  "updatedAt": "2026-07-01T11:20:14.977Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1191,13 +1191,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.77,
-      "stock": 62,
+      "stock": 52,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T11:05:09.841Z",
-      "lastChangedAt": "2026-07-01T11:05:09.841Z",
+      "lastSeenAt": "2026-07-01T11:20:14.977Z",
+      "lastChangedAt": "2026-07-01T11:20:14.977Z",
       "missingSince": null
     },
     "s42at5": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.75,
-      "stock": 594,
+      "stock": 593,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T11:10:15.124Z",
-      "lastChangedAt": "2026-07-01T11:10:15.124Z",
+      "lastSeenAt": "2026-07-01T11:20:14.977Z",
+      "lastChangedAt": "2026-07-01T11:20:14.977Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 7,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T11:15:14.099Z",
-      "lastChangedAt": "2026-07-01T11:15:14.099Z",
+      "lastSeenAt": "2026-07-01T11:20:14.977Z",
+      "lastChangedAt": "2026-07-01T11:20:14.977Z",
       "missingSince": null
     },
     "go054j": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 19,
-      "stock": 35,
+      "stock": 34,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T11:10:15.124Z",
-      "lastChangedAt": "2026-07-01T11:10:15.124Z",
+      "lastSeenAt": "2026-07-01T11:20:14.977Z",
+      "lastChangedAt": "2026-07-01T11:20:14.977Z",
       "missingSince": null
     },
     "zdsmzz": {
@@ -2126,13 +2126,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 660,
-      "stock": 264,
+      "stock": 263,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T17:15:19.402Z",
-      "lastSeenAt": "2026-07-01T03:55:09.356Z",
-      "lastChangedAt": "2026-07-01T03:55:09.356Z",
+      "lastSeenAt": "2026-07-01T11:20:14.977Z",
+      "lastChangedAt": "2026-07-01T11:20:14.977Z",
       "missingSince": null
     },
     "xn9zj4": {
