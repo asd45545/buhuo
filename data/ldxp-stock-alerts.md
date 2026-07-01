@@ -3868,3 +3868,15 @@
   - Category: Grok
   - Link: https://pay.ldxp.cn/item/qpm6uu
 
+## 2026-07-01T05:15:12.627Z
+- Gemini 3.1pro 12个月pixel成品号（随机地区20-24年账号）
+  - Stock: 0 -> 50
+  - Price: 19
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/j79pn9
+- GPT PLUS成品号
+  - Stock: 0 -> 1
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+
