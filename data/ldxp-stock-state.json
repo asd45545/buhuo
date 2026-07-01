@@ -2883,25 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "w7geuq",
-      "name": "plus 非日抛成品号 未接码 最新荷兰老铁手搓",
-      "link": "https://pay.ldxp.cn/item/w7geuq",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 13,
-      "stock": 36,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T07:50:14.431Z",
-      "checkedAt": "2026-07-01T08:15:12.799Z",
-      "alertId": "restocked|w7geuq|0|36|2026-07-01T07:50:14.431Z",
-      "queuedAt": "2026-07-01T08:15:12.799Z"
-    }
-  ]
+  }
 }
