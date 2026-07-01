@@ -3806,3 +3806,25 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/w7geuq
 
+## 2026-07-01T03:55:09.356Z
+- Free 已接码
+  - Stock: 0 -> 20
+  - Price: 0.65
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/q0lb2o
+- GPT PLUS成品号
+  - Stock: 0 -> 5
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- gpt team 反代专用 k12 账号
+  - Stock: 0 -> 845
+  - Price: 4.5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/527re2
+- team成品 只能反代 已接码json
+  - Stock: 0 -> 500
+  - Price: 3.85
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zdsmzz
+
