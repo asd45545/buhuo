@@ -4124,3 +4124,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kdsr0p
 
+## 2026-07-01T12:00:27.796Z
+- 【质保28天】【新开号】 icloud 高质量邮箱 plus成品，一卡一绑
+  - Stock: 0 -> 1
+  - Price: 89
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/l3jsoj
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 4
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 3
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
