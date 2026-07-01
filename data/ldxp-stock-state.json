@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2153,
+  "runs": 2154,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-01T20:55:10.149Z",
+  "updatedAt": "2026-07-01T21:00:30.045Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 2449,
+      "stock": 2447,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T18:15:13.035Z",
-      "lastChangedAt": "2026-07-01T18:15:13.035Z",
+      "lastSeenAt": "2026-07-01T21:00:30.045Z",
+      "lastChangedAt": "2026-07-01T21:00:30.045Z",
       "missingSince": null
     },
     "htc8s3": {
