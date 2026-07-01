@@ -4351,3 +4351,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/g5kbl4
 
+## 2026-07-01T21:20:17.961Z
+- GPT-Plus-新渠道成品，无质保售后，稳定性自测，没绑手机号，需要使用CODEX，自行绑定手机号码
+  - Stock: 0 -> 4
+  - Price: 16.24
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/1dw34e
+
