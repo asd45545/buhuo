@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2382,
+  "runs": 2383,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-02T17:30:24.248Z",
+  "updatedAt": "2026-07-02T17:35:10.714Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.77,
-      "stock": 209,
+      "stock": 285,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T17:25:10.016Z",
-      "lastChangedAt": "2026-07-02T17:25:10.016Z",
+      "lastSeenAt": "2026-07-02T17:35:10.714Z",
+      "lastChangedAt": "2026-07-02T17:35:10.714Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 80.03,
-      "stock": 19,
+      "stock": 18,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T17:10:17.924Z",
-      "lastChangedAt": "2026-07-02T17:10:17.924Z",
+      "lastSeenAt": "2026-07-02T17:35:10.714Z",
+      "lastChangedAt": "2026-07-02T17:35:10.714Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.13,
-      "stock": 774,
+      "stock": 772,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-02T17:10:17.924Z",
-      "lastChangedAt": "2026-07-02T17:10:17.924Z",
+      "lastSeenAt": "2026-07-02T17:35:10.714Z",
+      "lastChangedAt": "2026-07-02T17:35:10.714Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2840,13 +2840,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.5,
-      "stock": 187,
+      "stock": 206,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-30T06:10:17.194Z",
-      "lastSeenAt": "2026-07-02T17:25:10.016Z",
-      "lastChangedAt": "2026-07-02T17:25:10.016Z",
+      "lastSeenAt": "2026-07-02T17:35:10.714Z",
+      "lastChangedAt": "2026-07-02T17:35:10.714Z",
       "missingSince": null
     },
     "jkrruh": {
