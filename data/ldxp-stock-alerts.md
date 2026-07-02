@@ -4583,3 +4583,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/k4ebdz
 
+## 2026-07-02T05:25:10.053Z
+- 谷歌邮箱【成品plus】质保三天，不是库存号
+  - Stock: 0 -> 34
+  - Price: 22
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/hia70r
+
