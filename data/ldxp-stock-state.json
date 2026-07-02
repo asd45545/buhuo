@@ -2883,25 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "s80xga",
-      "name": "GPT  Team成品JSON 反代 发cpa 质保首登",
-      "link": "https://pay.ldxp.cn/item/s80xga",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4.94,
-      "stock": 3,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T01:25:09.790Z",
-      "checkedAt": "2026-07-02T01:35:10.188Z",
-      "alertId": "restocked|s80xga|0|3|2026-07-02T01:25:09.790Z",
-      "queuedAt": "2026-07-02T01:35:10.188Z"
-    }
-  ]
+  }
 }
