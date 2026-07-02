@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2404,
+  "runs": 2405,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-02T19:30:25.001Z",
+  "updatedAt": "2026-07-02T19:35:10.173Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.2,
-      "stock": 220,
+      "stock": 218,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T19:30:25.001Z",
-      "lastChangedAt": "2026-07-02T19:30:25.001Z",
+      "lastSeenAt": "2026-07-02T19:35:10.173Z",
+      "lastChangedAt": "2026-07-02T19:35:10.173Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -562,13 +562,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 8,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T14:05:10.468Z",
-      "lastChangedAt": "2026-07-02T14:05:10.468Z",
+      "lastSeenAt": "2026-07-02T19:35:10.173Z",
+      "lastChangedAt": "2026-07-02T19:35:10.173Z",
       "missingSince": null
     },
     "6byvu1": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 27,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-02T19:25:10.049Z",
-      "lastChangedAt": "2026-07-02T19:25:10.049Z",
+      "lastSeenAt": "2026-07-02T19:35:10.173Z",
+      "lastChangedAt": "2026-07-02T19:35:10.173Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2891,13 +2891,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.12,
-      "stock": 439,
+      "stock": 437,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-02T05:55:09.980Z",
-      "lastSeenAt": "2026-07-02T19:30:25.001Z",
-      "lastChangedAt": "2026-07-02T19:30:25.001Z",
+      "lastSeenAt": "2026-07-02T19:35:10.173Z",
+      "lastChangedAt": "2026-07-02T19:35:10.173Z",
       "missingSince": null
     },
     "pdfso5": {
