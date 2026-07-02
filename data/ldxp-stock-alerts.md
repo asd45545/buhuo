@@ -5005,3 +5005,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/pdfso5
 
+## 2026-07-02T14:10:18.059Z
+- BugTeam【质保首次导入,发货JSON,不会用别拍】
+  - Stock: 0 -> 18
+  - Price: 15
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pdfso5
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 27
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
