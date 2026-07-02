@@ -4729,3 +4729,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zdsmzz
 
+## 2026-07-02T07:50:17.476Z
+- BugTeam【质保首次导入,发货JSON,不会用别拍】
+  - Stock: 新上架 -> 13
+  - Price: 15
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pdfso5
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 6
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
