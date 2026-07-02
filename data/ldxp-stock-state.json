@@ -2883,25 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "wntyd1",
-      "name": "【仅质保首登】K12 GPT team，一个号平均额度100刀。cpa格式，需要其他格式自己转换",
-      "link": "https://pay.ldxp.cn/item/wntyd1",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4.8,
-      "stock": 299,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T09:40:14.029Z",
-      "checkedAt": "2026-07-02T04:25:09.751Z",
-      "alertId": "restocked|wntyd1|0|299|2026-07-01T09:40:14.029Z",
-      "queuedAt": "2026-07-02T04:25:09.751Z"
-    }
-  ]
+  }
 }
