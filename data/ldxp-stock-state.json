@@ -2883,25 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "nq08tb",
-      "name": "50个 k12子号 反代 保首登（含RT｜CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/nq08tb",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 200,
-      "stock": 15,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T08:40:14.928Z",
-      "checkedAt": "2026-07-02T04:55:09.948Z",
-      "alertId": "restocked|nq08tb|0|15|2026-07-01T08:40:14.928Z",
-      "queuedAt": "2026-07-02T04:55:09.948Z"
-    }
-  ]
+  }
 }
