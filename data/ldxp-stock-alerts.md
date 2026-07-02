@@ -4722,3 +4722,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kdsr0p
 
+## 2026-07-02T07:45:12.868Z
+- team成品 只能反代 已接码json
+  - Stock: 0 -> 40
+  - Price: 3.85
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zdsmzz
+
