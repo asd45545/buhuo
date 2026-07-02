@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2239,
+  "runs": 2240,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-02T05:39:59.123Z",
+  "updatedAt": "2026-07-02T05:40:17.135Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -834,13 +834,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 507,
-      "stock": 13,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-01T17:15:12.845Z",
-      "lastChangedAt": "2026-07-01T17:15:12.845Z",
+      "lastSeenAt": "2026-07-02T05:40:17.135Z",
+      "lastChangedAt": "2026-07-02T05:40:17.135Z",
       "missingSince": null
     },
     "u883y2": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 596,
+      "stock": 594,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T05:39:59.123Z",
-      "lastChangedAt": "2026-07-02T05:39:59.123Z",
+      "lastSeenAt": "2026-07-02T05:40:17.135Z",
+      "lastChangedAt": "2026-07-02T05:40:17.135Z",
       "missingSince": null
     },
     "4wvlfu": {
