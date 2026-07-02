@@ -2951,25 +2951,5 @@
       "lastChangedAt": "2026-07-02T08:50:18.337Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ay90no",
-      "name": "【IOS渠道】CLAUDE Pro 官方充值（月卡）",
-      "link": "https://pay.ldxp.cn/item/ay90no",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 145,
-      "stock": 54,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-02T08:50:18.337Z",
-      "alertId": "new_in_stock|ay90no|新上架|54|",
-      "queuedAt": "2026-07-02T08:50:18.337Z"
-    }
-  ]
+  }
 }
