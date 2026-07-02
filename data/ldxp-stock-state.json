@@ -2900,43 +2900,5 @@
       "lastChangedAt": "2026-07-02T06:10:17.392Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80.03,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T06:05:10.431Z",
-      "checkedAt": "2026-07-02T06:10:17.392Z",
-      "alertId": "restocked|ktiyr3|0|2|2026-07-02T06:05:10.431Z",
-      "queuedAt": "2026-07-02T06:10:17.392Z"
-    },
-    {
-      "key": "zdsmzz",
-      "name": "team成品 只能反代 已接码json",
-      "link": "https://pay.ldxp.cn/item/zdsmzz",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 3.85,
-      "stock": 90,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T10:15:12.416Z",
-      "checkedAt": "2026-07-02T06:10:17.392Z",
-      "alertId": "restocked|zdsmzz|0|90|2026-07-01T10:15:12.416Z",
-      "queuedAt": "2026-07-02T06:10:17.392Z"
-    }
-  ]
+  }
 }
