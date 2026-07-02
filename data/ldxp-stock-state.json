@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2422,
+  "runs": 2423,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-02T21:10:18.772Z",
+  "updatedAt": "2026-07-02T21:15:12.948Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.2,
-      "stock": 200,
+      "stock": 196,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T21:10:18.772Z",
-      "lastChangedAt": "2026-07-02T21:10:18.772Z",
+      "lastSeenAt": "2026-07-02T21:15:12.948Z",
+      "lastChangedAt": "2026-07-02T21:15:12.948Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 533,
+      "stock": 531,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T17:30:24.248Z",
-      "lastChangedAt": "2026-07-02T17:30:24.248Z",
+      "lastSeenAt": "2026-07-02T21:15:12.948Z",
+      "lastChangedAt": "2026-07-02T21:15:12.948Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 23,
+      "stock": 22,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-07-02T19:50:17.664Z",
-      "lastChangedAt": "2026-07-02T19:50:17.664Z",
+      "lastSeenAt": "2026-07-02T21:15:12.948Z",
+      "lastChangedAt": "2026-07-02T21:15:12.948Z",
       "missingSince": null
     },
     "1nim44": {
@@ -2891,13 +2891,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.12,
-      "stock": 423,
+      "stock": 422,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-02T05:55:09.980Z",
-      "lastSeenAt": "2026-07-02T21:10:18.772Z",
-      "lastChangedAt": "2026-07-02T21:10:18.772Z",
+      "lastSeenAt": "2026-07-02T21:15:12.948Z",
+      "lastChangedAt": "2026-07-02T21:15:12.948Z",
       "missingSince": null
     },
     "pdfso5": {
