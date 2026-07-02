@@ -2883,25 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "sgvpms",
-      "name": "codex接码 如题",
-      "link": "https://pay.ldxp.cn/item/sgvpms",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 2.4,
-      "stock": 46,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-06-30T13:20:15.507Z",
-      "checkedAt": "2026-07-02T05:45:12.837Z",
-      "alertId": "restocked|sgvpms|0|46|2026-06-30T13:20:15.507Z",
-      "queuedAt": "2026-07-02T05:45:12.837Z"
-    }
-  ]
+  }
 }
