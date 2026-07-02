@@ -4792,3 +4792,35 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-07-02T08:30:24.990Z
+- 100个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 2
+  - Price: 333.33
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/ir7b3h
+- 1个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 260
+  - Price: 3.75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 30个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 8
+  - Price: 105
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+- 50个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 5
+  - Price: 166.67
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/nq08tb
+- 5个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 52
+  - Price: 18.75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+- plus 非日抛成品号 未接码 最新荷兰老铁手搓
+  - Stock: 0 -> 13
+  - Price: 13.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/w7geuq
+
