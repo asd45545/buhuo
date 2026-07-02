@@ -2934,43 +2934,5 @@
       "lastChangedAt": "2026-07-02T08:45:12.620Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "kdsr0p",
-      "name": "GPT PLUS成品号（质保三天）",
-      "link": "https://pay.ldxp.cn/item/kdsr0p",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 22.5,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T08:40:17.287Z",
-      "checkedAt": "2026-07-02T08:45:12.620Z",
-      "alertId": "restocked|kdsr0p|0|2|2026-07-02T08:40:17.287Z",
-      "queuedAt": "2026-07-02T08:45:12.620Z"
-    },
-    {
-      "key": "2pfaek",
-      "name": "IOS【质保30天】Claude pro 官方充值  免排队 秒充(5-10分钟到账)（下单务必看清商品描述）",
-      "link": "https://pay.ldxp.cn/item/2pfaek",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 145,
-      "stock": 25,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-02T08:45:12.620Z",
-      "alertId": "new_in_stock|2pfaek|新上架|25|",
-      "queuedAt": "2026-07-02T08:45:12.620Z"
-    }
-  ]
+  }
 }
