@@ -4611,3 +4611,20 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/quufr4
 
+## 2026-07-02T06:00:29.516Z
+- Gemini Pro 12个月成品【质保首登丨官方订阅】20-24年高权重老邮箱账号
+  - Stock: 0 -> 3
+  - Price: 20.8
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/3y9w84
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 15
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 2
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
