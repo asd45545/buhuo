@@ -2951,43 +2951,5 @@
       "lastChangedAt": "2026-07-02T13:05:10.936Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "pfz6mj",
-      "name": "已接码🔥UPI渠道日抛Plus成品带RT 可登网页 codex/cpa/sub 保首登",
-      "link": "https://pay.ldxp.cn/item/pfz6mj",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 14.25,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T12:20:17.366Z",
-      "checkedAt": "2026-07-02T13:10:17.271Z",
-      "alertId": "restocked|pfz6mj|0|10|2026-07-02T12:20:17.366Z",
-      "queuedAt": "2026-07-02T13:10:17.271Z"
-    },
-    {
-      "key": "zdsmzz",
-      "name": "team成品 只能反代 已接码json",
-      "link": "https://pay.ldxp.cn/item/zdsmzz",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 3.24,
-      "stock": 49,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T09:45:13.556Z",
-      "checkedAt": "2026-07-02T13:10:17.271Z",
-      "alertId": "restocked|zdsmzz|0|49|2026-07-02T09:45:13.556Z",
-      "queuedAt": "2026-07-02T13:10:17.271Z"
-    }
-  ]
+  }
 }
