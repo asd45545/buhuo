@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2416,
+  "runs": 2417,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-02T20:40:17.846Z",
+  "updatedAt": "2026-07-02T20:45:13.286Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.2,
-      "stock": 212,
+      "stock": 202,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T20:10:20.131Z",
-      "lastChangedAt": "2026-07-02T20:10:20.131Z",
+      "lastSeenAt": "2026-07-02T20:45:13.286Z",
+      "lastChangedAt": "2026-07-02T20:45:13.286Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -2857,13 +2857,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 26.73,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-02T16:40:17.271Z",
+      "stock": 17,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-01T01:15:11.873Z",
-      "lastSeenAt": "2026-07-02T16:40:17.271Z",
-      "lastChangedAt": "2026-07-02T16:40:17.271Z",
+      "lastSeenAt": "2026-07-02T20:45:13.286Z",
+      "lastChangedAt": "2026-07-02T20:45:13.286Z",
       "missingSince": null
     },
     "qpm6uu": {
@@ -2951,5 +2951,25 @@
       "lastChangedAt": "2026-07-02T13:05:10.936Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "jkrruh",
+      "name": "24小时team（畅享额度）",
+      "link": "https://pay.ldxp.cn/item/jkrruh",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 26.73,
+      "stock": 17,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-02T16:40:17.271Z",
+      "checkedAt": "2026-07-02T20:45:13.286Z",
+      "alertId": "restocked|jkrruh|0|17|2026-07-02T16:40:17.271Z",
+      "queuedAt": "2026-07-02T20:45:13.286Z"
+    }
+  ]
 }
