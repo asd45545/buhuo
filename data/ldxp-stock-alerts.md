@@ -4843,3 +4843,10 @@
   - Category: Claude
   - Link: https://pay.ldxp.cn/item/2pfaek
 
+## 2026-07-02T08:50:18.337Z
+- 【IOS渠道】CLAUDE Pro 官方充值（月卡）
+  - Stock: 新上架 -> 54
+  - Price: 145
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/ay90no
+
