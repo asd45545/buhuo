@@ -4748,3 +4748,40 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/pdfso5
 
+## 2026-07-02T08:05:11.364Z
+- 🌟GPT Plus  卡密【官方卡冲~保订阅】（菲区卡充）【可自助兑换】支持续费【端午特价来袭】
+  - Stock: 0 -> 3
+  - Price: 130.99
+  - Category: ✅GPT 正规渠道代充
+  - Link: https://pay.ldxp.cn/item/dt897i
+- 100个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 3
+  - Price: 333.33
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/ir7b3h
+- 1个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 300
+  - Price: 3.75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 30个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 10
+  - Price: 105
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+- 50个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 6
+  - Price: 166.67
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/nq08tb
+- 5个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 60
+  - Price: 18.75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+- Gemini 3.1pro 12个月pixel成品号（随机地区20-24年账号）
+  - Stock: 0 -> 151
+  - Price: 19
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/j79pn9
+
