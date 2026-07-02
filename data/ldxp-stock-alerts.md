@@ -4958,3 +4958,10 @@
   - Category: Claude
   - Link: https://pay.ldxp.cn/item/fvde75
 
+## 2026-07-02T11:55:10.027Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 29
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
