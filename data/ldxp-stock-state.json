@@ -2951,43 +2951,5 @@
       "lastChangedAt": "2026-07-02T13:05:10.936Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "pdfso5",
-      "name": "BugTeam【质保首次导入,发货JSON,不会用别拍】",
-      "link": "https://pay.ldxp.cn/item/pdfso5",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 15,
-      "stock": 18,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T13:55:10.185Z",
-      "checkedAt": "2026-07-02T14:10:18.059Z",
-      "alertId": "restocked|pdfso5|0|18|2026-07-02T13:55:10.185Z",
-      "queuedAt": "2026-07-02T14:10:18.059Z"
-    },
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80.03,
-      "stock": 27,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T12:20:17.366Z",
-      "checkedAt": "2026-07-02T14:10:18.059Z",
-      "alertId": "restocked|ktiyr3|0|27|2026-07-02T12:20:17.366Z",
-      "queuedAt": "2026-07-02T14:10:18.059Z"
-    }
-  ]
+  }
 }
