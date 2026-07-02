@@ -4473,3 +4473,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/w6ql6z
 
+## 2026-07-02T04:05:10.006Z
+- 【GPT-K12充值】理论2年，可用codex
+  - Stock: 0 -> 10
+  - Price: 41.15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/squijt
+- Ideal渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 2
+  - Price: 15.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/k4ebdz
+
