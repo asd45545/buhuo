@@ -4705,3 +4705,20 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/2oh41p
 
+## 2026-07-02T07:40:19.870Z
+- Claude Max 20x 成品号【不质保特价·已过KYC】
+  - Stock: 0 -> 10
+  - Price: 702
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/whlry4
+- GPT PLUS成品号
+  - Stock: 0 -> 8
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 1
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
