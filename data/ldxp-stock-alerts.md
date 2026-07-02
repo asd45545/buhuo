@@ -4640,3 +4640,20 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zdsmzz
 
+## 2026-07-02T06:20:17.314Z
+- 【双接码微软】free（90％可开plus）
+  - Stock: 0 -> 1910
+  - Price: 0.79
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/55cstm
+- GPT PLUS成品号
+  - Stock: 0 -> 13
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 4
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
