@@ -4678,3 +4678,30 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/k4ebdz
 
+## 2026-07-02T07:30:25.311Z
+- 100个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 2
+  - Price: 333.33
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/ir7b3h
+- 1个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 197
+  - Price: 3.75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 30个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 6
+  - Price: 105
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+- 50个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 4
+  - Price: 166.67
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/nq08tb
+- 5个 k12子号 反代 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 39
+  - Price: 18.75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+
