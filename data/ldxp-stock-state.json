@@ -2917,25 +2917,5 @@
       "lastChangedAt": "2026-07-02T08:00:29.447Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "pdfso5",
-      "name": "BugTeam【质保首次导入,发货JSON,不会用别拍】",
-      "link": "https://pay.ldxp.cn/item/pdfso5",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 15,
-      "stock": 58,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T07:55:10.192Z",
-      "checkedAt": "2026-07-02T08:00:29.447Z",
-      "alertId": "restocked|pdfso5|0|58|2026-07-02T07:55:10.192Z",
-      "queuedAt": "2026-07-02T08:00:29.447Z"
-    }
-  ]
+  }
 }
