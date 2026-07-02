@@ -2883,43 +2883,5 @@
       "lastChangedAt": "2026-07-01T05:45:13.115Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "squijt",
-      "name": "【GPT-K12充值】理论2年，可用codex",
-      "link": "https://pay.ldxp.cn/item/squijt",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 41.15,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T13:40:15.724Z",
-      "checkedAt": "2026-07-02T04:05:10.006Z",
-      "alertId": "restocked|squijt|0|10|2026-07-01T13:40:15.724Z",
-      "queuedAt": "2026-07-02T04:05:10.006Z"
-    },
-    {
-      "key": "k4ebdz",
-      "name": "Ideal渠道 - ChatGPT Plus 月卡 成品号",
-      "link": "https://pay.ldxp.cn/item/k4ebdz",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 15.6,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T02:25:10.290Z",
-      "checkedAt": "2026-07-02T04:05:10.006Z",
-      "alertId": "restocked|k4ebdz|0|2|2026-07-02T02:25:10.290Z",
-      "queuedAt": "2026-07-02T04:05:10.006Z"
-    }
-  ]
+  }
 }
