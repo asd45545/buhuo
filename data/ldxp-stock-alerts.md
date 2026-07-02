@@ -4372,3 +4372,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/s80xga
 
+## 2026-07-02T01:45:12.584Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 12
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- Ideal渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 1
+  - Price: 15.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/k4ebdz
+
