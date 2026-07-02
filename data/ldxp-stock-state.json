@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2407,
+  "runs": 2408,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-02T19:45:12.884Z",
+  "updatedAt": "2026-07-02T19:50:17.664Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 20,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-07-02T19:45:12.884Z",
-      "lastChangedAt": "2026-07-02T19:45:12.884Z",
+      "lastSeenAt": "2026-07-02T19:50:17.664Z",
+      "lastChangedAt": "2026-07-02T19:50:17.664Z",
       "missingSince": null
     },
     "1nim44": {
@@ -2279,13 +2279,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 37.38,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-02T14:45:13.351Z",
-      "lastChangedAt": "2026-07-02T14:45:13.351Z",
+      "lastSeenAt": "2026-07-02T19:50:17.664Z",
+      "lastChangedAt": "2026-07-02T19:50:17.664Z",
       "missingSince": null
     },
     "hia70r": {
@@ -2585,13 +2585,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 17.55,
-      "stock": 11,
+      "stock": 10,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T19:15:17.764Z",
-      "lastSeenAt": "2026-07-02T17:45:13.496Z",
-      "lastChangedAt": "2026-07-02T17:45:13.496Z",
+      "lastSeenAt": "2026-07-02T19:50:17.664Z",
+      "lastChangedAt": "2026-07-02T19:50:17.664Z",
       "missingSince": null
     },
     "di5fjv": {
@@ -2898,7 +2898,7 @@
       "firstSeenAt": "2026-07-02T05:55:09.980Z",
       "lastSeenAt": "2026-07-02T19:45:12.884Z",
       "lastChangedAt": "2026-07-02T19:45:12.884Z",
-      "missingSince": null
+      "missingSince": "2026-07-02T19:50:17.664Z"
     },
     "pdfso5": {
       "key": "pdfso5",
