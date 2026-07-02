@@ -4831,3 +4831,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4wvlfu
 
+## 2026-07-02T08:45:12.620Z
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 2
+  - Price: 22.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+- IOS【质保30天】Claude pro 官方充值  免排队 秒充(5-10分钟到账)（下单务必看清商品描述）
+  - Stock: 新上架 -> 25
+  - Price: 145
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/2pfaek
+
