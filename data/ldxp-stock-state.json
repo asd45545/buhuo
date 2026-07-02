@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2400,
+  "runs": 2401,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-02T19:00:32.544Z",
+  "updatedAt": "2026-07-02T19:05:10.028Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 13.05,
-      "stock": 54,
+      "stock": 53,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-02T18:55:01.991Z",
-      "lastChangedAt": "2026-07-02T18:55:01.991Z",
+      "lastSeenAt": "2026-07-02T19:05:10.028Z",
+      "lastChangedAt": "2026-07-02T19:05:10.028Z",
       "missingSince": null
     },
     "zcj8wf": {
