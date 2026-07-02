@@ -5024,3 +5024,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/pdfso5
 
+## 2026-07-02T14:50:18.231Z
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 15
+  - Price: 20.15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+
