@@ -2951,43 +2951,5 @@
       "lastChangedAt": "2026-07-02T09:25:10.715Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "kdsr0p",
-      "name": "GPT PLUS成品号（质保三天）",
-      "link": "https://pay.ldxp.cn/item/kdsr0p",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 22.5,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T09:05:10.596Z",
-      "checkedAt": "2026-07-02T09:35:10.703Z",
-      "alertId": "restocked|kdsr0p|0|5|2026-07-02T09:05:10.596Z",
-      "queuedAt": "2026-07-02T09:35:10.703Z"
-    },
-    {
-      "key": "w7geuq",
-      "name": "plus 非日抛成品号 未接码 最新荷兰老铁手搓",
-      "link": "https://pay.ldxp.cn/item/w7geuq",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 13.5,
-      "stock": 26,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T09:10:17.937Z",
-      "checkedAt": "2026-07-02T09:35:10.703Z",
-      "alertId": "restocked|w7geuq|0|26|2026-07-02T09:10:17.937Z",
-      "queuedAt": "2026-07-02T09:35:10.703Z"
-    }
-  ]
+  }
 }
