@@ -5255,3 +5255,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-07-03T08:30:25.154Z
+- 谷歌邮箱【成品plus】质保7天，不是库存号
+  - Stock: 0 -> 8
+  - Price: 37.38
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/cw5zul
+
