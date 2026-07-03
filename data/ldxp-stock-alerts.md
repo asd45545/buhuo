@@ -5441,3 +5441,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/pdfso5
 
+## 2026-07-03T15:15:13.201Z
+- BugTeam【质保首次导入,发货JSON,不会用别拍】
+  - Stock: 0 -> 44
+  - Price: 15
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pdfso5
+
