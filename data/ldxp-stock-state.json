@@ -2951,25 +2951,5 @@
       "lastChangedAt": "2026-07-03T05:15:13.430Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "mppniu",
-      "name": "Gemini Pro 12个月成品【质保一年丨官方订阅】美区20-24年高权重老邮箱账号",
-      "link": "https://pay.ldxp.cn/item/mppniu",
-      "goodsType": "card",
-      "categoryId": 111637,
-      "categoryName": "Gemini",
-      "price": 50,
-      "stock": 3,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-03T10:55:09.897Z",
-      "checkedAt": "2026-07-03T13:55:10.212Z",
-      "alertId": "restocked|mppniu|0|3|2026-07-03T10:55:09.897Z",
-      "queuedAt": "2026-07-03T13:55:10.212Z"
-    }
-  ]
+  }
 }
