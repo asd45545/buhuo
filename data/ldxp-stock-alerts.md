@@ -5262,3 +5262,40 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/cw5zul
 
+## 2026-07-03T08:50:17.709Z
+- 100个 team k12子号 5h15刀 周限100刀 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 4
+  - Price: 360
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/ir7b3h
+- 1个 team k12子号 5h15刀 周限100刀 保首登（含CPA+sub2api）
+  - Stock: 0 -> 464
+  - Price: 4.05
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 30个 team k12子号 5h15刀 周限100刀 保首登（含CPA+sub2api）
+  - Stock: 0 -> 15
+  - Price: 113.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+- 50个 team k12子号 5h15刀 周限100刀 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 9
+  - Price: 180
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/nq08tb
+- 5个 team k12子号 5h15刀 周限100刀 保首登（含CPA+sub2api）
+  - Stock: 0 -> 92
+  - Price: 20.25
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+- 谷歌邮箱【成品plus】特价，不是库存号
+  - Stock: 0 -> 31
+  - Price: 16.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 1
+  - Price: 16.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
