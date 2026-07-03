@@ -2951,25 +2951,5 @@
       "lastChangedAt": "2026-07-02T13:05:10.936Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "b2ggf2",
-      "name": "Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码",
-      "link": "https://pay.ldxp.cn/item/b2ggf2",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.6,
-      "stock": 67,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T07:55:10.192Z",
-      "checkedAt": "2026-07-03T02:30:23.670Z",
-      "alertId": "restocked|b2ggf2|0|67|2026-07-02T07:55:10.192Z",
-      "queuedAt": "2026-07-03T02:30:23.670Z"
-    }
-  ]
+  }
 }
