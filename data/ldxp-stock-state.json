@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2663,
+  "runs": 2664,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-03T17:45:13.537Z",
+  "updatedAt": "2026-07-03T17:50:18.190Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.2,
-      "stock": 218,
+      "stock": 216,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T17:45:13.537Z",
-      "lastChangedAt": "2026-07-03T17:45:13.537Z",
+      "lastSeenAt": "2026-07-03T17:50:18.190Z",
+      "lastChangedAt": "2026-07-03T17:50:18.190Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -579,13 +579,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 83,
+      "stock": 78,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T16:40:19.374Z",
-      "lastChangedAt": "2026-07-03T16:40:19.374Z",
+      "lastSeenAt": "2026-07-03T17:50:18.190Z",
+      "lastChangedAt": "2026-07-03T17:50:18.190Z",
       "missingSince": null
     },
     "9po7w2": {
@@ -1293,13 +1293,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 18.75,
-      "stock": 98,
+      "stock": 97,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T15:30:23.941Z",
-      "lastChangedAt": "2026-07-03T15:30:23.941Z",
+      "lastSeenAt": "2026-07-03T17:50:18.190Z",
+      "lastChangedAt": "2026-07-03T17:50:18.190Z",
       "missingSince": null
     },
     "kdsr0p": {
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 14,
+      "stock": 13,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-07-03T15:20:19.100Z",
-      "lastChangedAt": "2026-07-03T15:20:19.100Z",
+      "lastSeenAt": "2026-07-03T17:50:18.190Z",
+      "lastChangedAt": "2026-07-03T17:50:18.190Z",
       "missingSince": null
     },
     "1nim44": {
