@@ -5335,3 +5335,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zak7xw
 
+## 2026-07-03T11:25:10.066Z
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 175
+  - Price: 0.6
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 2
+  - Price: 21.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
