@@ -5162,3 +5162,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/pfz6mj
 
+## 2026-07-03T05:55:09.974Z
+- BugTeam【质保首次导入,发货JSON,不会用别拍】
+  - Stock: 0 -> 283
+  - Price: 15
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pdfso5
+
