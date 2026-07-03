@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2691,
+  "runs": 2692,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-03T20:35:09.949Z",
+  "updatedAt": "2026-07-03T20:40:18.546Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1072,13 +1072,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 21,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T14:30:24.876Z",
-      "lastChangedAt": "2026-07-03T14:30:24.876Z",
+      "lastSeenAt": "2026-07-03T20:40:18.546Z",
+      "lastChangedAt": "2026-07-03T20:40:18.546Z",
       "missingSince": null
     },
     "6wd8eu": {
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 491,
+      "stock": 490,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T20:15:13.801Z",
-      "lastChangedAt": "2026-07-03T20:15:13.801Z",
+      "lastSeenAt": "2026-07-03T20:40:18.546Z",
+      "lastChangedAt": "2026-07-03T20:40:18.546Z",
       "missingSince": null
     },
     "h4vvrc": {
