@@ -5462,3 +5462,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/6byvu1
 
+## 2026-07-03T16:00:29.824Z
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 6
+  - Price: 21.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
