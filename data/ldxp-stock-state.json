@@ -2951,25 +2951,5 @@
       "lastChangedAt": "2026-07-02T13:05:10.936Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "55cstm",
-      "name": "【双接码微软】free（90％可开plus）",
-      "link": "https://pay.ldxp.cn/item/55cstm",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.79,
-      "stock": 1959,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-03T04:00:30.690Z",
-      "checkedAt": "2026-07-03T04:35:10.016Z",
-      "alertId": "restocked|55cstm|0|1959|2026-07-03T04:00:30.690Z",
-      "queuedAt": "2026-07-03T04:35:10.016Z"
-    }
-  ]
+  }
 }
