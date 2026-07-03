@@ -2951,25 +2951,5 @@
       "lastChangedAt": "2026-07-02T13:05:10.936Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4xsj1w",
-      "name": "GPT PLUS成品号",
-      "link": "https://pay.ldxp.cn/item/4xsj1w",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 15,
-      "stock": 29,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-03T02:05:10.786Z",
-      "checkedAt": "2026-07-03T04:10:18.140Z",
-      "alertId": "restocked|4xsj1w|0|29|2026-07-03T02:05:10.786Z",
-      "queuedAt": "2026-07-03T04:10:18.140Z"
-    }
-  ]
+  }
 }
