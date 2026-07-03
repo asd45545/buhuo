@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2572,
+  "runs": 2573,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-03T10:15:13.599Z",
+  "updatedAt": "2026-07-03T10:17:45.457Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 3,
-      "stock": 551,
+      "stock": 550,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T10:15:13.599Z",
-      "lastChangedAt": "2026-07-03T10:15:13.599Z",
+      "lastSeenAt": "2026-07-03T10:17:45.457Z",
+      "lastChangedAt": "2026-07-03T10:17:45.457Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -579,13 +579,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 104,
+      "stock": 103,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T09:00:30.135Z",
-      "lastChangedAt": "2026-07-03T09:00:30.135Z",
+      "lastSeenAt": "2026-07-03T10:17:45.457Z",
+      "lastChangedAt": "2026-07-03T10:17:45.457Z",
       "missingSince": null
     },
     "9po7w2": {
@@ -1281,9 +1281,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T10:00:30.748Z",
+      "lastSeenAt": "2026-07-03T10:17:45.457Z",
       "lastChangedAt": "2026-07-03T10:00:30.748Z",
-      "missingSince": "2026-07-03T10:05:10.181Z"
+      "missingSince": null
     },
     "9fauti": {
       "key": "9fauti",
@@ -1298,9 +1298,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T09:45:13.375Z",
+      "lastSeenAt": "2026-07-03T10:17:45.457Z",
       "lastChangedAt": "2026-07-03T09:45:13.375Z",
-      "missingSince": "2026-07-03T10:05:10.181Z"
+      "missingSince": null
     },
     "kdsr0p": {
       "key": "kdsr0p",
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.13,
-      "stock": 614,
+      "stock": 676,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-03T10:15:13.599Z",
-      "lastChangedAt": "2026-07-03T10:15:13.599Z",
+      "lastSeenAt": "2026-07-03T10:17:45.457Z",
+      "lastChangedAt": "2026-07-03T10:17:45.457Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.6,
-      "stock": 8,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-03T09:50:18.222Z",
-      "lastChangedAt": "2026-07-03T09:50:18.222Z",
+      "lastSeenAt": "2026-07-03T10:17:45.457Z",
+      "lastChangedAt": "2026-07-03T10:17:45.457Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 29,
+      "stock": 28,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-03T10:15:13.599Z",
-      "lastChangedAt": "2026-07-03T10:15:13.599Z",
+      "lastSeenAt": "2026-07-03T10:17:45.457Z",
+      "lastChangedAt": "2026-07-03T10:17:45.457Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2908,13 +2908,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 27,
-      "stock": 27,
+      "stock": 166,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-02T07:50:17.476Z",
-      "lastSeenAt": "2026-07-03T10:15:13.599Z",
-      "lastChangedAt": "2026-07-03T10:15:13.599Z",
+      "lastSeenAt": "2026-07-03T10:17:45.457Z",
+      "lastChangedAt": "2026-07-03T10:17:45.457Z",
       "missingSince": null
     },
     "2pfaek": {
