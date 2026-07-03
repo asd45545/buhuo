@@ -5204,3 +5204,40 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/q0lb2o
 
+## 2026-07-03T08:15:13.634Z
+- 【codex-反代】k12team成品（只能反代，买错不退）
+  - Stock: 0 -> 276
+  - Price: 4.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+- 1个 team k12子号 5h15刀 周限100刀 保首登（含CPA+sub2api）
+  - Stock: 0 -> 66
+  - Price: 4.05
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 30个 team k12子号 5h15刀 周限100刀 保首登（含CPA+sub2api）
+  - Stock: 0 -> 2
+  - Price: 113.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+- 50个 team k12子号 5h15刀 周限100刀 保首登（含RT｜CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 180
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/nq08tb
+- 5个 team k12子号 5h15刀 周限100刀 保首登（含CPA+sub2api）
+  - Stock: 0 -> 13
+  - Price: 20.25
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+- Google 谷歌邮箱【高质量 包gcp】美区 2020--2024年 老邮箱
+  - Stock: 0 -> 10
+  - Price: 11.69
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/etz0m6
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 14
+  - Price: 20.15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+
