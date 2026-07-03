@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2707,
+  "runs": 2708,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-03T23:10:17.242Z",
+  "updatedAt": "2026-07-03T23:15:13.016Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -2898,7 +2898,7 @@
       "firstSeenAt": "2026-07-02T05:55:09.980Z",
       "lastSeenAt": "2026-07-03T22:55:09.902Z",
       "lastChangedAt": "2026-07-03T22:55:09.902Z",
-      "missingSince": null
+      "missingSince": "2026-07-03T23:15:13.016Z"
     },
     "pdfso5": {
       "key": "pdfso5",
