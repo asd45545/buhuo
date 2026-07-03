@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2698,
+  "runs": 2699,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-03T21:30:24.200Z",
+  "updatedAt": "2026-07-03T21:35:09.790Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 9,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T15:40:16.634Z",
-      "lastChangedAt": "2026-07-03T15:40:16.634Z",
+      "lastSeenAt": "2026-07-03T21:35:09.790Z",
+      "lastChangedAt": "2026-07-03T21:35:09.790Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 12.38,
-      "stock": 67,
+      "stock": 66,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T21:30:24.200Z",
-      "lastChangedAt": "2026-07-03T21:30:24.200Z",
+      "lastSeenAt": "2026-07-03T21:35:09.790Z",
+      "lastChangedAt": "2026-07-03T21:35:09.790Z",
       "missingSince": null
     },
     "zcj8wf": {
