@@ -5394,3 +5394,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/wntyd1
 
+## 2026-07-03T13:55:10.212Z
+- Gemini Pro 12个月成品【质保一年丨官方订阅】美区20-24年高权重老邮箱账号
+  - Stock: 0 -> 3
+  - Price: 50
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/mppniu
+
