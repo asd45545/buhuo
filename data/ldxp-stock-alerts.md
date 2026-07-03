@@ -5380,3 +5380,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/pdfso5
 
+## 2026-07-03T13:40:19.376Z
+- iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码
+  - Stock: 0 -> 20
+  - Price: 10
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/h4vvrc
+
