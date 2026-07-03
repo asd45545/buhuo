@@ -5361,3 +5361,15 @@
   - Category: Claude
   - Link: https://pay.ldxp.cn/item/whlry4
 
+## 2026-07-03T13:10:16.985Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 3
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- Ideal渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 3
+  - Price: 15.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/k4ebdz
+
