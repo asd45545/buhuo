@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2938,
+  "runs": 2939,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T18:15:14.408Z",
+  "updatedAt": "2026-07-04T18:20:17.386Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -2857,13 +2857,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 26.73,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-04T15:00:28.820Z",
+      "stock": 3,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-01T01:15:11.873Z",
-      "lastSeenAt": "2026-07-04T15:00:28.820Z",
-      "lastChangedAt": "2026-07-04T15:00:28.820Z",
+      "lastSeenAt": "2026-07-04T18:20:17.386Z",
+      "lastChangedAt": "2026-07-04T18:20:17.386Z",
       "missingSince": null
     },
     "qpm6uu": {
@@ -3019,5 +3019,25 @@
       "lastChangedAt": "2026-07-04T15:10:17.458Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "jkrruh",
+      "name": "24小时team（畅享额度）",
+      "link": "https://pay.ldxp.cn/item/jkrruh",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 26.73,
+      "stock": 3,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-04T15:00:28.820Z",
+      "checkedAt": "2026-07-04T18:20:17.386Z",
+      "alertId": "restocked|jkrruh|0|3|2026-07-04T15:00:28.820Z",
+      "queuedAt": "2026-07-04T18:20:17.386Z"
+    }
+  ]
 }
