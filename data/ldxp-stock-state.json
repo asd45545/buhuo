@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2942,
+  "runs": 2943,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T18:35:10.345Z",
+  "updatedAt": "2026-07-04T18:40:17.103Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 77,
+      "stock": 76,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T18:35:10.345Z",
-      "lastChangedAt": "2026-07-04T18:35:10.345Z",
+      "lastSeenAt": "2026-07-04T18:40:17.103Z",
+      "lastChangedAt": "2026-07-04T18:40:17.103Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 289,
+      "stock": 288,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T17:55:10.128Z",
-      "lastChangedAt": "2026-07-04T17:55:10.128Z",
+      "lastSeenAt": "2026-07-04T18:40:17.103Z",
+      "lastChangedAt": "2026-07-04T18:40:17.103Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 12.38,
-      "stock": 108,
+      "stock": 107,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T18:25:09.803Z",
-      "lastChangedAt": "2026-07-04T18:25:09.803Z",
+      "lastSeenAt": "2026-07-04T18:40:17.103Z",
+      "lastChangedAt": "2026-07-04T18:40:17.103Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 57,
+      "stock": 56,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-04T18:25:09.803Z",
-      "lastChangedAt": "2026-07-04T18:25:09.803Z",
+      "lastSeenAt": "2026-07-04T18:40:17.103Z",
+      "lastChangedAt": "2026-07-04T18:40:17.103Z",
       "missingSince": null
     },
     "3u60wr": {
