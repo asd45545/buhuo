@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2960,
+  "runs": 2961,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T20:10:17.439Z",
+  "updatedAt": "2026-07-04T20:15:13.092Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1106,13 +1106,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 50,
-      "stock": 7,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T03:00:28.092Z",
-      "lastChangedAt": "2026-07-04T03:00:28.092Z",
+      "lastSeenAt": "2026-07-04T20:15:13.092Z",
+      "lastChangedAt": "2026-07-04T20:15:13.092Z",
       "missingSince": null
     },
     "4841fk": {
