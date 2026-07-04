@@ -6063,3 +6063,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/jkrruh
 
+## 2026-07-04T22:45:13.018Z
+- 30个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 54
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+
