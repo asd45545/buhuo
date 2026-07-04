@@ -2968,25 +2968,5 @@
       "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "pph45d",
-      "name": "30个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/pph45d",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 54,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-04T05:45:13.236Z",
-      "checkedAt": "2026-07-04T05:50:18.349Z",
-      "alertId": "restocked|pph45d|0|1|2026-07-04T05:45:13.236Z",
-      "queuedAt": "2026-07-04T05:50:18.349Z"
-    }
-  ]
+  }
 }
