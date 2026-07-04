@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2761,
+  "runs": 2762,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T03:40:19.066Z",
+  "updatedAt": "2026-07-04T03:45:13.847Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-04T03:40:19.066Z",
+      "stock": 1,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T03:40:19.066Z",
-      "lastChangedAt": "2026-07-04T03:40:19.066Z",
+      "lastSeenAt": "2026-07-04T03:45:13.847Z",
+      "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 304,
+      "stock": 303,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T03:40:19.066Z",
-      "lastChangedAt": "2026-07-04T03:40:19.066Z",
+      "lastSeenAt": "2026-07-04T03:45:13.847Z",
+      "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 481,
+      "stock": 476,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T01:35:10.391Z",
-      "lastChangedAt": "2026-07-04T01:35:10.391Z",
+      "lastSeenAt": "2026-07-04T03:45:13.847Z",
+      "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     },
     "h4vvrc": {
@@ -1814,7 +1814,7 @@
     },
     "l3su3k": {
       "key": "l3su3k",
-      "name": "【质保1次】GPT Pro20x 1小时掉订阅补1次！【黑充号非退款流时抛号可比】",
+      "name": "【mail邮箱gptpro20x成品号质保首登】GPT Pro20x",
       "link": "https://pay.ldxp.cn/item/l3su3k",
       "goodsType": "card",
       "categoryId": 112054,
@@ -1825,7 +1825,7 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-07-04T03:35:11.276Z",
+      "lastSeenAt": "2026-07-04T03:45:13.847Z",
       "lastChangedAt": "2026-07-04T03:35:11.276Z",
       "missingSince": null
     },
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.13,
-      "stock": 708,
+      "stock": 705,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-04T03:40:19.066Z",
-      "lastChangedAt": "2026-07-04T03:40:19.066Z",
+      "lastSeenAt": "2026-07-04T03:45:13.847Z",
+      "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2636,13 +2636,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 18.2,
-      "stock": 12,
+      "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T07:30:25.175Z",
-      "lastSeenAt": "2026-07-03T15:00:31.381Z",
-      "lastChangedAt": "2026-07-03T15:00:31.381Z",
+      "lastSeenAt": "2026-07-04T03:45:13.847Z",
+      "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     },
     "gjokwl": {
@@ -2891,13 +2891,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.12,
-      "stock": 197,
+      "stock": 195,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-02T05:55:09.980Z",
-      "lastSeenAt": "2026-07-04T03:40:19.066Z",
-      "lastChangedAt": "2026-07-04T03:40:19.066Z",
+      "lastSeenAt": "2026-07-04T03:45:13.847Z",
+      "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     },
     "pdfso5": {
@@ -2950,6 +2950,61 @@
       "lastSeenAt": "2026-07-03T17:00:30.474Z",
       "lastChangedAt": "2026-07-03T17:00:30.474Z",
       "missingSince": null
+    },
+    "973krs": {
+      "key": "973krs",
+      "name": "【正品谷歌内购超稳CDK】claude code MAX20 CDK 代充到自己账号 质保订阅30天 不质保封号",
+      "link": "https://pay.ldxp.cn/item/973krs",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 650,
+      "stock": 90,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-07-04T03:45:13.847Z",
+      "lastSeenAt": "2026-07-04T03:45:13.847Z",
+      "lastChangedAt": "2026-07-04T03:45:13.847Z",
+      "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "973krs",
+      "name": "【正品谷歌内购超稳CDK】claude code MAX20 CDK 代充到自己账号 质保订阅30天 不质保封号",
+      "link": "https://pay.ldxp.cn/item/973krs",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 650,
+      "stock": 90,
+      "inStock": true,
+      "alertType": "new_in_stock",
+      "previousStock": "新上架",
+      "previousStockValue": null,
+      "outOfStockSince": null,
+      "checkedAt": "2026-07-04T03:45:13.847Z",
+      "alertId": "new_in_stock|973krs|新上架|90|",
+      "queuedAt": "2026-07-04T03:45:13.847Z"
+    },
+    {
+      "key": "i2xjrp",
+      "name": "1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
+      "link": "https://pay.ldxp.cn/item/i2xjrp",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 2,
+      "stock": 1,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-04T03:40:19.066Z",
+      "checkedAt": "2026-07-04T03:45:13.847Z",
+      "alertId": "restocked|i2xjrp|0|1|2026-07-04T03:40:19.066Z",
+      "queuedAt": "2026-07-04T03:45:13.847Z"
+    }
+  ]
 }
