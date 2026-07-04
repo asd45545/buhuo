@@ -5745,3 +5745,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/nq08tb
 
+## 2026-07-04T06:10:17.888Z
+- GPT PLUS成品号
+  - Stock: 0 -> 5
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 2
+  - Price: 21.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
