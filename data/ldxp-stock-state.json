@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2902,
+  "runs": 2903,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T15:25:11.255Z",
+  "updatedAt": "2026-07-04T15:30:24.841Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1123,13 +1123,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 16,
-      "stock": 10,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T14:40:18.360Z",
-      "lastChangedAt": "2026-07-04T14:40:18.360Z",
+      "lastSeenAt": "2026-07-04T15:30:24.841Z",
+      "lastChangedAt": "2026-07-04T15:30:24.841Z",
       "missingSince": null
     },
     "bzposi": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 12,
+      "stock": 19,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T15:25:11.255Z",
-      "lastChangedAt": "2026-07-04T15:25:11.255Z",
+      "lastSeenAt": "2026-07-04T15:30:24.841Z",
+      "lastChangedAt": "2026-07-04T15:30:24.841Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 21.25,
-      "stock": 5,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T15:05:10.454Z",
-      "lastChangedAt": "2026-07-04T15:05:10.454Z",
+      "lastSeenAt": "2026-07-04T15:30:24.841Z",
+      "lastChangedAt": "2026-07-04T15:30:24.841Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -2041,13 +2041,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14.25,
-      "stock": 4,
+      "stock": 10,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T02:06:18.786Z",
-      "lastSeenAt": "2026-07-04T15:10:17.458Z",
-      "lastChangedAt": "2026-07-04T15:10:17.458Z",
+      "lastSeenAt": "2026-07-04T15:30:24.841Z",
+      "lastChangedAt": "2026-07-04T15:30:24.841Z",
       "missingSince": null
     },
     "1nim44": {
