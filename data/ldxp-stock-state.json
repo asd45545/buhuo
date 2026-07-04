@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2885,
+  "runs": 2886,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T14:05:10.053Z",
+  "updatedAt": "2026-07-04T14:05:31.328Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -2126,13 +2126,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 660,
-      "stock": 256,
+      "stock": 255,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T17:15:19.402Z",
-      "lastSeenAt": "2026-07-04T08:15:13.158Z",
-      "lastChangedAt": "2026-07-04T08:15:13.158Z",
+      "lastSeenAt": "2026-07-04T14:05:31.328Z",
+      "lastChangedAt": "2026-07-04T14:05:31.328Z",
       "missingSince": null
     },
     "xn9zj4": {
@@ -2915,7 +2915,7 @@
       "firstSeenAt": "2026-07-02T07:50:17.476Z",
       "lastSeenAt": "2026-07-04T14:05:10.053Z",
       "lastChangedAt": "2026-07-04T14:05:10.053Z",
-      "missingSince": null
+      "missingSince": "2026-07-04T14:05:31.328Z"
     },
     "2pfaek": {
       "key": "2pfaek",
