@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2740,
+  "runs": 2741,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T01:55:10.559Z",
+  "updatedAt": "2026-07-04T02:00:31.789Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -222,13 +222,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 144,
-      "stock": 29,
+      "stock": 28,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T01:45:13.184Z",
-      "lastChangedAt": "2026-07-04T01:45:13.184Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "zak7xw": {
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 2,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-04T02:00:31.789Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T01:55:10.559Z",
-      "lastChangedAt": "2026-07-04T01:55:10.559Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -477,13 +477,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 700,
-      "stock": 52,
+      "stock": 51,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T09:25:10.108Z",
-      "lastChangedAt": "2026-07-03T07:05:10.033Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "med1xn": {
@@ -579,13 +579,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 557,
+      "stock": 556,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T01:10:18.179Z",
-      "lastChangedAt": "2026-07-04T01:10:18.179Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "9po7w2": {
@@ -783,13 +783,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 702,
-      "stock": 5,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T17:40:19.053Z",
-      "lastChangedAt": "2026-07-03T17:40:19.053Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "fvde75": {
@@ -834,13 +834,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 507,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-04T01:55:10.559Z",
+      "stock": 10,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T01:55:10.559Z",
-      "lastChangedAt": "2026-07-04T01:55:10.559Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "u883y2": {
@@ -1548,13 +1548,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 10,
-      "stock": 27,
+      "stock": 24,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T01:55:10.559Z",
-      "lastChangedAt": "2026-07-04T01:55:10.559Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "3jzcuc": {
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 1162,
+      "stock": 1161,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T16:50:18.177Z",
-      "lastChangedAt": "2026-07-03T16:50:18.177Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "e2913c": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.13,
-      "stock": 742,
+      "stock": 741,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-04T01:55:10.559Z",
-      "lastChangedAt": "2026-07-04T01:55:10.559Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 17,
+      "stock": 16,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-04T01:55:10.559Z",
-      "lastChangedAt": "2026-07-04T01:55:10.559Z",
+      "lastSeenAt": "2026-07-04T02:00:31.789Z",
+      "lastChangedAt": "2026-07-04T02:00:31.789Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2951,5 +2951,25 @@
       "lastChangedAt": "2026-07-03T17:00:30.474Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "9vso1a",
+      "name": "Claude Max 5x 成品号【不质保特价·已过KYC】",
+      "link": "https://pay.ldxp.cn/item/9vso1a",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 507,
+      "stock": 10,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-04T01:55:10.559Z",
+      "checkedAt": "2026-07-04T02:00:31.789Z",
+      "alertId": "restocked|9vso1a|0|10|2026-07-04T01:55:10.559Z",
+      "queuedAt": "2026-07-04T02:00:31.789Z"
+    }
+  ]
 }
