@@ -2951,25 +2951,5 @@
       "lastChangedAt": "2026-07-03T17:00:30.474Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ir7b3h",
-      "name": "100个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/ir7b3h",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 221,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-03T23:25:09.933Z",
-      "checkedAt": "2026-07-04T00:05:09.813Z",
-      "alertId": "restocked|ir7b3h|0|1|2026-07-03T23:25:09.933Z",
-      "queuedAt": "2026-07-04T00:05:09.813Z"
-    }
-  ]
+  }
 }
