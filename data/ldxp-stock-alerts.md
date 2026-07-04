@@ -5650,3 +5650,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/i2xjrp
 
+## 2026-07-04T03:25:10.012Z
+- 1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 7
+  - Price: 2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 5个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 2
+  - Price: 10
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+
