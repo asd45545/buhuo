@@ -2951,25 +2951,5 @@
       "lastChangedAt": "2026-07-03T17:00:30.474Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ttuq5u",
-      "name": "codex接🐎 美区成功率99.99接码",
-      "link": "https://pay.ldxp.cn/item/ttuq5u",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 2.29,
-      "stock": 200,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-04T01:35:10.391Z",
-      "checkedAt": "2026-07-04T01:40:17.975Z",
-      "alertId": "restocked|ttuq5u|0|200|2026-07-04T01:35:10.391Z",
-      "queuedAt": "2026-07-04T01:40:17.975Z"
-    }
-  ]
+  }
 }
