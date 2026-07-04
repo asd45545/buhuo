@@ -5927,3 +5927,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/ir7b3h
 
+## 2026-07-04T10:40:18.066Z
+- BugTeam【质保首次导入,发货JSON,icloud邮箱,没有RT,不会用别拍,无任何售后】
+  - Stock: 0 -> 49
+  - Price: 14.25
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pdfso5
+- Google 谷歌邮箱【高质量 包gcp】美区 2020--2024年 老邮箱
+  - Stock: 0 -> 10
+  - Price: 11.69
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/etz0m6
+
