@@ -5792,3 +5792,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/nr5tu0
 
+## 2026-07-04T06:54:20.416Z
+- 【保首登】【特价】 hotmail 邮箱 plus成品号
+  - Stock: 新上架 -> 19
+  - Price: 8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/z2jxo0
+- 100个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 170
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/ir7b3h
+- 微软长效-hotmail-【gr/o2双令牌号】-【英文随机+数字】Graph令牌号和OAuth2-IMAP-POP3
+  - Stock: 0 -> 100
+  - Price: 0.28
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/da2y2b
+
