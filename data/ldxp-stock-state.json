@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2957,
+  "runs": 2958,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T19:55:10.514Z",
+  "updatedAt": "2026-07-04T19:59:07.382Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -2269,7 +2269,7 @@
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
       "lastSeenAt": "2026-07-04T16:25:10.288Z",
       "lastChangedAt": "2026-07-04T16:25:10.288Z",
-      "missingSince": null
+      "missingSince": "2026-07-04T19:59:07.382Z"
     },
     "cw5zul": {
       "key": "cw5zul",
@@ -2286,7 +2286,7 @@
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
       "lastSeenAt": "2026-07-04T18:35:10.345Z",
       "lastChangedAt": "2026-07-04T18:35:10.345Z",
-      "missingSince": null
+      "missingSince": "2026-07-04T19:59:07.382Z"
     },
     "hia70r": {
       "key": "hia70r",
