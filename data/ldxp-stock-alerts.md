@@ -5681,3 +5681,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/i2xjrp
 
+## 2026-07-04T04:15:14.032Z
+- 【随机】谷歌邮箱20-24年
+  - Stock: 0 -> 10
+  - Price: 8.84
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/htc8s3
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 30
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
