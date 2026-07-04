@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2980,
+  "runs": 2981,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T22:50:17.713Z",
+  "updatedAt": "2026-07-04T22:55:09.587Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -341,13 +341,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 170,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-04T14:35:10.317Z",
+      "stock": 1,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T14:35:10.317Z",
-      "lastChangedAt": "2026-07-04T14:35:10.317Z",
+      "lastSeenAt": "2026-07-04T22:55:09.587Z",
+      "lastChangedAt": "2026-07-04T22:55:09.587Z",
       "missingSince": null
     },
     "i2xjrp": {
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 86,
+      "stock": 145,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T22:50:17.713Z",
-      "lastChangedAt": "2026-07-04T22:50:17.713Z",
+      "lastSeenAt": "2026-07-04T22:55:09.587Z",
+      "lastChangedAt": "2026-07-04T22:55:09.587Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -392,13 +392,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 54,
-      "stock": 2,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T22:50:17.713Z",
-      "lastChangedAt": "2026-07-04T22:50:17.713Z",
+      "lastSeenAt": "2026-07-04T22:55:09.587Z",
+      "lastChangedAt": "2026-07-04T22:55:09.587Z",
       "missingSince": null
     },
     "nq08tb": {
@@ -409,13 +409,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 85,
-      "stock": 1,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T22:50:17.713Z",
-      "lastChangedAt": "2026-07-04T22:50:17.713Z",
+      "lastSeenAt": "2026-07-04T22:55:09.587Z",
+      "lastChangedAt": "2026-07-04T22:55:09.587Z",
       "missingSince": null
     },
     "2oh41p": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 10,
-      "stock": 17,
+      "stock": 29,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T22:50:17.713Z",
-      "lastChangedAt": "2026-07-04T22:50:17.713Z",
+      "lastSeenAt": "2026-07-04T22:55:09.587Z",
+      "lastChangedAt": "2026-07-04T22:55:09.587Z",
       "missingSince": null
     },
     "omh53e": {
@@ -3019,5 +3019,25 @@
       "lastChangedAt": "2026-07-04T15:10:17.458Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "ir7b3h",
+      "name": "100个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
+      "link": "https://pay.ldxp.cn/item/ir7b3h",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 170,
+      "stock": 1,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-04T14:35:10.317Z",
+      "checkedAt": "2026-07-04T22:55:09.587Z",
+      "alertId": "restocked|ir7b3h|0|1|2026-07-04T14:35:10.317Z",
+      "queuedAt": "2026-07-04T22:55:09.587Z"
+    }
+  ]
 }
