@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2755,
+  "runs": 2756,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T03:10:17.953Z",
+  "updatedAt": "2026-07-04T03:15:14.138Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-04T03:05:10.857Z",
+      "stock": 4,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T03:05:10.857Z",
-      "lastChangedAt": "2026-07-04T03:05:10.857Z",
+      "lastSeenAt": "2026-07-04T03:15:14.138Z",
+      "lastChangedAt": "2026-07-04T03:15:14.138Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 166,
+      "stock": 165,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T03:00:28.092Z",
-      "lastChangedAt": "2026-07-04T03:00:28.092Z",
+      "lastSeenAt": "2026-07-04T03:15:14.138Z",
+      "lastChangedAt": "2026-07-04T03:15:14.138Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 16,
+      "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T03:05:10.857Z",
-      "lastChangedAt": "2026-07-04T03:05:10.857Z",
+      "lastSeenAt": "2026-07-04T03:15:14.138Z",
+      "lastChangedAt": "2026-07-04T03:15:14.138Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 21.25,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T03:00:28.092Z",
-      "lastChangedAt": "2026-07-04T03:00:28.092Z",
+      "lastSeenAt": "2026-07-04T03:15:14.138Z",
+      "lastChangedAt": "2026-07-04T03:15:14.138Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.13,
-      "stock": 711,
+      "stock": 710,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-04T03:00:28.092Z",
-      "lastChangedAt": "2026-07-04T03:00:28.092Z",
+      "lastSeenAt": "2026-07-04T03:15:14.138Z",
+      "lastChangedAt": "2026-07-04T03:15:14.138Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2891,13 +2891,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.12,
-      "stock": 208,
+      "stock": 207,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-02T05:55:09.980Z",
-      "lastSeenAt": "2026-07-04T03:10:17.953Z",
-      "lastChangedAt": "2026-07-04T03:10:17.953Z",
+      "lastSeenAt": "2026-07-04T03:15:14.138Z",
+      "lastChangedAt": "2026-07-04T03:15:14.138Z",
       "missingSince": null
     },
     "pdfso5": {
@@ -2951,5 +2951,25 @@
       "lastChangedAt": "2026-07-03T17:00:30.474Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "i2xjrp",
+      "name": "1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
+      "link": "https://pay.ldxp.cn/item/i2xjrp",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 2,
+      "stock": 4,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-04T03:05:10.857Z",
+      "checkedAt": "2026-07-04T03:15:14.138Z",
+      "alertId": "restocked|i2xjrp|0|4|2026-07-04T03:05:10.857Z",
+      "queuedAt": "2026-07-04T03:15:14.138Z"
+    }
+  ]
 }
