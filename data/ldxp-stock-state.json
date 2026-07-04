@@ -2968,43 +2968,5 @@
       "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "htc8s3",
-      "name": "【随机】谷歌邮箱20-24年",
-      "link": "https://pay.ldxp.cn/item/htc8s3",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 8.84,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-04T03:00:28.092Z",
-      "checkedAt": "2026-07-04T04:15:14.032Z",
-      "alertId": "restocked|htc8s3|0|10|2026-07-04T03:00:28.092Z",
-      "queuedAt": "2026-07-04T04:15:14.032Z"
-    },
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80.03,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-03T16:50:18.177Z",
-      "checkedAt": "2026-07-04T04:15:14.032Z",
-      "alertId": "restocked|ktiyr3|0|30|2026-07-03T16:50:18.177Z",
-      "queuedAt": "2026-07-04T04:15:14.032Z"
-    }
-  ]
+  }
 }
