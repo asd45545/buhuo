@@ -5861,3 +5861,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/pdfso5
 
+## 2026-07-04T08:20:17.369Z
+- BugTeam【质保首次导入,发货JSON,icloud邮箱,没有RT,不会用别拍,无任何售后】
+  - Stock: 0 -> 150
+  - Price: 15
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pdfso5
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 5
+  - Price: 21.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
