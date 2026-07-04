@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2723,
+  "runs": 2724,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T00:30:23.994Z",
+  "updatedAt": "2026-07-04T00:35:09.954Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -222,13 +222,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 144,
-      "stock": 34,
+      "stock": 32,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-03T18:45:13.223Z",
-      "lastChangedAt": "2026-07-03T18:45:13.223Z",
+      "lastSeenAt": "2026-07-04T00:35:09.954Z",
+      "lastChangedAt": "2026-07-04T00:35:09.954Z",
       "missingSince": null
     },
     "zak7xw": {
@@ -1820,13 +1820,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x 自助开通（低价渠道）",
       "price": 215,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-02T03:20:16.893Z",
+      "stock": 40,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T15:39:50.314Z",
-      "lastSeenAt": "2026-07-02T03:20:16.893Z",
-      "lastChangedAt": "2026-07-02T03:20:16.893Z",
+      "lastSeenAt": "2026-07-04T00:35:09.954Z",
+      "lastChangedAt": "2026-07-04T00:35:09.954Z",
       "missingSince": null
     },
     "r06ima": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.26,
-      "stock": 120,
+      "stock": 119,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-04T00:05:09.813Z",
-      "lastChangedAt": "2026-07-04T00:05:09.813Z",
+      "lastSeenAt": "2026-07-04T00:35:09.954Z",
+      "lastChangedAt": "2026-07-04T00:35:09.954Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2951,5 +2951,25 @@
       "lastChangedAt": "2026-07-03T17:00:30.474Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "l3su3k",
+      "name": "【质保1次】GPT Pro20x 1小时掉订阅补1次！【黑充号非退款流时抛号可比】",
+      "link": "https://pay.ldxp.cn/item/l3su3k",
+      "goodsType": "card",
+      "categoryId": 112054,
+      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
+      "price": 215,
+      "stock": 40,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-02T03:20:16.893Z",
+      "checkedAt": "2026-07-04T00:35:09.954Z",
+      "alertId": "restocked|l3su3k|0|40|2026-07-02T03:20:16.893Z",
+      "queuedAt": "2026-07-04T00:35:09.954Z"
+    }
+  ]
 }
