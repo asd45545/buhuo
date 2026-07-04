@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2795,
+  "runs": 2796,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T06:40:18.220Z",
+  "updatedAt": "2026-07-04T06:45:13.198Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 50,
+      "stock": 68,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T06:40:18.220Z",
-      "lastChangedAt": "2026-07-04T06:40:18.220Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -392,13 +392,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 54,
-      "stock": 1,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T06:25:10.790Z",
-      "lastChangedAt": "2026-07-04T06:25:10.790Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "nq08tb": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 10,
-      "stock": 10,
+      "stock": 13,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T06:35:09.867Z",
-      "lastChangedAt": "2026-07-04T06:35:09.867Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "omh53e": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 139,
+      "stock": 138,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T05:45:13.236Z",
-      "lastChangedAt": "2026-07-04T05:45:13.236Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 5,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T06:30:23.857Z",
-      "lastChangedAt": "2026-07-04T06:30:23.857Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "go054j": {
@@ -1310,13 +1310,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 21.25,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-04T06:25:10.790Z",
+      "stock": 5,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T06:25:10.790Z",
-      "lastChangedAt": "2026-07-04T06:25:10.790Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "zh9cir": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.05,
-      "stock": 720,
+      "stock": 717,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-04T06:35:09.867Z",
-      "lastChangedAt": "2026-07-04T06:35:09.867Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2279,13 +2279,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 37.38,
-      "stock": 35,
+      "stock": 34,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-04T04:10:19.534Z",
-      "lastChangedAt": "2026-07-04T03:55:45.875Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "hia70r": {
@@ -2449,13 +2449,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 19.5,
-      "stock": 41,
+      "stock": 39,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
-      "lastSeenAt": "2026-07-04T05:10:18.533Z",
-      "lastChangedAt": "2026-07-04T05:10:18.533Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "wntyd1": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.26,
-      "stock": 179,
+      "stock": 177,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-04T06:40:18.220Z",
-      "lastChangedAt": "2026-07-04T06:40:18.220Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2636,13 +2636,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 18.2,
-      "stock": 8,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T07:30:25.175Z",
-      "lastSeenAt": "2026-07-04T06:05:10.531Z",
-      "lastChangedAt": "2026-07-04T06:05:10.531Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "gjokwl": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.25,
-      "stock": 9,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-04T06:40:18.220Z",
-      "lastChangedAt": "2026-07-04T06:40:18.220Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2839,13 +2839,13 @@
       "goodsType": "card",
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
-      "price": 14,
+      "price": 12.5,
       "stock": 82,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-30T06:10:17.194Z",
-      "lastSeenAt": "2026-07-04T06:35:09.867Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
       "lastChangedAt": "2026-07-04T06:35:09.867Z",
       "missingSince": null
     },
@@ -2891,13 +2891,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.12,
-      "stock": 140,
+      "stock": 138,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-02T05:55:09.980Z",
-      "lastSeenAt": "2026-07-04T06:40:18.220Z",
-      "lastChangedAt": "2026-07-04T06:40:18.220Z",
+      "lastSeenAt": "2026-07-04T06:45:13.198Z",
+      "lastChangedAt": "2026-07-04T06:45:13.198Z",
       "missingSince": null
     },
     "pdfso5": {
@@ -2968,5 +2968,25 @@
       "lastChangedAt": "2026-07-04T03:45:13.847Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "kdsr0p",
+      "name": "GPT PLUS成品号（质保三天）",
+      "link": "https://pay.ldxp.cn/item/kdsr0p",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 21.25,
+      "stock": 5,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-04T06:25:10.790Z",
+      "checkedAt": "2026-07-04T06:45:13.198Z",
+      "alertId": "restocked|kdsr0p|0|5|2026-07-04T06:25:10.790Z",
+      "queuedAt": "2026-07-04T06:45:13.198Z"
+    }
+  ]
 }
