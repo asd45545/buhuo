@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2861,
+  "runs": 2862,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T12:05:10.634Z",
+  "updatedAt": "2026-07-04T12:10:17.972Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 147,
+      "stock": 145,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T12:00:29.359Z",
-      "lastChangedAt": "2026-07-04T12:00:29.359Z",
+      "lastSeenAt": "2026-07-04T12:10:17.972Z",
+      "lastChangedAt": "2026-07-04T12:10:17.972Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 87,
+      "stock": 586,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T12:00:29.359Z",
-      "lastChangedAt": "2026-07-04T12:00:29.359Z",
+      "lastSeenAt": "2026-07-04T12:10:17.972Z",
+      "lastChangedAt": "2026-07-04T12:10:17.972Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1055,13 +1055,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 20.8,
-      "stock": 5,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T07:35:10.315Z",
-      "lastChangedAt": "2026-07-04T07:35:10.315Z",
+      "lastSeenAt": "2026-07-04T12:10:17.972Z",
+      "lastChangedAt": "2026-07-04T12:10:17.972Z",
       "missingSince": null
     },
     "iyuoym": {
@@ -1922,13 +1922,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.5,
-      "stock": 20,
+      "stock": 18,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:47:48.119Z",
-      "lastSeenAt": "2026-07-04T10:35:10.082Z",
-      "lastChangedAt": "2026-07-04T10:35:10.082Z",
+      "lastSeenAt": "2026-07-04T12:10:17.972Z",
+      "lastChangedAt": "2026-07-04T12:10:17.972Z",
       "missingSince": null
     },
     "3fhihz": {
