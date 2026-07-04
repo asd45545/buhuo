@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 2798,
+  "runs": 2799,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-04T06:54:20.416Z",
+  "updatedAt": "2026-07-04T06:55:10.052Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 110,
+      "stock": 109,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-04T06:54:20.416Z",
-      "lastChangedAt": "2026-07-04T06:54:20.416Z",
+      "lastSeenAt": "2026-07-04T06:55:10.052Z",
+      "lastChangedAt": "2026-07-04T06:55:10.052Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.05,
-      "stock": 716,
+      "stock": 715,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-04T06:54:20.416Z",
-      "lastChangedAt": "2026-07-04T06:54:20.416Z",
+      "lastSeenAt": "2026-07-04T06:55:10.052Z",
+      "lastChangedAt": "2026-07-04T06:55:10.052Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.26,
-      "stock": 176,
+      "stock": 177,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-04T06:54:20.416Z",
-      "lastChangedAt": "2026-07-04T06:54:20.416Z",
+      "lastSeenAt": "2026-07-04T06:55:10.052Z",
+      "lastChangedAt": "2026-07-04T06:55:10.052Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3010,14 +3010,34 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 8,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-04T06:54:20.416Z",
+      "stock": 10,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-04T06:54:20.416Z",
-      "lastSeenAt": "2026-07-04T06:54:20.416Z",
-      "lastChangedAt": "2026-07-04T06:54:20.416Z",
+      "lastSeenAt": "2026-07-04T06:55:10.052Z",
+      "lastChangedAt": "2026-07-04T06:55:10.052Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "sp346t",
+      "name": "特价GPT Plus 一个月会员 -卡密自助 欧洲渠道【仅支持新号或老号有试用】【无质保】【自动充值】【少量测试】",
+      "link": "https://pay.ldxp.cn/item/sp346t",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 8,
+      "stock": 10,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-04T06:54:20.416Z",
+      "checkedAt": "2026-07-04T06:55:10.052Z",
+      "alertId": "restocked|sp346t|0|10|2026-07-04T06:54:20.416Z",
+      "queuedAt": "2026-07-04T06:55:10.052Z"
+    }
+  ]
 }
