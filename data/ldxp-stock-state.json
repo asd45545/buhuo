@@ -3019,25 +3019,5 @@
       "lastChangedAt": "2026-07-04T06:55:10.052Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "sp346t",
-      "name": "特价GPT Plus 一个月会员 -卡密自助 欧洲渠道【仅支持新号或老号有试用】【无质保】【自动充值】【少量测试】",
-      "link": "https://pay.ldxp.cn/item/sp346t",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 8,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-04T06:54:20.416Z",
-      "checkedAt": "2026-07-04T06:55:10.052Z",
-      "alertId": "restocked|sp346t|0|10|2026-07-04T06:54:20.416Z",
-      "queuedAt": "2026-07-04T06:55:10.052Z"
-    }
-  ]
+  }
 }
