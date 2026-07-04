@@ -5960,3 +5960,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/nr5tu0
 
+## 2026-07-04T13:00:28.711Z
+- 【mail邮箱gptpro20x成品号质保首登】GPT Pro20x
+  - Stock: 0 -> 3
+  - Price: 270
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/l3su3k
+
