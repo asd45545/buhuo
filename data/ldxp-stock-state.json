@@ -3053,43 +3053,5 @@
       "lastChangedAt": "2026-07-05T11:50:16.453Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "l3jsoj",
-      "name": "【质保28天】【新开号】 icloud 高质量邮箱 plus成品，一卡一绑",
-      "link": "https://pay.ldxp.cn/item/l3jsoj",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 70,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-05T09:20:17.126Z",
-      "checkedAt": "2026-07-05T11:55:10.303Z",
-      "alertId": "restocked|l3jsoj|0|10|2026-07-05T09:20:17.126Z",
-      "queuedAt": "2026-07-05T11:55:10.303Z"
-    },
-    {
-      "key": "b2ggf2",
-      "name": "Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码",
-      "link": "https://pay.ldxp.cn/item/b2ggf2",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.6,
-      "stock": 126,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-05T08:25:10.153Z",
-      "checkedAt": "2026-07-05T11:55:10.303Z",
-      "alertId": "restocked|b2ggf2|0|126|2026-07-05T08:25:10.153Z",
-      "queuedAt": "2026-07-05T11:55:10.303Z"
-    }
-  ]
+  }
 }
