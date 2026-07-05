@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3202,
+  "runs": 3203,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-05T16:55:09.436Z",
+  "updatedAt": "2026-07-05T17:00:26.959Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 206,
+      "stock": 201,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T16:55:09.436Z",
-      "lastChangedAt": "2026-07-05T16:55:09.436Z",
+      "lastSeenAt": "2026-07-05T17:00:26.959Z",
+      "lastChangedAt": "2026-07-05T17:00:26.959Z",
       "missingSince": null
     },
     "h4vvrc": {
@@ -3027,13 +3027,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 66,
+      "stock": 65,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:10:17.089Z",
-      "lastSeenAt": "2026-07-05T16:44:41.193Z",
-      "lastChangedAt": "2026-07-05T16:44:41.193Z",
+      "lastSeenAt": "2026-07-05T17:00:26.959Z",
+      "lastChangedAt": "2026-07-05T17:00:26.959Z",
       "missingSince": null
     },
     "i4jqdg": {
@@ -3061,13 +3061,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.4,
-      "stock": 430,
+      "stock": 420,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T13:30:25.581Z",
-      "lastSeenAt": "2026-07-05T16:55:09.436Z",
-      "lastChangedAt": "2026-07-05T16:55:09.436Z",
+      "lastSeenAt": "2026-07-05T17:00:26.959Z",
+      "lastChangedAt": "2026-07-05T17:00:26.959Z",
       "missingSince": null
     },
     "36ri87": {
@@ -3078,13 +3078,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x （低价渠道）",
       "price": 274,
-      "stock": 4,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T15:20:16.733Z",
-      "lastSeenAt": "2026-07-05T16:35:09.742Z",
-      "lastChangedAt": "2026-07-05T16:30:22.820Z",
+      "lastSeenAt": "2026-07-05T17:00:26.959Z",
+      "lastChangedAt": "2026-07-05T17:00:26.959Z",
       "missingSince": null
     },
     "194nbs": {
