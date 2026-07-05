@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3008,
+  "runs": 3009,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-05T01:10:17.346Z",
+  "updatedAt": "2026-07-05T01:12:06.696Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 362,
+      "stock": 358,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T01:10:17.346Z",
-      "lastChangedAt": "2026-07-05T01:10:17.346Z",
+      "lastSeenAt": "2026-07-05T01:12:06.696Z",
+      "lastChangedAt": "2026-07-05T01:12:06.696Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -392,13 +392,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 54,
-      "stock": 12,
+      "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T01:05:09.860Z",
-      "lastChangedAt": "2026-07-05T01:05:09.860Z",
+      "lastSeenAt": "2026-07-05T01:12:06.696Z",
+      "lastChangedAt": "2026-07-05T01:12:06.696Z",
       "missingSince": null
     },
     "nq08tb": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 10,
-      "stock": 72,
+      "stock": 71,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T01:05:09.860Z",
-      "lastChangedAt": "2026-07-05T01:05:09.860Z",
+      "lastSeenAt": "2026-07-05T01:12:06.696Z",
+      "lastChangedAt": "2026-07-05T01:12:06.696Z",
       "missingSince": null
     },
     "omh53e": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 28,
+      "stock": 27,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T00:55:09.704Z",
-      "lastChangedAt": "2026-07-05T00:55:09.704Z",
+      "lastSeenAt": "2026-07-05T01:12:06.696Z",
+      "lastChangedAt": "2026-07-05T01:12:06.696Z",
       "missingSince": null
     },
     "go054j": {
