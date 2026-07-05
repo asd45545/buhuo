@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3206,
+  "runs": 3207,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-05T17:15:12.787Z",
+  "updatedAt": "2026-07-05T17:20:17.172Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -579,13 +579,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.28,
-      "stock": 374,
+      "stock": 372,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T16:20:16.294Z",
-      "lastChangedAt": "2026-07-05T16:20:16.294Z",
+      "lastSeenAt": "2026-07-05T17:20:17.172Z",
+      "lastChangedAt": "2026-07-05T17:20:17.172Z",
       "missingSince": null
     },
     "9po7w2": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 60,
+      "stock": 59,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T16:50:18.088Z",
-      "lastChangedAt": "2026-07-05T16:50:18.088Z",
+      "lastSeenAt": "2026-07-05T17:20:17.172Z",
+      "lastChangedAt": "2026-07-05T17:20:17.172Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.42,
-      "stock": 16,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-05T17:15:12.787Z",
-      "lastChangedAt": "2026-07-05T17:15:12.787Z",
+      "lastSeenAt": "2026-07-05T17:20:17.172Z",
+      "lastChangedAt": "2026-07-05T17:20:17.172Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3061,13 +3061,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.4,
-      "stock": 390,
+      "stock": 380,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T13:30:25.581Z",
-      "lastSeenAt": "2026-07-05T17:15:12.787Z",
-      "lastChangedAt": "2026-07-05T17:15:12.787Z",
+      "lastSeenAt": "2026-07-05T17:20:17.172Z",
+      "lastChangedAt": "2026-07-05T17:20:17.172Z",
       "missingSince": null
     },
     "36ri87": {
