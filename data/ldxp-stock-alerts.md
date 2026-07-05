@@ -6196,3 +6196,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/uvtzzz
 
+## 2026-07-05T10:00:26.519Z
+- BugTeam【质保首次导入,发货JSON,icloud邮箱,没有RT,不会用别拍,无任何售后】
+  - Stock: 0 -> 50
+  - Price: 28.5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pdfso5
+- UPI 渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 1
+  - Price: 14
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
