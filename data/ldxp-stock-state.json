@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3224,
+  "runs": 3225,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-05T18:45:12.841Z",
+  "updatedAt": "2026-07-05T18:50:16.675Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -459,13 +459,13 @@
       "goodsType": "card",
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
-      "price": 141,
+      "price": 140.5,
       "stock": 41,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T16:44:41.193Z",
+      "lastSeenAt": "2026-07-05T18:50:16.675Z",
       "lastChangedAt": "2026-07-05T16:44:41.193Z",
       "missingSince": null
     },
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.77,
-      "stock": 216,
+      "stock": 318,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T18:45:12.841Z",
-      "lastChangedAt": "2026-07-05T18:45:12.841Z",
+      "lastSeenAt": "2026-07-05T18:50:16.675Z",
+      "lastChangedAt": "2026-07-05T18:50:16.675Z",
       "missingSince": null
     },
     "f8pxts": {
