@@ -3019,25 +3019,5 @@
       "lastChangedAt": "2026-07-05T03:10:18.287Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "l3su3k",
-      "name": "【mail邮箱gptpro20x成品号质保首登】GPT Pro20x",
-      "link": "https://pay.ldxp.cn/item/l3su3k",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 300,
-      "stock": 15,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-05T03:15:13.678Z",
-      "checkedAt": "2026-07-05T07:20:16.413Z",
-      "alertId": "restocked|l3su3k|0|15|2026-07-05T03:15:13.678Z",
-      "queuedAt": "2026-07-05T07:20:16.413Z"
-    }
-  ]
+  }
 }
