@@ -3053,25 +3053,5 @@
       "lastChangedAt": "2026-07-05T12:55:10.203Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "pfz6mj",
-      "name": "已接码🔥UPI渠道日抛Plus成品带RT 可登网页 codex/cpa/sub 保首登",
-      "link": "https://pay.ldxp.cn/item/pfz6mj",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 14.25,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-05T12:10:18.113Z",
-      "checkedAt": "2026-07-05T13:05:09.625Z",
-      "alertId": "restocked|pfz6mj|0|10|2026-07-05T12:10:18.113Z",
-      "queuedAt": "2026-07-05T13:05:09.625Z"
-    }
-  ]
+  }
 }
