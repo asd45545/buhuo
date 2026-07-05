@@ -6084,3 +6084,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/ir7b3h
 
+## 2026-07-05T02:30:23.696Z
+- 【mail邮箱gptpro20x成品号质保首登】GPT Pro20x
+  - Stock: 0 -> 1
+  - Price: 270
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/l3su3k
+
