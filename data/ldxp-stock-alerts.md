@@ -6161,3 +6161,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/b2ggf2
 
+## 2026-07-05T07:20:16.413Z
+- 【mail邮箱gptpro20x成品号质保首登】GPT Pro20x
+  - Stock: 0 -> 15
+  - Price: 300
+  - Category: gpt pro 20x 自助开通（低价渠道）
+  - Link: https://pay.ldxp.cn/item/l3su3k
+
