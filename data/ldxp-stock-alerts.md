@@ -6234,3 +6234,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/b2ggf2
 
+## 2026-07-05T12:45:12.877Z
+- Gmail 谷歌邮箱 质保首登 带2fa 号内送gemini 18个月会员
+  - Stock: 0 -> 1
+  - Price: 18.2
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/lv4tcc
+
