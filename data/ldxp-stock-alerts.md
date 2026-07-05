@@ -6168,3 +6168,10 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/l3su3k
 
+## 2026-07-05T07:45:12.805Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 21
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
