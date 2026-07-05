@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3188,
+  "runs": 3189,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-05T15:45:12.949Z",
+  "updatedAt": "2026-07-05T15:50:17.930Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 888,
+      "stock": 887,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T15:45:12.949Z",
-      "lastChangedAt": "2026-07-05T15:45:12.949Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -936,13 +936,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.65,
-      "stock": 332,
+      "stock": 331,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T15:25:10.080Z",
-      "lastChangedAt": "2026-07-05T15:25:10.080Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "ttuq5u": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 8,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T15:35:09.749Z",
-      "lastChangedAt": "2026-07-05T15:35:09.749Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "go054j": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 235,
+      "stock": 234,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T15:45:12.949Z",
-      "lastChangedAt": "2026-07-05T15:45:12.949Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 217,
+      "stock": 214,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-05T15:15:13.287Z",
-      "lastChangedAt": "2026-07-05T15:15:13.287Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "h4vvrc": {
@@ -1854,13 +1854,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 2.25,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-05T15:50:17.930Z",
       "firstSeenAt": "2026-06-23T16:20:16.560Z",
-      "lastSeenAt": "2026-07-05T11:35:09.688Z",
-      "lastChangedAt": "2026-07-05T11:35:09.688Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "ght32n": {
@@ -2618,14 +2618,14 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 2.57,
-      "stock": 14,
+      "price": 2.42,
+      "stock": 114,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-05T15:45:12.949Z",
-      "lastChangedAt": "2026-07-05T15:45:12.949Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2908,13 +2908,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 30,
-      "stock": 18,
+      "stock": 14,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-02T07:50:17.476Z",
-      "lastSeenAt": "2026-07-05T15:38:01.107Z",
-      "lastChangedAt": "2026-07-05T15:38:01.107Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "2pfaek": {
@@ -3027,13 +3027,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 5.2,
-      "stock": 85,
+      "stock": 83,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:10:17.089Z",
-      "lastSeenAt": "2026-07-05T15:35:09.749Z",
-      "lastChangedAt": "2026-07-05T15:35:09.749Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     },
     "i4jqdg": {
@@ -3086,6 +3086,43 @@
       "lastSeenAt": "2026-07-05T15:20:16.733Z",
       "lastChangedAt": "2026-07-05T15:20:16.733Z",
       "missingSince": null
+    },
+    "194nbs": {
+      "key": "194nbs",
+      "name": "ChatGPT Pro 20x无任何质保 库存号 质保首登 额度包补",
+      "link": "https://pay.ldxp.cn/item/194nbs",
+      "goodsType": "card",
+      "categoryId": 112054,
+      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
+      "price": 234,
+      "stock": 45,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastSeenAt": "2026-07-05T15:50:17.930Z",
+      "lastChangedAt": "2026-07-05T15:50:17.930Z",
+      "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "194nbs",
+      "name": "ChatGPT Pro 20x无任何质保 库存号 质保首登 额度包补",
+      "link": "https://pay.ldxp.cn/item/194nbs",
+      "goodsType": "card",
+      "categoryId": 112054,
+      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
+      "price": 234,
+      "stock": 45,
+      "inStock": true,
+      "alertType": "new_in_stock",
+      "previousStock": "新上架",
+      "previousStockValue": null,
+      "outOfStockSince": null,
+      "checkedAt": "2026-07-05T15:50:17.930Z",
+      "alertId": "new_in_stock|194nbs|新上架|45|",
+      "queuedAt": "2026-07-05T15:50:17.930Z"
+    }
+  ]
 }
