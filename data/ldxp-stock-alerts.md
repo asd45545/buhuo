@@ -6297,3 +6297,10 @@
   - Category: gpt pro 20x 自助开通（低价渠道）
   - Link: https://pay.ldxp.cn/item/194nbs
 
+## 2026-07-05T16:20:16.294Z
+- gpt team 反代专用   k12
+  - Stock: 0 -> 147
+  - Price: 0.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zoqxwb
+
