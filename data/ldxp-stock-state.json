@@ -3104,25 +3104,5 @@
       "lastChangedAt": "2026-07-05T15:50:17.930Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "194nbs",
-      "name": "ChatGPT Pro 20x无任何质保 库存号 质保首登 额度包补",
-      "link": "https://pay.ldxp.cn/item/194nbs",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 234,
-      "stock": 45,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-05T15:50:17.930Z",
-      "alertId": "new_in_stock|194nbs|新上架|45|",
-      "queuedAt": "2026-07-05T15:50:17.930Z"
-    }
-  ]
+  }
 }
