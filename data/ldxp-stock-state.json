@@ -3087,25 +3087,5 @@
       "lastChangedAt": "2026-07-05T15:20:16.733Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "36ri87",
-      "name": "gptpro20x无质保",
-      "link": "https://pay.ldxp.cn/item/36ri87",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x 自助开通（低价渠道）",
-      "price": 274,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-05T15:20:16.733Z",
-      "alertId": "new_in_stock|36ri87|新上架|5|",
-      "queuedAt": "2026-07-05T15:20:16.733Z"
-    }
-  ]
+  }
 }
