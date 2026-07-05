@@ -3019,25 +3019,5 @@
       "lastChangedAt": "2026-07-05T09:25:09.703Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "uvtzzz",
-      "name": "GPT RT Plus 成品号（欧洲渠道）",
-      "link": "https://pay.ldxp.cn/item/uvtzzz",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 12,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-01T03:20:15.112Z",
-      "checkedAt": "2026-07-05T09:25:09.703Z",
-      "alertId": "restocked|uvtzzz|0|30|2026-07-01T03:20:15.112Z",
-      "queuedAt": "2026-07-05T09:25:09.703Z"
-    }
-  ]
+  }
 }
