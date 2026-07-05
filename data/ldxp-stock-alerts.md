@@ -6222,3 +6222,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/i4jqdg
 
+## 2026-07-05T11:55:10.303Z
+- 【质保28天】【新开号】 icloud 高质量邮箱 plus成品，一卡一绑
+  - Stock: 0 -> 10
+  - Price: 70
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/l3jsoj
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 126
+  - Price: 0.6
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+
