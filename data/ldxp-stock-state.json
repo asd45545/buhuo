@@ -3019,25 +3019,5 @@
       "lastChangedAt": "2026-07-04T15:10:17.458Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "l3jsoj",
-      "name": "【质保28天】【新开号】 icloud 高质量邮箱 plus成品，一卡一绑",
-      "link": "https://pay.ldxp.cn/item/l3jsoj",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80,
-      "stock": 7,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T04:10:17.680Z",
-      "checkedAt": "2026-07-05T02:40:17.516Z",
-      "alertId": "restocked|l3jsoj|0|7|2026-07-02T04:10:17.680Z",
-      "queuedAt": "2026-07-05T02:40:17.516Z"
-    }
-  ]
+  }
 }
