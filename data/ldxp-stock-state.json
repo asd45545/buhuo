@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3270,
+  "runs": 3271,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-05T23:30:25.057Z",
+  "updatedAt": "2026-07-05T23:35:09.988Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -2449,13 +2449,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 19.5,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-05T16:05:09.497Z",
+      "stock": 7,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T11:00:30.740Z",
-      "lastSeenAt": "2026-07-05T16:05:09.497Z",
-      "lastChangedAt": "2026-07-05T16:05:09.497Z",
+      "lastSeenAt": "2026-07-05T23:35:09.988Z",
+      "lastChangedAt": "2026-07-05T23:35:09.988Z",
       "missingSince": null
     },
     "wntyd1": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.42,
-      "stock": 269,
+      "stock": 219,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-05T19:30:23.584Z",
-      "lastChangedAt": "2026-07-05T19:30:23.584Z",
+      "lastSeenAt": "2026-07-05T23:35:09.988Z",
+      "lastChangedAt": "2026-07-05T23:35:09.988Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2891,13 +2891,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.12,
-      "stock": 242,
+      "stock": 239,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-02T05:55:09.980Z",
-      "lastSeenAt": "2026-07-05T21:00:29.229Z",
-      "lastChangedAt": "2026-07-05T21:00:29.229Z",
+      "lastSeenAt": "2026-07-05T23:35:09.988Z",
+      "lastChangedAt": "2026-07-05T23:35:09.988Z",
       "missingSince": null
     },
     "pdfso5": {
@@ -3104,5 +3104,25 @@
       "lastChangedAt": "2026-07-05T23:05:10.179Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "unu10b",
+      "name": "iCloud邮箱-PLUS成品号-质保首登-带2FA认证",
+      "link": "https://pay.ldxp.cn/item/unu10b",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 19.5,
+      "stock": 7,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-05T16:05:09.497Z",
+      "checkedAt": "2026-07-05T23:35:09.988Z",
+      "alertId": "restocked|unu10b|0|7|2026-07-05T16:05:09.497Z",
+      "queuedAt": "2026-07-05T23:35:09.988Z"
+    }
+  ]
 }
