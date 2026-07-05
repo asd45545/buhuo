@@ -6147,3 +6147,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/etz0m6
 
+## 2026-07-05T06:45:12.545Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 2
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
