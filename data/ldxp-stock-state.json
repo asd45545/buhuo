@@ -3104,25 +3104,5 @@
       "lastChangedAt": "2026-07-06T02:00:25.812Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "mkh6lh",
-      "name": "BugTeam【发货JSON,一个小时内有问题给补,正常可以使用3-6小时,不会用的别拍】【1额度CDK】",
-      "link": "https://pay.ldxp.cn/item/mkh6lh",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 6.5,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-05T20:30:24.716Z",
-      "checkedAt": "2026-07-06T02:00:25.812Z",
-      "alertId": "restocked|mkh6lh|0|100|2026-07-05T20:30:24.716Z",
-      "queuedAt": "2026-07-06T02:00:25.812Z"
-    }
-  ]
+  }
 }
