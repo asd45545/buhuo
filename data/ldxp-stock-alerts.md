@@ -6549,3 +6549,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/k4ebdz
 
+## 2026-07-06T09:25:09.819Z
+- [欧洲]GPTPlus网页质保首登
+  - Stock: 0 -> 1
+  - Price: 8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4wvlfu
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 24
+  - Price: 19.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+
