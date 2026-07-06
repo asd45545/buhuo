@@ -6643,3 +6643,10 @@
   - Category: Grok
   - Link: https://pay.ldxp.cn/item/1ujnz1
 
+## 2026-07-06T15:10:20.988Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 1
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
