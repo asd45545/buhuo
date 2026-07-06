@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3547,
+  "runs": 3548,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-06T23:00:30.763Z",
+  "updatedAt": "2026-07-06T23:05:10.580Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -460,13 +460,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 141,
-      "stock": 184,
+      "stock": 183,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-06T17:20:18.986Z",
-      "lastChangedAt": "2026-07-06T15:30:24.664Z",
+      "lastSeenAt": "2026-07-06T23:05:10.580Z",
+      "lastChangedAt": "2026-07-06T23:05:10.580Z",
       "missingSince": null
     },
     "8ra67m": {
@@ -3044,13 +3044,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.18,
-      "stock": 132,
+      "stock": 121,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:45:14.196Z",
-      "lastSeenAt": "2026-07-06T23:00:30.763Z",
-      "lastChangedAt": "2026-07-06T23:00:30.763Z",
+      "lastSeenAt": "2026-07-06T23:05:10.580Z",
+      "lastChangedAt": "2026-07-06T23:05:10.580Z",
       "missingSince": null
     },
     "zoqxwb": {
