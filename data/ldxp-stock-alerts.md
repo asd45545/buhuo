@@ -6568,3 +6568,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g7n6gs
 
+## 2026-07-06T10:20:17.385Z
+- BugTeam【发货JSON,一个小时内有问题给补,正常可以使用3-6小时,不会用的别拍】【1额度CDK】
+  - Stock: 0 -> 500
+  - Price: 5.85
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/mkh6lh
+
