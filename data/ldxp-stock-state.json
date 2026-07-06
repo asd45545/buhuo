@@ -3138,25 +3138,5 @@
       "lastChangedAt": "2026-07-06T14:50:18.731Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "1ujnz1",
-      "name": "X（Twitter） Premium会员直充卡密",
-      "link": "https://pay.ldxp.cn/item/1ujnz1",
-      "goodsType": "card",
-      "categoryId": 112907,
-      "categoryName": "Grok",
-      "price": 65,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-06T14:50:18.731Z",
-      "alertId": "new_in_stock|1ujnz1|新上架|2|",
-      "queuedAt": "2026-07-06T14:50:18.731Z"
-    }
-  ]
+  }
 }
