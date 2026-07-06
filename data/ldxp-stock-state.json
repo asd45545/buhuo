@@ -3104,25 +3104,5 @@
       "lastChangedAt": "2026-07-06T02:10:17.867Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "zoqxwb",
-      "name": "gpt team 反代专用   k12",
-      "link": "https://pay.ldxp.cn/item/zoqxwb",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 0.6,
-      "stock": 18,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-05T19:00:26.899Z",
-      "checkedAt": "2026-07-06T02:10:17.867Z",
-      "alertId": "restocked|zoqxwb|0|18|2026-07-05T19:00:26.899Z",
-      "queuedAt": "2026-07-06T02:10:17.867Z"
-    }
-  ]
+  }
 }
