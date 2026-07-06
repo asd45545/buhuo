@@ -6650,3 +6650,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-07-06T17:50:20.388Z
+- GPT-PLUS--印度渠道--Codex未接码--质保首登
+  - Stock: 新上架 -> 64
+  - Price: 6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g5xmee
+
