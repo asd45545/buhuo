@@ -6608,3 +6608,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-07-06T13:20:18.468Z
+- gpt team 反代专用   k12【无售后、质保首登】
+  - Stock: 0 -> 1695
+  - Price: 0.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zoqxwb
+
