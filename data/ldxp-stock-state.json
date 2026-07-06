@@ -3121,25 +3121,5 @@
       "lastChangedAt": "2026-07-06T14:10:19.979Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "y47n91",
-      "name": "美国手机号gptplus月卡质保15天成品号（不能反代，包接码）",
-      "link": "https://pay.ldxp.cn/item/y47n91",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 60,
-      "stock": 13,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-06T14:10:19.979Z",
-      "alertId": "new_in_stock|y47n91|新上架|13|",
-      "queuedAt": "2026-07-06T14:10:19.979Z"
-    }
-  ]
+  }
 }
