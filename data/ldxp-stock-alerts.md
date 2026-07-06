@@ -6589,3 +6589,15 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-07-06T12:50:18.754Z
+- ChatGpt Free号（提供邮箱接码 已经接码）| 注册地美国 | outlook.com | 家庭宽带注册
+  - Stock: 0 -> 114
+  - Price: 0.77
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/pfrifg
+- iCloud邮箱plus成品号，质保首登，支持登录网页，支持登录codex需接码
+  - Stock: 0 -> 40
+  - Price: 9
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/h4vvrc
+
