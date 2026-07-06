@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3519,
+  "runs": 3520,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-06T20:30:25.141Z",
+  "updatedAt": "2026-07-06T20:35:09.934Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 473,
+      "stock": 472,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-06T16:55:11.180Z",
-      "lastChangedAt": "2026-07-06T16:55:11.180Z",
+      "lastSeenAt": "2026-07-06T20:35:09.934Z",
+      "lastChangedAt": "2026-07-06T20:35:09.934Z",
       "missingSince": null
     },
     "4wvlfu": {
