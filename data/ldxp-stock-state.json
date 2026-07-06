@@ -3104,25 +3104,5 @@
       "lastChangedAt": "2026-07-06T03:10:17.654Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "cux1mb",
-      "name": "Codex|ChatGPT|US实体卡接码 活5天",
-      "link": "https://pay.ldxp.cn/item/cux1mb",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 4.05,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-03T08:15:13.634Z",
-      "checkedAt": "2026-07-06T03:15:12.826Z",
-      "alertId": "restocked|cux1mb|0|100|2026-07-03T08:15:13.634Z",
-      "queuedAt": "2026-07-06T03:15:12.826Z"
-    }
-  ]
+  }
 }
