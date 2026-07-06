@@ -6500,3 +6500,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/mkh6lh
 
+## 2026-07-06T06:35:09.633Z
+- 【GPT-K12充值】理论2年，可用codex
+  - Stock: 0 -> 15
+  - Price: 39.9
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/squijt
+
