@@ -3104,43 +3104,5 @@
       "lastChangedAt": "2026-07-06T07:15:12.626Z",
       "missingSince": "2026-07-06T07:35:09.582Z"
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4wvlfu",
-      "name": "[欧洲]GPTPlus网页质保首登",
-      "link": "https://pay.ldxp.cn/item/4wvlfu",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 8,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-06T08:50:17.218Z",
-      "checkedAt": "2026-07-06T09:25:09.819Z",
-      "alertId": "restocked|4wvlfu|0|1|2026-07-06T08:50:17.218Z",
-      "queuedAt": "2026-07-06T09:25:09.819Z"
-    },
-    {
-      "key": "unu10b",
-      "name": "iCloud邮箱-PLUS成品号-质保首登-带2FA认证",
-      "link": "https://pay.ldxp.cn/item/unu10b",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 19.5,
-      "stock": 24,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-06T08:45:13.100Z",
-      "checkedAt": "2026-07-06T09:25:09.819Z",
-      "alertId": "restocked|unu10b|0|24|2026-07-06T08:45:13.100Z",
-      "queuedAt": "2026-07-06T09:25:09.819Z"
-    }
-  ]
+  }
 }
