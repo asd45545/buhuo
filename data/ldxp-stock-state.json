@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3548,
+  "runs": 3549,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-06T23:05:10.580Z",
+  "updatedAt": "2026-07-06T23:10:18.141Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -188,13 +188,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 8.84,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-06T15:55:10.280Z",
-      "lastChangedAt": "2026-07-06T15:55:10.280Z",
+      "lastSeenAt": "2026-07-06T23:10:18.141Z",
+      "lastChangedAt": "2026-07-06T23:10:18.141Z",
       "missingSince": null
     },
     "l3jsoj": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 89,
+      "stock": 87,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-06T22:45:13.414Z",
-      "lastChangedAt": "2026-07-06T22:45:13.414Z",
+      "lastSeenAt": "2026-07-06T23:10:18.141Z",
+      "lastChangedAt": "2026-07-06T23:10:18.141Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -3044,13 +3044,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.18,
-      "stock": 121,
+      "stock": 120,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:45:14.196Z",
-      "lastSeenAt": "2026-07-06T23:05:10.580Z",
-      "lastChangedAt": "2026-07-06T23:05:10.580Z",
+      "lastSeenAt": "2026-07-06T23:10:18.141Z",
+      "lastChangedAt": "2026-07-06T23:10:18.141Z",
       "missingSince": null
     },
     "zoqxwb": {
