@@ -3223,25 +3223,5 @@
       "lastChangedAt": "2026-07-07T03:45:15.534Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "rgccxk",
-      "name": "US-Googlemail长效接码---75-100天接码时间，没有售后介意勿拍（9月14日到期）",
-      "link": "https://pay.ldxp.cn/item/rgccxk",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 3.5,
-      "stock": 200,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-06T14:45:12.903Z",
-      "checkedAt": "2026-07-07T03:55:10.375Z",
-      "alertId": "restocked|rgccxk|0|200|2026-07-06T14:45:12.903Z",
-      "queuedAt": "2026-07-07T03:55:10.375Z"
-    }
-  ]
+  }
 }
