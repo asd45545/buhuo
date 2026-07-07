@@ -3257,25 +3257,5 @@
       "lastChangedAt": "2026-07-07T16:35:10.047Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ow0rhy",
-      "name": "Google/Gmail/YouTube 接码 巴西【单次接码】 业务自测  ！！！",
-      "link": "https://pay.ldxp.cn/item/ow0rhy",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 2.69,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T05:00:32.600Z",
-      "checkedAt": "2026-07-07T16:45:13.319Z",
-      "alertId": "restocked|ow0rhy|0|30|2026-07-07T05:00:32.600Z",
-      "queuedAt": "2026-07-07T16:45:13.319Z"
-    }
-  ]
+  }
 }
