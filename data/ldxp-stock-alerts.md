@@ -6828,3 +6828,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/jkrruh
 
+## 2026-07-07T07:50:19.640Z
+- bugteam sub用
+  - Stock: 新上架 -> 420
+  - Price: 7.8
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/b4fp94
+
