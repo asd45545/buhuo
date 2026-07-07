@@ -3206,25 +3206,5 @@
       "lastChangedAt": "2026-07-07T03:40:19.324Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "orzhiw",
-      "name": "claude pro 自助充值，质保订阅",
-      "link": "https://pay.ldxp.cn/item/orzhiw",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 143,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-07T03:40:19.324Z",
-      "alertId": "new_in_stock|orzhiw|新上架|5|",
-      "queuedAt": "2026-07-07T03:40:19.324Z"
-    }
-  ]
+  }
 }
