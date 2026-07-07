@@ -3257,43 +3257,5 @@
       "lastChangedAt": "2026-07-07T11:10:19.818Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "973krs",
-      "name": "【正品谷歌内购超稳CDK】claude code MAX20 CDK 代充到自己账号 质保订阅30天 不质保封号",
-      "link": "https://pay.ldxp.cn/item/973krs",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 650,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-06T23:45:12.692Z",
-      "checkedAt": "2026-07-07T11:10:19.818Z",
-      "alertId": "restocked|973krs|0|1|2026-07-06T23:45:12.692Z",
-      "queuedAt": "2026-07-07T11:10:19.818Z"
-    },
-    {
-      "key": "kdsr0p",
-      "name": "GPT PLUS成品号（质保三天）",
-      "link": "https://pay.ldxp.cn/item/kdsr0p",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 21.25,
-      "stock": 3,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T11:05:10.225Z",
-      "checkedAt": "2026-07-07T11:10:19.818Z",
-      "alertId": "restocked|kdsr0p|0|3|2026-07-07T11:05:10.225Z",
-      "queuedAt": "2026-07-07T11:10:19.818Z"
-    }
-  ]
+  }
 }
