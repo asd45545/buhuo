@@ -6854,3 +6854,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/2oh41p
 
+## 2026-07-07T09:10:18.155Z
+- bug的team，一个250刀。尽量用cpa跑，sub2调度有问题，下订单前看清楚
+  - Stock: 新上架 -> 89
+  - Price: 7.15
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/a00sjb
+
