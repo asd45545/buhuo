@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3682,
+  "runs": 3683,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-07T10:10:18.710Z",
+  "updatedAt": "2026-07-07T10:15:13.137Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 3,
-      "stock": 63,
+      "stock": 58,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T09:40:18.222Z",
-      "lastChangedAt": "2026-07-07T09:40:18.222Z",
+      "lastSeenAt": "2026-07-07T10:15:13.137Z",
+      "lastChangedAt": "2026-07-07T10:15:13.137Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 80.03,
-      "stock": 3,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T10:10:18.710Z",
-      "lastChangedAt": "2026-07-07T10:10:18.710Z",
+      "lastSeenAt": "2026-07-07T10:15:13.137Z",
+      "lastChangedAt": "2026-07-07T10:15:13.137Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-07T09:10:18.155Z",
+      "stock": 5,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T09:10:18.155Z",
-      "lastChangedAt": "2026-07-07T09:10:18.155Z",
+      "lastSeenAt": "2026-07-07T10:15:13.137Z",
+      "lastChangedAt": "2026-07-07T10:15:13.137Z",
       "missingSince": null
     },
     "go054j": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 297,
+      "stock": 296,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T10:05:10.309Z",
-      "lastChangedAt": "2026-07-07T10:05:10.309Z",
+      "lastSeenAt": "2026-07-07T10:15:13.137Z",
+      "lastChangedAt": "2026-07-07T10:15:13.137Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1786,13 +1786,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15.4,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-07T10:10:18.710Z",
+      "stock": 2,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T10:19:27.990Z",
-      "lastSeenAt": "2026-07-07T10:10:18.710Z",
-      "lastChangedAt": "2026-07-07T10:10:18.710Z",
+      "lastSeenAt": "2026-07-07T10:15:13.137Z",
+      "lastChangedAt": "2026-07-07T10:15:13.137Z",
       "missingSince": null
     },
     "akz9ns": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.46,
-      "stock": 698,
+      "stock": 695,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-07T10:10:18.710Z",
-      "lastChangedAt": "2026-07-07T10:10:18.710Z",
+      "lastSeenAt": "2026-07-07T10:15:13.137Z",
+      "lastChangedAt": "2026-07-07T10:15:13.137Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2840,13 +2840,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 13.5,
-      "stock": 30,
+      "stock": 29,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-30T06:10:17.194Z",
-      "lastSeenAt": "2026-07-07T09:24:23.331Z",
-      "lastChangedAt": "2026-07-07T09:24:23.331Z",
+      "lastSeenAt": "2026-07-07T10:15:13.137Z",
+      "lastChangedAt": "2026-07-07T10:15:13.137Z",
       "missingSince": null
     },
     "jkrruh": {
@@ -3044,13 +3044,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.8,
-      "stock": 541,
+      "stock": 532,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:45:14.196Z",
-      "lastSeenAt": "2026-07-07T10:10:18.710Z",
-      "lastChangedAt": "2026-07-07T10:10:18.710Z",
+      "lastSeenAt": "2026-07-07T10:15:13.137Z",
+      "lastChangedAt": "2026-07-07T10:15:13.137Z",
       "missingSince": null
     },
     "zoqxwb": {
@@ -3257,5 +3257,43 @@
       "lastChangedAt": "2026-07-07T10:00:31.055Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "4xsj1w",
+      "name": "GPT PLUS成品号",
+      "link": "https://pay.ldxp.cn/item/4xsj1w",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 15,
+      "stock": 5,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-07T09:10:18.155Z",
+      "checkedAt": "2026-07-07T10:15:13.137Z",
+      "alertId": "restocked|4xsj1w|0|5|2026-07-07T09:10:18.155Z",
+      "queuedAt": "2026-07-07T10:15:13.137Z"
+    },
+    {
+      "key": "4rukz6",
+      "name": "UPI 渠道 - ChatGPT Plus 月卡 成品号",
+      "link": "https://pay.ldxp.cn/item/4rukz6",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 15.4,
+      "stock": 2,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-07T10:10:18.710Z",
+      "checkedAt": "2026-07-07T10:15:13.137Z",
+      "alertId": "restocked|4rukz6|0|2|2026-07-07T10:10:18.710Z",
+      "queuedAt": "2026-07-07T10:15:13.137Z"
+    }
+  ]
 }
