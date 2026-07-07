@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3810,
+  "runs": 3811,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-07T20:50:21.326Z",
+  "updatedAt": "2026-07-07T20:55:10.406Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1536,9 +1536,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T12:05:10.203Z",
+      "lastSeenAt": "2026-07-07T20:55:10.406Z",
       "lastChangedAt": "2026-07-07T12:05:10.203Z",
-      "missingSince": "2026-07-07T12:10:17.834Z"
+      "missingSince": null
     },
     "h4vvrc": {
       "key": "h4vvrc",
