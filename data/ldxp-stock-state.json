@@ -3223,25 +3223,5 @@
       "lastChangedAt": "2026-07-07T03:45:15.534Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "t3v67k",
-      "name": "Kiro Pro Max（5K积分 JSON发货 只能反代）",
-      "link": "https://pay.ldxp.cn/item/t3v67k",
-      "goodsType": "card",
-      "categoryId": 113752,
-      "categoryName": "kiro pro",
-      "price": 95,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-07T03:45:15.534Z",
-      "alertId": "new_in_stock|t3v67k|新上架|4|",
-      "queuedAt": "2026-07-07T03:45:15.534Z"
-    }
-  ]
+  }
 }
