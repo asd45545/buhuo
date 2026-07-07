@@ -3155,25 +3155,5 @@
       "lastChangedAt": "2026-07-07T01:20:19.715Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "dt897i",
-      "name": "🌟GPT Plus  卡密【官方卡冲~保订阅】（菲区卡充）【可自助兑换】支持续费【端午特价来袭】",
-      "link": "https://pay.ldxp.cn/item/dt897i",
-      "goodsType": "card",
-      "categoryId": 111628,
-      "categoryName": "✅GPT 正规渠道代充",
-      "price": 130.99,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T01:20:19.715Z",
-      "checkedAt": "2026-07-07T01:25:10.360Z",
-      "alertId": "restocked|dt897i|0|2|2026-07-07T01:20:19.715Z",
-      "queuedAt": "2026-07-07T01:25:10.360Z"
-    }
-  ]
+  }
 }
