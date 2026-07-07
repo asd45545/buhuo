@@ -6953,3 +6953,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/w6ql6z
 
+## 2026-07-07T11:10:19.818Z
+- 【正品谷歌内购超稳CDK】claude code MAX20 CDK 代充到自己账号 质保订阅30天 不质保封号
+  - Stock: 0 -> 1
+  - Price: 650
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/973krs
+- GPT PLUS成品号（质保三天）
+  - Stock: 0 -> 3
+  - Price: 21.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kdsr0p
+
