@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3811,
+  "runs": 3812,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-07T20:55:10.406Z",
+  "updatedAt": "2026-07-07T21:00:33.418Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -3044,13 +3044,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.8,
-      "stock": 1739,
+      "stock": 1738,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:45:14.196Z",
-      "lastSeenAt": "2026-07-07T20:50:21.326Z",
-      "lastChangedAt": "2026-07-07T20:50:21.326Z",
+      "lastSeenAt": "2026-07-07T21:00:33.418Z",
+      "lastChangedAt": "2026-07-07T21:00:33.418Z",
       "missingSince": null
     },
     "zoqxwb": {
@@ -3231,13 +3231,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 7.8,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-07T19:40:19.056Z",
+      "stock": 100,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-07T07:50:19.640Z",
-      "lastSeenAt": "2026-07-07T19:40:19.056Z",
-      "lastChangedAt": "2026-07-07T19:40:19.056Z",
+      "lastSeenAt": "2026-07-07T21:00:33.418Z",
+      "lastChangedAt": "2026-07-07T21:00:33.418Z",
       "missingSince": null
     },
     "a00sjb": {
@@ -3257,5 +3257,25 @@
       "lastChangedAt": "2026-07-07T20:05:09.929Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "b4fp94",
+      "name": "bugteam sub用",
+      "link": "https://pay.ldxp.cn/item/b4fp94",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 7.8,
+      "stock": 100,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-07T19:40:19.056Z",
+      "checkedAt": "2026-07-07T21:00:33.418Z",
+      "alertId": "restocked|b4fp94|0|100|2026-07-07T19:40:19.056Z",
+      "queuedAt": "2026-07-07T21:00:33.418Z"
+    }
+  ]
 }
