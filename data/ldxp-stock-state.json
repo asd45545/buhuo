@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3761,
+  "runs": 3762,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-07T16:35:10.047Z",
+  "updatedAt": "2026-07-07T16:40:20.763Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 1048,
+      "stock": 1047,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T16:25:09.845Z",
-      "lastChangedAt": "2026-07-07T16:25:09.845Z",
+      "lastSeenAt": "2026-07-07T16:40:20.763Z",
+      "lastChangedAt": "2026-07-07T16:40:20.763Z",
       "missingSince": null
     },
     "e2913c": {
@@ -3095,13 +3095,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x （低价渠道）",
       "price": 260,
-      "stock": 8,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T15:50:17.930Z",
-      "lastSeenAt": "2026-07-07T16:35:10.047Z",
-      "lastChangedAt": "2026-07-07T16:25:09.845Z",
+      "lastSeenAt": "2026-07-07T16:40:20.763Z",
+      "lastChangedAt": "2026-07-07T16:40:20.763Z",
       "missingSince": null
     },
     "y47n91": {
@@ -3231,13 +3231,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 7.8,
-      "stock": 84,
+      "stock": 82,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-07T07:50:19.640Z",
-      "lastSeenAt": "2026-07-07T16:35:10.047Z",
-      "lastChangedAt": "2026-07-07T16:35:10.047Z",
+      "lastSeenAt": "2026-07-07T16:40:20.763Z",
+      "lastChangedAt": "2026-07-07T16:40:20.763Z",
       "missingSince": null
     },
     "a00sjb": {
