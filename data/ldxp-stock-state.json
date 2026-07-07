@@ -3257,43 +3257,5 @@
       "lastChangedAt": "2026-07-07T09:20:18.377Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ktiyr3",
-      "name": "GPT plus 日本稳定号 质保一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 80.03,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T07:00:30.373Z",
-      "checkedAt": "2026-07-07T09:20:18.377Z",
-      "alertId": "restocked|ktiyr3|0|30|2026-07-07T07:00:30.373Z",
-      "queuedAt": "2026-07-07T09:20:18.377Z"
-    },
-    {
-      "key": "w7geuq",
-      "name": "plus 非日抛成品号 未接码 最新荷兰老铁手搓",
-      "link": "https://pay.ldxp.cn/item/w7geuq",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 13.5,
-      "stock": 31,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T02:10:18.955Z",
-      "checkedAt": "2026-07-07T09:20:18.377Z",
-      "alertId": "restocked|w7geuq|0|31|2026-07-07T02:10:18.955Z",
-      "queuedAt": "2026-07-07T09:20:18.377Z"
-    }
-  ]
+  }
 }
