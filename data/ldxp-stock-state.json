@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3786,
+  "runs": 3787,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-07T18:45:14.132Z",
+  "updatedAt": "2026-07-07T18:50:19.758Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 1727,
+      "stock": 1717,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T18:40:18.322Z",
-      "lastChangedAt": "2026-07-07T18:40:18.322Z",
+      "lastSeenAt": "2026-07-07T18:50:19.758Z",
+      "lastChangedAt": "2026-07-07T18:50:19.758Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -3043,14 +3043,14 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 1.4,
-      "stock": 2271,
+      "price": 2,
+      "stock": 2218,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:45:14.196Z",
-      "lastSeenAt": "2026-07-07T18:45:14.132Z",
-      "lastChangedAt": "2026-07-07T18:45:14.132Z",
+      "lastSeenAt": "2026-07-07T18:50:19.758Z",
+      "lastChangedAt": "2026-07-07T18:50:19.758Z",
       "missingSince": null
     },
     "zoqxwb": {
@@ -3231,13 +3231,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 7.8,
-      "stock": 51,
+      "stock": 50,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-07T07:50:19.640Z",
-      "lastSeenAt": "2026-07-07T18:15:13.548Z",
-      "lastChangedAt": "2026-07-07T18:15:13.548Z",
+      "lastSeenAt": "2026-07-07T18:50:19.758Z",
+      "lastChangedAt": "2026-07-07T18:50:19.758Z",
       "missingSince": null
     },
     "a00sjb": {
@@ -3248,13 +3248,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 6.5,
-      "stock": 52,
+      "stock": 50,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-07T09:10:18.155Z",
-      "lastSeenAt": "2026-07-07T18:40:18.322Z",
-      "lastChangedAt": "2026-07-07T18:40:18.322Z",
+      "lastSeenAt": "2026-07-07T18:50:19.758Z",
+      "lastChangedAt": "2026-07-07T18:50:19.758Z",
       "missingSince": null
     }
   }
