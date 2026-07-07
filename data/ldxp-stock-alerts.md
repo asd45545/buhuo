@@ -6664,3 +6664,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/b2ggf2
 
+## 2026-07-07T01:20:19.715Z
+- Claude Max 20x 成品号【不质保特价·已过KYC】
+  - Stock: 0 -> 10
+  - Price: 702
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/whlry4
+
