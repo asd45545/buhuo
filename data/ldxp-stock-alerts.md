@@ -6913,3 +6913,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/etz0m6
 
+## 2026-07-07T10:35:09.976Z
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 208
+  - Price: 0.47
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+
