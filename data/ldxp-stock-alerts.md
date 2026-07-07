@@ -6706,3 +6706,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/unu10b
 
+## 2026-07-07T03:30:24.575Z
+- plus 成品号 有rt 只能反代
+  - Stock: 新上架 -> 149
+  - Price: 6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kk8w8k
+
