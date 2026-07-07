@@ -3189,43 +3189,5 @@
       "lastChangedAt": "2026-07-07T03:35:09.910Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "852zjn",
-      "name": "【质保1小时】Claude code 普号 mail邮箱，带sk，带快速接码",
-      "link": "https://pay.ldxp.cn/item/852zjn",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 8.5,
-      "stock": 72,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-07T03:35:09.910Z",
-      "alertId": "new_in_stock|852zjn|新上架|72|",
-      "queuedAt": "2026-07-07T03:35:09.910Z"
-    },
-    {
-      "key": "i4jqdg",
-      "name": "微软邮箱 GPT Team K12 成品  JSON 反代 发cpa 质保首登",
-      "link": "https://pay.ldxp.cn/item/i4jqdg",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 2,
-      "stock": 199,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-06T23:30:26.325Z",
-      "checkedAt": "2026-07-07T03:35:09.910Z",
-      "alertId": "restocked|i4jqdg|0|199|2026-07-06T23:30:26.325Z",
-      "queuedAt": "2026-07-07T03:35:09.910Z"
-    }
-  ]
+  }
 }
