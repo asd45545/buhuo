@@ -6725,3 +6725,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/i4jqdg
 
+## 2026-07-07T03:40:19.324Z
+- claude pro 自助充值，质保订阅
+  - Stock: 新上架 -> 5
+  - Price: 143
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/orzhiw
+
