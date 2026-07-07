@@ -6927,3 +6927,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g5xmee
 
+## 2026-07-07T10:45:13.173Z
+- 谷歌邮箱【成品plus】质保三天
+  - Stock: 0 -> 15
+  - Price: 22
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/hia70r
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 2
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
