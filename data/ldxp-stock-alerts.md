@@ -6998,3 +6998,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-07-07T13:30:26.396Z
+- 谷歌邮箱【成品plus】质保25天，封号也保
+  - Stock: 0 -> 5
+  - Price: 88
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/3uoyst
+
