@@ -6821,3 +6821,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/etz0m6
 
+## 2026-07-07T07:40:17.440Z
+- 24小时team（畅享额度）
+  - Stock: 0 -> 15
+  - Price: 26.73
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/jkrruh
+
