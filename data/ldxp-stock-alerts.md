@@ -6772,3 +6772,10 @@
   - Category: gpt pro 20x （低价渠道）
   - Link: https://pay.ldxp.cn/item/194nbs
 
+## 2026-07-07T05:45:13.186Z
+- 谷歌邮箱【成品plus】特价
+  - Stock: 0 -> 20
+  - Price: 16.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+
