@@ -3223,43 +3223,5 @@
       "lastChangedAt": "2026-07-07T03:45:15.534Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "htc8s3",
-      "name": "【随机】谷歌邮箱20-24年",
-      "link": "https://pay.ldxp.cn/item/htc8s3",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 8.84,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T03:50:18.017Z",
-      "checkedAt": "2026-07-07T05:35:10.159Z",
-      "alertId": "restocked|htc8s3|0|5|2026-07-07T03:50:18.017Z",
-      "queuedAt": "2026-07-07T05:35:10.159Z"
-    },
-    {
-      "key": "194nbs",
-      "name": "ChatGPT Pro 20x无任何质保 库存号 质保首登 额度包补",
-      "link": "https://pay.ldxp.cn/item/194nbs",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x （低价渠道）",
-      "price": 250,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T03:45:15.534Z",
-      "checkedAt": "2026-07-07T05:35:10.159Z",
-      "alertId": "restocked|194nbs|0|10|2026-07-07T03:45:15.534Z",
-      "queuedAt": "2026-07-07T05:35:10.159Z"
-    }
-  ]
+  }
 }
