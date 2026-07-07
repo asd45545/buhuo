@@ -3257,25 +3257,5 @@
       "lastChangedAt": "2026-07-07T11:50:20.734Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "5jylhj",
-      "name": "【6.27荷兰渠道】icloud精品邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex",
-      "link": "https://pay.ldxp.cn/item/5jylhj",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 15.6,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T12:00:30.562Z",
-      "checkedAt": "2026-07-07T12:35:10.030Z",
-      "alertId": "restocked|5jylhj|0|2|2026-07-07T12:00:30.562Z",
-      "queuedAt": "2026-07-07T12:35:10.030Z"
-    }
-  ]
+  }
 }
