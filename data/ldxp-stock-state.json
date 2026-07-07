@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3775,
+  "runs": 3776,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-07T17:50:19.024Z",
+  "updatedAt": "2026-07-07T17:55:10.731Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 290,
+      "stock": 285,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T13:15:13.393Z",
-      "lastChangedAt": "2026-07-07T13:15:13.393Z",
+      "lastSeenAt": "2026-07-07T17:55:10.731Z",
+      "lastChangedAt": "2026-07-07T17:55:10.731Z",
       "missingSince": null
     },
     "dt897i": {
@@ -2143,13 +2143,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 45.5,
-      "stock": 134,
+      "stock": 223,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T17:20:19.933Z",
-      "lastSeenAt": "2026-07-07T07:20:17.110Z",
-      "lastChangedAt": "2026-07-07T07:20:17.110Z",
+      "lastSeenAt": "2026-07-07T17:55:10.731Z",
+      "lastChangedAt": "2026-07-07T17:55:10.731Z",
       "missingSince": null
     },
     "nrvmic": {
@@ -2296,13 +2296,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 22,
-      "stock": 23,
+      "stock": 22,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-07T15:55:10.488Z",
-      "lastChangedAt": "2026-07-07T15:55:10.488Z",
+      "lastSeenAt": "2026-07-07T17:55:10.731Z",
+      "lastChangedAt": "2026-07-07T17:55:10.731Z",
       "missingSince": null
     },
     "hsf9yk": {
