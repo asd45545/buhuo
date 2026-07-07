@@ -3257,25 +3257,5 @@
       "lastChangedAt": "2026-07-07T09:10:18.155Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "a00sjb",
-      "name": "bug的team，一个250刀。尽量用cpa跑，sub2调度有问题，下订单前看清楚",
-      "link": "https://pay.ldxp.cn/item/a00sjb",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 7.15,
-      "stock": 89,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-07T09:10:18.155Z",
-      "alertId": "new_in_stock|a00sjb|新上架|89|",
-      "queuedAt": "2026-07-07T09:10:18.155Z"
-    }
-  ]
+  }
 }
