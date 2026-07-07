@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3762,
+  "runs": 3763,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-07T16:40:20.763Z",
+  "updatedAt": "2026-07-07T16:45:13.319Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 82,
+      "stock": 81,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-07T16:00:32.298Z",
-      "lastChangedAt": "2026-07-07T16:00:32.298Z",
+      "lastSeenAt": "2026-07-07T16:45:13.319Z",
+      "lastChangedAt": "2026-07-07T16:45:13.319Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.05,
-      "stock": 509,
+      "stock": 508,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-07T16:35:10.047Z",
-      "lastChangedAt": "2026-07-07T16:35:10.047Z",
+      "lastSeenAt": "2026-07-07T16:45:13.319Z",
+      "lastChangedAt": "2026-07-07T16:45:13.319Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2398,13 +2398,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.69,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-07T05:00:32.600Z",
+      "stock": 30,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
-      "lastSeenAt": "2026-07-07T05:00:32.600Z",
-      "lastChangedAt": "2026-07-07T05:00:32.600Z",
+      "lastSeenAt": "2026-07-07T16:45:13.319Z",
+      "lastChangedAt": "2026-07-07T16:45:13.319Z",
       "missingSince": null
     },
     "q4f3sx": {
@@ -2415,13 +2415,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.69,
-      "stock": 2,
+      "stock": 52,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
-      "lastSeenAt": "2026-07-07T16:25:09.845Z",
-      "lastChangedAt": "2026-07-07T16:25:09.845Z",
+      "lastSeenAt": "2026-07-07T16:45:13.319Z",
+      "lastChangedAt": "2026-07-07T16:45:13.319Z",
       "missingSince": null
     },
     "z2b577": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.46,
-      "stock": 541,
+      "stock": 540,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-07T16:35:10.047Z",
-      "lastChangedAt": "2026-07-07T16:35:10.047Z",
+      "lastSeenAt": "2026-07-07T16:45:13.319Z",
+      "lastChangedAt": "2026-07-07T16:45:13.319Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3231,13 +3231,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 7.8,
-      "stock": 82,
+      "stock": 80,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-07T07:50:19.640Z",
-      "lastSeenAt": "2026-07-07T16:40:20.763Z",
-      "lastChangedAt": "2026-07-07T16:40:20.763Z",
+      "lastSeenAt": "2026-07-07T16:45:13.319Z",
+      "lastChangedAt": "2026-07-07T16:45:13.319Z",
       "missingSince": null
     },
     "a00sjb": {
@@ -3257,5 +3257,25 @@
       "lastChangedAt": "2026-07-07T16:35:10.047Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "ow0rhy",
+      "name": "Google/Gmail/YouTube 接码 巴西【单次接码】 业务自测  ！！！",
+      "link": "https://pay.ldxp.cn/item/ow0rhy",
+      "goodsType": "card",
+      "categoryId": 111630,
+      "categoryName": "接码",
+      "price": 2.69,
+      "stock": 30,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-07T05:00:32.600Z",
+      "checkedAt": "2026-07-07T16:45:13.319Z",
+      "alertId": "restocked|ow0rhy|0|30|2026-07-07T05:00:32.600Z",
+      "queuedAt": "2026-07-07T16:45:13.319Z"
+    }
+  ]
 }
