@@ -3172,25 +3172,5 @@
       "lastChangedAt": "2026-07-07T03:30:24.575Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "kk8w8k",
-      "name": "plus 成品号 有rt 只能反代",
-      "link": "https://pay.ldxp.cn/item/kk8w8k",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 6,
-      "stock": 149,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-07T03:30:24.575Z",
-      "alertId": "new_in_stock|kk8w8k|新上架|149|",
-      "queuedAt": "2026-07-07T03:30:24.575Z"
-    }
-  ]
+  }
 }
