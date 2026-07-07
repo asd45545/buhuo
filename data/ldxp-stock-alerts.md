@@ -6873,3 +6873,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/w7geuq
 
+## 2026-07-07T09:24:23.331Z
+- 谷歌邮箱【成品plus】特价
+  - Stock: 0 -> 28
+  - Price: 16.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+
