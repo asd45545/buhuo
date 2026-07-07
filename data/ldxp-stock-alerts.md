@@ -6692,3 +6692,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-07-07T02:45:13.316Z
+- 【codex-反代】k12team子号成品（只能反代，买错不退）
+  - Stock: 0 -> 150
+  - Price: 4.5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+
