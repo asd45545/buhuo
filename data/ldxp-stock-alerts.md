@@ -6732,3 +6732,10 @@
   - Category: Claude
   - Link: https://pay.ldxp.cn/item/orzhiw
 
+## 2026-07-07T03:45:15.534Z
+- Kiro Pro Max（5K积分 JSON发货 只能反代）
+  - Stock: 新上架 -> 4
+  - Price: 95
+  - Category: kiro pro
+  - Link: https://pay.ldxp.cn/item/t3v67k
+
