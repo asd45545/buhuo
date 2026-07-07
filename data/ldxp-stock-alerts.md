@@ -6972,3 +6972,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/pdfso5
 
+## 2026-07-07T12:25:10.211Z
+- 谷歌邮箱【成品plus】特价
+  - Stock: 0 -> 20
+  - Price: 16.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+- 谷歌邮箱【成品plus】质保7天
+  - Stock: 0 -> 20
+  - Price: 36
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/cw5zul
+
