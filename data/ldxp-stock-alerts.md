@@ -6713,3 +6713,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kk8w8k
 
+## 2026-07-07T03:35:09.910Z
+- 【质保1小时】Claude code 普号 mail邮箱，带sk，带快速接码
+  - Stock: 新上架 -> 72
+  - Price: 8.5
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/852zjn
+- 微软邮箱 GPT Team K12 成品  JSON 反代 发cpa 质保首登
+  - Stock: 0 -> 199
+  - Price: 2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i4jqdg
+
