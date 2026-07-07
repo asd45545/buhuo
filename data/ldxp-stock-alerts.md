@@ -6946,3 +6946,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4xsj1w
 
+## 2026-07-07T11:00:30.864Z
+- k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代
+  - Stock: 0 -> 76
+  - Price: 3.33
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/w6ql6z
+
