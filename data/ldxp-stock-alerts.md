@@ -7047,3 +7047,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/n0soy3
 
+## 2026-07-07T21:00:33.418Z
+- bugteam sub用
+  - Stock: 0 -> 100
+  - Price: 7.8
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/b4fp94
+
