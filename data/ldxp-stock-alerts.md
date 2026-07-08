@@ -7547,3 +7547,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/2oh41p
 
+## 2026-07-08T19:10:21.551Z
+- bugteam sub用
+  - Stock: 0 -> 500
+  - Price: 13
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/b4fp94
+
