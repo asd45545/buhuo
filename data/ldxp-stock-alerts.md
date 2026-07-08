@@ -7150,3 +7150,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/nq08tb
 
+## 2026-07-08T03:30:26.624Z
+- GPT plus 日本稳定号 质保一个月
+  - Stock: 0 -> 28
+  - Price: 80.03
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
