@@ -7511,3 +7511,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/jgnbh9
 
+## 2026-07-08T14:35:10.510Z
+- GPT PLUS成品号
+  - Stock: 0 -> 3
+  - Price: 17.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- tz-bugteam sub用 无售后顶级跑量 sub401自己救活 是subbug
+  - Stock: 新上架 -> 738
+  - Price: 9.1
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/3v4pnc
+
