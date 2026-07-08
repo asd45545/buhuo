@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3900,
+  "runs": 3901,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-08T04:25:09.588Z",
+  "updatedAt": "2026-07-08T04:30:26.127Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 18,
+      "stock": 33,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T03:55:09.774Z",
-      "lastChangedAt": "2026-07-08T03:55:09.774Z",
+      "lastSeenAt": "2026-07-08T04:30:26.127Z",
+      "lastChangedAt": "2026-07-08T04:30:26.127Z",
       "missingSince": null
     },
     "go054j": {
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 910,
+      "stock": 909,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T02:35:10.417Z",
-      "lastChangedAt": "2026-07-08T02:35:10.417Z",
+      "lastSeenAt": "2026-07-08T04:30:26.127Z",
+      "lastChangedAt": "2026-07-08T04:30:26.127Z",
       "missingSince": null
     },
     "h4vvrc": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 131,
+      "stock": 130,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T04:05:09.701Z",
-      "lastChangedAt": "2026-07-08T04:05:09.701Z",
+      "lastSeenAt": "2026-07-08T04:30:26.127Z",
+      "lastChangedAt": "2026-07-08T04:30:26.127Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2641,9 +2641,9 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T07:30:25.175Z",
-      "lastSeenAt": "2026-07-08T03:15:13.106Z",
+      "lastSeenAt": "2026-07-08T04:30:26.127Z",
       "lastChangedAt": "2026-07-08T03:15:13.106Z",
-      "missingSince": "2026-07-08T04:20:19.466Z"
+      "missingSince": null
     },
     "gjokwl": {
       "key": "gjokwl",
@@ -2976,13 +2976,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 8.19,
-      "stock": 71,
+      "stock": 70,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-04T06:50:18.383Z",
-      "lastSeenAt": "2026-07-08T04:25:09.588Z",
-      "lastChangedAt": "2026-07-08T04:25:09.588Z",
+      "lastSeenAt": "2026-07-08T04:30:26.127Z",
+      "lastChangedAt": "2026-07-08T04:30:26.127Z",
       "missingSince": null
     },
     "z2jxo0": {
@@ -3010,13 +3010,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 8,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-08T01:20:18.707Z",
+      "stock": 1,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-04T06:54:20.416Z",
-      "lastSeenAt": "2026-07-08T01:20:18.707Z",
-      "lastChangedAt": "2026-07-08T01:20:18.707Z",
+      "lastSeenAt": "2026-07-08T04:30:26.127Z",
+      "lastChangedAt": "2026-07-08T04:30:26.127Z",
       "missingSince": null
     },
     "mkh6lh": {
@@ -3257,5 +3257,25 @@
       "lastChangedAt": "2026-07-08T04:25:09.588Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "sp346t",
+      "name": "特价GPT Plus 一个月会员 -卡密自助 欧洲渠道【仅支持新号或老号有试用】【无质保】【自动充值】【少量测试】",
+      "link": "https://pay.ldxp.cn/item/sp346t",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 8,
+      "stock": 1,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-08T01:20:18.707Z",
+      "checkedAt": "2026-07-08T04:30:26.127Z",
+      "alertId": "restocked|sp346t|0|1|2026-07-08T01:20:18.707Z",
+      "queuedAt": "2026-07-08T04:30:26.127Z"
+    }
+  ]
 }
