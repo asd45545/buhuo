@@ -3257,43 +3257,5 @@
       "lastChangedAt": "2026-07-08T04:33:20.471Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "194nbs",
-      "name": "ChatGPT Pro 20x无任何质保 库存号 质保首登 额度包补",
-      "link": "https://pay.ldxp.cn/item/194nbs",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x （低价渠道）",
-      "price": 260,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T01:50:21.145Z",
-      "checkedAt": "2026-07-08T07:55:10.015Z",
-      "alertId": "restocked|194nbs|0|5|2026-07-08T01:50:21.145Z",
-      "queuedAt": "2026-07-08T07:55:10.015Z"
-    },
-    {
-      "key": "unu10b",
-      "name": "iCloud邮箱-PLUS成品号-质保首登-带2FA认证",
-      "link": "https://pay.ldxp.cn/item/unu10b",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 19.5,
-      "stock": 29,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T07:45:12.931Z",
-      "checkedAt": "2026-07-08T07:55:10.015Z",
-      "alertId": "restocked|unu10b|0|29|2026-07-08T07:45:12.931Z",
-      "queuedAt": "2026-07-08T07:55:10.015Z"
-    }
-  ]
+  }
 }
