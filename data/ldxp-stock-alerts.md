@@ -7325,3 +7325,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g7n6gs
 
+## 2026-07-08T09:00:31.299Z
+- Claude Max 20x 成品号【不质保特价·已过KYC】
+  - Stock: 0 -> 10
+  - Price: 650
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/whlry4
+- GPT Plus 一个月会员 -卡密自助 欧洲渠道【仅支持新号或老号有试用】
+  - Stock: 0 -> 30
+  - Price: 7.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/sp346t
+
