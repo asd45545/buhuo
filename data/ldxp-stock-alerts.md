@@ -7454,3 +7454,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/ir7b3h
 
+## 2026-07-08T13:30:26.834Z
+- bug的team，一个250刀。尽量用cpa跑，sub2调度有问题，下订单前看清楚
+  - Stock: 0 -> 10
+  - Price: 13.65
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/a00sjb
+- plus 非日抛成品号 未接码 最新荷兰老铁手搓
+  - Stock: 0 -> 1
+  - Price: 11.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/w7geuq
+
