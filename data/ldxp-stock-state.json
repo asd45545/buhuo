@@ -3291,25 +3291,5 @@
       "lastChangedAt": "2026-07-08T14:40:20.913Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "g5xmee",
-      "name": "GPT-PLUS--印度渠道--Codex未接码--质保首登",
-      "link": "https://pay.ldxp.cn/item/g5xmee",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 7,
-      "stock": 24,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T13:40:21.636Z",
-      "checkedAt": "2026-07-08T14:40:20.913Z",
-      "alertId": "restocked|g5xmee|0|24|2026-07-08T13:40:21.636Z",
-      "queuedAt": "2026-07-08T14:40:20.913Z"
-    }
-  ]
+  }
 }
