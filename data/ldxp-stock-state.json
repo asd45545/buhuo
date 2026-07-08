@@ -3257,25 +3257,5 @@
       "lastChangedAt": "2026-07-07T20:05:09.929Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "9vso1a",
-      "name": "Claude Max 5x 成品号【不质保特价·已过KYC】",
-      "link": "https://pay.ldxp.cn/item/9vso1a",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 481,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T01:30:26.929Z",
-      "checkedAt": "2026-07-08T01:50:21.145Z",
-      "alertId": "restocked|9vso1a|0|10|2026-07-08T01:30:26.929Z",
-      "queuedAt": "2026-07-08T01:50:21.145Z"
-    }
-  ]
+  }
 }
