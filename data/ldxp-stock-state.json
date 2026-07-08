@@ -3291,43 +3291,5 @@
       "lastChangedAt": "2026-07-08T14:35:10.510Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4xsj1w",
-      "name": "GPT PLUS成品号",
-      "link": "https://pay.ldxp.cn/item/4xsj1w",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 17.5,
-      "stock": 3,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T12:05:10.340Z",
-      "checkedAt": "2026-07-08T14:35:10.510Z",
-      "alertId": "restocked|4xsj1w|0|3|2026-07-08T12:05:10.340Z",
-      "queuedAt": "2026-07-08T14:35:10.510Z"
-    },
-    {
-      "key": "3v4pnc",
-      "name": "tz-bugteam sub用 无售后顶级跑量 sub401自己救活 是subbug",
-      "link": "https://pay.ldxp.cn/item/3v4pnc",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 9.1,
-      "stock": 738,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-08T14:35:10.510Z",
-      "alertId": "new_in_stock|3v4pnc|新上架|738|",
-      "queuedAt": "2026-07-08T14:35:10.510Z"
-    }
-  ]
+  }
 }
