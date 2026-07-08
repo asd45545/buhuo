@@ -3257,43 +3257,5 @@
       "lastChangedAt": "2026-07-08T03:50:19.069Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "p8x1sk",
-      "name": "精品稳定个人谷歌Gmail邮箱老号  至少两年以上，2FA/带手机链接 随机地区美区居多",
-      "link": "https://pay.ldxp.cn/item/p8x1sk",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 8.97,
-      "stock": 20,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-06T07:55:10.127Z",
-      "checkedAt": "2026-07-08T03:50:19.069Z",
-      "alertId": "restocked|p8x1sk|0|20|2026-07-06T07:55:10.127Z",
-      "queuedAt": "2026-07-08T03:50:19.069Z"
-    },
-    {
-      "key": "a00sjb",
-      "name": "bug的team，一个250刀。尽量用cpa跑，sub2调度有问题，下订单前看清楚",
-      "link": "https://pay.ldxp.cn/item/a00sjb",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 13.65,
-      "stock": 90,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T20:05:09.929Z",
-      "checkedAt": "2026-07-08T03:50:19.069Z",
-      "alertId": "restocked|a00sjb|0|90|2026-07-07T20:05:09.929Z",
-      "queuedAt": "2026-07-08T03:50:19.069Z"
-    }
-  ]
+  }
 }
