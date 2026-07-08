@@ -3274,25 +3274,5 @@
       "lastChangedAt": "2026-07-08T12:50:20.492Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "l3su3k",
-      "name": "【ChatGPT Pro 20x成品号质保首登】库存货！仔细看商品描述，看好了再拍！",
-      "link": "https://pay.ldxp.cn/item/l3su3k",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x （低价渠道）",
-      "price": 303.33,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-07T06:20:17.193Z",
-      "checkedAt": "2026-07-08T12:50:20.492Z",
-      "alertId": "restocked|l3su3k|0|10|2026-07-07T06:20:17.193Z",
-      "queuedAt": "2026-07-08T12:50:20.492Z"
-    }
-  ]
+  }
 }
