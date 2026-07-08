@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3991,
+  "runs": 3992,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-08T11:55:09.925Z",
+  "updatedAt": "2026-07-08T12:00:31.492Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 12,
-      "stock": 24,
+      "stock": 14,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T11:50:19.993Z",
-      "lastChangedAt": "2026-07-08T11:50:19.993Z",
+      "lastSeenAt": "2026-07-08T12:00:31.492Z",
+      "lastChangedAt": "2026-07-08T12:00:31.492Z",
       "missingSince": null
     },
     "omh53e": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.77,
-      "stock": 262,
+      "stock": 257,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T11:50:19.993Z",
-      "lastChangedAt": "2026-07-08T11:50:19.993Z",
+      "lastSeenAt": "2026-07-08T12:00:31.492Z",
+      "lastChangedAt": "2026-07-08T12:00:31.492Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 80.03,
-      "stock": 16,
+      "stock": 13,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T11:55:09.925Z",
-      "lastChangedAt": "2026-07-08T11:55:09.925Z",
+      "lastSeenAt": "2026-07-08T12:00:31.492Z",
+      "lastChangedAt": "2026-07-08T12:00:31.492Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1259,13 +1259,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-08T11:10:19.971Z",
+      "stock": 2,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T11:10:19.971Z",
-      "lastChangedAt": "2026-07-08T11:10:19.971Z",
+      "lastSeenAt": "2026-07-08T12:00:31.492Z",
+      "lastChangedAt": "2026-07-08T12:00:31.492Z",
       "missingSince": null
     },
     "go054j": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 462,
+      "stock": 446,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T11:40:20.189Z",
-      "lastChangedAt": "2026-07-08T11:40:20.189Z",
+      "lastSeenAt": "2026-07-08T12:00:31.492Z",
+      "lastChangedAt": "2026-07-08T12:00:31.492Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1667,13 +1667,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15.02,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-08T10:25:10.833Z",
+      "stock": 1,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T10:25:10.833Z",
-      "lastChangedAt": "2026-07-08T10:25:10.833Z",
+      "lastSeenAt": "2026-07-08T12:00:31.492Z",
+      "lastChangedAt": "2026-07-08T12:00:31.492Z",
       "missingSince": null
     },
     "2pkod2": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.05,
-      "stock": 405,
+      "stock": 403,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-08T11:55:09.925Z",
-      "lastChangedAt": "2026-07-08T11:55:09.925Z",
+      "lastSeenAt": "2026-07-08T12:00:31.492Z",
+      "lastChangedAt": "2026-07-08T12:00:31.492Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2245,13 +2245,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 9.75,
-      "stock": 10,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:25:12.360Z",
-      "lastSeenAt": "2026-07-08T10:00:29.897Z",
-      "lastChangedAt": "2026-07-08T10:00:29.897Z",
+      "lastSeenAt": "2026-07-08T12:00:31.492Z",
+      "lastChangedAt": "2026-07-08T12:00:31.492Z",
       "missingSince": null
     },
     "3uoyst": {
@@ -3274,5 +3274,43 @@
       "lastChangedAt": "2026-07-08T11:50:19.993Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "4xsj1w",
+      "name": "GPT PLUS成品号",
+      "link": "https://pay.ldxp.cn/item/4xsj1w",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 15,
+      "stock": 2,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-08T11:10:19.971Z",
+      "checkedAt": "2026-07-08T12:00:31.492Z",
+      "alertId": "restocked|4xsj1w|0|2|2026-07-08T11:10:19.971Z",
+      "queuedAt": "2026-07-08T12:00:31.492Z"
+    },
+    {
+      "key": "g7n6gs",
+      "name": "PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号",
+      "link": "https://pay.ldxp.cn/item/g7n6gs",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 15.02,
+      "stock": 1,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-08T10:25:10.833Z",
+      "checkedAt": "2026-07-08T12:00:31.492Z",
+      "alertId": "restocked|g7n6gs|0|1|2026-07-08T10:25:10.833Z",
+      "queuedAt": "2026-07-08T12:00:31.492Z"
+    }
+  ]
 }
