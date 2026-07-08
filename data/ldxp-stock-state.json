@@ -3308,25 +3308,5 @@
       "lastChangedAt": "2026-07-08T22:20:23.372Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "qdyac8",
-      "name": "【claude code MAX20谷歌内购超稳成品号】【 质保订阅30天】 【不质保封号】",
-      "link": "https://pay.ldxp.cn/item/qdyac8",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 648,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T15:30:31.689Z",
-      "checkedAt": "2026-07-08T22:20:23.372Z",
-      "alertId": "restocked|qdyac8|0|2|2026-07-08T15:30:31.689Z",
-      "queuedAt": "2026-07-08T22:20:23.372Z"
-    }
-  ]
+  }
 }
