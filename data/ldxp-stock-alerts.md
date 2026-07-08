@@ -7406,3 +7406,15 @@
   - Category: gpt pro 20x （低价渠道）
   - Link: https://pay.ldxp.cn/item/l3su3k
 
+## 2026-07-08T12:55:11.084Z
+- 1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 6
+  - Price: 2.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 5个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 12
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+
