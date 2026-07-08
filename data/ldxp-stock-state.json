@@ -3308,25 +3308,5 @@
       "lastChangedAt": "2026-07-08T15:30:31.689Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "b4fp94",
-      "name": "bugteam sub用",
-      "link": "https://pay.ldxp.cn/item/b4fp94",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 13,
-      "stock": 500,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T02:50:18.258Z",
-      "checkedAt": "2026-07-08T19:10:21.551Z",
-      "alertId": "restocked|b4fp94|0|500|2026-07-08T02:50:18.258Z",
-      "queuedAt": "2026-07-08T19:10:21.551Z"
-    }
-  ]
+  }
 }
