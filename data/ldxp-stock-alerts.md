@@ -7258,3 +7258,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/i2xjrp
 
+## 2026-07-08T07:25:10.730Z
+- iCloud邮箱-PLUS成品号-质保首登-带2FA认证
+  - Stock: 0 -> 1
+  - Price: 19.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/unu10b
+
