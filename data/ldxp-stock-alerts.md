@@ -7418,3 +7418,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/2oh41p
 
+## 2026-07-08T13:10:21.318Z
+- 1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 2.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 537
+  - Price: 0.6
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+
