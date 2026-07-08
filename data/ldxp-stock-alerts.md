@@ -7183,3 +7183,15 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-07-08T04:25:09.588Z
+- 谷歌邮箱【成品plus】质保25天，封号也保
+  - Stock: 0 -> 8
+  - Price: 88
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/3uoyst
+- 谷歌邮箱【成品plus】质保三天
+  - Stock: 0 -> 19
+  - Price: 22
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/hia70r
+
