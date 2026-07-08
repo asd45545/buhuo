@@ -7164,3 +7164,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4wvlfu
 
+## 2026-07-08T03:50:19.069Z
+- 精品稳定个人谷歌Gmail邮箱老号  至少两年以上，2FA/带手机链接 随机地区美区居多
+  - Stock: 0 -> 20
+  - Price: 8.97
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/p8x1sk
+- bug的team，一个250刀。尽量用cpa跑，sub2调度有问题，下订单前看清楚
+  - Stock: 0 -> 90
+  - Price: 13.65
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/a00sjb
+
