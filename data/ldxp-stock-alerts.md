@@ -7318,3 +7318,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/di5fjv
 
+## 2026-07-08T08:50:19.851Z
+- PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号
+  - Stock: 0 -> 3
+  - Price: 15.02
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g7n6gs
+
