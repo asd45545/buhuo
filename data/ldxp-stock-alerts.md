@@ -7237,3 +7237,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kdsr0p
 
+## 2026-07-08T06:30:25.521Z
+- 1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 7
+  - Price: 4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+
