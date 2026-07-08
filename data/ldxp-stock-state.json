@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4068,
+  "runs": 4069,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-08T18:10:20.513Z",
+  "updatedAt": "2026-07-08T18:15:13.284Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.77,
-      "stock": 350,
+      "stock": 450,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T18:10:20.513Z",
-      "lastChangedAt": "2026-07-08T18:10:20.513Z",
+      "lastSeenAt": "2026-07-08T18:15:13.284Z",
+      "lastChangedAt": "2026-07-08T18:15:13.284Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 103,
+      "stock": 73,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T18:00:32.577Z",
-      "lastChangedAt": "2026-07-08T18:00:32.577Z",
+      "lastSeenAt": "2026-07-08T18:15:13.284Z",
+      "lastChangedAt": "2026-07-08T18:15:13.284Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 19,
-      "stock": 19,
+      "stock": 18,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T16:30:32.423Z",
-      "lastChangedAt": "2026-07-08T16:30:32.423Z",
+      "lastSeenAt": "2026-07-08T18:15:13.284Z",
+      "lastChangedAt": "2026-07-08T18:15:13.284Z",
       "missingSince": null
     },
     "zdsmzz": {
@@ -3146,13 +3146,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 7,
-      "stock": 13,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-06T17:50:20.388Z",
-      "lastSeenAt": "2026-07-08T17:50:22.025Z",
-      "lastChangedAt": "2026-07-08T17:50:22.025Z",
+      "lastSeenAt": "2026-07-08T18:15:13.284Z",
+      "lastChangedAt": "2026-07-08T18:15:13.284Z",
       "missingSince": null
     },
     "kk8w8k": {
