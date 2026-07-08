@@ -3274,25 +3274,5 @@
       "lastChangedAt": "2026-07-08T09:05:11.131Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "karh3x",
-      "name": "GPT Plus 未接码成品号（欧洲渠道）",
-      "link": "https://pay.ldxp.cn/item/karh3x",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 7.5,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-08T09:05:11.131Z",
-      "alertId": "new_in_stock|karh3x|新上架|30|",
-      "queuedAt": "2026-07-08T09:05:11.131Z"
-    }
-  ]
+  }
 }
