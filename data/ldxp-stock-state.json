@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3998,
+  "runs": 3999,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-08T12:30:25.695Z",
+  "updatedAt": "2026-07-08T12:35:10.076Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 45,
+      "stock": 44,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T12:30:25.695Z",
-      "lastChangedAt": "2026-07-08T12:30:25.695Z",
+      "lastSeenAt": "2026-07-08T12:35:10.076Z",
+      "lastChangedAt": "2026-07-08T12:35:10.076Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 80.03,
-      "stock": 31,
+      "stock": 30,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T12:30:25.695Z",
-      "lastChangedAt": "2026-07-08T12:30:25.695Z",
+      "lastSeenAt": "2026-07-08T12:35:10.076Z",
+      "lastChangedAt": "2026-07-08T12:35:10.076Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 442,
+      "stock": 440,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T12:30:25.695Z",
-      "lastChangedAt": "2026-07-08T12:30:25.695Z",
+      "lastSeenAt": "2026-07-08T12:35:10.076Z",
+      "lastChangedAt": "2026-07-08T12:35:10.076Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.78,
-      "stock": 24,
+      "stock": 21,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-08T12:30:25.695Z",
-      "lastChangedAt": "2026-07-08T12:30:25.695Z",
+      "lastSeenAt": "2026-07-08T12:35:10.076Z",
+      "lastChangedAt": "2026-07-08T12:35:10.076Z",
       "missingSince": null
     },
     "5jylhj": {
