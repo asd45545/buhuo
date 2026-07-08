@@ -7466,3 +7466,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/w7geuq
 
+## 2026-07-08T13:40:21.636Z
+- 谷歌邮箱【成品plus】特价
+  - Stock: 0 -> 20
+  - Price: 16.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+- 谷歌邮箱【成品plus】质保7天
+  - Stock: 0 -> 13
+  - Price: 36
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/cw5zul
+- 谷歌邮箱【成品plus】质保三天
+  - Stock: 0 -> 15
+  - Price: 22
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/hia70r
+
