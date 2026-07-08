@@ -7561,3 +7561,20 @@
   - Category: Claude
   - Link: https://pay.ldxp.cn/item/qdyac8
 
+## 2026-07-08T22:30:31.868Z
+- 【全新科技中转专用两天必死】【ChatGPT Pro 20x成品号质保首登】带rt直接导入使用！
+  - Stock: 0 -> 1
+  - Price: 270
+  - Category: gpt pro 20x （低价渠道）
+  - Link: https://pay.ldxp.cn/item/l3su3k
+- 1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 24
+  - Price: 2.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 5个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 5
+  - Price: 12
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+
