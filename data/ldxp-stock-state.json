@@ -3257,43 +3257,5 @@
       "lastChangedAt": "2026-07-08T04:33:20.471Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "whlry4",
-      "name": "Claude Max 20x 成品号【不质保特价·已过KYC】",
-      "link": "https://pay.ldxp.cn/item/whlry4",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 650,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T08:45:12.691Z",
-      "checkedAt": "2026-07-08T09:00:31.299Z",
-      "alertId": "restocked|whlry4|0|10|2026-07-08T08:45:12.691Z",
-      "queuedAt": "2026-07-08T09:00:31.299Z"
-    },
-    {
-      "key": "sp346t",
-      "name": "GPT Plus 一个月会员 -卡密自助 欧洲渠道【仅支持新号或老号有试用】",
-      "link": "https://pay.ldxp.cn/item/sp346t",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 7.8,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T06:25:09.876Z",
-      "checkedAt": "2026-07-08T09:00:31.299Z",
-      "alertId": "restocked|sp346t|0|30|2026-07-08T06:25:09.876Z",
-      "queuedAt": "2026-07-08T09:00:31.299Z"
-    }
-  ]
+  }
 }
