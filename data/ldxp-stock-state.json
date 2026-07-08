@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 3987,
+  "runs": 3988,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-08T11:35:10.837Z",
+  "updatedAt": "2026-07-08T11:40:20.189Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.4,
-      "stock": 124,
+      "stock": 94,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T11:35:10.837Z",
-      "lastChangedAt": "2026-07-08T11:35:10.837Z",
+      "lastSeenAt": "2026-07-08T11:40:20.189Z",
+      "lastChangedAt": "2026-07-08T11:40:20.189Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.77,
-      "stock": 267,
+      "stock": 264,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T11:35:10.837Z",
-      "lastChangedAt": "2026-07-08T11:35:10.837Z",
+      "lastSeenAt": "2026-07-08T11:40:20.189Z",
+      "lastChangedAt": "2026-07-08T11:40:20.189Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -936,13 +936,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.65,
-      "stock": 223,
+      "stock": 222,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T09:40:21.086Z",
-      "lastChangedAt": "2026-07-08T09:40:21.086Z",
+      "lastSeenAt": "2026-07-08T11:40:20.189Z",
+      "lastChangedAt": "2026-07-08T11:40:20.189Z",
       "missingSince": null
     },
     "ttuq5u": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 89,
+      "stock": 84,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T10:45:14.856Z",
-      "lastChangedAt": "2026-07-08T10:45:14.856Z",
+      "lastSeenAt": "2026-07-08T11:40:20.189Z",
+      "lastChangedAt": "2026-07-08T11:40:20.189Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 465,
+      "stock": 462,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T11:35:10.837Z",
-      "lastChangedAt": "2026-07-08T11:35:10.837Z",
+      "lastSeenAt": "2026-07-08T11:40:20.189Z",
+      "lastChangedAt": "2026-07-08T11:40:20.189Z",
       "missingSince": null
     },
     "4wvlfu": {
