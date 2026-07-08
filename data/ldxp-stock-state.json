@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4108,
+  "runs": 4109,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-08T22:00:37.924Z",
+  "updatedAt": "2026-07-08T22:05:11.152Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 279,
+      "stock": 278,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T18:40:22.231Z",
-      "lastChangedAt": "2026-07-08T18:40:22.231Z",
+      "lastSeenAt": "2026-07-08T22:05:11.152Z",
+      "lastChangedAt": "2026-07-08T22:05:11.152Z",
       "missingSince": null
     },
     "dt897i": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.78,
-      "stock": 36,
+      "stock": 31,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-08T21:50:21.424Z",
-      "lastChangedAt": "2026-07-08T21:50:21.424Z",
+      "lastSeenAt": "2026-07-08T22:05:11.152Z",
+      "lastChangedAt": "2026-07-08T22:05:11.152Z",
       "missingSince": null
     },
     "5jylhj": {
