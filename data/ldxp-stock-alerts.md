@@ -7380,3 +7380,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/ir7b3h
 
+## 2026-07-08T12:00:31.492Z
+- GPT PLUS成品号
+  - Stock: 0 -> 2
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4xsj1w
+- PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号
+  - Stock: 0 -> 1
+  - Price: 15.02
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g7n6gs
+
