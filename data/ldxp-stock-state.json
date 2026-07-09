@@ -3342,25 +3342,5 @@
       "lastChangedAt": "2026-07-09T15:05:10.781Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "1dw34e",
-      "name": "GPT-Plus-新渠道成品，无质保售后，稳定性自测，没绑手机号，需要使用CODEX，自行绑定手机号码",
-      "link": "https://pay.ldxp.cn/item/1dw34e",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 13.74,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T02:35:10.111Z",
-      "checkedAt": "2026-07-09T17:55:10.816Z",
-      "alertId": "restocked|1dw34e|0|5|2026-07-02T02:35:10.111Z",
-      "queuedAt": "2026-07-09T17:55:10.816Z"
-    }
-  ]
+  }
 }
