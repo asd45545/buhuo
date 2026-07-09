@@ -3342,25 +3342,5 @@
       "lastChangedAt": "2026-07-09T11:05:11.229Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "whlry4",
-      "name": "Claude Max 20x 成品号【不质保特价·已过KYC】",
-      "link": "https://pay.ldxp.cn/item/whlry4",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 650,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-09T10:45:13.936Z",
-      "checkedAt": "2026-07-09T11:05:11.229Z",
-      "alertId": "restocked|whlry4|0|5|2026-07-09T10:45:13.936Z",
-      "queuedAt": "2026-07-09T11:05:11.229Z"
-    }
-  ]
+  }
 }
