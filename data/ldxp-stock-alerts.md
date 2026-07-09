@@ -8076,3 +8076,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kzt2qr
 
+## 2026-07-09T20:55:11.108Z
+- bugteam sub用 401自行可写脚本自动救 不是死了 账号都会测活发出 无售后
+  - Stock: 0 -> 300
+  - Price: 11.7
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/b4fp94
+
