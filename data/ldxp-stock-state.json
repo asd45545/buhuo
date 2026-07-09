@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4352,
+  "runs": 4353,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-09T17:55:10.816Z",
+  "updatedAt": "2026-07-09T18:00:31.096Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -25,7 +25,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-06-23T17:30:12.384Z",
       "lastChangedAt": "2026-06-23T14:59:45.904Z",
-      "missingSince": null
+      "missingSince": "2026-07-09T18:00:31.096Z"
     },
     "xo4xq8": {
       "key": "xo4xq8",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 179,
+      "stock": 178,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T16:20:19.041Z",
-      "lastChangedAt": "2026-07-09T16:20:19.041Z",
+      "lastSeenAt": "2026-07-09T18:00:31.096Z",
+      "lastChangedAt": "2026-07-09T18:00:31.096Z",
       "missingSince": null
     },
     "dt897i": {
@@ -1242,13 +1242,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 70,
-      "stock": 27,
+      "stock": 28,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T17:50:18.448Z",
-      "lastChangedAt": "2026-07-09T17:50:18.448Z",
+      "lastSeenAt": "2026-07-09T18:00:31.096Z",
+      "lastChangedAt": "2026-07-09T18:00:31.096Z",
       "missingSince": null
     },
     "4xsj1w": {
@@ -2687,13 +2687,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 13.74,
-      "stock": 5,
+      "stock": 10,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T10:10:17.690Z",
-      "lastSeenAt": "2026-07-09T17:55:10.816Z",
-      "lastChangedAt": "2026-07-09T17:55:10.816Z",
+      "lastSeenAt": "2026-07-09T18:00:31.096Z",
+      "lastChangedAt": "2026-07-09T18:00:31.096Z",
       "missingSince": null
     },
     "jf92gc": {
