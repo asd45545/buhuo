@@ -7999,3 +7999,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g7n6gs
 
+## 2026-07-09T13:30:25.951Z
+- 稳【欧洲渠道】GPT PLUS 半成品
+  - Stock: 0 -> 2
+  - Price: 7.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/jgnbh9
+
