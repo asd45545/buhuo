@@ -7728,3 +7728,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-07-09T05:30:29.299Z
+- 谷歌邮箱【成品plus】
+  - Stock: 0 -> 6
+  - Price: 16.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+
