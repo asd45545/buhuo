@@ -3308,25 +3308,5 @@
       "lastChangedAt": "2026-07-09T05:00:38.183Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "q0lb2o",
-      "name": "CodexFree（1个）",
-      "link": "https://pay.ldxp.cn/item/q0lb2o",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.65,
-      "stock": 50,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-09T04:30:31.827Z",
-      "checkedAt": "2026-07-09T05:35:10.446Z",
-      "alertId": "restocked|q0lb2o|0|50|2026-07-09T04:30:31.827Z",
-      "queuedAt": "2026-07-09T05:35:10.446Z"
-    }
-  ]
+  }
 }
