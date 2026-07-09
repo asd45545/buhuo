@@ -7985,3 +7985,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/nq08tb
 
+## 2026-07-09T11:45:14.012Z
+- Kiro Pro Max（5K积分 JSON发货 只能反代）
+  - Stock: 0 -> 3
+  - Price: 95
+  - Category: kiro pro
+  - Link: https://pay.ldxp.cn/item/t3v67k
+
