@@ -3308,25 +3308,5 @@
       "lastChangedAt": "2026-07-08T22:20:23.372Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "akl0om",
-      "name": "【快充】Gemini Pro一年，Pixel自助开通卡密 包绑卡",
-      "link": "https://pay.ldxp.cn/item/akl0om",
-      "goodsType": "card",
-      "categoryId": 111637,
-      "categoryName": "Gemini",
-      "price": 19.9,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-05T08:00:27.252Z",
-      "checkedAt": "2026-07-09T04:20:21.746Z",
-      "alertId": "restocked|akl0om|0|100|2026-07-05T08:00:27.252Z",
-      "queuedAt": "2026-07-09T04:20:21.746Z"
-    }
-  ]
+  }
 }
