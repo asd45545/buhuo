@@ -3342,25 +3342,5 @@
       "lastChangedAt": "2026-07-09T15:05:10.781Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "kzt2qr",
-      "name": "谷歌邮箱【成品plus】",
-      "link": "https://pay.ldxp.cn/item/kzt2qr",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 16.8,
-      "stock": 16,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-09T18:45:14.473Z",
-      "checkedAt": "2026-07-09T18:50:18.774Z",
-      "alertId": "restocked|kzt2qr|0|16|2026-07-09T18:45:14.473Z",
-      "queuedAt": "2026-07-09T18:50:18.774Z"
-    }
-  ]
+  }
 }
