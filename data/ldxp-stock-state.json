@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4242,
+  "runs": 4243,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-09T08:55:10.743Z",
+  "updatedAt": "2026-07-09T09:00:34.296Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -341,13 +341,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 204,
-      "stock": 2,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T08:45:14.295Z",
-      "lastChangedAt": "2026-07-09T08:45:14.295Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "i2xjrp": {
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.4,
-      "stock": 296,
+      "stock": 383,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T08:55:10.743Z",
-      "lastChangedAt": "2026-07-09T08:55:10.743Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -392,13 +392,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 64.8,
-      "stock": 9,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T08:55:10.743Z",
-      "lastChangedAt": "2026-07-09T08:55:10.743Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "nq08tb": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 12,
-      "stock": 62,
+      "stock": 75,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T08:55:10.743Z",
-      "lastChangedAt": "2026-07-09T08:55:10.743Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "omh53e": {
@@ -783,13 +783,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 650,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T08:30:28.590Z",
-      "lastChangedAt": "2026-07-09T08:30:28.590Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "fvde75": {
@@ -936,13 +936,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.65,
-      "stock": 200,
+      "stock": 199,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T08:55:10.743Z",
-      "lastChangedAt": "2026-07-09T08:55:10.743Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "ttuq5u": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 246,
+      "stock": 238,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T08:55:10.743Z",
-      "lastChangedAt": "2026-07-09T08:55:10.743Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4,
-      "stock": 234,
+      "stock": 233,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-09T08:55:10.743Z",
-      "lastChangedAt": "2026-07-09T08:55:10.743Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2177,13 +2177,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 7,
-      "stock": 55,
+      "stock": 53,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T04:30:24.973Z",
-      "lastSeenAt": "2026-07-09T08:55:10.743Z",
-      "lastChangedAt": "2026-07-09T08:55:10.743Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "3to940": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.8,
-      "stock": 62,
+      "stock": 61,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-09T08:40:21.272Z",
-      "lastChangedAt": "2026-07-09T08:40:21.272Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -2857,13 +2857,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 26.73,
-      "stock": 13,
+      "stock": 12,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-01T01:15:11.873Z",
-      "lastSeenAt": "2026-07-09T08:25:10.204Z",
-      "lastChangedAt": "2026-07-09T08:00:34.654Z",
+      "lastSeenAt": "2026-07-09T09:00:34.296Z",
+      "lastChangedAt": "2026-07-09T09:00:34.296Z",
       "missingSince": null
     },
     "qpm6uu": {
@@ -3153,7 +3153,7 @@
       "firstSeenAt": "2026-07-06T17:50:20.388Z",
       "lastSeenAt": "2026-07-09T01:20:22.114Z",
       "lastChangedAt": "2026-07-09T01:20:22.114Z",
-      "missingSince": null
+      "missingSince": "2026-07-09T09:00:34.296Z"
     },
     "kk8w8k": {
       "key": "kk8w8k",
