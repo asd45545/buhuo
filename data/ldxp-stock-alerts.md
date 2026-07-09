@@ -8090,3 +8090,10 @@
   - Category: gpt pro 20x （低价渠道）
   - Link: https://pay.ldxp.cn/item/l3su3k
 
+## 2026-07-09T23:50:18.319Z
+- 1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 8
+  - Price: 2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+
