@@ -3342,25 +3342,5 @@
       "lastChangedAt": "2026-07-09T10:00:33.617Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "t4z9q6",
-      "name": "GPT-PLUS--荷兰渠道--Codex未接码--质保首登",
-      "link": "https://pay.ldxp.cn/item/t4z9q6",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 7.15,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-09T10:00:33.617Z",
-      "alertId": "new_in_stock|t4z9q6|新上架|10|",
-      "queuedAt": "2026-07-09T10:00:33.617Z"
-    }
-  ]
+  }
 }
