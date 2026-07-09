@@ -3325,25 +3325,5 @@
       "lastChangedAt": "2026-07-09T07:25:10.293Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "lwhjp0",
-      "name": "gpt美卡接码（有效期25-30天）",
-      "link": "https://pay.ldxp.cn/item/lwhjp0",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 5.5,
-      "stock": 449,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-09T08:10:21.931Z",
-      "checkedAt": "2026-07-09T08:15:13.616Z",
-      "alertId": "restocked|lwhjp0|0|449|2026-07-09T08:10:21.931Z",
-      "queuedAt": "2026-07-09T08:15:13.616Z"
-    }
-  ]
+  }
 }
