@@ -7659,3 +7659,10 @@
   - Category: GPT Free
   - Link: https://pay.ldxp.cn/item/b2ggf2
 
+## 2026-07-09T02:40:21.825Z
+- bug的team，一个250刀。尽量用cpa跑，sub2调度有问题，下订单前看清楚
+  - Stock: 0 -> 95
+  - Price: 10.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/a00sjb
+
