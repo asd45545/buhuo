@@ -8006,3 +8006,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/jgnbh9
 
+## 2026-07-09T14:00:32.604Z
+- 【claude code MAX20谷歌内购超稳成品号】【 质保订阅30天】 【不质保封号】
+  - Stock: 0 -> 2
+  - Price: 648
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/qdyac8
+
