@@ -7749,3 +7749,15 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/etz0m6
 
+## 2026-07-09T06:05:10.774Z
+- 1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 5
+  - Price: 2.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 苹果邮箱【成品plus】
+  - Stock: 新上架 -> 103
+  - Price: 16.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/b6g7om
+
