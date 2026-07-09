@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4386,
+  "runs": 4387,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-09T20:50:19.471Z",
+  "updatedAt": "2026-07-09T20:55:11.108Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 565,
+      "stock": 564,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T19:30:28.507Z",
-      "lastChangedAt": "2026-07-09T19:30:28.507Z",
+      "lastSeenAt": "2026-07-09T20:55:11.108Z",
+      "lastChangedAt": "2026-07-09T20:55:11.108Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 361,
+      "stock": 360,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T20:15:13.941Z",
-      "lastChangedAt": "2026-07-09T20:15:13.941Z",
+      "lastSeenAt": "2026-07-09T20:55:11.108Z",
+      "lastChangedAt": "2026-07-09T20:55:11.108Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -3044,13 +3044,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 370,
+      "stock": 359,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:45:14.196Z",
-      "lastSeenAt": "2026-07-09T20:35:10.820Z",
-      "lastChangedAt": "2026-07-09T20:35:10.820Z",
+      "lastSeenAt": "2026-07-09T20:55:11.108Z",
+      "lastChangedAt": "2026-07-09T20:55:11.108Z",
       "missingSince": null
     },
     "zoqxwb": {
@@ -3231,13 +3231,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 11.7,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-09T19:40:18.905Z",
+      "stock": 300,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-07T07:50:19.640Z",
-      "lastSeenAt": "2026-07-09T19:40:18.905Z",
-      "lastChangedAt": "2026-07-09T19:40:18.905Z",
+      "lastSeenAt": "2026-07-09T20:55:11.108Z",
+      "lastChangedAt": "2026-07-09T20:55:11.108Z",
       "missingSince": null
     },
     "a00sjb": {
@@ -3282,13 +3282,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 11.7,
-      "stock": 568,
+      "stock": 268,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-08T14:35:10.510Z",
-      "lastSeenAt": "2026-07-09T20:15:13.941Z",
-      "lastChangedAt": "2026-07-09T20:15:13.941Z",
+      "lastSeenAt": "2026-07-09T20:55:11.108Z",
+      "lastChangedAt": "2026-07-09T20:55:11.108Z",
       "missingSince": null
     },
     "qdyac8": {
@@ -3342,5 +3342,25 @@
       "lastChangedAt": "2026-07-09T15:05:10.781Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "b4fp94",
+      "name": "bugteam sub用 401自行可写脚本自动救 不是死了 账号都会测活发出 无售后",
+      "link": "https://pay.ldxp.cn/item/b4fp94",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 11.7,
+      "stock": 300,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-09T19:40:18.905Z",
+      "checkedAt": "2026-07-09T20:55:11.108Z",
+      "alertId": "restocked|b4fp94|0|300|2026-07-09T19:40:18.905Z",
+      "queuedAt": "2026-07-09T20:55:11.108Z"
+    }
+  ]
 }
