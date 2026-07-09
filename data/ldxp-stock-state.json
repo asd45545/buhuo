@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4359,
+  "runs": 4360,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-09T18:25:11.771Z",
+  "updatedAt": "2026-07-09T18:30:28.938Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 101,
+      "stock": 100,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T18:25:11.771Z",
-      "lastChangedAt": "2026-07-09T18:25:11.771Z",
+      "lastSeenAt": "2026-07-09T18:30:28.938Z",
+      "lastChangedAt": "2026-07-09T18:30:28.938Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -3044,14 +3044,14 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-08T02:20:18.628Z",
+      "stock": 200,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-05T10:45:14.196Z",
-      "lastSeenAt": "2026-07-09T12:05:10.948Z",
-      "lastChangedAt": "2026-07-08T02:20:18.628Z",
-      "missingSince": "2026-07-09T12:10:19.449Z"
+      "lastSeenAt": "2026-07-09T18:30:28.938Z",
+      "lastChangedAt": "2026-07-09T18:30:28.938Z",
+      "missingSince": null
     },
     "zoqxwb": {
       "key": "zoqxwb",
@@ -3342,5 +3342,25 @@
       "lastChangedAt": "2026-07-09T15:05:10.781Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "i4jqdg",
+      "name": "微软邮箱 GPT Team K12 成品  JSON 反代 发cpa 质保首登",
+      "link": "https://pay.ldxp.cn/item/i4jqdg",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 2,
+      "stock": 200,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-08T02:20:18.628Z",
+      "checkedAt": "2026-07-09T18:30:28.938Z",
+      "alertId": "restocked|i4jqdg|0|200|2026-07-08T02:20:18.628Z",
+      "queuedAt": "2026-07-09T18:30:28.938Z"
+    }
+  ]
 }
