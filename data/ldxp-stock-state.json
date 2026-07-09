@@ -3342,25 +3342,5 @@
       "lastChangedAt": "2026-07-09T15:05:10.781Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "pfrifg",
-      "name": "ChatGpt Free号（提供邮箱接码 已经接码）| 注册地美国 | outlook.com | 家庭宽带注册",
-      "link": "https://pay.ldxp.cn/item/pfrifg",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.69,
-      "stock": 98,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-09T15:00:31.374Z",
-      "checkedAt": "2026-07-09T15:05:10.781Z",
-      "alertId": "restocked|pfrifg|0|98|2026-07-09T15:00:31.374Z",
-      "queuedAt": "2026-07-09T15:05:10.781Z"
-    }
-  ]
+  }
 }
