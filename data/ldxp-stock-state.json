@@ -3308,25 +3308,5 @@
       "lastChangedAt": "2026-07-08T22:20:23.372Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "htc8s3",
-      "name": "【随机】谷歌邮箱20-24年",
-      "link": "https://pay.ldxp.cn/item/htc8s3",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 8.84,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-08T16:10:22.098Z",
-      "checkedAt": "2026-07-09T04:55:10.930Z",
-      "alertId": "restocked|htc8s3|0|10|2026-07-08T16:10:22.098Z",
-      "queuedAt": "2026-07-09T04:55:10.930Z"
-    }
-  ]
+  }
 }
