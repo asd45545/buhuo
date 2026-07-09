@@ -3342,25 +3342,5 @@
       "lastChangedAt": "2026-07-09T14:05:11.186Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "2rdly8",
-      "name": "【Grok 普号】【帐密+sso】直登成品｜域名邮箱】质保1天",
-      "link": "https://pay.ldxp.cn/item/2rdly8",
-      "goodsType": "card",
-      "categoryId": 112907,
-      "categoryName": "Grok",
-      "price": 0.5,
-      "stock": 230,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-09T14:00:32.604Z",
-      "checkedAt": "2026-07-09T14:05:11.186Z",
-      "alertId": "restocked|2rdly8|0|230|2026-07-09T14:00:32.604Z",
-      "queuedAt": "2026-07-09T14:05:11.186Z"
-    }
-  ]
+  }
 }
