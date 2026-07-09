@@ -3325,25 +3325,5 @@
       "lastChangedAt": "2026-07-09T09:30:29.611Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "3v4pnc",
-      "name": "tz-bugteam sub用 无售后顶级跑量 sub401自己救活 是subbug",
-      "link": "https://pay.ldxp.cn/item/3v4pnc",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 9.1,
-      "stock": 99,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-09T09:25:10.281Z",
-      "checkedAt": "2026-07-09T09:40:22.231Z",
-      "alertId": "restocked|3v4pnc|0|99|2026-07-09T09:25:10.281Z",
-      "queuedAt": "2026-07-09T09:40:22.231Z"
-    }
-  ]
+  }
 }
