@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4355,
+  "runs": 4356,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-09T18:10:19.971Z",
+  "updatedAt": "2026-07-09T18:13:55.998Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 570,
+      "stock": 569,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T15:55:10.756Z",
-      "lastChangedAt": "2026-07-09T15:55:10.756Z",
+      "lastSeenAt": "2026-07-09T18:13:55.998Z",
+      "lastChangedAt": "2026-07-09T18:13:55.998Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 222,
+      "stock": 234,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-09T18:10:19.971Z",
-      "lastChangedAt": "2026-07-09T18:10:19.971Z",
+      "lastSeenAt": "2026-07-09T18:13:55.998Z",
+      "lastChangedAt": "2026-07-09T18:13:55.998Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2687,13 +2687,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 13.74,
-      "stock": 10,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T10:10:17.690Z",
-      "lastSeenAt": "2026-07-09T18:00:31.096Z",
-      "lastChangedAt": "2026-07-09T18:00:31.096Z",
+      "lastSeenAt": "2026-07-09T18:13:55.998Z",
+      "lastChangedAt": "2026-07-09T18:13:55.998Z",
       "missingSince": null
     },
     "jf92gc": {
@@ -2857,13 +2857,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 26.73,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-01T01:15:11.873Z",
-      "lastSeenAt": "2026-07-09T16:45:14.172Z",
-      "lastChangedAt": "2026-07-09T16:45:14.172Z",
+      "lastSeenAt": "2026-07-09T18:13:55.998Z",
+      "lastChangedAt": "2026-07-09T18:13:55.998Z",
       "missingSince": null
     },
     "qpm6uu": {
