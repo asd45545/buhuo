@@ -8027,3 +8027,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/ir7b3h
 
+## 2026-07-09T15:00:31.374Z
+- Grok Super官方正规充值1个月卡密（质保不掉订阅）
+  - Stock: 0 -> 8
+  - Price: 95.2
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/rzm7z0
+
