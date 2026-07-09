@@ -8055,3 +8055,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/3v4pnc
 
+## 2026-07-09T17:55:10.816Z
+- GPT-Plus-新渠道成品，无质保售后，稳定性自测，没绑手机号，需要使用CODEX，自行绑定手机号码
+  - Stock: 0 -> 5
+  - Price: 13.74
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/1dw34e
+
