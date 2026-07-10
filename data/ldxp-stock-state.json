@@ -3427,43 +3427,5 @@
       "lastChangedAt": "2026-07-10T17:10:19.568Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "s80xga",
-      "name": "GPT  Team K12 成品 JSON 反代 发cpa/cdk 质保首登",
-      "link": "https://pay.ldxp.cn/item/s80xga",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 3.77,
-      "stock": 45,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T18:05:10.546Z",
-      "checkedAt": "2026-07-10T18:10:19.781Z",
-      "alertId": "restocked|s80xga|0|45|2026-07-10T18:05:10.546Z",
-      "queuedAt": "2026-07-10T18:10:19.781Z"
-    },
-    {
-      "key": "pph45d",
-      "name": "30个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/pph45d",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 54,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T18:10:19.781Z",
-      "checkedAt": "2026-07-10T18:15:13.697Z",
-      "alertId": "restocked|pph45d|0|1|2026-07-10T18:10:19.781Z",
-      "queuedAt": "2026-07-10T18:15:13.697Z"
-    }
-  ]
+  }
 }
