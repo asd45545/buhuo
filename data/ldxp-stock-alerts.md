@@ -8516,3 +8516,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/iw9hzu
 
+## 2026-07-10T16:55:10.097Z
+- 【Gmail】K12 team成品 Gmail  只能反代 已接码json
+  - Stock: 0 -> 98
+  - Price: 2.1
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zdsmzz
+
