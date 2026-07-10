@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4650,
+  "runs": 4651,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-10T20:40:22.458Z",
+  "updatedAt": "2026-07-10T20:45:13.757Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 445,
+      "stock": 497,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T20:40:22.458Z",
-      "lastChangedAt": "2026-07-10T20:40:22.458Z",
+      "lastSeenAt": "2026-07-10T20:45:13.757Z",
+      "lastChangedAt": "2026-07-10T20:45:13.757Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -392,13 +392,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 54,
-      "stock": 12,
+      "stock": 16,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T20:40:22.458Z",
-      "lastChangedAt": "2026-07-10T20:40:22.458Z",
+      "lastSeenAt": "2026-07-10T20:45:13.757Z",
+      "lastChangedAt": "2026-07-10T20:45:13.757Z",
       "missingSince": null
     },
     "nq08tb": {
@@ -409,13 +409,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 85,
-      "stock": 7,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T20:40:22.458Z",
-      "lastChangedAt": "2026-07-10T20:40:22.458Z",
+      "lastSeenAt": "2026-07-10T20:45:13.757Z",
+      "lastChangedAt": "2026-07-10T20:45:13.757Z",
       "missingSince": null
     },
     "2oh41p": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 10,
-      "stock": 77,
+      "stock": 98,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T20:40:22.458Z",
-      "lastChangedAt": "2026-07-10T20:40:22.458Z",
+      "lastSeenAt": "2026-07-10T20:45:13.757Z",
+      "lastChangedAt": "2026-07-10T20:45:13.757Z",
       "missingSince": null
     },
     "omh53e": {
