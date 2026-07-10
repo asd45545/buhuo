@@ -8227,3 +8227,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/s80xga
 
+## 2026-07-10T07:55:10.316Z
+- GPT-PLUS--荷兰渠道--Codex未接码--质保首登
+  - Stock: 0 -> 3
+  - Price: 7.15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/t4z9q6
+- PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号
+  - Stock: 0 -> 2
+  - Price: 16.32
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g7n6gs
+
