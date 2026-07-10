@@ -8321,3 +8321,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/htc8s3
 
+## 2026-07-10T10:20:19.081Z
+- 【7.10】K12 team成品 Gmail  只能反代 已接码json
+  - Stock: 0 -> 99
+  - Price: 1.8
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zdsmzz
+
