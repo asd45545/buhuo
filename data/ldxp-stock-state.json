@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4689,
+  "runs": 4690,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-10T23:45:14.834Z",
+  "updatedAt": "2026-07-10T23:50:22.526Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 1395,
+      "stock": 1336,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T23:45:14.834Z",
-      "lastChangedAt": "2026-07-10T23:45:14.834Z",
+      "lastSeenAt": "2026-07-10T23:50:22.526Z",
+      "lastChangedAt": "2026-07-10T23:50:22.526Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -392,13 +392,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 54,
-      "stock": 46,
+      "stock": 44,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T23:45:14.834Z",
-      "lastChangedAt": "2026-07-10T23:45:14.834Z",
+      "lastSeenAt": "2026-07-10T23:50:22.526Z",
+      "lastChangedAt": "2026-07-10T23:50:22.526Z",
       "missingSince": null
     },
     "nq08tb": {
@@ -409,13 +409,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 85,
-      "stock": 27,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T23:45:14.834Z",
-      "lastChangedAt": "2026-07-10T23:45:14.834Z",
+      "lastSeenAt": "2026-07-10T23:50:22.526Z",
+      "lastChangedAt": "2026-07-10T23:50:22.526Z",
       "missingSince": null
     },
     "2oh41p": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 10,
-      "stock": 279,
+      "stock": 267,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T23:45:14.834Z",
-      "lastChangedAt": "2026-07-10T23:45:14.834Z",
+      "lastSeenAt": "2026-07-10T23:50:22.526Z",
+      "lastChangedAt": "2026-07-10T23:50:22.526Z",
       "missingSince": null
     },
     "omh53e": {
@@ -1072,13 +1072,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 21,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-08T07:35:09.706Z",
-      "lastChangedAt": "2026-07-08T07:35:09.706Z",
+      "lastSeenAt": "2026-07-10T23:50:22.526Z",
+      "lastChangedAt": "2026-07-10T23:50:22.526Z",
       "missingSince": null
     },
     "6wd8eu": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 113,
+      "stock": 112,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T23:45:14.834Z",
-      "lastChangedAt": "2026-07-10T23:45:14.834Z",
+      "lastSeenAt": "2026-07-10T23:50:22.526Z",
+      "lastChangedAt": "2026-07-10T23:50:22.526Z",
       "missingSince": null
     },
     "zcj8wf": {
