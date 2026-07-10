@@ -8260,3 +8260,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-07-10T09:25:10.697Z
+- 【质保一个月】GPT plus 稳定号一个月
+  - Stock: 0 -> 1
+  - Price: 70
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- chatgpt成品号-高权重谷歌邮箱开通-未接码（每天开放预定，当日现开）
+  - Stock: 新上架 -> 30
+  - Price: 6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ydif04
+- tz-bugteam sub用 无售后顶级跑量 sub401自己救活 是subbug
+  - Stock: 0 -> 200
+  - Price: 15.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/3v4pnc
+
