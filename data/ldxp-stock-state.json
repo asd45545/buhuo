@@ -8,7 +8,7 @@
   "visitorId": "karhg6zka",
   "runs": 4618,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-10T17:50:10.221Z",
+  "updatedAt": "2026-07-10T17:50:18.687Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -686,8 +686,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T17:50:10.221Z",
-      "lastChangedAt": "2026-07-10T17:50:10.221Z",
+      "lastSeenAt": "2026-07-10T17:50:18.687Z",
+      "lastChangedAt": "2026-07-10T17:50:18.687Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1400,8 +1400,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T17:50:10.221Z",
-      "lastChangedAt": "2026-07-10T17:50:10.221Z",
+      "lastSeenAt": "2026-07-10T17:50:18.687Z",
+      "lastChangedAt": "2026-07-10T17:50:18.687Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1689,8 +1689,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T17:50:10.221Z",
-      "lastChangedAt": "2026-07-10T17:50:10.221Z",
+      "lastSeenAt": "2026-07-10T17:50:18.687Z",
+      "lastChangedAt": "2026-07-10T17:50:18.687Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1842,8 +1842,8 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-10T17:50:10.221Z",
-      "lastChangedAt": "2026-07-10T17:50:10.221Z",
+      "lastSeenAt": "2026-07-10T17:50:18.687Z",
+      "lastChangedAt": "2026-07-10T17:50:18.687Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2626,7 +2626,7 @@
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
       "lastSeenAt": "2026-07-10T17:45:13.844Z",
       "lastChangedAt": "2026-07-10T17:45:13.844Z",
-      "missingSince": "2026-07-10T17:50:10.221Z"
+      "missingSince": "2026-07-10T17:50:18.687Z"
     },
     "5jylhj": {
       "key": "5jylhj",
