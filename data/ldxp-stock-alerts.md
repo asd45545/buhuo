@@ -8487,3 +8487,25 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/7201mo
 
+## 2026-07-10T16:35:10.306Z
+- 【codex-反代】k12team子号成品（只能反代，买错不退）
+  - Stock: 0 -> 154
+  - Price: 2.25
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+- 稳【欧洲渠道】GPT PLUS 半成品
+  - Stock: 0 -> 2
+  - Price: 16.9
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/jgnbh9
+- bugteam sub用 401自行可写脚本自动救 不是死了 账号都会测活发出 无售后
+  - Stock: 0 -> 34
+  - Price: 15.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/b4fp94
+- tz-bugteam sub用 无售后顶级跑量 sub401自己救活 是subbug
+  - Stock: 0 -> 40
+  - Price: 15.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/3v4pnc
+
