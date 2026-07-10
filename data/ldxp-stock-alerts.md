@@ -8335,3 +8335,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zak7xw
 
+## 2026-07-10T10:40:18.073Z
+- 【特惠】k12 team成品 仅反代 质保首登
+  - Stock: 0 -> 40
+  - Price: 4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/7201mo
+- GPT-PLUS--荷兰渠道--Codex未接码--质保首登
+  - Stock: 0 -> 6
+  - Price: 7.15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/t4z9q6
+
