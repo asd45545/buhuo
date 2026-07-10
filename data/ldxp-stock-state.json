@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4617,
+  "runs": 4618,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-10T17:45:13.844Z",
+  "updatedAt": "2026-07-10T17:50:10.221Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 222,
+      "stock": 273,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T17:45:13.844Z",
-      "lastChangedAt": "2026-07-10T17:45:13.844Z",
+      "lastSeenAt": "2026-07-10T17:50:10.221Z",
+      "lastChangedAt": "2026-07-10T17:50:10.221Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 162,
+      "stock": 161,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T16:50:18.751Z",
-      "lastChangedAt": "2026-07-10T16:50:18.751Z",
+      "lastSeenAt": "2026-07-10T17:50:10.221Z",
+      "lastChangedAt": "2026-07-10T17:50:10.221Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 233,
+      "stock": 230,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T17:40:19.037Z",
-      "lastChangedAt": "2026-07-10T17:40:19.037Z",
+      "lastSeenAt": "2026-07-10T17:50:10.221Z",
+      "lastChangedAt": "2026-07-10T17:50:10.221Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 97,
+      "stock": 96,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-10T17:05:10.822Z",
-      "lastChangedAt": "2026-07-10T17:05:10.822Z",
+      "lastSeenAt": "2026-07-10T17:50:10.221Z",
+      "lastChangedAt": "2026-07-10T17:50:10.221Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2626,7 +2626,7 @@
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
       "lastSeenAt": "2026-07-10T17:45:13.844Z",
       "lastChangedAt": "2026-07-10T17:45:13.844Z",
-      "missingSince": null
+      "missingSince": "2026-07-10T17:50:10.221Z"
     },
     "5jylhj": {
       "key": "5jylhj",
