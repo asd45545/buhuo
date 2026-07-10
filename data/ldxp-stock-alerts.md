@@ -8139,3 +8139,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/nr5tu0
 
+## 2026-07-10T03:05:11.813Z
+- 谷歌GPT K12  成品10个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT
+  - Stock: 新上架 -> 15
+  - Price: 19.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zp1mme
+- 谷歌GPT K12  成品1个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT
+  - Stock: 新上架 -> 361
+  - Price: 2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/iw9hzu
+- 谷歌GPT K12  成品5个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT
+  - Stock: 新上架 -> 24
+  - Price: 10
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/9oocr7
+
