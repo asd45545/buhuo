@@ -8203,3 +8203,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/t4z9q6
 
+## 2026-07-10T05:25:10.394Z
+- 🌟GPT Plus  卡密【官方卡冲~保订阅】（菲区卡充）【可自助兑换】支持续费【端午特价来袭】
+  - Stock: 0 -> 5
+  - Price: 128.99
+  - Category: ✅GPT 正规渠道代充
+  - Link: https://pay.ldxp.cn/item/dt897i
+- 谷歌GPT K12  成品1个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT
+  - Stock: 0 -> 27
+  - Price: 2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/iw9hzu
+
