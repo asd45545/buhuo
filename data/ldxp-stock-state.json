@@ -3393,43 +3393,5 @@
       "lastChangedAt": "2026-07-10T05:10:18.186Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "t4z9q6",
-      "name": "GPT-PLUS--荷兰渠道--Codex未接码--质保首登",
-      "link": "https://pay.ldxp.cn/item/t4z9q6",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 7.15,
-      "stock": 3,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T05:50:17.311Z",
-      "checkedAt": "2026-07-10T07:55:10.316Z",
-      "alertId": "restocked|t4z9q6|0|3|2026-07-10T05:50:17.311Z",
-      "queuedAt": "2026-07-10T07:55:10.316Z"
-    },
-    {
-      "key": "g7n6gs",
-      "name": "PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号",
-      "link": "https://pay.ldxp.cn/item/g7n6gs",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 16.32,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T01:50:17.959Z",
-      "checkedAt": "2026-07-10T07:55:10.316Z",
-      "alertId": "restocked|g7n6gs|0|2|2026-07-10T01:50:17.959Z",
-      "queuedAt": "2026-07-10T07:55:10.316Z"
-    }
-  ]
+  }
 }
