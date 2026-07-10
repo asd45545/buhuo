@@ -3393,43 +3393,5 @@
       "lastChangedAt": "2026-07-10T05:10:18.186Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "kzt2qr",
-      "name": "谷歌邮箱【成品plus】",
-      "link": "https://pay.ldxp.cn/item/kzt2qr",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 18.2,
-      "stock": 49,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T04:28:55.381Z",
-      "checkedAt": "2026-07-10T05:50:17.311Z",
-      "alertId": "restocked|kzt2qr|0|49|2026-07-10T04:28:55.381Z",
-      "queuedAt": "2026-07-10T05:50:17.311Z"
-    },
-    {
-      "key": "s80xga",
-      "name": "GPT  Team K12 成品 JSON 反代 发cpa 质保首登",
-      "link": "https://pay.ldxp.cn/item/s80xga",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 3.87,
-      "stock": 98,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T05:10:18.186Z",
-      "checkedAt": "2026-07-10T05:50:17.311Z",
-      "alertId": "restocked|s80xga|0|98|2026-07-10T05:10:18.186Z",
-      "queuedAt": "2026-07-10T05:50:17.311Z"
-    }
-  ]
+  }
 }
