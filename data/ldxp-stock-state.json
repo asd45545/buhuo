@@ -3427,25 +3427,5 @@
       "lastChangedAt": "2026-07-10T14:10:20.275Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "3f287w",
-      "name": "【满额中转特供CDK】【ChatGPT Pro 20x 】【只有2-3天订阅】【兑换后1小时内售后】注意看商品描述！",
-      "link": "https://pay.ldxp.cn/item/3f287w",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x （低价渠道）",
-      "price": 260,
-      "stock": 8,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-10T14:10:20.275Z",
-      "alertId": "new_in_stock|3f287w|新上架|8|",
-      "queuedAt": "2026-07-10T14:10:20.275Z"
-    }
-  ]
+  }
 }
