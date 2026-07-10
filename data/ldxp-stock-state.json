@@ -3427,43 +3427,5 @@
       "lastChangedAt": "2026-07-10T14:10:20.275Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "b4fp94",
-      "name": "bugteam sub用 401自行可写脚本自动救 不是死了 账号都会测活发出 无售后",
-      "link": "https://pay.ldxp.cn/item/b4fp94",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 15.6,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T11:55:10.973Z",
-      "checkedAt": "2026-07-10T14:40:19.185Z",
-      "alertId": "restocked|b4fp94|0|100|2026-07-10T11:55:10.973Z",
-      "queuedAt": "2026-07-10T14:40:19.185Z"
-    },
-    {
-      "key": "3v4pnc",
-      "name": "tz-bugteam sub用 无售后顶级跑量 sub401自己救活 是subbug",
-      "link": "https://pay.ldxp.cn/item/3v4pnc",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 15.6,
-      "stock": 200,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T11:55:10.973Z",
-      "checkedAt": "2026-07-10T14:40:19.185Z",
-      "alertId": "restocked|3v4pnc|0|200|2026-07-10T11:55:10.973Z",
-      "queuedAt": "2026-07-10T14:40:19.185Z"
-    }
-  ]
+  }
 }
