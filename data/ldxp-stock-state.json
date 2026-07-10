@@ -3393,25 +3393,5 @@
       "lastChangedAt": "2026-07-10T05:10:18.186Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4rukz6",
-      "name": "UPI /IDEAL渠道 - ChatGPT Plus 月卡 成品号",
-      "link": "https://pay.ldxp.cn/item/4rukz6",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 15.4,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T05:05:10.606Z",
-      "checkedAt": "2026-07-10T09:10:18.865Z",
-      "alertId": "restocked|4rukz6|0|1|2026-07-10T05:05:10.606Z",
-      "queuedAt": "2026-07-10T09:10:18.865Z"
-    }
-  ]
+  }
 }
