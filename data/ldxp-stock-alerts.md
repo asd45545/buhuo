@@ -8215,3 +8215,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/iw9hzu
 
+## 2026-07-10T05:50:17.311Z
+- 谷歌邮箱【成品plus】
+  - Stock: 0 -> 49
+  - Price: 18.2
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+- GPT  Team K12 成品 JSON 反代 发cpa 质保首登
+  - Stock: 0 -> 98
+  - Price: 3.87
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/s80xga
+
