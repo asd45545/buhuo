@@ -3427,25 +3427,5 @@
       "lastChangedAt": "2026-07-10T14:10:20.275Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "jgnbh9",
-      "name": "稳【欧洲渠道】GPT PLUS 半成品",
-      "link": "https://pay.ldxp.cn/item/jgnbh9",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 9.1,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T14:45:14.660Z",
-      "checkedAt": "2026-07-10T15:30:24.916Z",
-      "alertId": "restocked|jgnbh9|0|2|2026-07-10T14:45:14.660Z",
-      "queuedAt": "2026-07-10T15:30:24.916Z"
-    }
-  ]
+  }
 }
