@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4573,
+  "runs": 4574,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-10T14:00:29.776Z",
+  "updatedAt": "2026-07-10T14:05:10.370Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.25,
-      "stock": 59,
+      "stock": 53,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T14:00:29.776Z",
-      "lastChangedAt": "2026-07-10T14:00:29.776Z",
+      "lastSeenAt": "2026-07-10T14:05:10.370Z",
+      "lastChangedAt": "2026-07-10T14:05:10.370Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1667,13 +1667,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15.59,
-      "stock": 6,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T11:10:17.678Z",
-      "lastChangedAt": "2026-07-10T11:10:17.678Z",
+      "lastSeenAt": "2026-07-10T14:05:10.370Z",
+      "lastChangedAt": "2026-07-10T14:05:10.370Z",
       "missingSince": null
     },
     "2pkod2": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.51,
-      "stock": 391,
+      "stock": 360,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-10T13:45:13.758Z",
-      "lastChangedAt": "2026-07-10T13:45:13.758Z",
+      "lastSeenAt": "2026-07-10T14:05:10.370Z",
+      "lastChangedAt": "2026-07-10T14:05:10.370Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -3374,7 +3374,7 @@
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
       "lastSeenAt": "2026-07-10T14:00:29.776Z",
       "lastChangedAt": "2026-07-10T14:00:29.776Z",
-      "missingSince": null
+      "missingSince": "2026-07-10T14:05:10.370Z"
     },
     "9oocr7": {
       "key": "9oocr7",
