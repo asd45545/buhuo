@@ -3410,25 +3410,5 @@
       "lastChangedAt": "2026-07-10T13:05:10.507Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "iw9hzu",
-      "name": "谷歌GPT K12  成品1个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT",
-      "link": "https://pay.ldxp.cn/item/iw9hzu",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 2,
-      "stock": 94,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T12:00:31.943Z",
-      "checkedAt": "2026-07-10T13:30:26.994Z",
-      "alertId": "restocked|iw9hzu|0|94|2026-07-10T12:00:31.943Z",
-      "queuedAt": "2026-07-10T13:30:26.994Z"
-    }
-  ]
+  }
 }
