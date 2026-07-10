@@ -8449,3 +8449,20 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/w6ql6z
 
+## 2026-07-10T15:15:13.259Z
+- 谷歌GPT K12  成品1个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT
+  - Stock: 0 -> 79
+  - Price: 2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/iw9hzu
+- bugteam sub用 401自行可写脚本自动救 不是死了 账号都会测活发出 无售后
+  - Stock: 0 -> 28
+  - Price: 15.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/b4fp94
+- tz-bugteam sub用 无售后顶级跑量 sub401自己救活 是subbug
+  - Stock: 0 -> 37
+  - Price: 15.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/3v4pnc
+
