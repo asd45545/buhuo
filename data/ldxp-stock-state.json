@@ -3427,25 +3427,5 @@
       "lastChangedAt": "2026-07-10T14:10:20.275Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "zdsmzz",
-      "name": "【Gmail】K12 team成品 Gmail  只能反代 已接码json",
-      "link": "https://pay.ldxp.cn/item/zdsmzz",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 1.8,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T12:40:18.993Z",
-      "checkedAt": "2026-07-10T15:35:12.186Z",
-      "alertId": "restocked|zdsmzz|0|100|2026-07-10T12:40:18.993Z",
-      "queuedAt": "2026-07-10T15:35:12.186Z"
-    }
-  ]
+  }
 }
