@@ -8403,3 +8403,15 @@
   - Category: gpt pro 20x （低价渠道）
   - Link: https://pay.ldxp.cn/item/3f287w
 
+## 2026-07-10T14:40:19.185Z
+- bugteam sub用 401自行可写脚本自动救 不是死了 账号都会测活发出 无售后
+  - Stock: 0 -> 100
+  - Price: 15.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/b4fp94
+- tz-bugteam sub用 无售后顶级跑量 sub401自己救活 是subbug
+  - Stock: 0 -> 200
+  - Price: 15.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/3v4pnc
+
