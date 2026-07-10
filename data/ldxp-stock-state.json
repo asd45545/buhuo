@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4576,
+  "runs": 4577,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-10T14:20:19.911Z",
+  "updatedAt": "2026-07-10T14:25:10.437Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -120,13 +120,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.89,
-      "stock": 15,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T14:10:20.275Z",
-      "lastChangedAt": "2026-07-10T14:10:20.275Z",
+      "lastSeenAt": "2026-07-10T14:25:10.437Z",
+      "lastChangedAt": "2026-07-10T14:25:10.437Z",
       "missingSince": null
     },
     "j8vu3r": {
@@ -204,15 +204,15 @@
       "goodsType": "card",
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
-      "price": 94.5,
+      "price": 135,
       "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T13:50:20.810Z",
+      "lastSeenAt": "2026-07-10T14:25:10.437Z",
       "lastChangedAt": "2026-07-10T13:50:20.810Z",
-      "missingSince": "2026-07-10T14:10:20.275Z"
+      "missingSince": null
     },
     "nhg6i4": {
       "key": "nhg6i4",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.25,
-      "stock": 46,
+      "stock": 43,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T14:20:19.911Z",
-      "lastChangedAt": "2026-07-10T14:20:19.911Z",
+      "lastSeenAt": "2026-07-10T14:25:10.437Z",
+      "lastChangedAt": "2026-07-10T14:25:10.437Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 581,
+      "stock": 580,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T09:05:10.324Z",
-      "lastChangedAt": "2026-07-10T09:05:10.324Z",
+      "lastSeenAt": "2026-07-10T14:25:10.437Z",
+      "lastChangedAt": "2026-07-10T14:25:10.437Z",
       "missingSince": null
     },
     "h4vvrc": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 106,
+      "stock": 104,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T14:20:19.911Z",
-      "lastChangedAt": "2026-07-10T14:20:19.911Z",
+      "lastSeenAt": "2026-07-10T14:25:10.437Z",
+      "lastChangedAt": "2026-07-10T14:25:10.437Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2177,13 +2177,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 9,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-25T04:30:24.973Z",
-      "lastSeenAt": "2026-07-10T14:00:29.776Z",
-      "lastChangedAt": "2026-07-10T14:00:29.776Z",
+      "lastSeenAt": "2026-07-10T14:25:10.437Z",
+      "lastChangedAt": "2026-07-10T14:25:10.437Z",
       "missingSince": null
     },
     "3to940": {
@@ -3401,13 +3401,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 8.45,
-      "stock": 11,
+      "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T09:25:10.697Z",
-      "lastSeenAt": "2026-07-10T14:20:19.911Z",
-      "lastChangedAt": "2026-07-10T14:20:19.911Z",
+      "lastSeenAt": "2026-07-10T14:25:10.437Z",
+      "lastChangedAt": "2026-07-10T14:25:10.437Z",
       "missingSince": null
     },
     "3f287w": {
