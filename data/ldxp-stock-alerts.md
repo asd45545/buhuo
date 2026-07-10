@@ -8557,3 +8557,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/zdsmzz
 
+## 2026-07-10T18:15:13.697Z
+- 30个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 54
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+
