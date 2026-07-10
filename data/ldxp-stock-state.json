@@ -3410,43 +3410,5 @@
       "lastChangedAt": "2026-07-10T10:40:18.073Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "7201mo",
-      "name": "【特惠】k12 team成品 仅反代 质保首登",
-      "link": "https://pay.ldxp.cn/item/7201mo",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 4,
-      "stock": 40,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-02T13:50:17.591Z",
-      "checkedAt": "2026-07-10T10:40:18.073Z",
-      "alertId": "restocked|7201mo|0|40|2026-07-02T13:50:17.591Z",
-      "queuedAt": "2026-07-10T10:40:18.073Z"
-    },
-    {
-      "key": "t4z9q6",
-      "name": "GPT-PLUS--荷兰渠道--Codex未接码--质保首登",
-      "link": "https://pay.ldxp.cn/item/t4z9q6",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 7.15,
-      "stock": 6,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T08:00:28.891Z",
-      "checkedAt": "2026-07-10T10:40:18.073Z",
-      "alertId": "restocked|t4z9q6|0|6|2026-07-10T08:00:28.891Z",
-      "queuedAt": "2026-07-10T10:40:18.073Z"
-    }
-  ]
+  }
 }
