@@ -8104,3 +8104,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/2oh41p
 
+## 2026-07-10T00:00:33.360Z
+- Super Grok【7天会员号】带SSO--质保订阅，最长可用15天，无需预充，稳定供货
+  - Stock: 0 -> 79
+  - Price: 11.25
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/2pkod2
+
