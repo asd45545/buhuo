@@ -8636,3 +8636,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/iw9hzu
 
+## 2026-07-11T00:15:14.725Z
+- 谷歌GPT K12  成品1个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT
+  - Stock: 0 -> 125
+  - Price: 2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/iw9hzu
+- 谷歌GPT K12  成品5个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT
+  - Stock: 0 -> 14
+  - Price: 10
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/9oocr7
+
