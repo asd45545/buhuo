@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4722,
+  "runs": 4723,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T02:25:10.593Z",
+  "updatedAt": "2026-07-11T02:30:28.535Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 2198,
+      "stock": 2197,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T01:35:10.701Z",
-      "lastChangedAt": "2026-07-11T01:35:10.701Z",
+      "lastSeenAt": "2026-07-11T02:30:28.535Z",
+      "lastChangedAt": "2026-07-11T02:30:28.535Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 418,
+      "stock": 417,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T01:20:21.615Z",
-      "lastChangedAt": "2026-07-11T01:20:21.615Z",
+      "lastSeenAt": "2026-07-11T02:30:28.535Z",
+      "lastChangedAt": "2026-07-11T02:30:28.535Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 123,
+      "stock": 122,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T02:10:22.779Z",
-      "lastChangedAt": "2026-07-11T02:10:22.779Z",
+      "lastSeenAt": "2026-07-11T02:30:28.535Z",
+      "lastChangedAt": "2026-07-11T02:30:28.535Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 256,
+      "stock": 253,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T02:25:10.593Z",
-      "lastChangedAt": "2026-07-11T02:25:10.593Z",
+      "lastSeenAt": "2026-07-11T02:30:28.535Z",
+      "lastChangedAt": "2026-07-11T02:30:28.535Z",
       "missingSince": null
     },
     "zcj8wf": {
