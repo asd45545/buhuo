@@ -8892,3 +8892,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/s80xga
 
+## 2026-07-11T14:35:10.368Z
+- 精品稳定个人谷歌Gmail邮箱老号  至少两年以上，2FA/带手机链接 随机地区美区居多
+  - Stock: 0 -> 20
+  - Price: 9.75
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/p8x1sk
+
