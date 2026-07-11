@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4736,
+  "runs": 4737,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T03:30:27.522Z",
+  "updatedAt": "2026-07-11T03:35:10.524Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 10,
+      "stock": 9,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T03:05:10.698Z",
-      "lastChangedAt": "2026-07-11T03:05:10.698Z",
+      "lastSeenAt": "2026-07-11T03:35:10.524Z",
+      "lastChangedAt": "2026-07-11T03:35:10.524Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 200,
+      "stock": 194,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T03:30:27.522Z",
-      "lastChangedAt": "2026-07-11T03:30:27.522Z",
+      "lastSeenAt": "2026-07-11T03:35:10.524Z",
+      "lastChangedAt": "2026-07-11T03:35:10.524Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.58,
-      "stock": 860,
+      "stock": 853,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-11T03:30:27.522Z",
-      "lastChangedAt": "2026-07-11T03:30:27.522Z",
+      "lastSeenAt": "2026-07-11T03:35:10.524Z",
+      "lastChangedAt": "2026-07-11T03:35:10.524Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2857,13 +2857,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 26.73,
-      "stock": 7,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-01T01:15:11.873Z",
-      "lastSeenAt": "2026-07-11T03:15:14.112Z",
-      "lastChangedAt": "2026-07-11T03:15:14.112Z",
+      "lastSeenAt": "2026-07-11T03:35:10.524Z",
+      "lastChangedAt": "2026-07-11T03:35:10.524Z",
       "missingSince": null
     },
     "qpm6uu": {
@@ -3418,13 +3418,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x （低价渠道）",
       "price": 260,
-      "stock": 5,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T14:10:20.275Z",
-      "lastSeenAt": "2026-07-11T03:25:11.161Z",
-      "lastChangedAt": "2026-07-11T03:25:11.161Z",
+      "lastSeenAt": "2026-07-11T03:35:10.524Z",
+      "lastChangedAt": "2026-07-11T03:35:10.524Z",
       "missingSince": null
     }
   }
