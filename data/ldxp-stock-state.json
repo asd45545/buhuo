@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4847,
+  "runs": 4848,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T12:45:13.784Z",
+  "updatedAt": "2026-07-11T12:50:21.874Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.59,
-      "stock": 165,
+      "stock": 163,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T12:35:10.341Z",
-      "lastChangedAt": "2026-07-11T12:35:10.341Z",
+      "lastSeenAt": "2026-07-11T12:50:21.874Z",
+      "lastChangedAt": "2026-07-11T12:50:21.874Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -936,13 +936,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.65,
-      "stock": 283,
+      "stock": 282,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T12:15:14.411Z",
-      "lastChangedAt": "2026-07-11T12:15:14.411Z",
+      "lastSeenAt": "2026-07-11T12:50:21.874Z",
+      "lastChangedAt": "2026-07-11T12:50:21.874Z",
       "missingSince": null
     },
     "ttuq5u": {
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 488,
+      "stock": 487,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T12:35:10.341Z",
-      "lastChangedAt": "2026-07-11T12:35:10.341Z",
+      "lastSeenAt": "2026-07-11T12:50:21.874Z",
+      "lastChangedAt": "2026-07-11T12:50:21.874Z",
       "missingSince": null
     },
     "h4vvrc": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 226,
+      "stock": 223,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T12:45:13.784Z",
-      "lastChangedAt": "2026-07-11T12:45:13.784Z",
+      "lastSeenAt": "2026-07-11T12:50:21.874Z",
+      "lastChangedAt": "2026-07-11T12:50:21.874Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2024,13 +2024,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 10.4,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-11T12:39:04.923Z",
+      "stock": 14,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T17:10:16.453Z",
-      "lastSeenAt": "2026-07-11T12:39:04.923Z",
-      "lastChangedAt": "2026-07-11T12:39:04.923Z",
+      "lastSeenAt": "2026-07-11T12:50:21.874Z",
+      "lastChangedAt": "2026-07-11T12:50:21.874Z",
       "missingSince": null
     },
     "pfz6mj": {
@@ -3367,13 +3367,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.5,
-      "stock": 331,
+      "stock": 329,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
-      "lastSeenAt": "2026-07-11T12:45:13.784Z",
-      "lastChangedAt": "2026-07-11T12:45:13.784Z",
+      "lastSeenAt": "2026-07-11T12:50:21.874Z",
+      "lastChangedAt": "2026-07-11T12:50:21.874Z",
       "missingSince": null
     },
     "9oocr7": {
@@ -3444,5 +3444,25 @@
       "lastChangedAt": "2026-07-11T12:25:10.436Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "jgnbh9",
+      "name": "稳【欧洲渠道】GPT PLUS 半成品",
+      "link": "https://pay.ldxp.cn/item/jgnbh9",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 10.4,
+      "stock": 14,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-11T12:39:04.923Z",
+      "checkedAt": "2026-07-11T12:50:21.874Z",
+      "alertId": "restocked|jgnbh9|0|14|2026-07-11T12:39:04.923Z",
+      "queuedAt": "2026-07-11T12:50:21.874Z"
+    }
+  ]
 }
