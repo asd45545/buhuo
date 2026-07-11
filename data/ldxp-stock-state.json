@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4854,
+  "runs": 4855,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T13:20:22.754Z",
+  "updatedAt": "2026-07-11T13:25:10.374Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -732,13 +732,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 6.5,
-      "stock": 33,
+      "stock": 32,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T12:45:13.784Z",
-      "lastChangedAt": "2026-07-11T12:45:13.784Z",
+      "lastSeenAt": "2026-07-11T13:25:10.374Z",
+      "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     },
     "alnlyi": {
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 479,
+      "stock": 468,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T13:05:10.559Z",
-      "lastChangedAt": "2026-07-11T13:05:10.559Z",
+      "lastSeenAt": "2026-07-11T13:25:10.374Z",
+      "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     },
     "h4vvrc": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 210,
+      "stock": 206,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T13:20:22.754Z",
-      "lastChangedAt": "2026-07-11T13:20:22.754Z",
+      "lastSeenAt": "2026-07-11T13:25:10.374Z",
+      "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 9,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-11T13:20:22.754Z",
-      "lastChangedAt": "2026-07-11T13:20:22.754Z",
+      "lastSeenAt": "2026-07-11T13:25:10.374Z",
+      "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -1922,13 +1922,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.5,
-      "stock": 87,
+      "stock": 86,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:47:48.119Z",
-      "lastSeenAt": "2026-07-11T08:50:24.259Z",
-      "lastChangedAt": "2026-07-11T08:50:24.259Z",
+      "lastSeenAt": "2026-07-11T13:25:10.374Z",
+      "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     },
     "3fhihz": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.58,
-      "stock": 1012,
+      "stock": 1040,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-11T13:15:15.177Z",
-      "lastChangedAt": "2026-07-11T13:15:15.177Z",
+      "lastSeenAt": "2026-07-11T13:25:10.374Z",
+      "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.8,
-      "stock": 24,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-11T13:10:22.818Z",
-      "lastChangedAt": "2026-07-11T13:10:22.818Z",
+      "lastSeenAt": "2026-07-11T13:25:10.374Z",
+      "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -3435,14 +3435,34 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 97.5,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-11T13:15:15.177Z",
+      "stock": 2,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-11T10:15:13.859Z",
-      "lastSeenAt": "2026-07-11T13:15:15.177Z",
-      "lastChangedAt": "2026-07-11T13:15:15.177Z",
+      "lastSeenAt": "2026-07-11T13:25:10.374Z",
+      "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "hkqeak",
+      "name": "ChatGPT plus 质保 30 天-成品号",
+      "link": "https://pay.ldxp.cn/item/hkqeak",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 97.5,
+      "stock": 2,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-11T13:15:15.177Z",
+      "checkedAt": "2026-07-11T13:25:10.374Z",
+      "alertId": "restocked|hkqeak|0|2|2026-07-11T13:15:15.177Z",
+      "queuedAt": "2026-07-11T13:25:10.374Z"
+    }
+  ]
 }
