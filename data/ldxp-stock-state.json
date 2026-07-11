@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4881,
+  "runs": 4882,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T15:40:21.547Z",
+  "updatedAt": "2026-07-11T15:45:14.868Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -460,13 +460,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 145,
-      "stock": 146,
+      "stock": 145,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T15:15:13.519Z",
-      "lastChangedAt": "2026-07-11T15:15:13.519Z",
+      "lastSeenAt": "2026-07-11T15:45:14.868Z",
+      "lastChangedAt": "2026-07-11T15:45:14.868Z",
       "missingSince": null
     },
     "8ra67m": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 230,
+      "stock": 229,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T15:30:27.935Z",
-      "lastChangedAt": "2026-07-11T15:30:27.935Z",
+      "lastSeenAt": "2026-07-11T15:45:14.868Z",
+      "lastChangedAt": "2026-07-11T15:45:14.868Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 968,
+      "stock": 966,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T15:15:13.519Z",
-      "lastChangedAt": "2026-07-11T15:15:13.519Z",
+      "lastSeenAt": "2026-07-11T15:45:14.868Z",
+      "lastChangedAt": "2026-07-11T15:45:14.868Z",
       "missingSince": null
     },
     "e2913c": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 179,
+      "stock": 165,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T15:40:21.547Z",
-      "lastChangedAt": "2026-07-11T15:40:21.547Z",
+      "lastSeenAt": "2026-07-11T15:45:14.868Z",
+      "lastChangedAt": "2026-07-11T15:45:14.868Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1786,13 +1786,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 15.4,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-11T15:35:10.669Z",
+      "stock": 1,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T10:19:27.990Z",
-      "lastSeenAt": "2026-07-11T15:35:10.669Z",
-      "lastChangedAt": "2026-07-11T15:35:10.669Z",
+      "lastSeenAt": "2026-07-11T15:45:14.868Z",
+      "lastChangedAt": "2026-07-11T15:45:14.868Z",
       "missingSince": null
     },
     "akz9ns": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 139,
+      "stock": 138,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-11T15:40:21.547Z",
-      "lastChangedAt": "2026-07-11T15:40:21.547Z",
+      "lastSeenAt": "2026-07-11T15:45:14.868Z",
+      "lastChangedAt": "2026-07-11T15:45:14.868Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -3444,5 +3444,25 @@
       "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "4rukz6",
+      "name": "UPI /IDEAL渠道 - ChatGPT Plus 月卡 成品号",
+      "link": "https://pay.ldxp.cn/item/4rukz6",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 15.4,
+      "stock": 1,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-11T15:35:10.669Z",
+      "checkedAt": "2026-07-11T15:45:14.868Z",
+      "alertId": "restocked|4rukz6|0|1|2026-07-11T15:35:10.669Z",
+      "queuedAt": "2026-07-11T15:45:14.868Z"
+    }
+  ]
 }
