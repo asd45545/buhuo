@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4906,
+  "runs": 4907,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T17:45:13.545Z",
+  "updatedAt": "2026-07-11T17:50:21.435Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 1076,
+      "stock": 1075,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T17:25:09.950Z",
-      "lastChangedAt": "2026-07-11T17:25:09.950Z",
+      "lastSeenAt": "2026-07-11T17:50:21.435Z",
+      "lastChangedAt": "2026-07-11T17:50:21.435Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 158,
+      "stock": 157,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T17:45:13.545Z",
-      "lastChangedAt": "2026-07-11T17:45:13.545Z",
+      "lastSeenAt": "2026-07-11T17:50:21.435Z",
+      "lastChangedAt": "2026-07-11T17:50:21.435Z",
       "missingSince": null
     },
     "zcj8wf": {
