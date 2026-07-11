@@ -8899,3 +8899,10 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/p8x1sk
 
+## 2026-07-11T14:40:22.332Z
+- GPT  Team K12 成品 JSON 反代 发cpa/cdk 质保首登
+  - Stock: 0 -> 30
+  - Price: 6.47
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/s80xga
+
