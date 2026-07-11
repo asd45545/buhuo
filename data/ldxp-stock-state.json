@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4909,
+  "runs": 4910,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T18:00:31.016Z",
+  "updatedAt": "2026-07-11T18:10:20.789Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 541,
+      "stock": 540,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T14:45:14.109Z",
-      "lastChangedAt": "2026-07-11T14:45:14.109Z",
+      "lastSeenAt": "2026-07-11T18:10:20.789Z",
+      "lastChangedAt": "2026-07-11T18:10:20.789Z",
       "missingSince": null
     },
     "dt897i": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.59,
-      "stock": 120,
+      "stock": 131,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T18:00:31.016Z",
-      "lastChangedAt": "2026-07-11T18:00:31.016Z",
+      "lastSeenAt": "2026-07-11T18:10:20.789Z",
+      "lastChangedAt": "2026-07-11T18:10:20.789Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -732,13 +732,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 6.5,
-      "stock": 27,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T17:34:38.346Z",
-      "lastChangedAt": "2026-07-11T17:34:38.346Z",
+      "lastSeenAt": "2026-07-11T18:10:20.789Z",
+      "lastChangedAt": "2026-07-11T18:10:20.789Z",
       "missingSince": null
     },
     "alnlyi": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 1075,
+      "stock": 1074,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T17:50:21.435Z",
-      "lastChangedAt": "2026-07-11T17:50:21.435Z",
+      "lastSeenAt": "2026-07-11T18:10:20.789Z",
+      "lastChangedAt": "2026-07-11T18:10:20.789Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1402,7 +1402,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-07-11T16:55:10.587Z",
       "lastChangedAt": "2026-07-11T16:55:10.587Z",
-      "missingSince": null
+      "missingSince": "2026-07-11T18:10:20.789Z"
     },
     "4wvlfu": {
       "key": "4wvlfu",
@@ -1650,13 +1650,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.45,
-      "stock": 18,
+      "stock": 17,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T18:00:31.016Z",
-      "lastChangedAt": "2026-07-11T18:00:31.016Z",
+      "lastSeenAt": "2026-07-11T18:10:20.789Z",
+      "lastChangedAt": "2026-07-11T18:10:20.789Z",
       "missingSince": null
     },
     "g7n6gs": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 154,
+      "stock": 151,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T18:00:31.016Z",
-      "lastChangedAt": "2026-07-11T18:00:31.016Z",
+      "lastSeenAt": "2026-07-11T18:10:20.789Z",
+      "lastChangedAt": "2026-07-11T18:10:20.789Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2024,13 +2024,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 19.5,
-      "stock": 7,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T17:10:16.453Z",
-      "lastSeenAt": "2026-07-11T17:45:13.545Z",
-      "lastChangedAt": "2026-07-11T17:45:13.545Z",
+      "lastSeenAt": "2026-07-11T18:10:20.789Z",
+      "lastChangedAt": "2026-07-11T18:10:20.789Z",
       "missingSince": null
     },
     "pfz6mj": {
@@ -2762,7 +2762,7 @@
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
       "lastSeenAt": "2026-07-11T16:40:22.357Z",
       "lastChangedAt": "2026-07-11T16:40:22.357Z",
-      "missingSince": null
+      "missingSince": "2026-07-11T18:10:20.789Z"
     },
     "3u60wr": {
       "key": "3u60wr",
@@ -3323,7 +3323,7 @@
       "firstSeenAt": "2026-07-09T06:05:10.774Z",
       "lastSeenAt": "2026-07-11T16:50:20.679Z",
       "lastChangedAt": "2026-07-11T16:50:20.679Z",
-      "missingSince": null
+      "missingSince": "2026-07-11T18:10:20.789Z"
     },
     "t4z9q6": {
       "key": "t4z9q6",
