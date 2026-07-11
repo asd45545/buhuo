@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4925,
+  "runs": 4926,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T19:25:10.397Z",
+  "updatedAt": "2026-07-11T19:30:28.246Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 530,
+      "stock": 510,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T18:40:20.758Z",
-      "lastChangedAt": "2026-07-11T18:40:20.758Z",
+      "lastSeenAt": "2026-07-11T19:30:28.246Z",
+      "lastChangedAt": "2026-07-11T19:30:28.246Z",
       "missingSince": null
     },
     "dt897i": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 364,
+      "stock": 363,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T17:20:23.505Z",
-      "lastChangedAt": "2026-07-11T17:20:23.505Z",
+      "lastSeenAt": "2026-07-11T19:30:28.246Z",
+      "lastChangedAt": "2026-07-11T19:30:28.246Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 118,
+      "stock": 115,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T19:20:23.081Z",
-      "lastChangedAt": "2026-07-11T19:20:23.081Z",
+      "lastSeenAt": "2026-07-11T19:30:28.246Z",
+      "lastChangedAt": "2026-07-11T19:30:28.246Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 214,
+      "stock": 213,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-11T18:55:10.823Z",
-      "lastChangedAt": "2026-07-11T18:55:10.823Z",
+      "lastSeenAt": "2026-07-11T19:30:28.246Z",
+      "lastChangedAt": "2026-07-11T19:30:28.246Z",
       "missingSince": null
     },
     "n0soy3": {
