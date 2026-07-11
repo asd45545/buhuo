@@ -3444,25 +3444,5 @@
       "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ydif04",
-      "name": "chatgpt成品号-高权重谷歌邮箱开通-未接码-欧洲荷兰",
-      "link": "https://pay.ldxp.cn/item/ydif04",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 13,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-11T14:55:10.500Z",
-      "checkedAt": "2026-07-11T15:15:13.519Z",
-      "alertId": "restocked|ydif04|0|10|2026-07-11T14:55:10.500Z",
-      "queuedAt": "2026-07-11T15:15:13.519Z"
-    }
-  ]
+  }
 }
