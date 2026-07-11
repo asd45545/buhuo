@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4833,
+  "runs": 4834,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T11:35:11.714Z",
+  "updatedAt": "2026-07-11T11:40:20.778Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1531,13 +1531,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.46,
-      "stock": 573,
+      "stock": 572,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T11:10:22.460Z",
-      "lastChangedAt": "2026-07-11T11:10:22.460Z",
+      "lastSeenAt": "2026-07-11T11:40:20.778Z",
+      "lastChangedAt": "2026-07-11T11:40:20.778Z",
       "missingSince": null
     },
     "h4vvrc": {
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 972,
+      "stock": 971,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T10:34:44.181Z",
-      "lastChangedAt": "2026-07-11T10:34:44.181Z",
+      "lastSeenAt": "2026-07-11T11:40:20.778Z",
+      "lastChangedAt": "2026-07-11T11:40:20.778Z",
       "missingSince": null
     },
     "e2913c": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 216,
+      "stock": 209,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T11:35:11.714Z",
-      "lastChangedAt": "2026-07-11T11:35:11.714Z",
+      "lastSeenAt": "2026-07-11T11:40:20.778Z",
+      "lastChangedAt": "2026-07-11T11:40:20.778Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.58,
-      "stock": 144,
+      "stock": 143,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-11T11:35:03.594Z",
-      "lastChangedAt": "2026-07-11T11:35:03.594Z",
+      "lastSeenAt": "2026-07-11T11:40:20.778Z",
+      "lastChangedAt": "2026-07-11T11:40:20.778Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -3412,7 +3412,7 @@
     },
     "3f287w": {
       "key": "3f287w",
-      "name": "【全新科技中转特供CDK】【ChatGPT Pro 20x 】【只有2-3天订阅】售后看详情！",
+      "name": "2天必死中转特供【CDK】【ChatGPT Pro 20x 】非成品号",
       "link": "https://pay.ldxp.cn/item/3f287w",
       "goodsType": "card",
       "categoryId": 112054,
@@ -3423,7 +3423,7 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T14:10:20.275Z",
-      "lastSeenAt": "2026-07-11T09:50:21.039Z",
+      "lastSeenAt": "2026-07-11T11:40:20.778Z",
       "lastChangedAt": "2026-07-11T09:50:21.039Z",
       "missingSince": null
     },
