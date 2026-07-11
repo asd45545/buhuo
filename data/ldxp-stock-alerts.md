@@ -8782,3 +8782,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/jgnbh9
 
+## 2026-07-11T09:45:13.970Z
+- 【全新科技中转特供CDK】【ChatGPT Pro 20x 】【只有2-3天订阅】售后看详情！
+  - Stock: 0 -> 19
+  - Price: 260
+  - Category: gpt pro 20x （低价渠道）
+  - Link: https://pay.ldxp.cn/item/3f287w
+
