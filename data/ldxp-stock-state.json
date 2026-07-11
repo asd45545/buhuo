@@ -3427,25 +3427,5 @@
       "lastChangedAt": "2026-07-11T06:05:10.784Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "s80xga",
-      "name": "GPT  Team K12 成品 JSON 反代 发cpa/cdk 质保首登",
-      "link": "https://pay.ldxp.cn/item/s80xga",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 6.47,
-      "stock": 31,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-11T07:30:26.979Z",
-      "checkedAt": "2026-07-11T08:20:23.404Z",
-      "alertId": "restocked|s80xga|0|31|2026-07-11T07:30:26.979Z",
-      "queuedAt": "2026-07-11T08:20:23.404Z"
-    }
-  ]
+  }
 }
