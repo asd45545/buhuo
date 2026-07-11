@@ -8789,3 +8789,10 @@
   - Category: gpt pro 20x （低价渠道）
   - Link: https://pay.ldxp.cn/item/3f287w
 
+## 2026-07-11T10:10:21.409Z
+- 【质保一个月】GPT plus 稳定号一个月
+  - Stock: 0 -> 7
+  - Price: 74.67
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
