@@ -3427,43 +3427,5 @@
       "lastChangedAt": "2026-07-11T06:05:10.784Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ktiyr3",
-      "name": "【质保一个月】GPT plus 稳定号一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 74.67,
-      "stock": 36,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T09:30:25.805Z",
-      "checkedAt": "2026-07-11T09:25:10.240Z",
-      "alertId": "restocked|ktiyr3|0|36|2026-07-10T09:30:25.805Z",
-      "queuedAt": "2026-07-11T09:25:10.240Z"
-    },
-    {
-      "key": "jgnbh9",
-      "name": "稳【欧洲渠道】GPT PLUS 成品",
-      "link": "https://pay.ldxp.cn/item/jgnbh9",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 17.55,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-11T09:00:33.444Z",
-      "checkedAt": "2026-07-11T09:25:10.240Z",
-      "alertId": "restocked|jgnbh9|0|1|2026-07-11T09:00:33.444Z",
-      "queuedAt": "2026-07-11T09:25:10.240Z"
-    }
-  ]
+  }
 }
