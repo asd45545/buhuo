@@ -8749,3 +8749,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/s80xga
 
+## 2026-07-11T08:50:24.259Z
+- 稳【欧洲渠道】GPT PLUS 成品
+  - Stock: 0 -> 1
+  - Price: 17.55
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/jgnbh9
+
