@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4801,
+  "runs": 4802,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T09:05:10.214Z",
+  "updatedAt": "2026-07-11T09:08:29.942Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 8,
+      "stock": 7,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T09:00:33.444Z",
-      "lastChangedAt": "2026-07-11T09:00:33.444Z",
+      "lastSeenAt": "2026-07-11T09:08:29.942Z",
+      "lastChangedAt": "2026-07-11T09:08:29.942Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 80,
+      "stock": 79,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T09:00:33.444Z",
-      "lastChangedAt": "2026-07-11T09:00:33.444Z",
+      "lastSeenAt": "2026-07-11T09:08:29.942Z",
+      "lastChangedAt": "2026-07-11T09:08:29.942Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 19,
-      "stock": 9,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T08:00:33.152Z",
-      "lastChangedAt": "2026-07-11T08:00:33.152Z",
+      "lastSeenAt": "2026-07-11T09:08:29.942Z",
+      "lastChangedAt": "2026-07-11T09:08:29.942Z",
       "missingSince": null
     },
     "zdsmzz": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 16,
+      "stock": 15,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-11T09:00:33.444Z",
-      "lastChangedAt": "2026-07-11T09:00:33.444Z",
+      "lastSeenAt": "2026-07-11T09:08:29.942Z",
+      "lastChangedAt": "2026-07-11T09:08:29.942Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.58,
-      "stock": 643,
+      "stock": 633,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-11T08:50:24.259Z",
-      "lastChangedAt": "2026-07-11T08:50:24.259Z",
+      "lastSeenAt": "2026-07-11T09:08:29.942Z",
+      "lastChangedAt": "2026-07-11T09:08:29.942Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 6.47,
-      "stock": 18,
+      "stock": 16,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-11T09:05:10.214Z",
-      "lastChangedAt": "2026-07-11T09:05:10.214Z",
+      "lastSeenAt": "2026-07-11T09:08:29.942Z",
+      "lastChangedAt": "2026-07-11T09:08:29.942Z",
       "missingSince": null
     },
     "5jylhj": {
