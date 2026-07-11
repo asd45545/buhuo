@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4799,
+  "runs": 4800,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T08:50:24.259Z",
+  "updatedAt": "2026-07-11T09:00:33.444Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -171,13 +171,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.79,
-      "stock": 2086,
+      "stock": 2085,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T08:35:10.484Z",
-      "lastChangedAt": "2026-07-11T08:35:10.484Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "htc8s3": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 395,
+      "stock": 394,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T07:10:20.241Z",
-      "lastChangedAt": "2026-07-11T07:10:20.241Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 6,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T08:05:10.193Z",
-      "lastChangedAt": "2026-07-11T08:05:10.193Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 1132,
+      "stock": 1131,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T08:20:23.404Z",
-      "lastChangedAt": "2026-07-11T08:20:23.404Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 81,
+      "stock": 80,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T08:50:24.259Z",
-      "lastChangedAt": "2026-07-11T08:50:24.259Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1582,13 +1582,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4,
-      "stock": 37,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-11T09:00:33.444Z",
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T08:50:24.259Z",
-      "lastChangedAt": "2026-07-11T08:50:24.259Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "s3o0c6": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 171,
+      "stock": 199,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T08:50:24.259Z",
-      "lastChangedAt": "2026-07-11T08:50:24.259Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1831,19 +1831,19 @@
     },
     "r06ima": {
       "key": "r06ima",
-      "name": "codex长效接码28-30天，美国实卡",
+      "name": "codex长效接码25-30天，美国实卡",
       "link": "https://pay.ldxp.cn/item/r06ima",
       "goodsType": "card",
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-11T08:50:24.259Z",
+      "stock": 16,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-11T08:50:24.259Z",
-      "lastChangedAt": "2026-07-11T08:50:24.259Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2024,13 +2024,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 17.55,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-11T09:00:33.444Z",
       "firstSeenAt": "2026-06-23T17:10:16.453Z",
-      "lastSeenAt": "2026-07-11T08:50:24.259Z",
-      "lastChangedAt": "2026-07-11T08:50:24.259Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "pfz6mj": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 6.47,
-      "stock": 22,
+      "stock": 20,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-11T08:50:24.259Z",
-      "lastChangedAt": "2026-07-11T08:50:24.259Z",
+      "lastSeenAt": "2026-07-11T09:00:33.444Z",
+      "lastChangedAt": "2026-07-11T09:00:33.444Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3427,5 +3427,25 @@
       "lastChangedAt": "2026-07-11T06:05:10.784Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "r06ima",
+      "name": "codex长效接码25-30天，美国实卡",
+      "link": "https://pay.ldxp.cn/item/r06ima",
+      "goodsType": "card",
+      "categoryId": 111630,
+      "categoryName": "接码",
+      "price": 4.5,
+      "stock": 16,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-11T08:50:24.259Z",
+      "checkedAt": "2026-07-11T09:00:33.444Z",
+      "alertId": "restocked|r06ima|0|16|2026-07-11T08:50:24.259Z",
+      "queuedAt": "2026-07-11T09:00:33.444Z"
+    }
+  ]
 }
