@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4725,
+  "runs": 4726,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T02:35:11.474Z",
+  "updatedAt": "2026-07-11T02:40:22.123Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 416,
+      "stock": 415,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T02:32:32.845Z",
-      "lastChangedAt": "2026-07-11T02:32:32.845Z",
+      "lastSeenAt": "2026-07-11T02:40:22.123Z",
+      "lastChangedAt": "2026-07-11T02:40:22.123Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 252,
+      "stock": 250,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T02:35:11.474Z",
-      "lastChangedAt": "2026-07-11T02:35:11.474Z",
+      "lastSeenAt": "2026-07-11T02:40:22.123Z",
+      "lastChangedAt": "2026-07-11T02:40:22.123Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.58,
-      "stock": 430,
+      "stock": 559,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-11T02:32:32.845Z",
-      "lastChangedAt": "2026-07-11T02:32:32.845Z",
+      "lastSeenAt": "2026-07-11T02:40:22.123Z",
+      "lastChangedAt": "2026-07-11T02:40:22.123Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2313,13 +2313,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 1.05,
-      "stock": 71,
+      "stock": 70,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:35:13.386Z",
-      "lastSeenAt": "2026-07-11T01:00:36.655Z",
-      "lastChangedAt": "2026-07-11T01:00:36.655Z",
+      "lastSeenAt": "2026-07-11T02:40:22.123Z",
+      "lastChangedAt": "2026-07-11T02:40:22.123Z",
       "missingSince": null
     },
     "3a6yim": {
