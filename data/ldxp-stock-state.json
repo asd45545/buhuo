@@ -3427,25 +3427,5 @@
       "lastChangedAt": "2026-07-11T06:05:10.784Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "r06ima",
-      "name": "codex长效接码25-30天，美国实卡",
-      "link": "https://pay.ldxp.cn/item/r06ima",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 4.5,
-      "stock": 16,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-11T08:50:24.259Z",
-      "checkedAt": "2026-07-11T09:00:33.444Z",
-      "alertId": "restocked|r06ima|0|16|2026-07-11T08:50:24.259Z",
-      "queuedAt": "2026-07-11T09:00:33.444Z"
-    }
-  ]
+  }
 }
