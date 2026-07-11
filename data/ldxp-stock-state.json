@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4740,
+  "runs": 4741,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T03:50:20.936Z",
+  "updatedAt": "2026-07-11T03:55:11.066Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -732,13 +732,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 6.5,
-      "stock": 53,
+      "stock": 52,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T02:50:22.540Z",
-      "lastChangedAt": "2026-07-11T02:50:22.540Z",
+      "lastSeenAt": "2026-07-11T03:55:11.066Z",
+      "lastChangedAt": "2026-07-11T03:55:11.066Z",
       "missingSince": null
     },
     "alnlyi": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 290,
+      "stock": 276,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T03:50:20.936Z",
-      "lastChangedAt": "2026-07-11T03:50:20.936Z",
+      "lastSeenAt": "2026-07-11T03:55:11.066Z",
+      "lastChangedAt": "2026-07-11T03:55:11.066Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2618,14 +2618,14 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 5.06,
-      "stock": 10,
+      "price": 5.17,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-11T03:50:20.936Z",
-      "lastChangedAt": "2026-07-11T03:50:20.936Z",
+      "lastSeenAt": "2026-07-11T03:55:11.066Z",
+      "lastChangedAt": "2026-07-11T03:55:11.066Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2857,13 +2857,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 26.73,
-      "stock": 6,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-01T01:15:11.873Z",
-      "lastSeenAt": "2026-07-11T03:35:10.524Z",
-      "lastChangedAt": "2026-07-11T03:35:10.524Z",
+      "lastSeenAt": "2026-07-11T03:55:11.066Z",
+      "lastChangedAt": "2026-07-11T03:55:11.066Z",
       "missingSince": null
     },
     "qpm6uu": {
