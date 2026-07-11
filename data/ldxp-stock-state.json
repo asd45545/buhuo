@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4713,
+  "runs": 4714,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T01:40:20.887Z",
+  "updatedAt": "2026-07-11T01:45:14.423Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -324,13 +324,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 128.99,
-      "stock": 7,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T15:05:12.191Z",
-      "lastChangedAt": "2026-07-10T15:05:12.191Z",
+      "lastSeenAt": "2026-07-11T01:45:14.423Z",
+      "lastChangedAt": "2026-07-11T01:45:14.423Z",
       "missingSince": null
     },
     "ir7b3h": {
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 31,
+      "stock": 30,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T00:15:14.725Z",
-      "lastChangedAt": "2026-07-11T00:15:14.725Z",
+      "lastSeenAt": "2026-07-11T01:45:14.423Z",
+      "lastChangedAt": "2026-07-11T01:45:14.423Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1208,13 +1208,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.65,
-      "stock": 1229,
+      "stock": 1219,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T01:30:28.978Z",
-      "lastChangedAt": "2026-07-11T01:30:28.978Z",
+      "lastSeenAt": "2026-07-11T01:45:14.423Z",
+      "lastChangedAt": "2026-07-11T01:45:14.423Z",
       "missingSince": null
     },
     "omjbr8": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 291,
+      "stock": 290,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T01:40:20.887Z",
-      "lastChangedAt": "2026-07-11T01:40:20.887Z",
+      "lastSeenAt": "2026-07-11T01:45:14.423Z",
+      "lastChangedAt": "2026-07-11T01:45:14.423Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2245,13 +2245,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 9.75,
-      "stock": 2,
+      "stock": 1,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:25:12.360Z",
-      "lastSeenAt": "2026-07-11T01:35:10.701Z",
-      "lastChangedAt": "2026-07-11T01:35:10.701Z",
+      "lastSeenAt": "2026-07-11T01:45:14.423Z",
+      "lastChangedAt": "2026-07-11T01:45:14.423Z",
       "missingSince": null
     },
     "3uoyst": {
