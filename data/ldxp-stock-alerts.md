@@ -8723,3 +8723,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/jgnbh9
 
+## 2026-07-11T06:45:13.702Z
+- Claude Max 5x 成品号【不质保特价·已过KYC】
+  - Stock: 0 -> 9
+  - Price: 481
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/9vso1a
+- Gemini 3.1pro 12个月pixel成品号（随机地区20-24年账号）
+  - Stock: 0 -> 3
+  - Price: 19
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/j79pn9
+
