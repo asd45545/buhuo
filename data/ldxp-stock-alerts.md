@@ -8735,3 +8735,10 @@
   - Category: Gemini
   - Link: https://pay.ldxp.cn/item/j79pn9
 
+## 2026-07-11T08:00:33.152Z
+- k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代
+  - Stock: 0 -> 94
+  - Price: 4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/w6ql6z
+
