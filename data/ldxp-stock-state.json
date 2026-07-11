@@ -3427,25 +3427,5 @@
       "lastChangedAt": "2026-07-10T17:10:19.568Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "zak7xw",
-      "name": "【codex-反代】k12team子号成品（只能反代，买错不退）",
-      "link": "https://pay.ldxp.cn/item/zak7xw",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 3,
-      "stock": 173,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T16:55:10.097Z",
-      "checkedAt": "2026-07-11T02:15:14.682Z",
-      "alertId": "restocked|zak7xw|0|173|2026-07-10T16:55:10.097Z",
-      "queuedAt": "2026-07-11T02:15:14.682Z"
-    }
-  ]
+  }
 }
