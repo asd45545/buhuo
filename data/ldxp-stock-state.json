@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4729,
+  "runs": 4730,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T02:55:10.889Z",
+  "updatedAt": "2026-07-11T03:00:34.549Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 414,
+      "stock": 413,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T02:50:22.540Z",
-      "lastChangedAt": "2026-07-11T02:50:22.540Z",
+      "lastSeenAt": "2026-07-11T03:00:34.549Z",
+      "lastChangedAt": "2026-07-11T03:00:34.549Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1089,13 +1089,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 52,
-      "stock": 18,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-09T08:15:13.616Z",
-      "lastChangedAt": "2026-07-09T08:15:13.616Z",
+      "lastSeenAt": "2026-07-11T03:00:34.549Z",
+      "lastChangedAt": "2026-07-11T03:00:34.549Z",
       "missingSince": null
     },
     "mppniu": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 226,
+      "stock": 211,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T02:55:10.889Z",
-      "lastChangedAt": "2026-07-11T02:55:10.889Z",
+      "lastSeenAt": "2026-07-11T03:00:34.549Z",
+      "lastChangedAt": "2026-07-11T03:00:34.549Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 77,
+      "stock": 75,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-11T02:45:14.105Z",
-      "lastChangedAt": "2026-07-11T02:45:14.105Z",
+      "lastSeenAt": "2026-07-11T03:00:34.549Z",
+      "lastChangedAt": "2026-07-11T03:00:34.549Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -3418,13 +3418,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x （低价渠道）",
       "price": 260,
-      "stock": 7,
+      "stock": 6,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T14:10:20.275Z",
-      "lastSeenAt": "2026-07-11T00:15:14.725Z",
-      "lastChangedAt": "2026-07-10T17:10:19.568Z",
+      "lastSeenAt": "2026-07-11T03:00:34.549Z",
+      "lastChangedAt": "2026-07-11T03:00:34.549Z",
       "missingSince": null
     }
   }
