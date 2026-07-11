@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4810,
+  "runs": 4811,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T09:45:13.970Z",
+  "updatedAt": "2026-07-11T09:50:21.039Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 226,
+      "stock": 223,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T09:45:13.970Z",
-      "lastChangedAt": "2026-07-11T09:45:13.970Z",
+      "lastSeenAt": "2026-07-11T09:50:21.039Z",
+      "lastChangedAt": "2026-07-11T09:50:21.039Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2024,13 +2024,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 17.55,
-      "stock": 1,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-11T09:50:21.039Z",
       "firstSeenAt": "2026-06-23T17:10:16.453Z",
-      "lastSeenAt": "2026-07-11T09:40:24.165Z",
-      "lastChangedAt": "2026-07-11T09:40:24.165Z",
+      "lastSeenAt": "2026-07-11T09:50:21.039Z",
+      "lastChangedAt": "2026-07-11T09:50:21.039Z",
       "missingSince": null
     },
     "pfz6mj": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.58,
-      "stock": 618,
+      "stock": 617,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-11T09:40:24.165Z",
-      "lastChangedAt": "2026-07-11T09:40:24.165Z",
+      "lastSeenAt": "2026-07-11T09:50:21.039Z",
+      "lastChangedAt": "2026-07-11T09:50:21.039Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -3418,13 +3418,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x （低价渠道）",
       "price": 260,
-      "stock": 19,
+      "stock": 15,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T14:10:20.275Z",
-      "lastSeenAt": "2026-07-11T09:45:13.970Z",
-      "lastChangedAt": "2026-07-11T09:45:13.970Z",
+      "lastSeenAt": "2026-07-11T09:50:21.039Z",
+      "lastChangedAt": "2026-07-11T09:50:21.039Z",
       "missingSince": null
     }
   }
