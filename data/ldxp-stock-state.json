@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4873,
+  "runs": 4874,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T15:00:34.258Z",
+  "updatedAt": "2026-07-11T15:05:11.669Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 103,
+      "stock": 102,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T14:30:28.040Z",
-      "lastChangedAt": "2026-07-11T14:30:28.040Z",
+      "lastSeenAt": "2026-07-11T15:05:11.669Z",
+      "lastChangedAt": "2026-07-11T15:05:11.669Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1650,13 +1650,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.45,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-11T14:40:22.332Z",
+      "stock": 30,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T14:40:22.332Z",
-      "lastChangedAt": "2026-07-11T14:40:22.332Z",
+      "lastSeenAt": "2026-07-11T15:05:11.669Z",
+      "lastChangedAt": "2026-07-11T15:05:11.669Z",
       "missingSince": null
     },
     "g7n6gs": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 177,
+      "stock": 176,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T15:00:34.258Z",
-      "lastChangedAt": "2026-07-11T15:00:34.258Z",
+      "lastSeenAt": "2026-07-11T15:05:11.669Z",
+      "lastChangedAt": "2026-07-11T15:05:11.669Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.58,
-      "stock": 966,
+      "stock": 964,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-11T15:00:34.258Z",
-      "lastChangedAt": "2026-07-11T15:00:34.258Z",
+      "lastSeenAt": "2026-07-11T15:05:11.669Z",
+      "lastChangedAt": "2026-07-11T15:05:11.669Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 6.47,
-      "stock": 30,
+      "stock": 28,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-11T14:40:22.332Z",
-      "lastChangedAt": "2026-07-11T14:40:22.332Z",
+      "lastSeenAt": "2026-07-11T15:05:11.669Z",
+      "lastChangedAt": "2026-07-11T15:05:11.669Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3367,13 +3367,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.5,
-      "stock": 306,
+      "stock": 304,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
-      "lastSeenAt": "2026-07-11T15:00:34.258Z",
-      "lastChangedAt": "2026-07-11T15:00:34.258Z",
+      "lastSeenAt": "2026-07-11T15:05:11.669Z",
+      "lastChangedAt": "2026-07-11T15:05:11.669Z",
       "missingSince": null
     },
     "9oocr7": {
@@ -3444,5 +3444,25 @@
       "lastChangedAt": "2026-07-11T13:25:10.374Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "92epox",
+      "name": "PayPal 接码 美区【长效60天 】",
+      "link": "https://pay.ldxp.cn/item/92epox",
+      "goodsType": "card",
+      "categoryId": 111630,
+      "categoryName": "接码",
+      "price": 3.45,
+      "stock": 30,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-11T14:40:22.332Z",
+      "checkedAt": "2026-07-11T15:05:11.669Z",
+      "alertId": "restocked|92epox|0|30|2026-07-11T14:40:22.332Z",
+      "queuedAt": "2026-07-11T15:05:11.669Z"
+    }
+  ]
 }
