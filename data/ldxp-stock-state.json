@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4695,
+  "runs": 4696,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-11T00:10:22.987Z",
+  "updatedAt": "2026-07-11T00:15:14.725Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1038,13 +1038,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 19,
-      "stock": 41,
+      "stock": 31,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T23:45:14.834Z",
-      "lastChangedAt": "2026-07-10T23:45:14.834Z",
+      "lastSeenAt": "2026-07-11T00:15:14.725Z",
+      "lastChangedAt": "2026-07-11T00:15:14.725Z",
       "missingSince": null
     },
     "3y9w84": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 110,
+      "stock": 109,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T00:05:11.326Z",
-      "lastChangedAt": "2026-07-11T00:05:11.326Z",
+      "lastSeenAt": "2026-07-11T00:15:14.725Z",
+      "lastChangedAt": "2026-07-11T00:15:14.725Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 3.77,
-      "stock": 31,
+      "stock": 26,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-11T00:10:22.987Z",
-      "lastChangedAt": "2026-07-11T00:10:22.987Z",
+      "lastSeenAt": "2026-07-11T00:15:14.725Z",
+      "lastChangedAt": "2026-07-11T00:15:14.725Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3367,13 +3367,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-10T21:45:16.281Z",
+      "stock": 125,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
-      "lastSeenAt": "2026-07-10T21:45:16.281Z",
-      "lastChangedAt": "2026-07-10T21:45:16.281Z",
+      "lastSeenAt": "2026-07-11T00:15:14.725Z",
+      "lastChangedAt": "2026-07-11T00:15:14.725Z",
       "missingSince": null
     },
     "9oocr7": {
@@ -3384,13 +3384,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 10,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-10T05:10:18.186Z",
+      "stock": 14,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
-      "lastSeenAt": "2026-07-10T05:10:18.186Z",
-      "lastChangedAt": "2026-07-10T05:10:18.186Z",
+      "lastSeenAt": "2026-07-11T00:15:14.725Z",
+      "lastChangedAt": "2026-07-11T00:15:14.725Z",
       "missingSince": null
     },
     "ydif04": {
@@ -3412,7 +3412,7 @@
     },
     "3f287w": {
       "key": "3f287w",
-      "name": "【全新科技中转特供CDK】【ChatGPT Pro 20x 】【只有2-3天订阅】【兑换后1小时内售后】",
+      "name": "【全新科技中转特供CDK】【ChatGPT Pro 20x 】【只有2-3天订阅】兑换后1小时内售后",
       "link": "https://pay.ldxp.cn/item/3f287w",
       "goodsType": "card",
       "categoryId": 112054,
@@ -3423,9 +3423,47 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T14:10:20.275Z",
-      "lastSeenAt": "2026-07-10T17:10:19.568Z",
+      "lastSeenAt": "2026-07-11T00:15:14.725Z",
       "lastChangedAt": "2026-07-10T17:10:19.568Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "iw9hzu",
+      "name": "谷歌GPT K12  成品1个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT",
+      "link": "https://pay.ldxp.cn/item/iw9hzu",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 2,
+      "stock": 125,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-10T21:45:16.281Z",
+      "checkedAt": "2026-07-11T00:15:14.725Z",
+      "alertId": "restocked|iw9hzu|0|125|2026-07-10T21:45:16.281Z",
+      "queuedAt": "2026-07-11T00:15:14.725Z"
+    },
+    {
+      "key": "9oocr7",
+      "name": "谷歌GPT K12  成品5个｜Sub2API/CPA JSON可选｜首登质保｜可刷AT",
+      "link": "https://pay.ldxp.cn/item/9oocr7",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 10,
+      "stock": 14,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-10T05:10:18.186Z",
+      "checkedAt": "2026-07-11T00:15:14.725Z",
+      "alertId": "restocked|9oocr7|0|14|2026-07-10T05:10:18.186Z",
+      "queuedAt": "2026-07-11T00:15:14.725Z"
+    }
+  ]
 }
