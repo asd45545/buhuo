@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5065,
+  "runs": 5066,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T10:15:15.079Z",
+  "updatedAt": "2026-07-12T10:20:21.295Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 297,
+      "stock": 296,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T09:40:22.296Z",
-      "lastChangedAt": "2026-07-12T09:40:22.296Z",
+      "lastSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     },
     "dt897i": {
@@ -460,13 +460,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 145,
-      "stock": 119,
+      "stock": 118,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T10:15:15.079Z",
-      "lastChangedAt": "2026-07-12T10:15:15.079Z",
+      "lastSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     },
     "8ra67m": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 263,
+      "stock": 257,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T10:15:15.079Z",
-      "lastChangedAt": "2026-07-12T10:15:15.079Z",
+      "lastSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2296,13 +2296,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 30.8,
-      "stock": 29,
+      "stock": 28,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-12T10:15:15.079Z",
-      "lastChangedAt": "2026-07-12T10:15:15.079Z",
+      "lastSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     },
     "hsf9yk": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 159,
+      "stock": 155,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-12T10:00:33.591Z",
-      "lastChangedAt": "2026-07-12T10:00:33.591Z",
+      "lastSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3367,13 +3367,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 3,
-      "stock": 298,
+      "stock": 297,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
-      "lastSeenAt": "2026-07-12T10:15:15.079Z",
-      "lastChangedAt": "2026-07-12T10:15:15.079Z",
+      "lastSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     },
     "9oocr7": {
@@ -3562,6 +3562,78 @@
       "lastSeenAt": "2026-07-12T10:15:15.079Z",
       "lastChangedAt": "2026-07-12T10:15:15.079Z",
       "missingSince": null
+    },
+    "y81y3v": {
+      "key": "y81y3v",
+      "name": "ClaudeMax20x（谷歌SK直冲 质保订阅）",
+      "link": "https://pay.ldxp.cn/item/y81y3v",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 588,
+      "stock": 27,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastChangedAt": "2026-07-12T10:20:21.295Z",
+      "missingSince": null
+    },
+    "7w9dz1": {
+      "key": "7w9dz1",
+      "name": "ClaudeMax5x（谷歌SK直冲 质保订阅）",
+      "link": "https://pay.ldxp.cn/item/7w9dz1",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 532,
+      "stock": 30,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastSeenAt": "2026-07-12T10:20:21.295Z",
+      "lastChangedAt": "2026-07-12T10:20:21.295Z",
+      "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "y81y3v",
+      "name": "ClaudeMax20x（谷歌SK直冲 质保订阅）",
+      "link": "https://pay.ldxp.cn/item/y81y3v",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 588,
+      "stock": 27,
+      "inStock": true,
+      "alertType": "new_in_stock",
+      "previousStock": "新上架",
+      "previousStockValue": null,
+      "outOfStockSince": null,
+      "checkedAt": "2026-07-12T10:20:21.295Z",
+      "alertId": "new_in_stock|y81y3v|新上架|27|",
+      "queuedAt": "2026-07-12T10:20:21.295Z"
+    },
+    {
+      "key": "7w9dz1",
+      "name": "ClaudeMax5x（谷歌SK直冲 质保订阅）",
+      "link": "https://pay.ldxp.cn/item/7w9dz1",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 532,
+      "stock": 30,
+      "inStock": true,
+      "alertType": "new_in_stock",
+      "previousStock": "新上架",
+      "previousStockValue": null,
+      "outOfStockSince": null,
+      "checkedAt": "2026-07-12T10:20:21.295Z",
+      "alertId": "new_in_stock|7w9dz1|新上架|30|",
+      "queuedAt": "2026-07-12T10:20:21.295Z"
+    }
+  ]
 }
