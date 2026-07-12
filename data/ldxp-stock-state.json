@@ -3563,25 +3563,5 @@
       "lastChangedAt": "2026-07-12T08:55:10.919Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "xkauz2",
-      "name": "【质保一天】谷歌邮箱越南实卡GPT PLUS未接码 请尽快修改密码！！！！",
-      "link": "https://pay.ldxp.cn/item/xkauz2",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 37.7,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-12T07:05:11.276Z",
-      "checkedAt": "2026-07-12T09:00:31.806Z",
-      "alertId": "restocked|xkauz2|0|2|2026-07-12T07:05:11.276Z",
-      "queuedAt": "2026-07-12T09:00:31.806Z"
-    }
-  ]
+  }
 }
