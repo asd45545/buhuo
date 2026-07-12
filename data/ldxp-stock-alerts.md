@@ -9192,3 +9192,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/jgnbh9
 
+## 2026-07-12T10:20:21.295Z
+- ClaudeMax20x（谷歌SK直冲 质保订阅）
+  - Stock: 新上架 -> 27
+  - Price: 588
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/y81y3v
+- ClaudeMax5x（谷歌SK直冲 质保订阅）
+  - Stock: 新上架 -> 30
+  - Price: 532
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/7w9dz1
+
