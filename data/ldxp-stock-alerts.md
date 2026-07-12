@@ -9333,3 +9333,10 @@
   - Category: Grok
   - Link: https://pay.ldxp.cn/item/rf2vm5
 
+## 2026-07-12T19:10:24.303Z
+- 【codex-反代】k12team子号成品（只能反代，买错不退）
+  - Stock: 0 -> 300
+  - Price: 2.25
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+
