@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4971,
+  "runs": 4972,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T00:05:11.100Z",
+  "updatedAt": "2026-07-12T00:10:20.924Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -732,13 +732,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 6.5,
-      "stock": 26,
+      "stock": 25,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T18:10:20.789Z",
-      "lastChangedAt": "2026-07-11T18:10:20.789Z",
+      "lastSeenAt": "2026-07-12T00:10:20.924Z",
+      "lastChangedAt": "2026-07-12T00:10:20.924Z",
       "missingSince": null
     },
     "alnlyi": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 363,
+      "stock": 362,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T19:30:28.246Z",
-      "lastChangedAt": "2026-07-11T19:30:28.246Z",
+      "lastSeenAt": "2026-07-12T00:10:20.924Z",
+      "lastChangedAt": "2026-07-12T00:10:20.924Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1650,13 +1650,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.45,
-      "stock": 9,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T22:00:35.288Z",
-      "lastChangedAt": "2026-07-11T22:00:35.288Z",
+      "lastSeenAt": "2026-07-12T00:10:20.924Z",
+      "lastChangedAt": "2026-07-12T00:10:20.924Z",
       "missingSince": null
     },
     "g7n6gs": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 223,
+      "stock": 221,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T00:05:11.100Z",
-      "lastChangedAt": "2026-07-12T00:05:11.100Z",
+      "lastSeenAt": "2026-07-12T00:10:20.924Z",
+      "lastChangedAt": "2026-07-12T00:10:20.924Z",
       "missingSince": null
     },
     "zcj8wf": {
