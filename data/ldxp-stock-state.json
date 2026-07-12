@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5150,
+  "runs": 5151,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T17:30:31.562Z",
+  "updatedAt": "2026-07-12T17:35:10.709Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.25,
-      "stock": 95,
+      "stock": 92,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T17:25:12.934Z",
-      "lastChangedAt": "2026-07-12T17:25:12.934Z",
+      "lastSeenAt": "2026-07-12T17:35:10.709Z",
+      "lastChangedAt": "2026-07-12T17:35:10.709Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.52,
-      "stock": 100,
+      "stock": 200,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T17:15:14.446Z",
-      "lastChangedAt": "2026-07-12T17:15:14.446Z",
+      "lastSeenAt": "2026-07-12T17:35:10.709Z",
+      "lastChangedAt": "2026-07-12T17:35:10.709Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -2415,13 +2415,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.69,
-      "stock": 47,
+      "stock": 46,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
-      "lastSeenAt": "2026-07-12T08:50:23.270Z",
-      "lastChangedAt": "2026-07-12T08:50:23.270Z",
+      "lastSeenAt": "2026-07-12T17:35:10.709Z",
+      "lastChangedAt": "2026-07-12T17:35:10.709Z",
       "missingSince": null
     },
     "z2b577": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 90,
+      "stock": 85,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-12T17:20:24.875Z",
-      "lastChangedAt": "2026-07-12T17:20:24.875Z",
+      "lastSeenAt": "2026-07-12T17:35:10.709Z",
+      "lastChangedAt": "2026-07-12T17:35:10.709Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3503,13 +3503,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.1,
-      "stock": 900,
+      "stock": 870,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T04:40:21.879Z",
-      "lastSeenAt": "2026-07-12T17:25:12.934Z",
-      "lastChangedAt": "2026-07-12T17:25:12.934Z",
+      "lastSeenAt": "2026-07-12T17:35:10.709Z",
+      "lastChangedAt": "2026-07-12T17:35:10.709Z",
       "missingSince": null
     },
     "fymkzz": {
