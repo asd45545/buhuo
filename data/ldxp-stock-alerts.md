@@ -9091,3 +9091,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/t352wg
 
+## 2026-07-12T07:40:22.457Z
+- 【7.11荷兰渠道】icloud精品邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 11
+  - Price: 19.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/5jylhj
+- GPT RT Plus 成品号
+  - Stock: 0 -> 100
+  - Price: 9
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/uvtzzz
+
