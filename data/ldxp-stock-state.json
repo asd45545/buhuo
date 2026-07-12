@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5177,
+  "runs": 5178,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T20:20:25.842Z",
+  "updatedAt": "2026-07-12T20:25:11.675Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 341,
+      "stock": 291,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T18:00:35.847Z",
-      "lastChangedAt": "2026-07-12T18:00:35.847Z",
+      "lastSeenAt": "2026-07-12T20:25:11.675Z",
+      "lastChangedAt": "2026-07-12T20:25:11.675Z",
       "missingSince": null
     },
     "dt897i": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 37,
+      "stock": 36,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T19:50:27.059Z",
-      "lastChangedAt": "2026-07-12T19:50:27.059Z",
+      "lastSeenAt": "2026-07-12T20:25:11.675Z",
+      "lastChangedAt": "2026-07-12T20:25:11.675Z",
       "missingSince": null
     },
     "zcj8wf": {
