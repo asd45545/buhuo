@@ -8955,3 +8955,40 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/xkauz2
 
+## 2026-07-12T04:40:21.879Z
+- 【可报销】【黑充带账单便于报销-30天满订阅】【成品号】【chat-gpt-20x】双保2天！
+  - Stock: 新上架 -> 1
+  - Price: 687.5
+  - Category: gpt pro 20x （低价渠道）
+  - Link: https://pay.ldxp.cn/item/3m07aj
+- 【claude code MAX20谷歌内购超稳成品号】【 质保订阅30天】 【不质保封号】
+  - Stock: 0 -> 2
+  - Price: 648
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/qdyac8
+- 【codex-反代】k12team子号成品（只能反代，买错不退）
+  - Stock: 0 -> 100
+  - Price: 3.75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+- 谷歌邮箱【成品plus】质保25天，封号也保
+  - Stock: 0 -> 10
+  - Price: 88
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/3uoyst
+- 谷歌邮箱【成品plus】质保三天
+  - Stock: 0 -> 42
+  - Price: 32.27
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/hia70r
+- 加拿大GPT/Codex接码有效期60-90天【质保首码】
+  - Stock: 新上架 -> 140
+  - Price: 5
+  - Category: 接码
+  - Link: https://pay.ldxp.cn/item/i28y9p
+- outlook邮箱
+  - Stock: 新上架 -> 179
+  - Price: 0.12
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/hfwl2l
+
