@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5164,
+  "runs": 5165,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T18:55:10.758Z",
+  "updatedAt": "2026-07-12T19:05:11.418Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1446,13 +1446,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 78,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-10T10:10:19.425Z",
+      "stock": 4,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-10T10:10:19.425Z",
-      "lastChangedAt": "2026-07-10T10:10:19.425Z",
+      "lastSeenAt": "2026-07-12T19:05:11.418Z",
+      "lastChangedAt": "2026-07-12T19:05:11.418Z",
       "missingSince": null
     },
     "rzm7z0": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 70,
+      "stock": 65,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-12T18:55:10.758Z",
-      "lastChangedAt": "2026-07-12T18:55:10.758Z",
+      "lastSeenAt": "2026-07-12T19:05:11.418Z",
+      "lastChangedAt": "2026-07-12T19:05:11.418Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3503,13 +3503,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.1,
-      "stock": 810,
+      "stock": 410,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T04:40:21.879Z",
-      "lastSeenAt": "2026-07-12T17:55:11.565Z",
-      "lastChangedAt": "2026-07-12T17:55:11.565Z",
+      "lastSeenAt": "2026-07-12T19:05:11.418Z",
+      "lastChangedAt": "2026-07-12T19:05:11.418Z",
       "missingSince": null
     },
     "fymkzz": {
@@ -3597,5 +3597,25 @@
       "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "rf2vm5",
+      "name": "Grok Super（官网代充-质保一个月订阅）",
+      "link": "https://pay.ldxp.cn/item/rf2vm5",
+      "goodsType": "card",
+      "categoryId": 112907,
+      "categoryName": "Grok",
+      "price": 78,
+      "stock": 4,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-10T10:10:19.425Z",
+      "checkedAt": "2026-07-12T19:05:11.418Z",
+      "alertId": "restocked|rf2vm5|0|4|2026-07-10T10:10:19.425Z",
+      "queuedAt": "2026-07-12T19:05:11.418Z"
+    }
+  ]
 }
