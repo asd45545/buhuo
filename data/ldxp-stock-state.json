@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 4982,
+  "runs": 4983,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T01:00:33.784Z",
+  "updatedAt": "2026-07-12T01:05:10.360Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 360,
+      "stock": 359,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T00:50:20.852Z",
-      "lastChangedAt": "2026-07-12T00:50:20.852Z",
+      "lastSeenAt": "2026-07-12T01:05:10.360Z",
+      "lastChangedAt": "2026-07-12T01:05:10.360Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1650,13 +1650,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.45,
-      "stock": 6,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T00:55:10.873Z",
-      "lastChangedAt": "2026-07-12T00:55:10.873Z",
+      "lastSeenAt": "2026-07-12T01:05:10.360Z",
+      "lastChangedAt": "2026-07-12T01:05:10.360Z",
       "missingSince": null
     },
     "g7n6gs": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.16,
-      "stock": 9,
+      "stock": 8,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-12T00:40:20.672Z",
-      "lastChangedAt": "2026-07-12T00:40:20.672Z",
+      "lastSeenAt": "2026-07-12T01:05:10.360Z",
+      "lastChangedAt": "2026-07-12T01:05:10.360Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3367,13 +3367,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 4.5,
-      "stock": 486,
+      "stock": 485,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
-      "lastSeenAt": "2026-07-12T01:00:33.784Z",
-      "lastChangedAt": "2026-07-12T01:00:33.784Z",
+      "lastSeenAt": "2026-07-12T01:05:10.360Z",
+      "lastChangedAt": "2026-07-12T01:05:10.360Z",
       "missingSince": null
     },
     "9oocr7": {
