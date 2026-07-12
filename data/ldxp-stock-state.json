@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5168,
+  "runs": 5169,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T19:34:24.071Z",
+  "updatedAt": "2026-07-12T19:40:25.822Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.25,
-      "stock": 293,
+      "stock": 292,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T19:34:24.071Z",
-      "lastChangedAt": "2026-07-12T19:34:24.071Z",
+      "lastSeenAt": "2026-07-12T19:40:25.822Z",
+      "lastChangedAt": "2026-07-12T19:40:25.822Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 42,
+      "stock": 41,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T19:30:32.115Z",
-      "lastChangedAt": "2026-07-12T19:30:32.115Z",
+      "lastSeenAt": "2026-07-12T19:40:25.822Z",
+      "lastChangedAt": "2026-07-12T19:40:25.822Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 14,
-      "stock": 15,
+      "stock": 14,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-12T19:30:32.115Z",
-      "lastChangedAt": "2026-07-12T19:30:32.115Z",
+      "lastSeenAt": "2026-07-12T19:40:25.822Z",
+      "lastChangedAt": "2026-07-12T19:40:25.822Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -3265,13 +3265,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 6.66,
-      "stock": 82,
+      "stock": 81,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-08T09:05:11.131Z",
-      "lastSeenAt": "2026-07-12T19:30:32.115Z",
-      "lastChangedAt": "2026-07-12T19:30:32.115Z",
+      "lastSeenAt": "2026-07-12T19:40:25.822Z",
+      "lastChangedAt": "2026-07-12T19:40:25.822Z",
       "missingSince": null
     },
     "3v4pnc": {
