@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5002,
+  "runs": 5003,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T02:35:12.059Z",
+  "updatedAt": "2026-07-12T02:40:21.779Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 435,
+      "stock": 425,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T02:30:29.991Z",
-      "lastChangedAt": "2026-07-12T02:30:29.991Z",
+      "lastSeenAt": "2026-07-12T02:40:21.779Z",
+      "lastChangedAt": "2026-07-12T02:40:21.779Z",
       "missingSince": null
     },
     "dt897i": {
@@ -936,13 +936,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.65,
-      "stock": 272,
+      "stock": 271,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T02:35:12.059Z",
-      "lastChangedAt": "2026-07-12T02:35:12.059Z",
+      "lastSeenAt": "2026-07-12T02:40:21.779Z",
+      "lastChangedAt": "2026-07-12T02:40:21.779Z",
       "missingSince": null
     },
     "ttuq5u": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 215,
+      "stock": 214,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T02:30:29.991Z",
-      "lastChangedAt": "2026-07-12T02:30:29.991Z",
+      "lastSeenAt": "2026-07-12T02:40:21.779Z",
+      "lastChangedAt": "2026-07-12T02:40:21.779Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1616,13 +1616,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.68,
-      "stock": 964,
+      "stock": 963,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T02:35:12.059Z",
-      "lastChangedAt": "2026-07-12T02:35:12.059Z",
+      "lastSeenAt": "2026-07-12T02:40:21.779Z",
+      "lastChangedAt": "2026-07-12T02:40:21.779Z",
       "missingSince": null
     },
     "e2913c": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 306,
+      "stock": 296,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T02:35:12.059Z",
-      "lastChangedAt": "2026-07-12T02:35:12.059Z",
+      "lastSeenAt": "2026-07-12T02:40:21.779Z",
+      "lastChangedAt": "2026-07-12T02:40:21.779Z",
       "missingSince": null
     },
     "zcj8wf": {
