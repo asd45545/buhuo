@@ -3563,25 +3563,5 @@
       "lastChangedAt": "2026-07-12T07:55:11.083Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "w7geuq",
-      "name": "iDEAL 荷兰渠道 已稳定7天- ChatGPT Plus  ICLOUD/GMAIL随机发货",
-      "link": "https://pay.ldxp.cn/item/w7geuq",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 12,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-12T07:35:11.312Z",
-      "checkedAt": "2026-07-12T07:55:11.083Z",
-      "alertId": "restocked|w7geuq|0|1|2026-07-12T07:35:11.312Z",
-      "queuedAt": "2026-07-12T07:55:11.083Z"
-    }
-  ]
+  }
 }
