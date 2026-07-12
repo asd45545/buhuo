@@ -3563,25 +3563,5 @@
       "lastChangedAt": "2026-07-12T06:40:21.853Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ktiyr3",
-      "name": "【质保一个月】GPT plus 稳定号一个月",
-      "link": "https://pay.ldxp.cn/item/ktiyr3",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 77.78,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-11T10:20:21.255Z",
-      "checkedAt": "2026-07-12T06:40:21.853Z",
-      "alertId": "restocked|ktiyr3|0|2|2026-07-11T10:20:21.255Z",
-      "queuedAt": "2026-07-12T06:40:21.853Z"
-    }
-  ]
+  }
 }
