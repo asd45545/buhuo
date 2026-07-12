@@ -3563,25 +3563,5 @@
       "lastChangedAt": "2026-07-12T07:20:20.658Z",
       "missingSince": "2026-07-12T07:30:27.992Z"
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "fymkzz",
-      "name": "质保30天渠道-谷歌iCloud邮箱随机发-PLUS-成品-未接码-支持登录网页端-接码登录codex-质保30天",
-      "link": "https://pay.ldxp.cn/item/fymkzz",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 77,
-      "stock": 24,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-12T06:35:10.982Z",
-      "checkedAt": "2026-07-12T07:50:20.376Z",
-      "alertId": "restocked|fymkzz|0|24|2026-07-12T06:35:10.982Z",
-      "queuedAt": "2026-07-12T07:50:20.376Z"
-    }
-  ]
+  }
 }
