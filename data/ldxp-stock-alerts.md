@@ -9300,3 +9300,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/g7n6gs
 
+## 2026-07-12T16:20:26.776Z
+- PP渠道 已稳定7天- ChatGPT Plus  微软邮箱
+  - Stock: 0 -> 150
+  - Price: 15
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/w7geuq
+
