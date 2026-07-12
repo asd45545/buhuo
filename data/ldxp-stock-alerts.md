@@ -9239,3 +9239,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/t352wg
 
+## 2026-07-12T11:50:22.080Z
+- 【7.12美区pp渠道】微软邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 50
+  - Price: 14.3
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/v1dwzl
+
