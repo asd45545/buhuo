@@ -8992,3 +8992,25 @@
   - Category: 各类邮箱
   - Link: https://pay.ldxp.cn/item/hfwl2l
 
+## 2026-07-12T05:15:14.449Z
+- 【7.12美区pp渠道】微软邮箱，手搓Plus成品号，质保首登，支持登录网页，支持codex
+  - Stock: 0 -> 29
+  - Price: 15.6
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/v1dwzl
+- 质保30天渠道-谷歌iCloud邮箱随机发-PLUS-成品-未接码-支持登录网页端-接码登录codex-质保30天
+  - Stock: 新上架 -> 13
+  - Price: 77
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/fymkzz
+- GPT Team K12 成品 JSON 反代 发cpa 质保首登
+  - Stock: 新上架 -> 4
+  - Price: 2.4
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/t352wg
+- U - ChatGPT Plus Gmail 邮件 成品号
+  - Stock: 0 -> 296
+  - Price: 26
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g2u9g7
+
