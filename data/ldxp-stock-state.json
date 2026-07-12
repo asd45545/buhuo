@@ -3597,25 +3597,5 @@
       "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "hsf9yk",
-      "name": "【子邮箱】iCloud 隐私邮箱 （开plus 绑定专用） 不会用不要下",
-      "link": "https://pay.ldxp.cn/item/hsf9yk",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 1.05,
-      "stock": 23,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-12T14:50:21.639Z",
-      "checkedAt": "2026-07-12T15:10:24.073Z",
-      "alertId": "restocked|hsf9yk|0|23|2026-07-12T14:50:21.639Z",
-      "queuedAt": "2026-07-12T15:10:24.073Z"
-    }
-  ]
+  }
 }
