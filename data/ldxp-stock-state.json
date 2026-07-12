@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5149,
+  "runs": 5150,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-12T17:25:12.934Z",
+  "updatedAt": "2026-07-12T17:30:31.562Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -477,13 +477,13 @@
       "categoryId": 111628,
       "categoryName": "✅GPT 正规渠道代充",
       "price": 699,
-      "stock": 69,
+      "stock": 68,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T06:05:11.036Z",
-      "lastChangedAt": "2026-07-12T06:05:11.036Z",
+      "lastSeenAt": "2026-07-12T17:30:31.562Z",
+      "lastChangedAt": "2026-07-12T17:30:31.562Z",
       "missingSince": null
     },
     "med1xn": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 71,
+      "stock": 68,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-12T17:25:12.934Z",
-      "lastChangedAt": "2026-07-12T17:25:12.934Z",
+      "lastSeenAt": "2026-07-12T17:30:31.562Z",
+      "lastChangedAt": "2026-07-12T17:30:31.562Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -3520,13 +3520,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 77,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-12T15:05:12.430Z",
+      "stock": 24,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T05:15:14.449Z",
-      "lastSeenAt": "2026-07-12T15:05:12.430Z",
-      "lastChangedAt": "2026-07-12T15:05:12.430Z",
+      "lastSeenAt": "2026-07-12T17:30:31.562Z",
+      "lastChangedAt": "2026-07-12T17:30:31.562Z",
       "missingSince": null
     },
     "t352wg": {
@@ -3597,5 +3597,25 @@
       "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "fymkzz",
+      "name": "质保30天渠道-谷歌iCloud邮箱随机发-PLUS-成品-未接码-支持登录网页端-接码登录codex-质保30天",
+      "link": "https://pay.ldxp.cn/item/fymkzz",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 77,
+      "stock": 24,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-12T15:05:12.430Z",
+      "checkedAt": "2026-07-12T17:30:31.562Z",
+      "alertId": "restocked|fymkzz|0|24|2026-07-12T15:05:12.430Z",
+      "queuedAt": "2026-07-12T17:30:31.562Z"
+    }
+  ]
 }
