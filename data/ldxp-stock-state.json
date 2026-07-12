@@ -3597,43 +3597,5 @@
       "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "y81y3v",
-      "name": "ClaudeMax20x（谷歌SK直冲 质保订阅）",
-      "link": "https://pay.ldxp.cn/item/y81y3v",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 588,
-      "stock": 27,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-12T10:20:21.295Z",
-      "alertId": "new_in_stock|y81y3v|新上架|27|",
-      "queuedAt": "2026-07-12T10:20:21.295Z"
-    },
-    {
-      "key": "7w9dz1",
-      "name": "ClaudeMax5x（谷歌SK直冲 质保订阅）",
-      "link": "https://pay.ldxp.cn/item/7w9dz1",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 532,
-      "stock": 30,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-12T10:20:21.295Z",
-      "alertId": "new_in_stock|7w9dz1|新上架|30|",
-      "queuedAt": "2026-07-12T10:20:21.295Z"
-    }
-  ]
+  }
 }
