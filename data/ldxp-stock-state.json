@@ -3563,43 +3563,5 @@
       "lastChangedAt": "2026-07-12T08:10:23.011Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "jgnbh9",
-      "name": "稳【欧洲渠道】GPT PLUS 半成品",
-      "link": "https://pay.ldxp.cn/item/jgnbh9",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 13,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-12T08:00:33.017Z",
-      "checkedAt": "2026-07-12T08:10:23.011Z",
-      "alertId": "restocked|jgnbh9|0|2|2026-07-12T08:00:33.017Z",
-      "queuedAt": "2026-07-12T08:10:23.011Z"
-    },
-    {
-      "key": "w7geuq",
-      "name": "iDEAL 荷兰渠道 已稳定7天- ChatGPT Plus  ICLOUD/GMAIL随机发货",
-      "link": "https://pay.ldxp.cn/item/w7geuq",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 12,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-12T08:00:33.017Z",
-      "checkedAt": "2026-07-12T08:10:23.011Z",
-      "alertId": "restocked|w7geuq|0|1|2026-07-12T08:00:33.017Z",
-      "queuedAt": "2026-07-12T08:10:23.011Z"
-    }
-  ]
+  }
 }
