@@ -9260,3 +9260,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-07-12T14:20:20.830Z
+- 【质保一个月】GPT plus 稳定号一个月
+  - Stock: 0 -> 1
+  - Price: 77.78
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代
+  - Stock: 0 -> 200
+  - Price: 2.67
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/w6ql6z
+
