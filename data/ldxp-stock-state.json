@@ -3597,25 +3597,5 @@
       "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "rf2vm5",
-      "name": "Grok Super（官网代充-质保一个月订阅）",
-      "link": "https://pay.ldxp.cn/item/rf2vm5",
-      "goodsType": "card",
-      "categoryId": 112907,
-      "categoryName": "Grok",
-      "price": 78,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T10:10:19.425Z",
-      "checkedAt": "2026-07-12T19:05:11.418Z",
-      "alertId": "restocked|rf2vm5|0|4|2026-07-10T10:10:19.425Z",
-      "queuedAt": "2026-07-12T19:05:11.418Z"
-    }
-  ]
+  }
 }
