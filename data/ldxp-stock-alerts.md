@@ -9641,3 +9641,20 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/9b9rwq
 
+## 2026-07-13T08:15:16.395Z
+- 30个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 45
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+- 微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.13--15.30点新货已过滤
+  - Stock: 0 -> 66
+  - Price: 0.96
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/y8ggzp
+- gpt plus 成品号
+  - Stock: 0 -> 25
+  - Price: 7.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kk8w8k
+
