@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5415,
+  "runs": 5416,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T17:30:33.008Z",
+  "updatedAt": "2026-07-13T17:35:10.968Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.2,
-      "stock": 281,
+      "stock": 280,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T17:30:33.008Z",
-      "lastChangedAt": "2026-07-13T17:30:33.008Z",
+      "lastSeenAt": "2026-07-13T17:35:10.968Z",
+      "lastChangedAt": "2026-07-13T17:35:10.968Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 264,
+      "stock": 262,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T17:15:14.819Z",
-      "lastChangedAt": "2026-07-13T17:15:14.819Z",
+      "lastSeenAt": "2026-07-13T17:35:10.968Z",
+      "lastChangedAt": "2026-07-13T17:35:10.968Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 220,
+      "stock": 226,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T17:30:33.008Z",
-      "lastChangedAt": "2026-07-13T17:30:33.008Z",
+      "lastSeenAt": "2026-07-13T17:35:10.968Z",
+      "lastChangedAt": "2026-07-13T17:35:10.968Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1729,7 +1729,7 @@
     },
     "g2u9g7": {
       "key": "g2u9g7",
-      "name": "U - ChatGPT Plus Gmail 邮件 成品号",
+      "name": "X - ChatGPT Plus Gmail 邮件 成品号（质保3天）",
       "link": "https://pay.ldxp.cn/item/g2u9g7",
       "goodsType": "card",
       "categoryId": 111629,
@@ -1740,7 +1740,7 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T16:35:11.123Z",
+      "lastSeenAt": "2026-07-13T17:35:10.968Z",
       "lastChangedAt": "2026-07-13T16:35:11.123Z",
       "missingSince": null
     },
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 41,
+      "stock": 40,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-13T17:30:33.008Z",
-      "lastChangedAt": "2026-07-13T17:30:33.008Z",
+      "lastSeenAt": "2026-07-13T17:35:10.968Z",
+      "lastChangedAt": "2026-07-13T17:35:10.968Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -3554,13 +3554,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.73,
-      "stock": 115,
+      "stock": 109,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T05:15:14.449Z",
-      "lastSeenAt": "2026-07-13T17:30:33.008Z",
-      "lastChangedAt": "2026-07-13T17:30:33.008Z",
+      "lastSeenAt": "2026-07-13T17:35:10.968Z",
+      "lastChangedAt": "2026-07-13T17:35:10.968Z",
       "missingSince": null
     },
     "y81y3v": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.65,
-      "stock": 1514,
+      "stock": 1507,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T17:30:33.008Z",
-      "lastChangedAt": "2026-07-13T17:30:33.008Z",
+      "lastSeenAt": "2026-07-13T17:35:10.968Z",
+      "lastChangedAt": "2026-07-13T17:35:10.968Z",
       "missingSince": null
     },
     "rfdi1e": {
