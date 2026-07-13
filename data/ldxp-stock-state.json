@@ -3648,25 +3648,5 @@
       "lastChangedAt": "2026-07-13T07:20:25.932Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "t352wg",
-      "name": "GPT Team K12 成品 JSON 反代 发cpa 质保首登",
-      "link": "https://pay.ldxp.cn/item/t352wg",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 1.13,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T06:10:24.357Z",
-      "checkedAt": "2026-07-13T07:20:25.932Z",
-      "alertId": "restocked|t352wg|0|100|2026-07-13T06:10:24.357Z",
-      "queuedAt": "2026-07-13T07:20:25.932Z"
-    }
-  ]
+  }
 }
