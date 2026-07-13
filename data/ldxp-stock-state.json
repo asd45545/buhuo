@@ -3682,25 +3682,5 @@
       "lastChangedAt": "2026-07-13T13:00:38.272Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4wvlfu",
-      "name": "GPTPlus未接码",
-      "link": "https://pay.ldxp.cn/item/4wvlfu",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 9,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T09:20:24.396Z",
-      "checkedAt": "2026-07-13T13:00:38.272Z",
-      "alertId": "restocked|4wvlfu|0|1|2026-07-13T09:20:24.396Z",
-      "queuedAt": "2026-07-13T13:00:38.272Z"
-    }
-  ]
+  }
 }
