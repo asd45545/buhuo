@@ -9696,3 +9696,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/pph45d
 
+## 2026-07-13T09:10:26.482Z
+- 【质保一个月】GPT plus 稳定号一个月
+  - Stock: 0 -> 17
+  - Price: 77.78
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+
