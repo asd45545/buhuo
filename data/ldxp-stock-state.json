@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5219,
+  "runs": 5220,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T00:05:11.739Z",
+  "updatedAt": "2026-07-13T00:10:24.861Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.25,
-      "stock": 77,
+      "stock": 73,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T00:00:39.999Z",
-      "lastChangedAt": "2026-07-13T00:00:39.999Z",
+      "lastSeenAt": "2026-07-13T00:10:24.861Z",
+      "lastChangedAt": "2026-07-13T00:10:24.861Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -3486,13 +3486,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5,
-      "stock": 129,
+      "stock": 128,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T04:40:21.879Z",
-      "lastSeenAt": "2026-07-12T16:40:22.520Z",
-      "lastChangedAt": "2026-07-12T16:40:22.520Z",
+      "lastSeenAt": "2026-07-13T00:10:24.861Z",
+      "lastChangedAt": "2026-07-13T00:10:24.861Z",
       "missingSince": null
     },
     "hfwl2l": {
@@ -3503,13 +3503,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.1,
-      "stock": 360,
+      "stock": 350,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T04:40:21.879Z",
-      "lastSeenAt": "2026-07-12T23:20:26.603Z",
-      "lastChangedAt": "2026-07-12T23:20:26.603Z",
+      "lastSeenAt": "2026-07-13T00:10:24.861Z",
+      "lastChangedAt": "2026-07-13T00:10:24.861Z",
       "missingSince": null
     },
     "fymkzz": {
@@ -3520,13 +3520,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 77,
-      "stock": 24,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T05:15:14.449Z",
-      "lastSeenAt": "2026-07-12T17:30:31.562Z",
-      "lastChangedAt": "2026-07-12T17:30:31.562Z",
+      "lastSeenAt": "2026-07-13T00:10:24.861Z",
+      "lastChangedAt": "2026-07-13T00:10:24.861Z",
       "missingSince": null
     },
     "t352wg": {
