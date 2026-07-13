@@ -1,48 +1,6 @@
 [
   {
     "chatId": "-1004429750164",
-    "messageId": 1453,
-    "deleteAt": "2026-07-13T13:10:44.103Z",
-    "createdAt": "2026-07-13T08:10:44.103Z",
-    "attempts": 0
-  },
-  {
-    "chatId": "-1004429750164",
-    "messageId": 1454,
-    "deleteAt": "2026-07-13T13:12:12.012Z",
-    "createdAt": "2026-07-13T08:12:12.012Z",
-    "attempts": 0
-  },
-  {
-    "chatId": "-1004429750164",
-    "messageId": 1455,
-    "deleteAt": "2026-07-13T13:15:38.706Z",
-    "createdAt": "2026-07-13T08:15:38.706Z",
-    "attempts": 0
-  },
-  {
-    "chatId": "-1004429750164",
-    "messageId": 1456,
-    "deleteAt": "2026-07-13T13:20:55.875Z",
-    "createdAt": "2026-07-13T08:20:55.875Z",
-    "attempts": 0
-  },
-  {
-    "chatId": "-1004429750164",
-    "messageId": 1457,
-    "deleteAt": "2026-07-13T13:25:41.378Z",
-    "createdAt": "2026-07-13T08:25:41.378Z",
-    "attempts": 0
-  },
-  {
-    "chatId": "-1004429750164",
-    "messageId": 1458,
-    "deleteAt": "2026-07-13T13:31:10.915Z",
-    "createdAt": "2026-07-13T08:31:10.915Z",
-    "attempts": 0
-  },
-  {
-    "chatId": "-1004429750164",
     "messageId": 1459,
     "deleteAt": "2026-07-13T13:45:46.036Z",
     "createdAt": "2026-07-13T08:45:46.036Z",
