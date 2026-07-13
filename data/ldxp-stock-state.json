@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5451,
+  "runs": 5452,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T20:20:24.136Z",
+  "updatedAt": "2026-07-13T20:25:10.851Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1735,13 +1735,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 21.45,
-      "stock": 373,
+      "stock": 372,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T19:25:11.554Z",
-      "lastChangedAt": "2026-07-13T19:25:11.554Z",
+      "lastSeenAt": "2026-07-13T20:25:10.851Z",
+      "lastChangedAt": "2026-07-13T20:25:10.851Z",
       "missingSince": null
     },
     "etz0m6": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 103,
+      "stock": 101,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-13T18:45:14.960Z",
-      "lastChangedAt": "2026-07-13T18:45:14.960Z",
+      "lastSeenAt": "2026-07-13T20:25:10.851Z",
+      "lastChangedAt": "2026-07-13T20:25:10.851Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3605,13 +3605,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.72,
-      "stock": 1600,
+      "stock": 1560,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T20:20:24.136Z",
-      "lastChangedAt": "2026-07-13T20:20:24.136Z",
+      "lastSeenAt": "2026-07-13T20:25:10.851Z",
+      "lastChangedAt": "2026-07-13T20:25:10.851Z",
       "missingSince": null
     },
     "793flt": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.72,
-      "stock": 2766,
+      "stock": 2764,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T20:10:24.428Z",
-      "lastChangedAt": "2026-07-13T20:10:24.428Z",
+      "lastSeenAt": "2026-07-13T20:25:10.851Z",
+      "lastChangedAt": "2026-07-13T20:25:10.851Z",
       "missingSince": null
     },
     "rfdi1e": {
