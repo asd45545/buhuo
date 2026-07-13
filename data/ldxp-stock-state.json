@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5262,
+  "runs": 5263,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T03:45:18.581Z",
+  "updatedAt": "2026-07-13T03:50:22.918Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-11T00:10:22.987Z",
+      "stock": 7,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T00:10:22.987Z",
-      "lastChangedAt": "2026-07-11T00:10:22.987Z",
+      "lastSeenAt": "2026-07-13T03:50:22.918Z",
+      "lastChangedAt": "2026-07-13T03:50:22.918Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 10,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-11T00:10:22.987Z",
+      "stock": 1,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-11T00:10:22.987Z",
-      "lastChangedAt": "2026-07-11T00:10:22.987Z",
+      "lastSeenAt": "2026-07-13T03:50:22.918Z",
+      "lastChangedAt": "2026-07-13T03:50:22.918Z",
       "missingSince": null
     },
     "omh53e": {
@@ -1123,13 +1123,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 16,
-      "stock": 11,
+      "stock": 10,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T03:35:11.406Z",
-      "lastChangedAt": "2026-07-13T03:35:11.406Z",
+      "lastSeenAt": "2026-07-13T03:50:22.918Z",
+      "lastChangedAt": "2026-07-13T03:50:22.918Z",
       "missingSince": null
     },
     "bzposi": {
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 404,
+      "stock": 403,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T03:35:11.406Z",
-      "lastChangedAt": "2026-07-13T03:35:11.406Z",
+      "lastSeenAt": "2026-07-13T03:50:22.918Z",
+      "lastChangedAt": "2026-07-13T03:50:22.918Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 295,
+      "stock": 287,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T03:45:18.581Z",
-      "lastChangedAt": "2026-07-13T03:45:18.581Z",
+      "lastSeenAt": "2026-07-13T03:50:22.918Z",
+      "lastChangedAt": "2026-07-13T03:50:22.918Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2245,13 +2245,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 9.75,
-      "stock": 23,
+      "stock": 22,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:25:12.360Z",
-      "lastSeenAt": "2026-07-12T17:10:23.658Z",
-      "lastChangedAt": "2026-07-12T17:10:23.658Z",
+      "lastSeenAt": "2026-07-13T03:50:22.918Z",
+      "lastChangedAt": "2026-07-13T03:50:22.918Z",
       "missingSince": null
     },
     "3uoyst": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 183,
+      "stock": 181,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-13T03:25:11.833Z",
-      "lastChangedAt": "2026-07-13T03:25:11.833Z",
+      "lastSeenAt": "2026-07-13T03:50:22.918Z",
+      "lastChangedAt": "2026-07-13T03:50:22.918Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3536,13 +3536,13 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 1.95,
+      "price": 1.65,
       "stock": 0,
       "inStock": false,
       "watchOutOfStock": true,
       "outOfStockSince": "2026-07-13T03:25:11.833Z",
       "firstSeenAt": "2026-07-12T05:15:14.449Z",
-      "lastSeenAt": "2026-07-13T03:25:11.833Z",
+      "lastSeenAt": "2026-07-13T03:50:22.918Z",
       "lastChangedAt": "2026-07-13T03:25:11.833Z",
       "missingSince": null
     },
@@ -3597,5 +3597,43 @@
       "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "i2xjrp",
+      "name": "1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
+      "link": "https://pay.ldxp.cn/item/i2xjrp",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 2,
+      "stock": 7,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-11T00:10:22.987Z",
+      "checkedAt": "2026-07-13T03:50:22.918Z",
+      "alertId": "restocked|i2xjrp|0|7|2026-07-11T00:10:22.987Z",
+      "queuedAt": "2026-07-13T03:50:22.918Z"
+    },
+    {
+      "key": "2oh41p",
+      "name": "5个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
+      "link": "https://pay.ldxp.cn/item/2oh41p",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 10,
+      "stock": 1,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-11T00:10:22.987Z",
+      "checkedAt": "2026-07-13T03:50:22.918Z",
+      "alertId": "restocked|2oh41p|0|1|2026-07-11T00:10:22.987Z",
+      "queuedAt": "2026-07-13T03:50:22.918Z"
+    }
+  ]
 }
