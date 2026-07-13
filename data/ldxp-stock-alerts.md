@@ -9432,3 +9432,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/t352wg
 
+## 2026-07-13T04:00:37.926Z
+- 100个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 170
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/ir7b3h
+- k12渠道的team,有5小时，额度一共100刀，发货格式sub2或acp仅反代
+  - Stock: 0 -> 300
+  - Price: 1.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/w6ql6z
+
