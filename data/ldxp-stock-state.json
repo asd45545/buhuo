@@ -3682,25 +3682,5 @@
       "lastChangedAt": "2026-07-13T16:35:11.123Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "nhg6i4",
-      "name": "【质保30天】GPT PLUS 官方充值",
-      "link": "https://pay.ldxp.cn/item/nhg6i4",
-      "goodsType": "card",
-      "categoryId": 111628,
-      "categoryName": "✅GPT 正规渠道代充",
-      "price": 151.2,
-      "stock": 200,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T11:10:24.679Z",
-      "checkedAt": "2026-07-13T16:35:11.123Z",
-      "alertId": "restocked|nhg6i4|0|200|2026-07-13T11:10:24.679Z",
-      "queuedAt": "2026-07-13T16:35:11.123Z"
-    }
-  ]
+  }
 }
