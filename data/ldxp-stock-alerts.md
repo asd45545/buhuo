@@ -9796,3 +9796,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/zqu3t0
 
+## 2026-07-13T11:50:24.436Z
+- k12子号 反代 保首登（CPA+sub2api格式发货）--子号--不支持网页登录
+  - Stock: 0 -> 362
+  - Price: 0.92
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/9b9rwq
+
