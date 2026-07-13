@@ -9479,3 +9479,20 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/2oh41p
 
+## 2026-07-13T06:20:24.092Z
+- 【质保一个月】GPT plus 稳定号一个月
+  - Stock: 0 -> 51
+  - Price: 77.78
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- 5个号 微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 可codex 质保首登 79点新货已过滤
+  - Stock: 新上架 -> 455
+  - Price: 1.03
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/793flt
+- 微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.13--9点新货已过滤
+  - Stock: 新上架 -> 321
+  - Price: 1.03
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/y8ggzp
+
