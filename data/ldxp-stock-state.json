@@ -3665,43 +3665,5 @@
       "lastChangedAt": "2026-07-13T07:55:11.449Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "ir7b3h",
-      "name": "100个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/ir7b3h",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 150,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T04:45:15.352Z",
-      "checkedAt": "2026-07-13T09:50:23.956Z",
-      "alertId": "restocked|ir7b3h|0|2|2026-07-13T04:45:15.352Z",
-      "queuedAt": "2026-07-13T09:50:23.956Z"
-    },
-    {
-      "key": "b2ggf2",
-      "name": "Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码",
-      "link": "https://pay.ldxp.cn/item/b2ggf2",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.58,
-      "stock": 800,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T08:55:11.366Z",
-      "checkedAt": "2026-07-13T09:50:23.956Z",
-      "alertId": "restocked|b2ggf2|0|800|2026-07-13T08:55:11.366Z",
-      "queuedAt": "2026-07-13T09:50:23.956Z"
-    }
-  ]
+  }
 }
