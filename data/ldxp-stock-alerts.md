@@ -9598,3 +9598,20 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/y8ggzp
 
+## 2026-07-13T07:55:11.449Z
+- 5个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 7.5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/2oh41p
+- Gemini 3.1pro 12个月pixel成品号（随机地区20-24年账号）
+  - Stock: 0 -> 29
+  - Price: 19
+  - Category: Gemini
+  - Link: https://pay.ldxp.cn/item/j79pn9
+- GPT Pro20X菲律宾区-卡冲 带账单 正规代充 质保一个月
+  - Stock: 新上架 -> 11
+  - Price: 1295
+  - Category: ✅GPT 正规渠道代充
+  - Link: https://pay.ldxp.cn/item/rfdi1e
+
