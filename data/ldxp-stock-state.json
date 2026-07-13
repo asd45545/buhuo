@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5428,
+  "runs": 5429,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T18:30:32.046Z",
+  "updatedAt": "2026-07-13T18:35:13.967Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 203,
+      "stock": 197,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T18:30:32.046Z",
-      "lastChangedAt": "2026-07-13T18:30:32.046Z",
+      "lastSeenAt": "2026-07-13T18:35:13.967Z",
+      "lastChangedAt": "2026-07-13T18:35:13.967Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2779,7 +2779,7 @@
       "firstSeenAt": "2026-06-28T08:40:16.902Z",
       "lastSeenAt": "2026-07-10T04:00:31.503Z",
       "lastChangedAt": "2026-06-30T09:10:15.671Z",
-      "missingSince": null
+      "missingSince": "2026-07-13T18:35:13.967Z"
     },
     "g682hk": {
       "key": "g682hk",
@@ -3605,13 +3605,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.65,
-      "stock": 536,
+      "stock": 476,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T18:30:32.046Z",
-      "lastChangedAt": "2026-07-13T18:30:32.046Z",
+      "lastSeenAt": "2026-07-13T18:35:13.967Z",
+      "lastChangedAt": "2026-07-13T18:35:13.967Z",
       "missingSince": null
     },
     "793flt": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.65,
-      "stock": 2452,
+      "stock": 2436,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T18:30:32.046Z",
-      "lastChangedAt": "2026-07-13T18:30:32.046Z",
+      "lastSeenAt": "2026-07-13T18:35:13.967Z",
+      "lastChangedAt": "2026-07-13T18:35:13.967Z",
       "missingSince": null
     },
     "rfdi1e": {
@@ -3673,13 +3673,30 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 9.68,
-      "stock": 100,
+      "stock": 99,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T11:35:12.613Z",
-      "lastSeenAt": "2026-07-13T18:13:22.519Z",
-      "lastChangedAt": "2026-07-13T18:13:22.519Z",
+      "lastSeenAt": "2026-07-13T18:35:13.967Z",
+      "lastChangedAt": "2026-07-13T18:35:13.967Z",
+      "missingSince": null
+    },
+    "8x931e": {
+      "key": "8x931e",
+      "name": "BUG team 250刀，一般存活2-3天，不踢空间",
+      "link": "https://pay.ldxp.cn/item/8x931e",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 16.9,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-13T18:35:13.967Z",
+      "firstSeenAt": "2026-07-13T18:35:13.967Z",
+      "lastSeenAt": "2026-07-13T18:35:13.967Z",
+      "lastChangedAt": "2026-07-13T18:35:13.967Z",
       "missingSince": null
     }
   }
