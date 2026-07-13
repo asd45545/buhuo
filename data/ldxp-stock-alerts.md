@@ -9751,3 +9751,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/hkqeak
 
+## 2026-07-13T09:50:23.956Z
+- 100个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 2
+  - Price: 150
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/ir7b3h
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 800
+  - Price: 0.58
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+
