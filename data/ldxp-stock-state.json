@@ -3648,25 +3648,5 @@
       "lastChangedAt": "2026-07-13T07:10:24.249Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "etz0m6",
-      "name": "Google 谷歌邮箱【高质量 】美区 2020--2024年 老邮箱",
-      "link": "https://pay.ldxp.cn/item/etz0m6",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 12.35,
-      "stock": 17,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T07:05:11.539Z",
-      "checkedAt": "2026-07-13T07:10:24.249Z",
-      "alertId": "restocked|etz0m6|0|17|2026-07-13T07:05:11.539Z",
-      "queuedAt": "2026-07-13T07:10:24.249Z"
-    }
-  ]
+  }
 }
