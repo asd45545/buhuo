@@ -9880,3 +9880,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kzt2qr
 
+## 2026-07-13T18:00:37.945Z
+- 10 个号  微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.13新货已过滤
+  - Stock: 0 -> 456
+  - Price: 0.65
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/qggpse
+
