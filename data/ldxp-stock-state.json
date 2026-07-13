@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5430,
+  "runs": 5431,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T18:40:25.044Z",
+  "updatedAt": "2026-07-13T18:45:14.960Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 262,
+      "stock": 261,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T17:35:10.968Z",
-      "lastChangedAt": "2026-07-13T17:35:10.968Z",
+      "lastSeenAt": "2026-07-13T18:45:14.960Z",
+      "lastChangedAt": "2026-07-13T18:45:14.960Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1831,7 +1831,7 @@
     },
     "r06ima": {
       "key": "r06ima",
-      "name": "codex长效接码28-30天，美国实卡",
+      "name": "codex长效接码20-30天，美国实卡",
       "link": "https://pay.ldxp.cn/item/r06ima",
       "goodsType": "card",
       "categoryId": 111630,
@@ -1842,7 +1842,7 @@
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-13T18:40:25.044Z",
+      "lastSeenAt": "2026-07-13T18:45:14.960Z",
       "lastChangedAt": "2026-07-13T18:40:25.044Z",
       "missingSince": null
     },
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 106,
+      "stock": 103,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-13T18:20:26.673Z",
-      "lastChangedAt": "2026-07-13T18:20:26.673Z",
+      "lastSeenAt": "2026-07-13T18:45:14.960Z",
+      "lastChangedAt": "2026-07-13T18:45:14.960Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3605,13 +3605,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.65,
-      "stock": 406,
+      "stock": 366,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T18:40:25.044Z",
-      "lastChangedAt": "2026-07-13T18:40:25.044Z",
+      "lastSeenAt": "2026-07-13T18:45:14.960Z",
+      "lastChangedAt": "2026-07-13T18:45:14.960Z",
       "missingSince": null
     },
     "793flt": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.65,
-      "stock": 2428,
+      "stock": 2414,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T18:40:25.044Z",
-      "lastChangedAt": "2026-07-13T18:40:25.044Z",
+      "lastSeenAt": "2026-07-13T18:45:14.960Z",
+      "lastChangedAt": "2026-07-13T18:45:14.960Z",
       "missingSince": null
     },
     "rfdi1e": {
