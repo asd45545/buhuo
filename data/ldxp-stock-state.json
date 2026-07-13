@@ -3682,25 +3682,5 @@
       "lastChangedAt": "2026-07-13T14:20:25.826Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "qggpse",
-      "name": "10 个号  微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.13新货已过滤",
-      "link": "https://pay.ldxp.cn/item/qggpse",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 0.78,
-      "stock": 203,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T14:15:15.331Z",
-      "checkedAt": "2026-07-13T14:20:25.826Z",
-      "alertId": "restocked|qggpse|0|203|2026-07-13T14:15:15.331Z",
-      "queuedAt": "2026-07-13T14:20:25.826Z"
-    }
-  ]
+  }
 }
