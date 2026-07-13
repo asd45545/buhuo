@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5282,
+  "runs": 5283,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T05:20:25.357Z",
+  "updatedAt": "2026-07-13T05:25:11.921Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -358,13 +358,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.5,
-      "stock": 12,
+      "stock": 10,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T05:20:25.357Z",
-      "lastChangedAt": "2026-07-13T05:20:25.357Z",
+      "lastSeenAt": "2026-07-13T05:25:11.921Z",
+      "lastChangedAt": "2026-07-13T05:25:11.921Z",
       "missingSince": null
     },
     "g73q8c": {
@@ -426,13 +426,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 7.5,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-13T04:55:11.472Z",
+      "stock": 2,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T04:55:11.472Z",
-      "lastChangedAt": "2026-07-13T04:55:11.472Z",
+      "lastSeenAt": "2026-07-13T05:25:11.921Z",
+      "lastChangedAt": "2026-07-13T05:25:11.921Z",
       "missingSince": null
     },
     "omh53e": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 7.88,
-      "stock": 188,
+      "stock": 182,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T05:20:25.357Z",
-      "lastChangedAt": "2026-07-13T05:20:25.357Z",
+      "lastSeenAt": "2026-07-13T05:25:11.921Z",
+      "lastChangedAt": "2026-07-13T05:25:11.921Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2296,13 +2296,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 22.4,
-      "stock": 29,
+      "stock": 25,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-13T05:20:25.357Z",
-      "lastChangedAt": "2026-07-13T05:20:25.357Z",
+      "lastSeenAt": "2026-07-13T05:25:11.921Z",
+      "lastChangedAt": "2026-07-13T05:25:11.921Z",
       "missingSince": null
     },
     "hsf9yk": {
@@ -3554,13 +3554,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.5,
-      "stock": 126,
+      "stock": 116,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T05:15:14.449Z",
-      "lastSeenAt": "2026-07-13T05:20:25.357Z",
-      "lastChangedAt": "2026-07-13T05:20:25.357Z",
+      "lastSeenAt": "2026-07-13T05:25:11.921Z",
+      "lastChangedAt": "2026-07-13T05:25:11.921Z",
       "missingSince": null
     },
     "y81y3v": {
@@ -3597,5 +3597,25 @@
       "lastChangedAt": "2026-07-12T10:20:21.295Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "2oh41p",
+      "name": "5个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
+      "link": "https://pay.ldxp.cn/item/2oh41p",
+      "goodsType": "card",
+      "categoryId": 112069,
+      "categoryName": "GPT Team",
+      "price": 7.5,
+      "stock": 2,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-13T04:55:11.472Z",
+      "checkedAt": "2026-07-13T05:25:11.921Z",
+      "alertId": "restocked|2oh41p|0|2|2026-07-13T04:55:11.472Z",
+      "queuedAt": "2026-07-13T05:25:11.921Z"
+    }
+  ]
 }
