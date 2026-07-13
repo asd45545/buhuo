@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5463,
+  "runs": 5464,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T21:20:28.027Z",
+  "updatedAt": "2026-07-13T21:25:11.518Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 405,
+      "stock": 404,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T18:30:32.046Z",
-      "lastChangedAt": "2026-07-13T18:30:32.046Z",
+      "lastSeenAt": "2026-07-13T21:25:11.518Z",
+      "lastChangedAt": "2026-07-13T21:25:11.518Z",
       "missingSince": null
     },
     "dt897i": {
@@ -1650,13 +1650,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 3.45,
-      "stock": 36,
+      "stock": 35,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T17:15:14.819Z",
-      "lastChangedAt": "2026-07-13T17:15:14.819Z",
+      "lastSeenAt": "2026-07-13T21:25:11.518Z",
+      "lastChangedAt": "2026-07-13T21:25:11.518Z",
       "missingSince": null
     },
     "g7n6gs": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 96,
+      "stock": 95,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-13T20:40:25.054Z",
-      "lastChangedAt": "2026-07-13T20:40:25.054Z",
+      "lastSeenAt": "2026-07-13T21:25:11.518Z",
+      "lastChangedAt": "2026-07-13T21:25:11.518Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3605,13 +3605,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.72,
-      "stock": 1410,
+      "stock": 1390,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T21:00:36.025Z",
-      "lastChangedAt": "2026-07-13T21:00:36.025Z",
+      "lastSeenAt": "2026-07-13T21:25:11.518Z",
+      "lastChangedAt": "2026-07-13T21:25:11.518Z",
       "missingSince": null
     },
     "793flt": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.72,
-      "stock": 2138,
+      "stock": 2117,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T21:20:28.027Z",
-      "lastChangedAt": "2026-07-13T21:20:28.027Z",
+      "lastSeenAt": "2026-07-13T21:25:11.518Z",
+      "lastChangedAt": "2026-07-13T21:25:11.518Z",
       "missingSince": null
     },
     "rfdi1e": {
