@@ -3665,43 +3665,5 @@
       "lastChangedAt": "2026-07-13T07:55:11.449Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "zak7xw",
-      "name": "【codex-反代】k12team子号成品（只能反代，买错不退）",
-      "link": "https://pay.ldxp.cn/item/zak7xw",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 1.2,
-      "stock": 100,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T08:10:24.626Z",
-      "checkedAt": "2026-07-13T09:15:15.272Z",
-      "alertId": "restocked|zak7xw|0|100|2026-07-13T08:10:24.626Z",
-      "queuedAt": "2026-07-13T09:15:15.272Z"
-    },
-    {
-      "key": "pfz6mj",
-      "name": "已接码🔥UPI渠道Plus成品带RT 可登网页 codex/cpa/sub 保首登",
-      "link": "https://pay.ldxp.cn/item/pfz6mj",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 14.25,
-      "stock": 7,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T09:05:11.809Z",
-      "checkedAt": "2026-07-13T09:15:15.272Z",
-      "alertId": "restocked|pfz6mj|0|7|2026-07-13T09:05:11.809Z",
-      "queuedAt": "2026-07-13T09:15:15.272Z"
-    }
-  ]
+  }
 }
