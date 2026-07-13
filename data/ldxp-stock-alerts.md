@@ -9703,3 +9703,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/ktiyr3
 
+## 2026-07-13T09:15:15.272Z
+- 【codex-反代】k12team子号成品（只能反代，买错不退）
+  - Stock: 0 -> 100
+  - Price: 1.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/zak7xw
+- 已接码🔥UPI渠道Plus成品带RT 可登网页 codex/cpa/sub 保首登
+  - Stock: 0 -> 7
+  - Price: 14.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/pfz6mj
+
