@@ -3648,43 +3648,5 @@
       "lastChangedAt": "2026-07-13T07:25:11.721Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "i2xjrp",
-      "name": "1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/i2xjrp",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 1.5,
-      "stock": 9,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T07:05:11.539Z",
-      "checkedAt": "2026-07-13T07:25:11.721Z",
-      "alertId": "restocked|i2xjrp|0|9|2026-07-13T07:05:11.539Z",
-      "queuedAt": "2026-07-13T07:25:11.721Z"
-    },
-    {
-      "key": "2oh41p",
-      "name": "5个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/2oh41p",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 7.5,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T07:10:24.249Z",
-      "checkedAt": "2026-07-13T07:25:11.721Z",
-      "alertId": "restocked|2oh41p|0|1|2026-07-13T07:10:24.249Z",
-      "queuedAt": "2026-07-13T07:25:11.721Z"
-    }
-  ]
+  }
 }
