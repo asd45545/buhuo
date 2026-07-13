@@ -9615,3 +9615,15 @@
   - Category: ✅GPT 正规渠道代充
   - Link: https://pay.ldxp.cn/item/rfdi1e
 
+## 2026-07-13T08:05:11.365Z
+- 质保30天渠道-谷歌iCloud邮箱随机发-PLUS-成品-未接码-支持登录网页端-接码登录codex-质保30天
+  - Stock: 0 -> 36
+  - Price: 77
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/fymkzz
+- PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号
+  - Stock: 0 -> 3
+  - Price: 18.85
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g7n6gs
+
