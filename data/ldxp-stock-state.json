@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5397,
+  "runs": 5398,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-13T15:45:15.716Z",
+  "updatedAt": "2026-07-13T15:50:25.326Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.59,
-      "stock": 145,
+      "stock": 144,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T15:40:25.374Z",
-      "lastChangedAt": "2026-07-13T15:40:25.374Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 153,
+      "stock": 174,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T15:45:15.716Z",
-      "lastChangedAt": "2026-07-13T15:45:15.716Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2024,13 +2024,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 13,
-      "stock": 36,
+      "stock": 35,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T17:10:16.453Z",
-      "lastSeenAt": "2026-07-13T15:30:33.744Z",
-      "lastChangedAt": "2026-07-13T15:30:33.744Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "pfz6mj": {
@@ -2296,13 +2296,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 22.4,
-      "stock": 20,
+      "stock": 19,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-13T14:50:25.620Z",
-      "lastChangedAt": "2026-07-13T14:50:25.620Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "hsf9yk": {
@@ -3163,13 +3163,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 8,
-      "stock": 30,
+      "stock": 29,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-07T03:30:24.575Z",
-      "lastSeenAt": "2026-07-13T15:30:33.744Z",
-      "lastChangedAt": "2026-07-13T15:30:33.744Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "852zjn": {
@@ -3299,13 +3299,13 @@
       "categoryId": 111639,
       "categoryName": "Claude",
       "price": 633.6,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-13T10:00:37.356Z",
+      "stock": 3,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-08T15:30:31.689Z",
-      "lastSeenAt": "2026-07-13T10:00:37.356Z",
-      "lastChangedAt": "2026-07-13T10:00:37.356Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "b6g7om": {
@@ -3554,13 +3554,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.73,
-      "stock": 175,
+      "stock": 158,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T05:15:14.449Z",
-      "lastSeenAt": "2026-07-13T15:45:15.716Z",
-      "lastChangedAt": "2026-07-13T15:45:15.716Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "y81y3v": {
@@ -3604,14 +3604,14 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 0.72,
-      "stock": 170,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "price": 0.65,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-13T15:50:25.326Z",
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T15:45:15.716Z",
-      "lastChangedAt": "2026-07-13T15:45:15.716Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "793flt": {
@@ -3621,13 +3621,13 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 0.72,
+      "price": 0.65,
       "stock": 290,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T15:35:12.251Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
       "lastChangedAt": "2026-07-13T15:35:12.251Z",
       "missingSince": null
     },
@@ -3638,14 +3638,14 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 0.72,
-      "stock": 1208,
+      "price": 0.65,
+      "stock": 1172,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-13T15:45:15.716Z",
-      "lastChangedAt": "2026-07-13T15:45:15.716Z",
+      "lastSeenAt": "2026-07-13T15:50:25.326Z",
+      "lastChangedAt": "2026-07-13T15:50:25.326Z",
       "missingSince": null
     },
     "rfdi1e": {
@@ -3682,5 +3682,25 @@
       "lastChangedAt": "2026-07-13T15:40:25.374Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "qdyac8",
+      "name": "【正宗老字号】【claude code MAX20谷歌内购超稳成品号】【 质保订阅30天】 【不质保封号】",
+      "link": "https://pay.ldxp.cn/item/qdyac8",
+      "goodsType": "card",
+      "categoryId": 111639,
+      "categoryName": "Claude",
+      "price": 633.6,
+      "stock": 3,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-13T10:00:37.356Z",
+      "checkedAt": "2026-07-13T15:50:25.326Z",
+      "alertId": "restocked|qdyac8|0|3|2026-07-13T10:00:37.356Z",
+      "queuedAt": "2026-07-13T15:50:25.326Z"
+    }
+  ]
 }
