@@ -9715,3 +9715,20 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/pfz6mj
 
+## 2026-07-13T09:20:24.396Z
+- 【质保一个月】GPT plus 稳定号一个月
+  - Stock: 0 -> 6
+  - Price: 77.78
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/ktiyr3
+- 30个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 45
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/pph45d
+- k12子号 反代 保首登（CPA+sub2api格式发货）--子号--不支持网页登录
+  - Stock: 0 -> 357
+  - Price: 1
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/9b9rwq
+
