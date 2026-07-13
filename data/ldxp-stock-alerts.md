@@ -9789,3 +9789,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/y8ggzp
 
+## 2026-07-13T11:35:12.613Z
+- iDEAL 渠道 已稳定5天- ChatGPT Plus  iCloud/Gmail 成品号
+  - Stock: 新上架 -> 99
+  - Price: 6.66
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/zqu3t0
+
