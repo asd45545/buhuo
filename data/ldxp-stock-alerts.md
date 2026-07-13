@@ -9770,3 +9770,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/t352wg
 
+## 2026-07-13T10:15:14.240Z
+- 10 个号  微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.13--11点新货已过滤
+  - Stock: 0 -> 209
+  - Price: 0.91
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/qggpse
+- 5个号 微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 可codex 质保首登 79点新货已过滤
+  - Stock: 0 -> 280
+  - Price: 0.85
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/793flt
+
