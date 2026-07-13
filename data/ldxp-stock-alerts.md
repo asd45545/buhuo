@@ -9553,3 +9553,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/4wvlfu
 
+## 2026-07-13T07:10:24.249Z
+- Google 谷歌邮箱【高质量 】美区 2020--2024年 老邮箱
+  - Stock: 0 -> 17
+  - Price: 12.35
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/etz0m6
+
