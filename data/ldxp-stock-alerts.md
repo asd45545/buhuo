@@ -9515,3 +9515,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/2oh41p
 
+## 2026-07-13T06:35:12.417Z
+- Claude Max 5x 成品号【不质保特价·已过KYC】
+  - Stock: 0 -> 10
+  - Price: 481
+  - Category: Claude
+  - Link: https://pay.ldxp.cn/item/9vso1a
+- Google 谷歌邮箱【高质量 包gcp】美区 2020--2024年 老邮箱
+  - Stock: 0 -> 20
+  - Price: 12.35
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/etz0m6
+
