@@ -3665,25 +3665,5 @@
       "lastChangedAt": "2026-07-13T07:55:11.449Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "hkqeak",
-      "name": "ChatGPT plus 质保 30 天-成品号",
-      "link": "https://pay.ldxp.cn/item/hkqeak",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 97.5,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T02:50:22.675Z",
-      "checkedAt": "2026-07-13T09:30:32.557Z",
-      "alertId": "restocked|hkqeak|0|10|2026-07-13T02:50:22.675Z",
-      "queuedAt": "2026-07-13T09:30:32.557Z"
-    }
-  ]
+  }
 }
