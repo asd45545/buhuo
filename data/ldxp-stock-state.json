@@ -3648,25 +3648,5 @@
       "lastChangedAt": "2026-07-13T07:30:31.836Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "2oh41p",
-      "name": "5个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/2oh41p",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 7.5,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T07:30:31.836Z",
-      "checkedAt": "2026-07-13T07:35:10.772Z",
-      "alertId": "restocked|2oh41p|0|4|2026-07-13T07:30:31.836Z",
-      "queuedAt": "2026-07-13T07:35:10.772Z"
-    }
-  ]
+  }
 }
