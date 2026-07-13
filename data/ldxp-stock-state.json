@@ -3648,43 +3648,5 @@
       "lastChangedAt": "2026-07-13T06:35:12.417Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "9vso1a",
-      "name": "Claude Max 5x 成品号【不质保特价·已过KYC】",
-      "link": "https://pay.ldxp.cn/item/9vso1a",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 481,
-      "stock": 10,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T01:15:14.955Z",
-      "checkedAt": "2026-07-13T06:35:12.417Z",
-      "alertId": "restocked|9vso1a|0|10|2026-07-13T01:15:14.955Z",
-      "queuedAt": "2026-07-13T06:35:12.417Z"
-    },
-    {
-      "key": "etz0m6",
-      "name": "Google 谷歌邮箱【高质量 包gcp】美区 2020--2024年 老邮箱",
-      "link": "https://pay.ldxp.cn/item/etz0m6",
-      "goodsType": "card",
-      "categoryId": 111634,
-      "categoryName": "各类邮箱",
-      "price": 12.35,
-      "stock": 20,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-09T15:20:20.427Z",
-      "checkedAt": "2026-07-13T06:35:12.417Z",
-      "alertId": "restocked|etz0m6|0|20|2026-07-09T15:20:20.427Z",
-      "queuedAt": "2026-07-13T06:35:12.417Z"
-    }
-  ]
+  }
 }
