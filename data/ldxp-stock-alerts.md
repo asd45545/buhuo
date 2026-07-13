@@ -9866,3 +9866,10 @@
   - Category: ✅GPT 正规渠道代充
   - Link: https://pay.ldxp.cn/item/nhg6i4
 
+## 2026-07-13T16:40:25.597Z
+- k12子号 反代 保首登（CPA+sub2api格式发货）--子号--不支持网页登录
+  - Stock: 0 -> 498
+  - Price: 0.73
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/9b9rwq
+
