@@ -10119,3 +10119,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/nr5tu0
 
+## 2026-07-14T07:15:14.189Z
+- 【强推】【带账单可报销】【30天满订阅】【成品号】【chat-gpt-20x】双保2天！
+  - Stock: 新上架 -> 2
+  - Price: 689
+  - Category: gpt pro 20x （低价渠道）
+  - Link: https://pay.ldxp.cn/item/4071aq
+- 50个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 1
+  - Price: 75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/nq08tb
+
