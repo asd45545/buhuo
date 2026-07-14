@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5508,
+  "runs": 5509,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-14T01:00:37.093Z",
+  "updatedAt": "2026-07-14T01:05:10.938Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -246,7 +246,7 @@
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
       "lastSeenAt": "2026-07-14T01:00:37.093Z",
       "lastChangedAt": "2026-07-14T01:00:37.093Z",
-      "missingSince": null
+      "missingSince": "2026-07-14T01:05:10.938Z"
     },
     "2grcfq": {
       "key": "2grcfq",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 590,
+      "stock": 589,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-13T22:30:32.485Z",
-      "lastChangedAt": "2026-07-13T22:30:32.485Z",
+      "lastSeenAt": "2026-07-14T01:05:10.938Z",
+      "lastChangedAt": "2026-07-14T01:05:10.938Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 114,
+      "stock": 215,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T01:00:37.093Z",
-      "lastChangedAt": "2026-07-14T01:00:37.093Z",
+      "lastSeenAt": "2026-07-14T01:05:10.938Z",
+      "lastChangedAt": "2026-07-14T01:05:10.938Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1735,13 +1735,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 21.45,
-      "stock": 370,
+      "stock": 369,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T00:55:11.166Z",
-      "lastChangedAt": "2026-07-14T00:55:11.166Z",
+      "lastSeenAt": "2026-07-14T01:05:10.938Z",
+      "lastChangedAt": "2026-07-14T01:05:10.938Z",
       "missingSince": null
     },
     "etz0m6": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 4.5,
-      "stock": 153,
+      "stock": 151,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-14T01:00:37.093Z",
-      "lastChangedAt": "2026-07-14T01:00:37.093Z",
+      "lastSeenAt": "2026-07-14T01:05:10.938Z",
+      "lastChangedAt": "2026-07-14T01:05:10.938Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 89,
+      "stock": 88,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-14T01:00:37.093Z",
-      "lastChangedAt": "2026-07-14T01:00:37.093Z",
+      "lastSeenAt": "2026-07-14T01:05:10.938Z",
+      "lastChangedAt": "2026-07-14T01:05:10.938Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -2840,13 +2840,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 11.5,
-      "stock": 94,
+      "stock": 84,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-30T06:10:17.194Z",
-      "lastSeenAt": "2026-07-14T00:10:25.100Z",
-      "lastChangedAt": "2026-07-14T00:10:25.100Z",
+      "lastSeenAt": "2026-07-14T01:05:10.938Z",
+      "lastChangedAt": "2026-07-14T01:05:10.938Z",
       "missingSince": null
     },
     "jkrruh": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.72,
-      "stock": 331,
+      "stock": 218,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-14T01:00:37.093Z",
-      "lastChangedAt": "2026-07-14T01:00:37.093Z",
+      "lastSeenAt": "2026-07-14T01:05:10.938Z",
+      "lastChangedAt": "2026-07-14T01:05:10.938Z",
       "missingSince": null
     },
     "rfdi1e": {
