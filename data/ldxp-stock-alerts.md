@@ -9965,3 +9965,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/y8ggzp
 
+## 2026-07-14T04:55:11.172Z
+- k12子号 反代 保首登（CPA+sub2api格式发货）--子号--不支持网页登录
+  - Stock: 0 -> 498
+  - Price: 2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/9b9rwq
+
