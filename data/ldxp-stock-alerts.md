@@ -9915,3 +9915,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/fymkzz
 
+## 2026-07-14T01:30:30.832Z
+- Grok Super官方正规充值2个月卡密（质保不掉订阅）
+  - Stock: 0 -> 4
+  - Price: 148.5
+  - Category: Grok
+  - Link: https://pay.ldxp.cn/item/zwpqer
+
