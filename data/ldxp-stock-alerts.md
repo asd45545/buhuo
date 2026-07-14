@@ -10166,3 +10166,35 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/fymkzz
 
+## 2026-07-14T12:00:36.252Z
+- 巴西PIX GPTPlus未接码
+  - Stock: 0 -> 4
+  - Price: 7
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4wvlfu
+- 微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.14--2.01新货已过滤
+  - Stock: 0 -> 274
+  - Price: 0.98
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/y8ggzp
+- 已接码🔥UPI渠道Plus成品带RT 可登网页 codex/cpa/sub 保首登
+  - Stock: 0 -> 6
+  - Price: 14.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/pfz6mj
+- BUG team 250刀，一般存活2-3天，不踢空间
+  - Stock: 0 -> 166
+  - Price: 16.9
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/8x931e
+- PLUS 成品，iCloud邮箱，UPI渠道 未绑定手机号码，稳定性自测 ，无质保售后 ，需要自行绑定手机号
+  - Stock: 0 -> 7
+  - Price: 18.85
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g7n6gs
+- UPI /IDEAL渠道 - ChatGPT Plus 月卡 成品号
+  - Stock: 0 -> 2
+  - Price: 9.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/4rukz6
+
