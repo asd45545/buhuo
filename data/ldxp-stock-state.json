@@ -3716,43 +3716,5 @@
       "lastChangedAt": "2026-07-14T12:00:36.252Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4wvlfu",
-      "name": "巴西PIX GPTPlus未接码",
-      "link": "https://pay.ldxp.cn/item/4wvlfu",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 7,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-14T14:15:14.337Z",
-      "checkedAt": "2026-07-14T14:25:10.896Z",
-      "alertId": "restocked|4wvlfu|0|5|2026-07-14T14:15:14.337Z",
-      "queuedAt": "2026-07-14T14:25:10.896Z"
-    },
-    {
-      "key": "kzt2qr",
-      "name": "谷歌注册GPT【plus】",
-      "link": "https://pay.ldxp.cn/item/kzt2qr",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 16.8,
-      "stock": 14,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-14T14:00:36.907Z",
-      "checkedAt": "2026-07-14T14:25:10.896Z",
-      "alertId": "restocked|kzt2qr|0|14|2026-07-14T14:00:36.907Z",
-      "queuedAt": "2026-07-14T14:25:10.896Z"
-    }
-  ]
+  }
 }
