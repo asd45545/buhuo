@@ -3716,43 +3716,5 @@
       "lastChangedAt": "2026-07-14T07:15:14.189Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4071aq",
-      "name": "【强推】【带账单可报销】【30天满订阅】【成品号】【chat-gpt-20x】双保2天！",
-      "link": "https://pay.ldxp.cn/item/4071aq",
-      "goodsType": "card",
-      "categoryId": 112054,
-      "categoryName": "gpt pro 20x （低价渠道）",
-      "price": 689,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-14T07:15:14.189Z",
-      "alertId": "new_in_stock|4071aq|新上架|2|",
-      "queuedAt": "2026-07-14T07:15:14.189Z"
-    },
-    {
-      "key": "nq08tb",
-      "name": "50个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）",
-      "link": "https://pay.ldxp.cn/item/nq08tb",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 75,
-      "stock": 1,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-14T06:55:11.398Z",
-      "checkedAt": "2026-07-14T07:15:14.189Z",
-      "alertId": "restocked|nq08tb|0|1|2026-07-14T06:55:11.398Z",
-      "queuedAt": "2026-07-14T07:15:14.189Z"
-    }
-  ]
+  }
 }
