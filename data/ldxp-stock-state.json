@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5705,
+  "runs": 5706,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-14T23:05:11.532Z",
+  "updatedAt": "2026-07-14T23:10:25.729Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.52,
-      "stock": 341,
+      "stock": 340,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T23:05:11.532Z",
-      "lastChangedAt": "2026-07-14T23:05:11.532Z",
+      "lastSeenAt": "2026-07-14T23:10:25.729Z",
+      "lastChangedAt": "2026-07-14T23:10:25.729Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 91,
+      "stock": 90,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T22:55:12.179Z",
-      "lastChangedAt": "2026-07-14T22:55:12.179Z",
+      "lastSeenAt": "2026-07-14T23:10:25.729Z",
+      "lastChangedAt": "2026-07-14T23:10:25.729Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1831,19 +1831,19 @@
     },
     "r06ima": {
       "key": "r06ima",
-      "name": "codex长效接码20-30天，美国实卡",
+      "name": "codex长效接码25-30天，美国实卡",
       "link": "https://pay.ldxp.cn/item/r06ima",
       "goodsType": "card",
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.25,
-      "stock": 90,
+      "stock": 143,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-14T23:05:11.532Z",
-      "lastChangedAt": "2026-07-14T23:05:11.532Z",
+      "lastSeenAt": "2026-07-14T23:10:25.729Z",
+      "lastChangedAt": "2026-07-14T23:10:25.729Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.03,
-      "stock": 2303,
+      "stock": 2322,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-14T23:05:11.532Z",
-      "lastChangedAt": "2026-07-14T23:05:11.532Z",
+      "lastSeenAt": "2026-07-14T23:10:25.729Z",
+      "lastChangedAt": "2026-07-14T23:10:25.729Z",
       "missingSince": null
     },
     "rfdi1e": {
