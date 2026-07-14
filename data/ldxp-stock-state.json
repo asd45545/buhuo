@@ -3733,25 +3733,5 @@
       "lastChangedAt": "2026-07-14T16:37:40.135Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "1ek45e",
-      "name": "GPT PLUS独享成品月卡|质保30天|越南visa实卡支付",
-      "link": "https://pay.ldxp.cn/item/1ek45e",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 82.04,
-      "stock": 5,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-14T16:05:11.582Z",
-      "checkedAt": "2026-07-14T16:37:40.135Z",
-      "alertId": "restocked|1ek45e|0|5|2026-07-14T16:05:11.582Z",
-      "queuedAt": "2026-07-14T16:37:40.135Z"
-    }
-  ]
+  }
 }
