@@ -10212,3 +10212,10 @@
   - Category: 接码
   - Link: https://pay.ldxp.cn/item/3a6yim
 
+## 2026-07-14T13:35:12.101Z
+- 美区【质保30天】GPT PLUS 订阅 官方充值
+  - Stock: 0 -> 300
+  - Price: 146
+  - Category: ✅GPT 正规渠道代充
+  - Link: https://pay.ldxp.cn/item/tafbme
+
