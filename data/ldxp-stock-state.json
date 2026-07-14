@@ -3767,25 +3767,5 @@
       "lastChangedAt": "2026-07-14T18:35:11.041Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "2dx5db",
-      "name": "Kiro Power（独享1W积分 成品账号 ）",
-      "link": "https://pay.ldxp.cn/item/2dx5db",
-      "goodsType": "card",
-      "categoryId": 113752,
-      "categoryName": "kiro pro",
-      "price": 149.5,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-14T18:35:11.041Z",
-      "alertId": "new_in_stock|2dx5db|新上架|4|",
-      "queuedAt": "2026-07-14T18:35:11.041Z"
-    }
-  ]
+  }
 }
