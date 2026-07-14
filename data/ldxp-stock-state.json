@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5646,
+  "runs": 5647,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-14T18:30:31.856Z",
+  "updatedAt": "2026-07-14T18:35:11.041Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -953,13 +953,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.29,
-      "stock": 136,
+      "stock": 135,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T16:30:33.330Z",
-      "lastChangedAt": "2026-07-14T16:30:33.330Z",
+      "lastSeenAt": "2026-07-14T18:35:11.041Z",
+      "lastChangedAt": "2026-07-14T18:35:11.041Z",
       "missingSince": null
     },
     "2zjran": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 162,
+      "stock": 161,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T18:30:31.856Z",
-      "lastChangedAt": "2026-07-14T18:30:31.856Z",
+      "lastSeenAt": "2026-07-14T18:35:11.041Z",
+      "lastChangedAt": "2026-07-14T18:35:11.041Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -3367,13 +3367,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.5,
-      "stock": 36,
+      "stock": 16,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
-      "lastSeenAt": "2026-07-14T17:47:54.196Z",
-      "lastChangedAt": "2026-07-14T17:47:54.196Z",
+      "lastSeenAt": "2026-07-14T18:35:11.041Z",
+      "lastChangedAt": "2026-07-14T18:35:11.041Z",
       "missingSince": null
     },
     "9oocr7": {
@@ -3629,7 +3629,7 @@
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
       "lastSeenAt": "2026-07-14T18:30:31.856Z",
       "lastChangedAt": "2026-07-14T18:30:31.856Z",
-      "missingSince": null
+      "missingSince": "2026-07-14T18:35:11.041Z"
     },
     "y8ggzp": {
       "key": "y8ggzp",
@@ -3646,7 +3646,7 @@
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
       "lastSeenAt": "2026-07-14T18:30:31.856Z",
       "lastChangedAt": "2026-07-14T18:30:31.856Z",
-      "missingSince": null
+      "missingSince": "2026-07-14T18:35:11.041Z"
     },
     "rfdi1e": {
       "key": "rfdi1e",
@@ -3749,6 +3749,43 @@
       "lastSeenAt": "2026-07-14T18:25:10.988Z",
       "lastChangedAt": "2026-07-14T18:25:10.988Z",
       "missingSince": null
+    },
+    "2dx5db": {
+      "key": "2dx5db",
+      "name": "Kiro Power（独享1W积分 成品账号 ）",
+      "link": "https://pay.ldxp.cn/item/2dx5db",
+      "goodsType": "card",
+      "categoryId": 113752,
+      "categoryName": "kiro pro",
+      "price": 149.5,
+      "stock": 4,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
+      "firstSeenAt": "2026-07-14T18:35:11.041Z",
+      "lastSeenAt": "2026-07-14T18:35:11.041Z",
+      "lastChangedAt": "2026-07-14T18:35:11.041Z",
+      "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "2dx5db",
+      "name": "Kiro Power（独享1W积分 成品账号 ）",
+      "link": "https://pay.ldxp.cn/item/2dx5db",
+      "goodsType": "card",
+      "categoryId": 113752,
+      "categoryName": "kiro pro",
+      "price": 149.5,
+      "stock": 4,
+      "inStock": true,
+      "alertType": "new_in_stock",
+      "previousStock": "新上架",
+      "previousStockValue": null,
+      "outOfStockSince": null,
+      "checkedAt": "2026-07-14T18:35:11.041Z",
+      "alertId": "new_in_stock|2dx5db|新上架|4|",
+      "queuedAt": "2026-07-14T18:35:11.041Z"
+    }
+  ]
 }
