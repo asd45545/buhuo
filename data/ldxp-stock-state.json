@@ -3733,25 +3733,5 @@
       "lastChangedAt": "2026-07-14T16:05:11.582Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "j79pn9",
-      "name": "Gemini 3.1pro 12个月pixel成品号（随机地区20-24年账号）",
-      "link": "https://pay.ldxp.cn/item/j79pn9",
-      "goodsType": "card",
-      "categoryId": 111637,
-      "categoryName": "Gemini",
-      "price": 19,
-      "stock": 13,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T10:10:25.944Z",
-      "checkedAt": "2026-07-14T16:30:33.330Z",
-      "alertId": "restocked|j79pn9|0|13|2026-07-13T10:10:25.944Z",
-      "queuedAt": "2026-07-14T16:30:33.330Z"
-    }
-  ]
+  }
 }
