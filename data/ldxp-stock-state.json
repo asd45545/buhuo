@@ -3716,25 +3716,5 @@
       "lastChangedAt": "2026-07-14T12:00:36.252Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "3a6yim",
-      "name": "apple/icloud 苹果 接码  美区 【单次接码】",
-      "link": "https://pay.ldxp.cn/item/3a6yim",
-      "goodsType": "card",
-      "categoryId": 111630,
-      "categoryName": "接码",
-      "price": 1.49,
-      "stock": 50,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T01:55:10.316Z",
-      "checkedAt": "2026-07-14T13:20:23.444Z",
-      "alertId": "restocked|3a6yim|0|50|2026-07-10T01:55:10.316Z",
-      "queuedAt": "2026-07-14T13:20:23.444Z"
-    }
-  ]
+  }
 }
