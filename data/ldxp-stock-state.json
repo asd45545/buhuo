@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5661,
+  "runs": 5662,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-14T19:40:24.038Z",
+  "updatedAt": "2026-07-14T19:45:14.611Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 137,
+      "stock": 136,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T19:35:11.374Z",
-      "lastChangedAt": "2026-07-14T19:35:11.374Z",
+      "lastSeenAt": "2026-07-14T19:45:14.611Z",
+      "lastChangedAt": "2026-07-14T19:45:14.611Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.8,
-      "stock": 84,
+      "stock": 31,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-14T19:40:24.038Z",
-      "lastChangedAt": "2026-07-14T19:40:24.038Z",
+      "lastSeenAt": "2026-07-14T19:45:14.611Z",
+      "lastChangedAt": "2026-07-14T19:45:14.611Z",
       "missingSince": null
     },
     "rfdi1e": {
@@ -3723,13 +3723,13 @@
       "goodsType": "card",
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
-      "price": 88,
+      "price": 86.53,
       "stock": 4,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-14T16:05:11.582Z",
-      "lastSeenAt": "2026-07-14T17:20:25.766Z",
+      "lastSeenAt": "2026-07-14T19:45:14.611Z",
       "lastChangedAt": "2026-07-14T16:50:23.580Z",
       "missingSince": null
     },
@@ -3741,13 +3741,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 7.2,
-      "stock": 44,
+      "stock": 43,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-14T18:15:13.854Z",
-      "lastSeenAt": "2026-07-14T19:40:24.038Z",
-      "lastChangedAt": "2026-07-14T19:40:24.038Z",
+      "lastSeenAt": "2026-07-14T19:45:14.611Z",
+      "lastChangedAt": "2026-07-14T19:45:14.611Z",
       "missingSince": null
     },
     "2dx5db": {
