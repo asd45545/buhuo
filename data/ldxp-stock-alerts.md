@@ -9929,3 +9929,25 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kk8w8k
 
+## 2026-07-14T04:10:24.205Z
+- 1个 team k12子号 不含rt 仅反代 保首登（含CPA+sub2api）
+  - Stock: 0 -> 4
+  - Price: 1.5
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/i2xjrp
+- 微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.14--2.01新货已过滤
+  - Stock: 0 -> 88
+  - Price: 1.2
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/y8ggzp
+- k12子号 反代 保首登（CPA+sub2api格式发货）--子号--不支持网页登录
+  - Stock: 0 -> 23
+  - Price: 1.33
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/9b9rwq
+- outlook邮箱
+  - Stock: 0 -> 910
+  - Price: 0.1
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/hfwl2l
+
