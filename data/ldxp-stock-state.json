@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5647,
+  "runs": 5648,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-14T18:35:11.041Z",
+  "updatedAt": "2026-07-14T18:40:25.833Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.13,
-      "stock": 468,
+      "stock": 454,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T18:30:31.856Z",
-      "lastChangedAt": "2026-07-14T18:30:31.856Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -307,13 +307,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 0.5,
-      "stock": 457,
+      "stock": 456,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T16:50:23.580Z",
-      "lastChangedAt": "2026-07-14T16:50:23.580Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "dt897i": {
@@ -681,13 +681,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.52,
-      "stock": 157,
+      "stock": 146,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T18:20:23.309Z",
-      "lastChangedAt": "2026-07-14T18:20:23.309Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "f8pxts": {
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 497,
+      "stock": 496,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T17:55:11.253Z",
-      "lastChangedAt": "2026-07-14T17:55:11.253Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 9,
-      "stock": 161,
+      "stock": 159,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T18:35:11.041Z",
-      "lastChangedAt": "2026-07-14T18:35:11.041Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1837,13 +1837,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.25,
-      "stock": 97,
+      "stock": 96,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T16:00:01.608Z",
-      "lastSeenAt": "2026-07-14T18:30:31.856Z",
-      "lastChangedAt": "2026-07-14T18:30:31.856Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "n0soy3": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.59,
-      "stock": 158,
+      "stock": 153,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-14T18:15:13.854Z",
-      "lastChangedAt": "2026-07-14T18:15:13.854Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3367,13 +3367,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.5,
-      "stock": 16,
+      "stock": 14,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T03:05:11.813Z",
-      "lastSeenAt": "2026-07-14T18:35:11.041Z",
-      "lastChangedAt": "2026-07-14T18:35:11.041Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "9oocr7": {
@@ -3690,13 +3690,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 16.9,
-      "stock": 89,
+      "stock": 88,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T18:35:13.967Z",
-      "lastSeenAt": "2026-07-14T18:30:31.856Z",
-      "lastChangedAt": "2026-07-14T18:30:31.856Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     },
     "4071aq": {
@@ -3765,6 +3765,23 @@
       "firstSeenAt": "2026-07-14T18:35:11.041Z",
       "lastSeenAt": "2026-07-14T18:35:11.041Z",
       "lastChangedAt": "2026-07-14T18:35:11.041Z",
+      "missingSince": null
+    },
+    "5hfvme": {
+      "key": "5hfvme",
+      "name": "【Super grok 一年会员】X帐号绑定超稳定版 【质保30天】---发grok成品号｜不带x会员｜官方渠道",
+      "link": "https://pay.ldxp.cn/item/5hfvme",
+      "goodsType": "card",
+      "categoryId": 112907,
+      "categoryName": "Grok",
+      "price": 250,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-14T18:40:25.833Z",
+      "firstSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastSeenAt": "2026-07-14T18:40:25.833Z",
+      "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     }
   }
