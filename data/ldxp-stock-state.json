@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5712,
+  "runs": 5713,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-14T23:35:11.647Z",
+  "updatedAt": "2026-07-14T23:40:27.023Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1735,13 +1735,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 21.45,
-      "stock": 393,
+      "stock": 392,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T22:10:25.626Z",
-      "lastChangedAt": "2026-07-14T22:10:25.626Z",
+      "lastSeenAt": "2026-07-14T23:40:27.023Z",
+      "lastChangedAt": "2026-07-14T23:40:27.023Z",
       "missingSince": null
     },
     "etz0m6": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.58,
-      "stock": 356,
+      "stock": 351,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-14T23:20:26.443Z",
-      "lastChangedAt": "2026-07-14T23:20:26.443Z",
+      "lastSeenAt": "2026-07-14T23:40:27.023Z",
+      "lastChangedAt": "2026-07-14T23:40:27.023Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -3503,13 +3503,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.1,
-      "stock": 680,
+      "stock": 580,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T04:40:21.879Z",
-      "lastSeenAt": "2026-07-14T21:30:35.960Z",
-      "lastChangedAt": "2026-07-14T21:30:35.960Z",
+      "lastSeenAt": "2026-07-14T23:40:27.023Z",
+      "lastChangedAt": "2026-07-14T23:40:27.023Z",
       "missingSince": null
     },
     "fymkzz": {
@@ -3638,14 +3638,14 @@
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
-      "price": 2.03,
-      "stock": 2602,
+      "price": 2.1,
+      "stock": 2470,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-14T23:35:11.647Z",
-      "lastChangedAt": "2026-07-14T23:35:11.647Z",
+      "lastSeenAt": "2026-07-14T23:40:27.023Z",
+      "lastChangedAt": "2026-07-14T23:40:27.023Z",
       "missingSince": null
     },
     "rfdi1e": {
