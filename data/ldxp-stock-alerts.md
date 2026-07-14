@@ -10280,3 +10280,15 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/kzt2qr
 
+## 2026-07-14T19:20:23.332Z
+- 谷歌邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.15--3.20新货
+  - Stock: 0 -> 59
+  - Price: 1.8
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/y8ggzp
+- 谷歌邮箱【成品plus】质保25天
+  - Stock: 0 -> 5
+  - Price: 88
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/3uoyst
+
