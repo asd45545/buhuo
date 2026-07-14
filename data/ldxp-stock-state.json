@@ -3699,25 +3699,5 @@
       "lastChangedAt": "2026-07-14T05:55:11.277Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "8x931e",
-      "name": "BUG team 250刀，一般存活2-3天，不踢空间",
-      "link": "https://pay.ldxp.cn/item/8x931e",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 16.9,
-      "stock": 119,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-13T18:35:13.967Z",
-      "checkedAt": "2026-07-14T05:55:11.277Z",
-      "alertId": "restocked|8x931e|0|119|2026-07-13T18:35:13.967Z",
-      "queuedAt": "2026-07-14T05:55:11.277Z"
-    }
-  ]
+  }
 }
