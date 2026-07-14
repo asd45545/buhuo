@@ -3699,25 +3699,5 @@
       "lastChangedAt": "2026-07-14T07:10:26.409Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "nr5tu0",
-      "name": "【AT，半成品只包首登】plus成品，codex要接码",
-      "link": "https://pay.ldxp.cn/item/nr5tu0",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 8.19,
-      "stock": 200,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-10T13:30:26.994Z",
-      "checkedAt": "2026-07-14T07:10:26.409Z",
-      "alertId": "restocked|nr5tu0|0|200|2026-07-10T13:30:26.994Z",
-      "queuedAt": "2026-07-14T07:10:26.409Z"
-    }
-  ]
+  }
 }
