@@ -3750,25 +3750,5 @@
       "lastChangedAt": "2026-07-14T18:15:13.854Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "jncqio",
-      "name": "PIX 巴西 手搓 GPT PLUS 未接码 ICloud邮箱 质保首登！",
-      "link": "https://pay.ldxp.cn/item/jncqio",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 7.2,
-      "stock": 54,
-      "inStock": true,
-      "alertType": "new_in_stock",
-      "previousStock": "新上架",
-      "previousStockValue": null,
-      "outOfStockSince": null,
-      "checkedAt": "2026-07-14T18:15:13.854Z",
-      "alertId": "new_in_stock|jncqio|新上架|54|",
-      "queuedAt": "2026-07-14T18:15:13.854Z"
-    }
-  ]
+  }
 }
