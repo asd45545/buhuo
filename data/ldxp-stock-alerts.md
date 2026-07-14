@@ -10273,3 +10273,10 @@
   - Category: kiro pro
   - Link: https://pay.ldxp.cn/item/2dx5db
 
+## 2026-07-14T19:15:14.930Z
+- 谷歌注册GPT【plus】
+  - Stock: 0 -> 39
+  - Price: 16.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+
