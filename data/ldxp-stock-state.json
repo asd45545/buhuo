@@ -3716,25 +3716,5 @@
       "lastChangedAt": "2026-07-14T07:15:14.189Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "9b9rwq",
-      "name": "k12子号 反代 保首登（CPA+sub2api格式发货）--子号--不支持网页登录",
-      "link": "https://pay.ldxp.cn/item/9b9rwq",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 1.33,
-      "stock": 223,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-14T05:40:23.685Z",
-      "checkedAt": "2026-07-14T07:55:10.859Z",
-      "alertId": "restocked|9b9rwq|0|223|2026-07-14T05:40:23.685Z",
-      "queuedAt": "2026-07-14T07:55:10.859Z"
-    }
-  ]
+  }
 }
