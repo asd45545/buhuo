@@ -10266,3 +10266,10 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/jncqio
 
+## 2026-07-14T18:35:11.041Z
+- Kiro Power（独享1W积分 成品账号 ）
+  - Stock: 新上架 -> 4
+  - Price: 149.5
+  - Category: kiro pro
+  - Link: https://pay.ldxp.cn/item/2dx5db
+
