@@ -3784,25 +3784,5 @@
       "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "w7geuq",
-      "name": "ChatGPT Plus 周额度-额度量大管饱 已稳定7天-ICLOUD邮箱",
-      "link": "https://pay.ldxp.cn/item/w7geuq",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 8.5,
-      "stock": 52,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-14T07:25:11.745Z",
-      "checkedAt": "2026-07-14T21:28:42.241Z",
-      "alertId": "restocked|w7geuq|0|52|2026-07-14T07:25:11.745Z",
-      "queuedAt": "2026-07-14T21:28:42.241Z"
-    }
-  ]
+  }
 }
