@@ -10299,3 +10299,10 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/y8ggzp
 
+## 2026-07-14T21:28:42.241Z
+- ChatGPT Plus 周额度-额度量大管饱 已稳定7天-ICLOUD邮箱
+  - Stock: 0 -> 52
+  - Price: 8.5
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/w7geuq
+
