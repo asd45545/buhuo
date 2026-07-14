@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5585,
+  "runs": 5586,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-14T13:16:36.417Z",
+  "updatedAt": "2026-07-14T13:20:23.444Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1395,13 +1395,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5.5,
-      "stock": 211,
+      "stock": 210,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T13:05:12.086Z",
-      "lastChangedAt": "2026-07-14T13:05:12.086Z",
+      "lastSeenAt": "2026-07-14T13:20:23.444Z",
+      "lastChangedAt": "2026-07-14T13:20:23.444Z",
       "missingSince": null
     },
     "4wvlfu": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 251,
+      "stock": 249,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T13:16:36.417Z",
-      "lastChangedAt": "2026-07-14T13:16:36.417Z",
+      "lastSeenAt": "2026-07-14T13:20:23.444Z",
+      "lastChangedAt": "2026-07-14T13:20:23.444Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2330,13 +2330,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 1.49,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-10T01:55:10.316Z",
+      "stock": 50,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:40:17.770Z",
-      "lastSeenAt": "2026-07-10T01:55:10.316Z",
-      "lastChangedAt": "2026-07-10T01:55:10.316Z",
+      "lastSeenAt": "2026-07-14T13:20:23.444Z",
+      "lastChangedAt": "2026-07-14T13:20:23.444Z",
       "missingSince": null
     },
     "25t0fp": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.9,
-      "stock": 352,
+      "stock": 337,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-14T13:16:36.417Z",
-      "lastChangedAt": "2026-07-14T13:16:36.417Z",
+      "lastSeenAt": "2026-07-14T13:20:23.444Z",
+      "lastChangedAt": "2026-07-14T13:20:23.444Z",
       "missingSince": null
     },
     "rfdi1e": {
@@ -3716,5 +3716,25 @@
       "lastChangedAt": "2026-07-14T12:00:36.252Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "3a6yim",
+      "name": "apple/icloud 苹果 接码  美区 【单次接码】",
+      "link": "https://pay.ldxp.cn/item/3a6yim",
+      "goodsType": "card",
+      "categoryId": 111630,
+      "categoryName": "接码",
+      "price": 1.49,
+      "stock": 50,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-10T01:55:10.316Z",
+      "checkedAt": "2026-07-14T13:20:23.444Z",
+      "alertId": "restocked|3a6yim|0|50|2026-07-10T01:55:10.316Z",
+      "queuedAt": "2026-07-14T13:20:23.444Z"
+    }
+  ]
 }
