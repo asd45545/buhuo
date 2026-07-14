@@ -3716,25 +3716,5 @@
       "lastChangedAt": "2026-07-14T12:00:36.252Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "tafbme",
-      "name": "美区【质保30天】GPT PLUS 订阅 官方充值",
-      "link": "https://pay.ldxp.cn/item/tafbme",
-      "goodsType": "card",
-      "categoryId": 111628,
-      "categoryName": "✅GPT 正规渠道代充",
-      "price": 146,
-      "stock": 300,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-14T13:15:14.846Z",
-      "checkedAt": "2026-07-14T13:35:12.101Z",
-      "alertId": "restocked|tafbme|0|300|2026-07-14T13:15:14.846Z",
-      "queuedAt": "2026-07-14T13:35:12.101Z"
-    }
-  ]
+  }
 }
