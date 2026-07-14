@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5509,
+  "runs": 5510,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-14T01:05:10.938Z",
+  "updatedAt": "2026-07-14T01:10:22.500Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 589,
+      "stock": 588,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T01:05:10.938Z",
-      "lastChangedAt": "2026-07-14T01:05:10.938Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -1412,13 +1412,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 8,
-      "stock": 13,
+      "stock": 14,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T00:45:15.311Z",
-      "lastChangedAt": "2026-07-14T00:45:15.311Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "vy0rw3": {
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 215,
+      "stock": 210,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T01:05:10.938Z",
-      "lastChangedAt": "2026-07-14T01:05:10.938Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -1735,13 +1735,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 21.45,
-      "stock": 369,
+      "stock": 368,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T01:05:10.938Z",
-      "lastChangedAt": "2026-07-14T01:05:10.938Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "etz0m6": {
@@ -2092,13 +2092,13 @@
       "categoryId": 111665,
       "categoryName": "GPT Free",
       "price": 0.52,
-      "stock": 742,
+      "stock": 741,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-24T13:20:19.132Z",
-      "lastSeenAt": "2026-07-14T01:00:37.093Z",
-      "lastChangedAt": "2026-07-14T01:00:37.093Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "4i7q19": {
@@ -2296,13 +2296,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 22.4,
-      "stock": 7,
+      "stock": 5,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-26T07:30:22.822Z",
-      "lastSeenAt": "2026-07-14T00:40:24.666Z",
-      "lastChangedAt": "2026-07-14T00:40:24.666Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "hsf9yk": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.6,
-      "stock": 88,
+      "stock": 84,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-14T01:05:10.938Z",
-      "lastChangedAt": "2026-07-14T01:05:10.938Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3520,13 +3520,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 77,
-      "stock": 0,
-      "inStock": false,
-      "watchOutOfStock": true,
-      "outOfStockSince": "2026-07-14T00:45:15.311Z",
+      "stock": 10,
+      "inStock": true,
+      "watchOutOfStock": false,
+      "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T05:15:14.449Z",
-      "lastSeenAt": "2026-07-14T00:45:15.311Z",
-      "lastChangedAt": "2026-07-14T00:45:15.311Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "t352wg": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.72,
-      "stock": 218,
-      "inStock": true,
-      "watchOutOfStock": false,
-      "outOfStockSince": null,
+      "stock": 0,
+      "inStock": false,
+      "watchOutOfStock": true,
+      "outOfStockSince": "2026-07-14T01:10:22.500Z",
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-14T01:05:10.938Z",
-      "lastChangedAt": "2026-07-14T01:05:10.938Z",
+      "lastSeenAt": "2026-07-14T01:10:22.500Z",
+      "lastChangedAt": "2026-07-14T01:10:22.500Z",
       "missingSince": null
     },
     "rfdi1e": {
@@ -3699,5 +3699,25 @@
       "lastChangedAt": "2026-07-13T18:35:13.967Z",
       "missingSince": null
     }
-  }
+  },
+  "pendingAlerts": [
+    {
+      "key": "fymkzz",
+      "name": "质保30天渠道-谷歌iCloud邮箱随机发-PLUS-成品-未接码-支持登录网页端-接码登录codex-质保30天",
+      "link": "https://pay.ldxp.cn/item/fymkzz",
+      "goodsType": "card",
+      "categoryId": 111629,
+      "categoryName": "GPT PLUS",
+      "price": 77,
+      "stock": 10,
+      "inStock": true,
+      "alertType": "restocked",
+      "previousStock": 0,
+      "previousStockValue": 0,
+      "outOfStockSince": "2026-07-14T00:45:15.311Z",
+      "checkedAt": "2026-07-14T01:10:22.500Z",
+      "alertId": "restocked|fymkzz|0|10|2026-07-14T00:45:15.311Z",
+      "queuedAt": "2026-07-14T01:10:22.500Z"
+    }
+  ]
 }
