@@ -3784,25 +3784,5 @@
       "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "jkrruh",
-      "name": "24小时team（畅享额度，全程质保）",
-      "link": "https://pay.ldxp.cn/item/jkrruh",
-      "goodsType": "card",
-      "categoryId": 112069,
-      "categoryName": "GPT Team",
-      "price": 26.73,
-      "stock": 22,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-12T04:40:21.879Z",
-      "checkedAt": "2026-07-15T00:15:15.365Z",
-      "alertId": "restocked|jkrruh|0|22|2026-07-12T04:40:21.879Z",
-      "queuedAt": "2026-07-15T00:15:15.365Z"
-    }
-  ]
+  }
 }
