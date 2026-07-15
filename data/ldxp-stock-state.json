@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5718,
+  "runs": 5719,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-15T00:05:12.101Z",
+  "updatedAt": "2026-07-15T00:10:24.212Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1055,13 +1055,13 @@
       "categoryId": 111637,
       "categoryName": "Gemini",
       "price": 20.8,
-      "stock": 18,
+      "stock": 17,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T12:00:36.252Z",
-      "lastChangedAt": "2026-07-14T12:00:36.252Z",
+      "lastSeenAt": "2026-07-15T00:10:24.212Z",
+      "lastChangedAt": "2026-07-15T00:10:24.212Z",
       "missingSince": null
     },
     "iyuoym": {
@@ -1701,13 +1701,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 19,
-      "stock": 12,
+      "stock": 11,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-14T22:15:15.518Z",
-      "lastChangedAt": "2026-07-14T22:15:15.518Z",
+      "lastSeenAt": "2026-07-15T00:10:24.212Z",
+      "lastChangedAt": "2026-07-15T00:10:24.212Z",
       "missingSince": null
     },
     "zdsmzz": {
@@ -2619,13 +2619,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.59,
-      "stock": 110,
+      "stock": 109,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
-      "lastSeenAt": "2026-07-15T00:05:12.101Z",
-      "lastChangedAt": "2026-07-15T00:05:12.101Z",
+      "lastSeenAt": "2026-07-15T00:10:24.212Z",
+      "lastChangedAt": "2026-07-15T00:10:24.212Z",
       "missingSince": null
     },
     "5jylhj": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.1,
-      "stock": 1320,
+      "stock": 1023,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-15T00:05:12.101Z",
-      "lastChangedAt": "2026-07-15T00:05:12.101Z",
+      "lastSeenAt": "2026-07-15T00:10:24.212Z",
+      "lastChangedAt": "2026-07-15T00:10:24.212Z",
       "missingSince": null
     },
     "rfdi1e": {
