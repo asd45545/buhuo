@@ -10445,3 +10445,25 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/iw9hzu
 
+## 2026-07-15T13:25:11.618Z
+- 微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.15--9点新货已过滤
+  - Stock: 0 -> 487
+  - Price: 0.6
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/fz8mgt
+- 已接码🔥UPI渠道Plus成品带RT 可登网页 codex/cpa/sub 保首登
+  - Stock: 0 -> 4
+  - Price: 14.25
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/pfz6mj
+- Free号 GPT/Codex  高质量|已绑定手机|有RT|微软邮箱|动态家宽注册|可邮箱接码
+  - Stock: 0 -> 33
+  - Price: 0.58
+  - Category: GPT Free
+  - Link: https://pay.ldxp.cn/item/b2ggf2
+- PIX 巴西 手搓 GPT PLUS 未接码 ICloud邮箱 质保首登！
+  - Stock: 0 -> 23
+  - Price: 7.2
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/jncqio
+
