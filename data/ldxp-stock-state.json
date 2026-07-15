@@ -3784,25 +3784,5 @@
       "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "pfrifg",
-      "name": "【ChatGPT Free号】已绑手机+微软邮箱可接码｜美国家宽注册｜JSON含RT｜支持Codex/5.6-Terra",
-      "link": "https://pay.ldxp.cn/item/pfrifg",
-      "goodsType": "card",
-      "categoryId": 111665,
-      "categoryName": "GPT Free",
-      "price": 0.52,
-      "stock": 65,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-15T01:10:24.165Z",
-      "checkedAt": "2026-07-15T01:50:22.774Z",
-      "alertId": "restocked|pfrifg|0|65|2026-07-15T01:10:24.165Z",
-      "queuedAt": "2026-07-15T01:50:22.774Z"
-    }
-  ]
+  }
 }
