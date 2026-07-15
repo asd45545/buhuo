@@ -9,6 +9,16 @@ import { once } from "node:events";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 import { createBrowserTransport, isHtmlResponse } from "./ldxp-browser-transport.mjs";
+import {
+  buildInventorySnapshot,
+  createMonitorStatus,
+  loadMonitorStatus,
+  markMonitorStopped,
+  markPollStarted,
+  recordPollFailure,
+  recordPollSuccess,
+  saveMonitorStatus,
+} from "./monitor-health.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -42,6 +52,9 @@ const defaults = {
   ),
   alertFile: path.resolve(
     process.env.LDXP_ALERT_FILE || path.join(rootDir, "data", "ldxp-stock-alerts.md"),
+  ),
+  statusFile: path.resolve(
+    process.env.LDXP_STATUS_FILE || path.join(rootDir, "data", "ldxp-monitor-status.json"),
   ),
   emailConfigFile: path.resolve(
     process.env.LDXP_EMAIL_CONFIG_FILE || path.join(rootDir, "data", "ldxp-stock-email.json"),
@@ -124,6 +137,9 @@ function parseArgs(argv) {
     } else if (arg === "--alerts" && next) {
       cfg.alertFile = path.resolve(next);
       i += 1;
+    } else if (arg === "--status" && next) {
+      cfg.statusFile = path.resolve(next);
+      i += 1;
     } else if (arg === "--email-config" && next) {
       cfg.emailConfigFile = path.resolve(next);
       i += 1;
@@ -182,6 +198,7 @@ Options:
   --goods-types TYPES     Comma-separated goods types, default: card.
   --state PATH            State file path.
   --alerts PATH           Alert log path.
+  --status PATH           Sanitized daemon health snapshot path.
   --email-config PATH     Optional email config JSON path.
   --webhook URL           Optional generic JSON webhook URL.
   --email-to EMAIL        Optional recipient email.
@@ -208,6 +225,7 @@ Environment:
   LDXP_BROWSER_USER_AGENT Optional browser UA; defaults to a non-headless Chrome UA.
   LDXP_BROWSER_HEADLESS   false by default; run under Xvfb on Linux.
   LDXP_DAEMON_INTERVAL_MS Continuous monitor interval, default: 300000.
+  LDXP_STATUS_FILE        Sanitized daemon health snapshot for the dashboard.
   LDXP_TELEGRAM_BOT_TOKEN Telegram bot token.
   LDXP_TELEGRAM_CHAT_ID   Telegram group chat ID.
   LDXP_TELEGRAM_THREAD_ID Optional Telegram topic ID.
@@ -1096,10 +1114,49 @@ async function waitForInterval(ms, signal) {
   ]);
 }
 
+async function persistDaemonStatus(file, status) {
+  try {
+    await saveMonitorStatus(file, status);
+  } catch (error) {
+    console.error(`STATUS_WRITE_ERROR message=${error.message}`);
+  }
+}
+
+async function readInventoryForStatus(cfg, previousInventory) {
+  try {
+    return buildInventorySnapshot(await loadState(cfg.stateFile));
+  } catch (error) {
+    console.error(`STATUS_INVENTORY_ERROR message=${error.message}`);
+    return previousInventory;
+  }
+}
+
 async function runDaemon(cfg, flags) {
   const intervalMs = Math.max(30_000, Number(cfg.daemonIntervalMs || 300_000));
   const shutdownSignal = createShutdownSignal();
   let consecutiveFailures = 0;
+  let previousStatus = null;
+
+  try {
+    previousStatus = await loadMonitorStatus(cfg.statusFile);
+  } catch (error) {
+    console.error(`STATUS_READ_ERROR message=${error.message}`);
+  }
+
+  const initialInventory = await readInventoryForStatus(cfg, previousStatus?.inventory);
+
+  let daemonStatus = createMonitorStatus(
+    {
+      intervalMs,
+      transport: cfg.apiTransport,
+      pid: process.pid,
+    },
+    {
+      ...(previousStatus || {}),
+      ...(initialInventory ? { inventory: initialInventory } : {}),
+    },
+  );
+  await persistDaemonStatus(cfg.statusFile, daemonStatus);
 
   console.log(
     `DAEMON_STARTED interval_ms=${intervalMs} transport=${cfg.apiTransport} profile=${cfg.browserProfileDir}`,
@@ -1108,14 +1165,34 @@ async function runDaemon(cfg, flags) {
   try {
     while (!shutdownSignal.aborted) {
       const startedAt = Date.now();
+      const startedAtIso = new Date(startedAt).toISOString();
+      daemonStatus = markPollStarted(daemonStatus, startedAtIso);
+      await persistDaemonStatus(cfg.statusFile, daemonStatus);
+
       try {
-        await runMonitorOnce(cfg, flags);
+        const summary = await runMonitorOnce(cfg, flags);
         if (consecutiveFailures > 0) {
           console.log(`HEALTH_RECOVERED previous_failures=${consecutiveFailures}`);
         }
         consecutiveFailures = 0;
+        const finishedAt = Date.now();
+        const inventory = await readInventoryForStatus(cfg, daemonStatus.inventory);
+        daemonStatus = recordPollSuccess(daemonStatus, summary, inventory, {
+          startedAt: startedAtIso,
+          finishedAt: new Date(finishedAt).toISOString(),
+          durationMs: finishedAt - startedAt,
+        });
+        await persistDaemonStatus(cfg.statusFile, daemonStatus);
       } catch (error) {
         consecutiveFailures += 1;
+        const finishedAt = Date.now();
+        daemonStatus = recordPollFailure(daemonStatus, error, {
+          startedAt: startedAtIso,
+          finishedAt: new Date(finishedAt).toISOString(),
+          durationMs: finishedAt - startedAt,
+          consecutiveFailures,
+        });
+        await persistDaemonStatus(cfg.statusFile, daemonStatus);
         console.error(
           `HEALTH_ERROR code=${error.code || "UNKNOWN"} consecutive_failures=${consecutiveFailures} message=${error.message}`,
         );
@@ -1125,7 +1202,18 @@ async function runDaemon(cfg, flags) {
       await waitForInterval(remainingMs, shutdownSignal);
     }
   } finally {
-    await closeApiTransports(cfg);
+    daemonStatus = markMonitorStopped(daemonStatus);
+    await persistDaemonStatus(cfg.statusFile, daemonStatus);
+    try {
+      await Promise.race([
+        closeApiTransports(cfg),
+        sleep(10_000).then(() => {
+          throw new Error("transport close timed out");
+        }),
+      ]);
+    } catch (error) {
+      console.error(`TRANSPORT_CLOSE_ERROR message=${error.message}`);
+    }
     console.log("DAEMON_STOPPED");
   }
 }

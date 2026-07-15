@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test scripts/ldxp-browser-transport.test.mjs scripts/monitor-ldxp-stock.test.mjs scripts/telegram-delete-queue.test.mjs scripts/workflow-config.test.mjs api/monitor.test.mjs"
+    "test": "node --test scripts/ldxp-browser-transport.test.mjs scripts/monitor-health.test.mjs scripts/monitor-ldxp-stock.test.mjs scripts/telegram-delete-queue.test.mjs scripts/workflow-config.test.mjs dashboard/server.test.mjs api/monitor.test.mjs"
   },
   "engines": {
     "node": "22.x"

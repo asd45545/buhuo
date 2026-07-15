@@ -1,0 +1,36 @@
+[Unit]
+Description=LDXP read-only monitoring dashboard
+After=network-online.target ldxp-monitor.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ldxp-dashboard
+Group=ldxp-dashboard
+WorkingDirectory=/opt/buhuo
+EnvironmentFile=/etc/ldxp-dashboard.env
+ExecStart=/usr/bin/node dashboard/server.mjs
+Restart=always
+RestartSec=5
+TimeoutStopSec=15
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+ProtectClock=true
+LockPersonality=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+AmbientCapabilities=
+SystemCallArchitectures=native
+UMask=0077
+MemoryMax=256M
+
+[Install]
+WantedBy=multi-user.target

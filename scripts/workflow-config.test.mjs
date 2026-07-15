@@ -40,4 +40,20 @@ test("systemd monitor service gets API transport from its environment file", asy
 
   assert.match(service, /^EnvironmentFile=\/etc\/ldxp-monitor\.env$/m);
   assert.doesNotMatch(service, /--api-transport/);
+  assert.match(service, /--status \/var\/lib\/ldxp-monitor\/ldxp-monitor-status\.json/);
+});
+
+test("dashboard service is isolated and listens on loopback by default", async () => {
+  const service = await readFile("deploy/ldxp-dashboard.service", "utf8");
+  const environment = await readFile("deploy/ldxp-dashboard.env.example", "utf8");
+
+  assert.match(service, /^User=ldxp-dashboard$/m);
+  assert.match(service, /^NoNewPrivileges=true$/m);
+  assert.match(service, /^ProtectSystem=strict$/m);
+  assert.match(service, /^CapabilityBoundingSet=$/m);
+  assert.match(service, /^EnvironmentFile=\/etc\/ldxp-dashboard\.env$/m);
+  assert.doesNotMatch(service, /ldxp-monitor\.env/);
+  assert.match(environment, /^LDXP_DASHBOARD_HOST=127\.0\.0\.1$/m);
+  assert.match(environment, /^LDXP_DASHBOARD_TOKEN=$/m);
+  assert.match(environment, /^LDXP_DASHBOARD_STATUS_FILE=\/var\/lib\/ldxp-monitor\/ldxp-monitor-status\.json$/m);
 });
