@@ -10539,3 +10539,15 @@
   - Category: GPT Team
   - Link: https://pay.ldxp.cn/item/fz8mgt
 
+## 2026-07-15T15:45:15.150Z
+- 谷歌注册GPT【plus】
+  - Stock: 0 -> 22
+  - Price: 16.8
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/kzt2qr
+- 谷歌注册GPT【plus】质保三天
+  - Stock: 0 -> 15
+  - Price: 22.4
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/hia70r
+
