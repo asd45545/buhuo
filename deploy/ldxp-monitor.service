@@ -1,0 +1,25 @@
+[Unit]
+Description=LDXP persistent-browser stock monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ldxp-monitor
+Group=ldxp-monitor
+WorkingDirectory=/opt/buhuo
+EnvironmentFile=/etc/ldxp-monitor.env
+StateDirectory=ldxp-monitor
+ExecStart=/usr/bin/xvfb-run -a -s "-screen 0 1280x800x24" /usr/bin/node scripts/monitor-ldxp-stock.mjs --daemon --api-transport auto --state /var/lib/ldxp-monitor/ldxp-stock-state.json --alerts /var/lib/ldxp-monitor/ldxp-stock-alerts.md --browser-profile-dir /var/lib/ldxp-monitor/browser-profile
+Restart=always
+RestartSec=10
+KillSignal=SIGTERM
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/ldxp-monitor
+
+[Install]
+WantedBy=multi-user.target

@@ -1,1 +1,3 @@
 data/ldxp-stock-email.json
+.runtime/
+node_modules/

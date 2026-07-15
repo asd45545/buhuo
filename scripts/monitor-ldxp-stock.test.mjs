@@ -3,6 +3,8 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import vm from "node:vm";
 
+import { apiPost } from "./monitor-ldxp-stock.mjs";
+
 async function loadEmailFormatter() {
   const source = await readFile(new URL("./monitor-ldxp-stock.mjs", import.meta.url), "utf8");
   const start = source.indexOf("function formatEmailMessage");
@@ -359,13 +361,7 @@ test("missing in-stock goods do not trigger a restock alert when they reappear s
   assert.equal(returned.nextState.items["goods-1"].missingSince, null);
 });
 
-test("shop API retries a temporary HTML response before accepting JSON", async () => {
-  const source = await readFile(new URL("./monitor-ldxp-stock.mjs", import.meta.url), "utf8");
-  const start = source.indexOf("function sleep");
-  const end = source.indexOf("async function fetchGoodsByType", start);
-  assert.notEqual(start, -1, "sleep should exist");
-  assert.notEqual(end, -1, "API helper block should be extractable");
-
+test("shop API retries a temporary HTML response before accepting JSON", async (t) => {
   let calls = 0;
   const requestHeaders = [];
   const responses = [
@@ -393,22 +389,24 @@ test("shop API retries a temporary HTML response before accepting JSON", async (
       json: async () => ({ code: 1, data: { total: 111 } }),
     },
   ];
-  const context = vm.createContext({
-    fetch: async (_url, options) => {
-      calls += 1;
-      requestHeaders.push(options.headers);
-      return responses.shift();
-    },
-    setTimeout: (resolve) => resolve(),
+  const originalFetch = globalThis.fetch;
+  t.after(() => {
+    globalThis.fetch = originalFetch;
   });
-  vm.runInContext(`${source.slice(start, end)}; globalThis.apiPost = apiPost;`, context);
+  globalThis.fetch = async (_url, options) => {
+    calls += 1;
+    requestHeaders.push(options.headers);
+    return responses.shift();
+  };
 
-  const result = await context.apiPost(
+  const result = await apiPost(
     {
       baseUrl: "https://pay.ldxp.cn",
       shopToken: "jisuai",
+      apiTransport: "fetch",
       apiRetries: 3,
       apiRetryDelayMs: 1,
+      requestTimeoutMs: 1000,
     },
     "visitor",
     "/shopApi/Shop/goodsList",
@@ -419,4 +417,91 @@ test("shop API retries a temporary HTML response before accepting JSON", async (
   assert.equal(result.total, 111);
   assert.match(requestHeaders[1].cookie, /acw_tc=test-token/);
   assert.match(requestHeaders[1].cookie, /acw_sc__v2=664c59426b8a81e8e837ca070833106ec6c19310/);
+});
+
+test("shop API switches to persistent browser transport for an HTML challenge", async (t) => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => {
+    globalThis.fetch = originalFetch;
+  });
+  globalThis.fetch = async () => ({
+    ok: true,
+    status: 200,
+    headers: {
+      get: (name) => (name === "content-type" ? "text/html; charset=utf-8" : null),
+      getSetCookie: () => ["acw_tc=test-token; Path=/; HttpOnly"],
+    },
+    text: async () => "<!doctype html><script src='/challenge.js'></script>",
+  });
+
+  let browserCalls = 0;
+  const cfg = {
+    baseUrl: "https://pay.ldxp.cn",
+    shopToken: "jisuai",
+    apiTransport: "auto",
+    apiRetries: 1,
+    apiRetryDelayMs: 1,
+    requestTimeoutMs: 1000,
+    _browserTransportPromise: Promise.resolve({
+      post: async () => {
+        browserCalls += 1;
+        return {
+          ok: true,
+          status: 200,
+          contentType: "application/json; charset=utf-8",
+          raw: JSON.stringify({ code: 1, data: { total: 129 } }),
+        };
+      },
+      close: async () => {},
+    }),
+  };
+
+  const result = await apiPost(cfg, "visitor", "/shopApi/Shop/goodsList", { current: 1 });
+  const secondResult = await apiPost(cfg, "visitor", "/shopApi/Shop/goodsList", { current: 2 });
+
+  assert.equal(browserCalls, 2);
+  assert.equal(result.total, 129);
+  assert.equal(secondResult.total, 129);
+  assert.equal(cfg._browserPreferred, true);
+});
+
+test("shop API recreates a crashed browser transport", async () => {
+  let factories = 0;
+  let closed = 0;
+  const cfg = {
+    baseUrl: "https://pay.ldxp.cn",
+    shopToken: "jisuai",
+    apiTransport: "browser",
+    apiRetries: 2,
+    apiRetryDelayMs: 1,
+    requestTimeoutMs: 1000,
+    browserTransportFactory: async () => {
+      factories += 1;
+      const instance = factories;
+      return {
+        post: async () => {
+          if (instance === 1) {
+            const error = new Error("page crashed");
+            error.code = "BROWSER_REQUEST_FAILED";
+            throw error;
+          }
+          return {
+            ok: true,
+            status: 200,
+            contentType: "application/json",
+            raw: JSON.stringify({ code: 1, data: { total: 130 } }),
+          };
+        },
+        close: async () => {
+          closed += 1;
+        },
+      };
+    },
+  };
+
+  const result = await apiPost(cfg, "visitor", "/shopApi/Shop/goodsList", { current: 1 });
+
+  assert.equal(result.total, 130);
+  assert.equal(factories, 2);
+  assert.equal(closed, 1);
 });

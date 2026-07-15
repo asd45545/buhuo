@@ -8,21 +8,42 @@ import tls from "node:tls";
 import { once } from "node:events";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
+import { createBrowserTransport, isHtmlResponse } from "./ldxp-browser-transport.mjs";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 
 const defaults = {
-  baseUrl: "https://pay.ldxp.cn",
-  shopToken: "jisuai",
+  baseUrl: String(process.env.LDXP_BASE_URL || "https://pay.ldxp.cn").replace(/\/+$/, ""),
+  shopToken: process.env.LDXP_SHOP_TOKEN || "jisuai",
   goodsTypes: parseGoodsTypes(process.env.LDXP_GOODS_TYPES, ["card"]),
   pageSize: 100,
   requestDelayMs: 250,
-  apiRetries: Number(process.env.LDXP_API_RETRIES || 8),
-  apiRetryDelayMs: Number(process.env.LDXP_API_RETRY_DELAY_MS || 3000),
+  apiRetries: Number(process.env.LDXP_API_RETRIES || 3),
+  apiRetryDelayMs: Number(process.env.LDXP_API_RETRY_DELAY_MS || 1500),
+  requestTimeoutMs: Number(process.env.LDXP_REQUEST_TIMEOUT_MS || 15_000),
+  apiTransport: normalizeApiTransport(process.env.LDXP_API_TRANSPORT || "fetch"),
+  browserProfileDir: path.resolve(
+    process.env.LDXP_BROWSER_PROFILE_DIR || path.join(rootDir, ".runtime", "browser-profile"),
+  ),
+  browserExecutablePath: process.env.LDXP_BROWSER_EXECUTABLE_PATH || "",
+  browserProxyServer: process.env.LDXP_BROWSER_PROXY_SERVER || "",
+  browserUserAgent: process.env.LDXP_BROWSER_USER_AGENT || "",
+  browserHeadless: parseBool(process.env.LDXP_BROWSER_HEADLESS, false),
+  browserNavigationTimeoutMs: Number(process.env.LDXP_BROWSER_NAVIGATION_TIMEOUT_MS || 30_000),
+  browserChallengeWaitMs: Number(process.env.LDXP_BROWSER_CHALLENGE_WAIT_MS || 2_000),
+  browserChallengeAttempts: Number(process.env.LDXP_BROWSER_CHALLENGE_ATTEMPTS || 2),
+  daemonIntervalMs: Number(process.env.LDXP_DAEMON_INTERVAL_MS || 300_000),
   touchUnchanged: true,
-  stateFile: path.join(rootDir, "data", "ldxp-stock-state.json"),
-  alertFile: path.join(rootDir, "data", "ldxp-stock-alerts.md"),
-  emailConfigFile: path.join(rootDir, "data", "ldxp-stock-email.json"),
+  stateFile: path.resolve(
+    process.env.LDXP_STATE_FILE || path.join(rootDir, "data", "ldxp-stock-state.json"),
+  ),
+  alertFile: path.resolve(
+    process.env.LDXP_ALERT_FILE || path.join(rootDir, "data", "ldxp-stock-alerts.md"),
+  ),
+  emailConfigFile: path.resolve(
+    process.env.LDXP_EMAIL_CONFIG_FILE || path.join(rootDir, "data", "ldxp-stock-email.json"),
+  ),
   webhookUrl: process.env.LDXP_NOTIFY_WEBHOOK || "",
   telegram: {
     botToken: process.env.LDXP_TELEGRAM_BOT_TOKEN || "",
@@ -42,16 +63,24 @@ const defaults = {
 };
 
 function parseArgs(argv) {
-  const cfg = { ...defaults };
+  const cfg = {
+    ...defaults,
+    telegram: { ...defaults.telegram },
+    email: { ...defaults.email },
+  };
   const flags = {
+    daemon: false,
     json: false,
     listOut: false,
+    probe: false,
   };
 
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     const next = argv[i + 1];
-    if (arg === "--json") flags.json = true;
+    if (arg === "--daemon") flags.daemon = true;
+    else if (arg === "--probe") flags.probe = true;
+    else if (arg === "--json") flags.json = true;
     else if (arg === "--list-out") flags.listOut = true;
     else if (arg === "--no-touch-unchanged") cfg.touchUnchanged = false;
     else if (arg === "--api-retries" && next) {
@@ -59,6 +88,24 @@ function parseArgs(argv) {
       i += 1;
     } else if (arg === "--api-retry-delay-ms" && next) {
       cfg.apiRetryDelayMs = Number(next);
+      i += 1;
+    } else if (arg === "--request-timeout-ms" && next) {
+      cfg.requestTimeoutMs = Number(next);
+      i += 1;
+    } else if (arg === "--api-transport" && next) {
+      cfg.apiTransport = normalizeApiTransport(next);
+      i += 1;
+    } else if (arg === "--browser-profile-dir" && next) {
+      cfg.browserProfileDir = path.resolve(next);
+      i += 1;
+    } else if (arg === "--browser-executable-path" && next) {
+      cfg.browserExecutablePath = path.resolve(next);
+      i += 1;
+    } else if (arg === "--browser-proxy-server" && next) {
+      cfg.browserProxyServer = next;
+      i += 1;
+    } else if (arg === "--daemon-interval-ms" && next) {
+      cfg.daemonIntervalMs = Number(next);
       i += 1;
     } else if (arg === "--base-url" && next) {
       cfg.baseUrl = next.replace(/\/+$/, "");
@@ -113,13 +160,22 @@ function printHelp() {
   console.log(`
 Usage:
   node scripts/monitor-ldxp-stock.mjs
+  node scripts/monitor-ldxp-stock.mjs --daemon --api-transport auto
 
 Options:
+  --daemon                 Keep one browser/session alive and monitor continuously.
+  --daemon-interval-ms MS  Daemon interval, default: 300000.
+  --probe                  Fetch goods only; do not write state or send notifications.
   --list-out              Print current out-of-stock goods.
   --json                  Print machine-readable result JSON.
   --no-touch-unchanged    Do not rewrite unchanged state entries.
-  --api-retries COUNT     Shop API retry count, default: 8.
-  --api-retry-delay-ms MS Shop API retry backoff base, default: 3000.
+  --api-retries COUNT     Shop API retry count, default: 3.
+  --api-retry-delay-ms MS Shop API retry backoff base, default: 1500.
+  --request-timeout-ms MS Per-request timeout, default: 15000.
+  --api-transport MODE    fetch, auto, or browser; default: fetch.
+  --browser-profile-dir P Persistent Chromium profile directory.
+  --browser-executable-path P Chrome/Chromium executable path.
+  --browser-proxy-server P Optional fixed http/socks proxy, or direct.
   --shop-token TOKEN      Shop token, default: jisuai.
   --goods-types TYPES     Comma-separated goods types, default: card.
   --state PATH            State file path.
@@ -134,10 +190,20 @@ Options:
   --smtp-secure BOOL      Use implicit TLS, usually true for port 465.
 
 Environment:
+  LDXP_API_TRANSPORT      fetch, auto, or browser. Use auto on the server.
+  LDXP_BASE_URL           Shop origin, default: https://pay.ldxp.cn.
+  LDXP_SHOP_TOKEN         Shop token, default: jisuai.
   LDXP_NOTIFY_WEBHOOK     Optional generic JSON webhook URL.
   LDXP_GOODS_TYPES        Comma-separated goods types to scan, default: card.
   LDXP_API_RETRIES        Shop API retry count.
   LDXP_API_RETRY_DELAY_MS Shop API retry backoff base in milliseconds.
+  LDXP_REQUEST_TIMEOUT_MS Per-request timeout in milliseconds.
+  LDXP_BROWSER_PROFILE_DIR Persistent Chromium profile directory.
+  LDXP_BROWSER_EXECUTABLE_PATH Chrome/Chromium executable path.
+  LDXP_BROWSER_PROXY_SERVER Optional fixed http/socks proxy, or direct.
+  LDXP_BROWSER_USER_AGENT Optional browser UA; defaults to a non-headless Chrome UA.
+  LDXP_BROWSER_HEADLESS   false by default; run under Xvfb on Linux.
+  LDXP_DAEMON_INTERVAL_MS Continuous monitor interval, default: 300000.
   LDXP_TELEGRAM_BOT_TOKEN Telegram bot token.
   LDXP_TELEGRAM_CHAT_ID   Telegram group chat ID.
   LDXP_TELEGRAM_THREAD_ID Optional Telegram topic ID.
@@ -154,6 +220,14 @@ Environment:
 function parseBool(value, fallback) {
   if (value === undefined || value === null || value === "") return fallback;
   return ["1", "true", "yes", "y", "on"].includes(String(value).toLowerCase());
+}
+
+function normalizeApiTransport(value) {
+  const transport = String(value || "fetch").trim().toLowerCase();
+  if (!["fetch", "auto", "browser"].includes(transport)) {
+    throw new Error(`invalid LDXP API transport: ${value}`);
+  }
+  return transport;
 }
 
 function parseGoodsTypes(value, fallback) {
@@ -259,63 +333,175 @@ function formatRequestCookies(cfg) {
     .join("; ");
 }
 
+function shopApiError(code, message, details = {}) {
+  const error = new Error(message);
+  error.name = "ShopApiError";
+  error.code = code;
+  error.details = details;
+  return error;
+}
+
+function responsePreview(raw) {
+  return String(raw || "").replace(/\s+/g, " ").slice(0, 120);
+}
+
+function parseApiResponse(endpoint, response) {
+  const contentType = response.contentType || "unknown";
+  const preview = responsePreview(response.raw);
+
+  if (!response.ok) {
+    throw shopApiError(
+      "SHOP_API_HTTP_ERROR",
+      `${endpoint} HTTP ${response.status} (${contentType}): ${preview}`,
+      { status: response.status, contentType },
+    );
+  }
+
+  let data;
+  try {
+    data = JSON.parse(response.raw);
+  } catch {
+    const challenge = isHtmlResponse(contentType, response.raw);
+    throw shopApiError(
+      challenge ? "WAF_CHALLENGE" : "SHOP_API_INVALID_RESPONSE",
+      `${endpoint} returned non-JSON (${contentType}): ${preview}`,
+      { contentType, challenge },
+    );
+  }
+
+  if (data.code !== 1) {
+    throw shopApiError(
+      "SHOP_API_BUSINESS_ERROR",
+      `${endpoint} API ${data.code}: ${data.msg || "unknown error"}`,
+      { apiCode: data.code },
+    );
+  }
+  return data.data;
+}
+
+async function fetchApiPost(cfg, visitorId, endpoint, payload) {
+  const cookie = formatRequestCookies(cfg);
+  const headers = {
+    accept: "application/json, text/plain, */*",
+    "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "cache-control": "no-cache",
+    "content-type": "application/json;charset=UTF-8",
+    origin: cfg.baseUrl,
+    pragma: "no-cache",
+    referer: `${cfg.baseUrl}/shop/${cfg.shopToken}`,
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    visitorid: visitorId,
+  };
+  if (cookie) headers.cookie = cookie;
+
+  const timeoutMs = Math.max(1_000, Number(cfg.requestTimeoutMs || 15_000));
+  const signal =
+    typeof AbortSignal !== "undefined" && typeof AbortSignal.timeout === "function"
+      ? AbortSignal.timeout(timeoutMs)
+      : undefined;
+  const response = await fetch(`${cfg.baseUrl}${endpoint}`, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(payload),
+    ...(signal ? { signal } : {}),
+  });
+  const raw = await response.text();
+  updateResponseCookies(cfg, response);
+
+  if (isHtmlResponse(response.headers.get("content-type"), raw)) {
+    const challengeCookie = solveAcwChallenge(raw);
+    if (challengeCookie) cfg.cookies.acw_sc__v2 = challengeCookie;
+  }
+
+  return parseApiResponse(endpoint, {
+    ok: response.ok,
+    status: response.status,
+    contentType: response.headers.get("content-type") || "unknown",
+    raw,
+  });
+}
+
+async function getBrowserTransport(cfg) {
+  if (!cfg._browserTransportPromise) {
+    const transportFactory = cfg.browserTransportFactory || createBrowserTransport;
+    cfg._browserTransportPromise = transportFactory({
+      baseUrl: cfg.baseUrl,
+      shopToken: cfg.shopToken,
+      profileDir: cfg.browserProfileDir,
+      executablePath: cfg.browserExecutablePath,
+      proxyServer: cfg.browserProxyServer,
+      userAgent: cfg.browserUserAgent,
+      headless: cfg.browserHeadless,
+      requestTimeoutMs: cfg.requestTimeoutMs,
+      navigationTimeoutMs: cfg.browserNavigationTimeoutMs,
+      challengeWaitMs: cfg.browserChallengeWaitMs,
+      maxChallengeAttempts: cfg.browserChallengeAttempts,
+    }).catch((error) => {
+      delete cfg._browserTransportPromise;
+      throw error;
+    });
+  }
+  return cfg._browserTransportPromise;
+}
+
+async function browserApiPost(cfg, visitorId, endpoint, payload) {
+  const transport = await getBrowserTransport(cfg);
+  const response = await transport.post(endpoint, payload, visitorId);
+  return parseApiResponse(endpoint, response);
+}
+
+async function closeApiTransports(cfg) {
+  const pending = cfg?._browserTransportPromise;
+  delete cfg?._browserTransportPromise;
+  if (!pending) return;
+  const transport = await pending.catch(() => null);
+  await transport?.close();
+}
+
+async function resetBrowserTransport(cfg) {
+  await closeApiTransports(cfg);
+}
+
 async function apiPost(cfg, visitorId, endpoint, payload) {
   const attempts = Math.max(1, Number(cfg.apiRetries || 3));
+  const apiTransport = normalizeApiTransport(cfg.apiTransport || "fetch");
   let lastError;
 
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
-      const cookie = formatRequestCookies(cfg);
-      const headers = {
-        accept: "application/json, text/plain, */*",
-        "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
-        "cache-control": "no-cache",
-        "content-type": "application/json;charset=UTF-8",
-        origin: cfg.baseUrl,
-        pragma: "no-cache",
-        referer: `${cfg.baseUrl}/shop/${cfg.shopToken}`,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        visitorid: visitorId,
-      };
-      if (cookie) headers.cookie = cookie;
-
-      const response = await fetch(`${cfg.baseUrl}${endpoint}`, {
-        method: "POST",
-        headers,
-        body: JSON.stringify(payload),
-      });
-      const raw = await response.text();
-      updateResponseCookies(cfg, response);
-
-      if (!response.ok) {
-        const contentType = response.headers.get("content-type") || "unknown";
-        const preview = raw.replace(/\s+/g, " ").slice(0, 120);
-        throw new Error(`${endpoint} HTTP ${response.status} (${contentType}): ${preview}`);
+      if (apiTransport === "browser" || (apiTransport === "auto" && cfg._browserPreferred)) {
+        return await browserApiPost(cfg, visitorId, endpoint, payload);
       }
 
-      let data;
       try {
-        data = JSON.parse(raw);
-      } catch {
-        const challengeCookie = solveAcwChallenge(raw);
-        if (challengeCookie) {
-          cfg.cookies.acw_sc__v2 = challengeCookie;
-        }
-        const contentType = response.headers.get("content-type") || "unknown";
-        const preview = raw.replace(/\s+/g, " ").slice(0, 120);
-        throw new Error(`${endpoint} returned non-JSON (${contentType}): ${preview}`);
+        return await fetchApiPost(cfg, visitorId, endpoint, payload);
+      } catch (error) {
+        if (apiTransport !== "auto" || error.code !== "WAF_CHALLENGE") throw error;
+        console.error(`INFO ${endpoint} received a WAF challenge; switching to persistent Chromium`);
+        const data = await browserApiPost(cfg, visitorId, endpoint, payload);
+        cfg._browserPreferred = true;
+        return data;
       }
-
-      if (data.code !== 1) {
-        throw new Error(`${endpoint} API ${data.code}: ${data.msg || "unknown error"}`);
-      }
-      return data.data;
     } catch (error) {
       lastError = error;
+      if (
+        [
+          "WAF_INTERACTIVE_CHALLENGE",
+          "WAF_BROWSER_BLOCKED",
+          "BROWSER_CONFIG_INVALID",
+          "BROWSER_EXECUTABLE_NOT_FOUND",
+          "BROWSER_RUNTIME_MISSING",
+        ].includes(error.code)
+      ) {
+        break;
+      }
       if (attempt === attempts) break;
+      if (["BROWSER_REQUEST_FAILED", "BROWSER_WARMUP_FAILED", "BROWSER_LAUNCH_FAILED"].includes(error.code)) {
+        await resetBrowserTransport(cfg);
+      }
       const cookieNames = Object.keys(cfg.cookies || {}).join(",") || "none";
       console.error(
-        `WARN ${endpoint} attempt ${attempt}/${attempts} failed: ${error.message}; cookies=${cookieNames}`,
+        `WARN ${endpoint} attempt ${attempt}/${attempts} failed: ${error.message}; code=${error.code || "UNKNOWN"}; cookies=${cookieNames}`,
       );
       await sleep(Number(cfg.apiRetryDelayMs || 1500) * attempt);
     }
@@ -850,9 +1036,30 @@ function printResult(summary, flags) {
   }
 }
 
-async function main() {
-  const { cfg, flags } = parseArgs(process.argv.slice(2));
+async function runMonitorOnce(cfg, flags = {}) {
   const checkedAt = new Date().toISOString();
+  if (flags.probe) {
+    const goods = await fetchAllGoods(cfg, makeVisitorId());
+    const summary = summarize(goods, []);
+    summary.checkedAt = checkedAt;
+    if (flags.json) {
+      console.log(
+        JSON.stringify({
+          ok: true,
+          checkedAt,
+          totalGoods: summary.totalGoods,
+          outOfStockCount: summary.outOfStockCount,
+          transport: cfg.apiTransport,
+        }),
+      );
+    } else {
+      console.log(
+        `PROBE_OK checked ${summary.totalGoods} goods, out_of_stock ${summary.outOfStockCount}, transport ${cfg.apiTransport}`,
+      );
+    }
+    return summary;
+  }
+
   const state = await loadState(cfg.stateFile);
   const goods = await fetchAllGoods(cfg, state.visitorId);
   const { nextState, alerts } = buildNextState(state, goods, checkedAt, cfg);
@@ -864,16 +1071,84 @@ async function main() {
   await appendAlerts(cfg.alertFile, alerts);
   await saveState(cfg.stateFile, nextState);
   printResult(summary, flags);
+  return summary;
+}
+
+function createShutdownSignal() {
+  const controller = new AbortController();
+  const shutdown = () => controller.abort();
+  process.once("SIGINT", shutdown);
+  process.once("SIGTERM", shutdown);
+  return controller.signal;
+}
+
+async function waitForInterval(ms, signal) {
+  if (signal.aborted) return;
+  await Promise.race([
+    sleep(ms),
+    new Promise((resolve) => signal.addEventListener("abort", resolve, { once: true })),
+  ]);
+}
+
+async function runDaemon(cfg, flags) {
+  const intervalMs = Math.max(30_000, Number(cfg.daemonIntervalMs || 300_000));
+  const shutdownSignal = createShutdownSignal();
+  let consecutiveFailures = 0;
+
+  console.log(
+    `DAEMON_STARTED interval_ms=${intervalMs} transport=${cfg.apiTransport} profile=${cfg.browserProfileDir}`,
+  );
+
+  try {
+    while (!shutdownSignal.aborted) {
+      const startedAt = Date.now();
+      try {
+        await runMonitorOnce(cfg, flags);
+        if (consecutiveFailures > 0) {
+          console.log(`HEALTH_RECOVERED previous_failures=${consecutiveFailures}`);
+        }
+        consecutiveFailures = 0;
+      } catch (error) {
+        consecutiveFailures += 1;
+        console.error(
+          `HEALTH_ERROR code=${error.code || "UNKNOWN"} consecutive_failures=${consecutiveFailures} message=${error.message}`,
+        );
+      }
+
+      const remainingMs = Math.max(0, intervalMs - (Date.now() - startedAt));
+      await waitForInterval(remainingMs, shutdownSignal);
+    }
+  } finally {
+    await closeApiTransports(cfg);
+    console.log("DAEMON_STOPPED");
+  }
+}
+
+async function main() {
+  const { cfg, flags } = parseArgs(process.argv.slice(2));
+  if (flags.daemon) {
+    await runDaemon(cfg, flags);
+    return;
+  }
+
+  try {
+    await runMonitorOnce(cfg, flags);
+  } finally {
+    await closeApiTransports(cfg);
+  }
 }
 
 export {
+  apiPost,
   appendAlerts,
   buildNextState,
+  closeApiTransports,
   defaults,
   fetchAllGoods,
   formatTelegramMessage,
   loadState,
   makeVisitorId,
+  runMonitorOnce,
   saveState,
   sendTelegram,
   sendWebhook,
