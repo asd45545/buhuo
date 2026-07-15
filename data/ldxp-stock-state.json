@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5796,
+  "runs": 5797,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-15T16:50:24.852Z",
+  "updatedAt": "2026-07-15T16:55:11.356Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -919,13 +919,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 2.99,
-      "stock": 432,
+      "stock": 431,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-15T15:30:33.432Z",
-      "lastChangedAt": "2026-07-15T15:30:33.432Z",
+      "lastSeenAt": "2026-07-15T16:55:11.356Z",
+      "lastChangedAt": "2026-07-15T16:55:11.356Z",
       "missingSince": null
     },
     "e8fprr": {
@@ -3486,13 +3486,13 @@
       "categoryId": 111630,
       "categoryName": "接码",
       "price": 5,
-      "stock": 57,
+      "stock": 56,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T04:40:21.879Z",
-      "lastSeenAt": "2026-07-15T14:35:11.172Z",
-      "lastChangedAt": "2026-07-15T14:35:11.172Z",
+      "lastSeenAt": "2026-07-15T16:55:11.356Z",
+      "lastChangedAt": "2026-07-15T16:55:11.356Z",
       "missingSince": null
     },
     "hfwl2l": {
@@ -3803,19 +3803,19 @@
     },
     "fz8mgt": {
       "key": "fz8mgt",
-      "name": "微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.15--23点11分",
+      "name": "微软邮箱 GPT Team K12 成品 json 文件 默认cpa格式 质保首登 7.16日新库存",
       "link": "https://pay.ldxp.cn/item/fz8mgt",
       "goodsType": "card",
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.6,
-      "stock": 1569,
+      "stock": 1543,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-15T10:55:10.877Z",
-      "lastSeenAt": "2026-07-15T16:50:24.852Z",
-      "lastChangedAt": "2026-07-15T16:50:24.852Z",
+      "lastSeenAt": "2026-07-15T16:55:11.356Z",
+      "lastChangedAt": "2026-07-15T16:55:11.356Z",
       "missingSince": null
     },
     "mgkpib": {
