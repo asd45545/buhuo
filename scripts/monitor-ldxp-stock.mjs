@@ -28,6 +28,8 @@ const defaults = {
   ),
   browserExecutablePath: process.env.LDXP_BROWSER_EXECUTABLE_PATH || "",
   browserProxyServer: process.env.LDXP_BROWSER_PROXY_SERVER || "",
+  browserProxyUsername: process.env.LDXP_BROWSER_PROXY_USERNAME || "",
+  browserProxyPassword: process.env.LDXP_BROWSER_PROXY_PASSWORD || "",
   browserUserAgent: process.env.LDXP_BROWSER_USER_AGENT || "",
   browserHeadless: parseBool(process.env.LDXP_BROWSER_HEADLESS, false),
   browserNavigationTimeoutMs: Number(process.env.LDXP_BROWSER_NAVIGATION_TIMEOUT_MS || 30_000),
@@ -201,6 +203,8 @@ Environment:
   LDXP_BROWSER_PROFILE_DIR Persistent Chromium profile directory.
   LDXP_BROWSER_EXECUTABLE_PATH Chrome/Chromium executable path.
   LDXP_BROWSER_PROXY_SERVER Optional fixed http/socks proxy, or direct.
+  LDXP_BROWSER_PROXY_USERNAME Optional proxy username; keep credentials out of the proxy URL.
+  LDXP_BROWSER_PROXY_PASSWORD Optional proxy password; keep /etc/ldxp-monitor.env mode 600.
   LDXP_BROWSER_USER_AGENT Optional browser UA; defaults to a non-headless Chrome UA.
   LDXP_BROWSER_HEADLESS   false by default; run under Xvfb on Linux.
   LDXP_DAEMON_INTERVAL_MS Continuous monitor interval, default: 300000.
@@ -430,6 +434,8 @@ async function getBrowserTransport(cfg) {
       profileDir: cfg.browserProfileDir,
       executablePath: cfg.browserExecutablePath,
       proxyServer: cfg.browserProxyServer,
+      proxyUsername: cfg.browserProxyUsername,
+      proxyPassword: cfg.browserProxyPassword,
       userAgent: cfg.browserUserAgent,
       headless: cfg.browserHeadless,
       requestTimeoutMs: cfg.requestTimeoutMs,

@@ -101,6 +101,63 @@ test("browser transport posts from a persistent same-origin page", async (t) => 
   assert.equal(events.filter(([name]) => name === "post").length, 1);
 });
 
+test("browser transport passes authenticated proxy credentials separately", async (t) => {
+  const profileDir = await withProfile(t);
+  const events = [];
+  const transport = await createBrowserTransport(
+    {
+      baseUrl: "https://pay.ldxp.cn",
+      shopToken: "jisuai",
+      profileDir,
+      challengeWaitMs: 1,
+      proxyServer: "http://proxy.example:3128",
+      proxyUsername: "proxy-user",
+      proxyPassword: "proxy-password",
+    },
+    {
+      chromium: fakeChromium(
+        [
+          {
+            ok: true,
+            status: 200,
+            contentType: "application/json",
+            raw: '{"code":1,"data":{"total":129}}',
+          },
+        ],
+        events,
+      ),
+    },
+  );
+
+  await transport.post("/shopApi/Shop/goodsList", { current: 1 }, "visitor");
+  await transport.close();
+
+  const launchOptions = events.find(([name]) => name === "launch")[2];
+  assert.deepEqual(launchOptions.proxy, {
+    server: "http://proxy.example:3128",
+    username: "proxy-user",
+    password: "proxy-password",
+  });
+});
+
+test("browser transport rejects incomplete proxy credentials", async (t) => {
+  const profileDir = await withProfile(t);
+
+  await assert.rejects(
+    createBrowserTransport(
+      {
+        baseUrl: "https://pay.ldxp.cn",
+        shopToken: "jisuai",
+        profileDir,
+        proxyServer: "http://proxy.example:3128",
+        proxyUsername: "proxy-user",
+      },
+      { chromium: fakeChromium([], []) },
+    ),
+    (error) => error.code === "BROWSER_CONFIG_INVALID",
+  );
+});
+
 test("browser transport executes an HTML challenge and retries once", async (t) => {
   const profileDir = await withProfile(t);
   const events = [];

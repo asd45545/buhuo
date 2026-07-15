@@ -36,8 +36,11 @@ sudo install -m 600 deploy/ldxp-monitor.env.example /etc/ldxp-monitor.env
 sudo install -m 644 deploy/ldxp-monitor.service /etc/systemd/system/ldxp-monitor.service
 ```
 
-Edit `/etc/ldxp-monitor.env` and add the Telegram values. Do not put credentials
-in the repository, process arguments, or URLs.
+Edit `/etc/ldxp-monitor.env` and add the Telegram values. For an authenticated
+proxy, set `LDXP_BROWSER_PROXY_SERVER` to a URL such as
+`http://proxy.example:3128`, and put the username and password in
+`LDXP_BROWSER_PROXY_USERNAME` and `LDXP_BROWSER_PROXY_PASSWORD`. Do not put
+credentials in the repository, process arguments, or URLs.
 
 ## Read-only probe
 

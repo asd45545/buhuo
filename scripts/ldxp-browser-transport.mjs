@@ -144,6 +144,14 @@ async function createBrowserTransport(options, dependencies = {}) {
     : await resolveBrowserExecutable(options.executablePath);
   const launchArgs = ["--disable-dev-shm-usage"];
   const proxyServer = String(options.proxyServer || "").trim();
+  const proxyUsername = String(options.proxyUsername || "");
+  const proxyPassword = String(options.proxyPassword || "");
+  if (Boolean(proxyUsername) !== Boolean(proxyPassword)) {
+    throw new BrowserTransportError(
+      "BROWSER_CONFIG_INVALID",
+      "Authenticated browser proxy requires both username and password.",
+    );
+  }
   if (proxyServer.toLowerCase() === "direct") {
     launchArgs.push("--no-proxy-server");
   }
@@ -160,7 +168,12 @@ async function createBrowserTransport(options, dependencies = {}) {
       userAgent: options.userAgent || DEFAULT_BROWSER_USER_AGENT,
       args: launchArgs,
       ...(proxyServer && proxyServer.toLowerCase() !== "direct"
-        ? { proxy: { server: proxyServer } }
+        ? {
+            proxy: {
+              server: proxyServer,
+              ...(proxyUsername ? { username: proxyUsername, password: proxyPassword } : {}),
+            },
+          }
         : {}),
     });
   } catch (error) {
