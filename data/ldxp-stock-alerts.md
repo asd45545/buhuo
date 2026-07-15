@@ -10406,3 +10406,35 @@
   - Category: GPT PLUS
   - Link: https://pay.ldxp.cn/item/jncqio
 
+## 2026-07-15T10:55:10.877Z
+- 【已接码RT】PLUS 成品
+  - Stock: 0 -> 17
+  - Price: 8.96
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/g682hk
+- 24小时team（畅享额度，全程质保）
+  - Stock: 0 -> 3
+  - Price: 26.73
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/jkrruh
+- 微软邮箱 GPT Team K12 成品 JSON 反代 发cpa 质保首登 7.15--9点新货已过滤
+  - Stock: 新上架 -> 511
+  - Price: 0.75
+  - Category: GPT Team
+  - Link: https://pay.ldxp.cn/item/fz8mgt
+- 微软长效-outlook-【gr/o2双令牌号】-【英文随机+数字】Graph令牌号和OAuth2-IMAP-POP3
+  - Stock: 0 -> 177
+  - Price: 0.28
+  - Category: 各类邮箱
+  - Link: https://pay.ldxp.cn/item/6byvu1
+- 质保30天渠道-谷歌iCloud邮箱随机发-PLUS-成品-未接码-支持登录网页端-接码登录codex-质保30天
+  - Stock: 0 -> 1
+  - Price: 77
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/fymkzz
+- GPT-PLUS--印度渠道--Codex未接码--质保首登
+  - Stock: 新上架 -> 75
+  - Price: 5.78
+  - Category: GPT PLUS
+  - Link: https://pay.ldxp.cn/item/mgkpib
+
