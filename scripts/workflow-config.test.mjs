@@ -34,3 +34,10 @@ test("telegram delete workflow runs on a 5 minute schedule", async () => {
 
   assert.match(workflow, /schedule:\s*\n\s*-\s*cron:\s*"\*\/5 \* \* \* \*"/);
 });
+
+test("systemd monitor service gets API transport from its environment file", async () => {
+  const service = await readFile("deploy/ldxp-monitor.service", "utf8");
+
+  assert.match(service, /^EnvironmentFile=\/etc\/ldxp-monitor\.env$/m);
+  assert.doesNotMatch(service, /--api-transport/);
+});
