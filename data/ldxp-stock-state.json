@@ -3784,25 +3784,5 @@
       "lastChangedAt": "2026-07-14T18:40:25.833Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "4wvlfu",
-      "name": "巴西PIX GPTPlus未接码",
-      "link": "https://pay.ldxp.cn/item/4wvlfu",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 5.8,
-      "stock": 6,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-15T01:25:11.299Z",
-      "checkedAt": "2026-07-15T01:30:31.514Z",
-      "alertId": "restocked|4wvlfu|0|6|2026-07-15T01:25:11.299Z",
-      "queuedAt": "2026-07-15T01:30:31.514Z"
-    }
-  ]
+  }
 }
