@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5721,
+  "runs": 5722,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-15T00:20:23.744Z",
+  "updatedAt": "2026-07-15T00:25:11.439Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -239,13 +239,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.25,
-      "stock": 25,
+      "stock": 23,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-15T00:15:15.365Z",
-      "lastChangedAt": "2026-07-15T00:15:15.365Z",
+      "lastSeenAt": "2026-07-15T00:25:11.439Z",
+      "lastChangedAt": "2026-07-15T00:25:11.439Z",
       "missingSince": null
     },
     "2grcfq": {
@@ -1412,13 +1412,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 5.8,
-      "stock": 3,
+      "stock": 2,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-15T00:20:23.744Z",
-      "lastChangedAt": "2026-07-15T00:20:23.744Z",
+      "lastSeenAt": "2026-07-15T00:25:11.439Z",
+      "lastChangedAt": "2026-07-15T00:25:11.439Z",
       "missingSince": null
     },
     "vy0rw3": {
@@ -2626,7 +2626,7 @@
       "firstSeenAt": "2026-06-27T06:10:17.476Z",
       "lastSeenAt": "2026-07-15T00:20:23.744Z",
       "lastChangedAt": "2026-07-15T00:20:23.744Z",
-      "missingSince": null
+      "missingSince": "2026-07-15T00:25:11.439Z"
     },
     "5jylhj": {
       "key": "5jylhj",
@@ -3418,13 +3418,13 @@
       "categoryId": 112054,
       "categoryName": "gpt pro 20x （低价渠道）",
       "price": 270,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-10T14:10:20.275Z",
-      "lastSeenAt": "2026-07-14T19:00:35.766Z",
-      "lastChangedAt": "2026-07-14T19:00:35.766Z",
+      "lastSeenAt": "2026-07-15T00:25:11.439Z",
+      "lastChangedAt": "2026-07-15T00:25:11.439Z",
       "missingSince": null
     },
     "hkqeak": {
@@ -3503,13 +3503,13 @@
       "categoryId": 111634,
       "categoryName": "各类邮箱",
       "price": 0.1,
-      "stock": 580,
+      "stock": 480,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T04:40:21.879Z",
-      "lastSeenAt": "2026-07-14T23:40:27.023Z",
-      "lastChangedAt": "2026-07-14T23:40:27.023Z",
+      "lastSeenAt": "2026-07-15T00:25:11.439Z",
+      "lastChangedAt": "2026-07-15T00:25:11.439Z",
       "missingSince": null
     },
     "fymkzz": {
@@ -3520,13 +3520,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 77,
-      "stock": 4,
+      "stock": 3,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-12T05:15:14.449Z",
-      "lastSeenAt": "2026-07-14T16:15:15.463Z",
-      "lastChangedAt": "2026-07-14T16:15:15.463Z",
+      "lastSeenAt": "2026-07-15T00:25:11.439Z",
+      "lastChangedAt": "2026-07-15T00:25:11.439Z",
       "missingSince": null
     },
     "t352wg": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 2.1,
-      "stock": 574,
+      "stock": 440,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-15T00:20:23.744Z",
-      "lastChangedAt": "2026-07-15T00:20:23.744Z",
+      "lastSeenAt": "2026-07-15T00:25:11.439Z",
+      "lastChangedAt": "2026-07-15T00:25:11.439Z",
       "missingSince": null
     },
     "rfdi1e": {
@@ -3741,13 +3741,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 7.2,
-      "stock": 21,
+      "stock": 20,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-14T18:15:13.854Z",
-      "lastSeenAt": "2026-07-15T00:20:23.744Z",
-      "lastChangedAt": "2026-07-15T00:20:23.744Z",
+      "lastSeenAt": "2026-07-15T00:25:11.439Z",
+      "lastChangedAt": "2026-07-15T00:25:11.439Z",
       "missingSince": null
     },
     "2dx5db": {
