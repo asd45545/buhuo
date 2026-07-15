@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { mkdtemp, rm, writeFile } from "node:fs/promises";
 import { connect } from "node:net";
 import os from "node:os";
@@ -13,7 +14,12 @@ import {
   recordPollSuccess,
 } from "../scripts/monitor-health.mjs";
 import { hashDashboardPassword } from "./auth.mjs";
-import { buildOverview, buildProducts, createDashboardServer } from "./server.mjs";
+import {
+  buildInventoryApi,
+  buildOverview,
+  buildProducts,
+  createDashboardServer,
+} from "./server.mjs";
 
 const PASSWORD = "dashboard-password-安全-123";
 const PASSWORD_HASH = await hashDashboardPassword(PASSWORD, { salt: Buffer.alloc(16, 9) });
@@ -21,6 +27,10 @@ const CHANGED_PASSWORD_HASH = await hashDashboardPassword("changed-dashboard-pas
   salt: Buffer.alloc(16, 10),
 });
 const PUBLIC_ORIGIN = "http://dashboard.test";
+const INVENTORY_API_KEY = Buffer.alloc(32, 11).toString("base64url");
+const INVENTORY_API_KEY_HASH = createHash("sha256")
+  .update(INVENTORY_API_KEY, "utf8")
+  .digest("hex");
 
 function fixtureStatus(now = Date.now()) {
   const finishedAt = new Date(now - 10_000).toISOString();
@@ -264,6 +274,230 @@ test("product API filters and paginates the sanitized snapshot", async (t) => {
   assert.equal(body.page.nextOffset, null);
   assert.equal(body.data[0].key, "one");
   assert.equal(body.data[0].status, "in_stock");
+});
+
+test("inventory API returns active stock details with an API key and no dashboard session", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus(), {
+    inventoryApiKeyHash: INVENTORY_API_KEY_HASH,
+  });
+  const response = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: { authorization: `Bearer ${INVENTORY_API_KEY}` },
+  });
+  const body = await response.json();
+
+  assert.equal(response.status, 200);
+  assert.equal(body.schemaVersion, 1);
+  assert.equal(body.summary.total, 2);
+  assert.equal(body.summary.inStock, 1);
+  assert.equal(body.summary.outOfStock, 1);
+  assert.equal(typeof body.source.ageMs, "number");
+  assert.equal(body.items.length, 2);
+  assert.deepEqual(Object.keys(body.items[0]), [
+    "id",
+    "name",
+    "url",
+    "category",
+    "price",
+    "stock",
+    "status",
+    "lastChangedAt",
+  ]);
+  assert.equal("products" in body, false);
+  assert.match(response.headers.get("cache-control"), /no-store/);
+});
+
+test("inventory API rejects missing and incorrect keys without exposing stock", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus(), {
+    inventoryApiKeyHash: INVENTORY_API_KEY_HASH,
+  });
+  const missing = await fetch(`${baseUrl}/api/v1/inventory`);
+  const incorrect = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: { authorization: `Bearer ${Buffer.alloc(32, 12).toString("base64url")}` },
+  });
+
+  assert.equal(missing.status, 401);
+  assert.deepEqual(await missing.json(), { ok: false, error: "unauthorized" });
+  assert.match(missing.headers.get("www-authenticate"), /Bearer/);
+  assert.equal(incorrect.status, 401);
+});
+
+test("dashboard cookies and query parameters cannot replace the inventory API key", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus(), {
+    inventoryApiKeyHash: INVENTORY_API_KEY_HASH,
+  });
+  const { cookie } = await login(baseUrl);
+  const cookieOnly = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: authenticatedHeaders(cookie),
+  });
+  const queryKey = await fetch(
+    `${baseUrl}/api/v1/inventory?api_key=${encodeURIComponent(INVENTORY_API_KEY)}`,
+  );
+
+  assert.equal(cookieOnly.status, 401);
+  assert.equal(queryKey.status, 401);
+});
+
+test("inventory API supports credential-free CORS preflight for configured websites", async (t) => {
+  const callerOrigin = "https://shop.example";
+  const baseUrl = await withServer(t, fixtureStatus(), {
+    inventoryApiKeyHash: INVENTORY_API_KEY_HASH,
+    inventoryApiAllowedOrigins: [callerOrigin],
+  });
+  const preflight = await fetch(`${baseUrl}/api/v1/inventory`, {
+    method: "OPTIONS",
+    headers: {
+      origin: callerOrigin,
+      "access-control-request-method": "GET",
+      "access-control-request-headers": "authorization",
+    },
+  });
+  const allowed = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: {
+      authorization: `Bearer ${INVENTORY_API_KEY}`,
+      origin: callerOrigin,
+    },
+  });
+  const rejected = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: {
+      authorization: `Bearer ${INVENTORY_API_KEY}`,
+      origin: "https://evil.example",
+    },
+  });
+
+  assert.equal(preflight.status, 204);
+  assert.equal(preflight.headers.get("access-control-allow-origin"), callerOrigin);
+  assert.match(preflight.headers.get("access-control-allow-methods"), /GET/);
+  assert.match(preflight.headers.get("access-control-allow-headers"), /Authorization/i);
+  assert.equal(allowed.status, 200);
+  assert.equal(allowed.headers.get("access-control-allow-origin"), callerOrigin);
+  assert.equal(rejected.status, 403);
+  assert.equal(rejected.headers.get("access-control-allow-origin"), null);
+});
+
+test("inventory API wildcard CORS still requires the API key", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus(), {
+    inventoryApiKeyHash: INVENTORY_API_KEY_HASH,
+    inventoryApiAllowedOrigins: "*",
+  });
+  const response = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: { origin: "https://any-site.example" },
+  });
+
+  assert.equal(response.status, 401);
+  assert.equal(response.headers.get("access-control-allow-origin"), "*");
+});
+
+test("inventory API is disabled without a configured key hash", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus());
+  const response = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: { authorization: `Bearer ${INVENTORY_API_KEY}` },
+  });
+
+  assert.equal(response.status, 404);
+});
+
+test("inventory API returns 503 instead of serving a stale snapshot", async (t) => {
+  const baseUrl = await withServer(
+    t,
+    fixtureStatus(Date.now() - 60 * 60 * 1000),
+    { inventoryApiKeyHash: INVENTORY_API_KEY_HASH },
+  );
+  const response = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: { authorization: `Bearer ${INVENTORY_API_KEY}` },
+  });
+  const body = await response.json();
+
+  assert.equal(response.status, 503);
+  assert.equal(body.error, "snapshot_stale");
+  assert.equal(body.source.status, "down");
+  assert.equal(response.headers.get("retry-after"), "30");
+});
+
+test("inventory API does not leak unexpected snapshot fields", async (t) => {
+  const status = fixtureStatus();
+  status.shopToken = "shop-token-must-not-leak";
+  status.inventory.proxyPassword = "proxy-password-must-not-leak";
+  status.inventory.products[0].visitorId = "visitor-id-must-not-leak";
+  const baseUrl = await withServer(t, status, {
+    inventoryApiKeyHash: INVENTORY_API_KEY_HASH,
+  });
+  const response = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: { authorization: `Bearer ${INVENTORY_API_KEY}` },
+  });
+  const serialized = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.doesNotMatch(serialized, /shop-token|proxy-password|visitor-id/);
+});
+
+test("inventory API builder excludes historical missing products", () => {
+  const status = fixtureStatus();
+  status.inventory.products.push({
+    ...status.inventory.products[0],
+    key: "historical",
+    name: "historical product",
+    status: "missing",
+    missingSince: new Date().toISOString(),
+  });
+  const result = buildInventoryApi(status);
+
+  assert.equal(result.summary.total, 2);
+  assert.equal(result.items.some((item) => item.id === "historical"), false);
+});
+
+test("inventory API builder normalizes malformed snapshot fields", () => {
+  const status = fixtureStatus();
+  status.inventory.products = [
+    {
+      key: "unsafe",
+      name: "unsafe product",
+      link: "https://pay.ldxp.cn:8443/item/unsafe?token=secret",
+      category: { id: -9, name: "unsafe" },
+      price: -12,
+      stock: -5,
+      status: "in_stock",
+      lastChangedAt: "not-a-date",
+    },
+    { key: "", status: "in_stock", stock: 1 },
+  ];
+  const result = buildInventoryApi(status);
+
+  assert.equal(result.items.length, 1);
+  assert.deepEqual(result.items[0], {
+    id: "unsafe",
+    name: "unsafe product",
+    url: null,
+    category: { id: 0, name: "unsafe" },
+    price: 0,
+    stock: 0,
+    status: "out_of_stock",
+    lastChangedAt: null,
+  });
+});
+
+test("inventory API rejects malformed key hashes and origin allowlists", () => {
+  assert.throws(
+    () =>
+      createDashboardServer({
+        passwordHash: PASSWORD_HASH,
+        publicOrigin: PUBLIC_ORIGIN,
+        secureCookie: false,
+        cookieName: "ldxp_test_session",
+        inventoryApiKeyHash: "not-a-hash",
+      }),
+    /SHA-256/,
+  );
+  assert.throws(
+    () =>
+      createDashboardServer({
+        passwordHash: PASSWORD_HASH,
+        publicOrigin: PUBLIC_ORIGIN,
+        secureCookie: false,
+        cookieName: "ldxp_test_session",
+        inventoryApiAllowedOrigins: "https://shop.example/path",
+      }),
+    /allowed origin/,
+  );
 });
 
 test("overview marks snapshots down after three missed intervals", () => {

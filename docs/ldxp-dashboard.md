@@ -42,6 +42,78 @@ Authenticated read-only endpoints:
 - `GET /api/v1/dashboard/polls`
 - `GET /api/v1/dashboard/restocks`
 
+## Inventory integration API
+
+Other services can read the current active inventory without a dashboard login:
+
+```http
+GET /stock-monitor/api/v1/inventory HTTP/1.1
+Host: 103.193.172.111.sslip.io
+Authorization: Bearer <inventory-api-key>
+```
+
+The API reads only the sanitized monitor snapshot. It never reads the raw stock
+state, proxy configuration, Telegram configuration, visitor ID, or shop token.
+It returns active `in_stock` and `out_of_stock` products; historical `missing`
+products are deliberately excluded. The stable v1 response shape is:
+
+```json
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "snapshotAt": "2026-07-15T23:59:00.000Z",
+  "source": {
+    "status": "healthy",
+    "lastSuccessAt": "2026-07-15T23:59:00.000Z",
+    "ageMs": 60000
+  },
+  "summary": { "total": 121, "inStock": 89, "outOfStock": 32 },
+  "items": [
+    {
+      "id": "example",
+      "name": "Example product",
+      "url": "https://pay.ldxp.cn/item/example",
+      "category": { "id": 1, "name": "GPT PLUS" },
+      "price": 9.9,
+      "stock": 12,
+      "status": "in_stock",
+      "lastChangedAt": "2026-07-15T23:50:00.000Z"
+    }
+  ]
+}
+```
+
+If the monitor snapshot is stale enough to be considered `down`, the endpoint
+returns `503 snapshot_stale` with `Retry-After: 30` instead of presenting old
+stock as current. A `degraded` snapshot remains readable and is identified by
+`source.status` and `source.ageMs`.
+
+Generate a 32-byte base64url key, save the raw value only for the caller, and
+put only its SHA-256 digest in `/etc/ldxp-dashboard.env`:
+
+```bash
+API_KEY="$(openssl rand -base64 32 | tr '+/' '-_' | tr -d '=\n')"
+printf '%s\n' "$API_KEY" | sudo install -o root -g root -m 0600 /dev/stdin \
+  /root/ldxp-inventory-api-key.txt
+printf '%s' "$API_KEY" | sha256sum
+unset API_KEY
+```
+
+Use the API key only in the other website's backend, serverless function, or
+secret environment variable. Do not embed it in browser JavaScript: browser
+bundles, DevTools, and network logs expose it, and CORS does not make a secret
+safe. Server-to-server calls work when `LDXP_INVENTORY_API_ALLOWED_ORIGINS` is
+empty. For browser calls, configure a comma-separated list of exact HTTPS
+origins. Wildcard `*` is supported but discouraged.
+
+Example server-side request:
+
+```bash
+curl --fail --silent \
+  -H "Authorization: Bearer $LDXP_INVENTORY_API_KEY" \
+  https://103.193.172.111.sslip.io/stock-monitor/api/v1/inventory
+```
+
 `GET /healthz` is available only on the internal loopback listener. The public
 `/stock-monitor/healthz` route deliberately returns `404`.
 
@@ -80,6 +152,9 @@ LDXP_DASHBOARD_TRUST_PROXY=true
 LDXP_DASHBOARD_SECURE_COOKIE=true
 LDXP_DASHBOARD_COOKIE_NAME=__Secure-ldxp_session
 LDXP_DASHBOARD_COOKIE_PATH=/stock-monitor/
+LDXP_INVENTORY_API_KEY_HASH=<sha256-hex-digest>
+LDXP_INVENTORY_API_ALLOWED_ORIGINS=
+LDXP_INVENTORY_API_RATE_LIMIT=120
 ```
 
 Install the Nginx snippets in their expected locations:
@@ -93,7 +168,8 @@ sudo install -o root -g root -m 0644 deploy/nginx-ldxp-dashboard-locations.conf 
 Include `ldxp-dashboard-locations.conf` from the exact HTTPS `server` block. The
 rate file must be loaded in Nginx's `http` context. The main location uses `^~`,
 all upstream requests go to `127.0.0.1:8788`, and the exact public health route
-returns `404`.
+returns `404`. The inventory endpoint has a separate Nginx limit of 120 requests
+per minute per source IP, plus the application-level limit.
 
 Never expose port 8788 directly. Only HTTPS port 443 and the SSH management port
 should be reachable from the internet.
@@ -171,6 +247,8 @@ snapshot is readable. Complete all of these checks:
 - the authenticated overview API returns `200` and a current snapshot timestamp
 - an unauthenticated dashboard API request returns `401`
 - the public `/stock-monitor/healthz` returns `404`
+- the inventory API returns `401` without its API key and `200` with the key
+- configured browser origins receive the expected CORS preflight response
 - `ss -ltnp` shows the dashboard only on `127.0.0.1:8788`, never on a wildcard
 - the login response sets `__Secure-ldxp_session` with
   `Path=/stock-monitor/`, `Secure`, `HttpOnly`, and `SameSite=Strict`

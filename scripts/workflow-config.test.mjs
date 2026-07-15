@@ -70,6 +70,9 @@ test("dashboard service is isolated and listens on loopback by default", async (
   assert.match(environment, /^LDXP_DASHBOARD_MAX_FAILURES=3$/m);
   assert.match(environment, /^LDXP_DASHBOARD_BAN_MS=86400000$/m);
   assert.match(environment, /^LDXP_DASHBOARD_STATUS_FILE=\/var\/lib\/ldxp-monitor\/ldxp-monitor-status\.json$/m);
+  assert.match(environment, /^LDXP_INVENTORY_API_KEY_HASH=$/m);
+  assert.match(environment, /^LDXP_INVENTORY_API_ALLOWED_ORIGINS=$/m);
+  assert.match(environment, /^LDXP_INVENTORY_API_RATE_LIMIT=120$/m);
 });
 
 test("nginx dashboard proxy overwrites client identity headers", async () => {
@@ -90,6 +93,9 @@ test("nginx dashboard proxy overwrites client identity headers", async () => {
   assert.doesNotMatch(headers, /proxy_add_x_forwarded_for/);
   assert.match(locations, /location = \/stock-monitor\/api\/v1\/auth\/login/);
   assert.match(locations, /limit_req zone=ldxp_dashboard_login/);
+  assert.match(locations, /location = \/stock-monitor\/api\/v1\/inventory/);
+  assert.match(locations, /limit_req zone=ldxp_inventory_api/);
+  assert.match(nginxFiles, /limit_req_zone \$binary_remote_addr zone=ldxp_inventory_api:10m rate=120r\/m;/);
   assert.match(locations, /location \^~ \/stock-monitor\/\s*\{/);
   assert.match(
     locations,
@@ -109,6 +115,9 @@ test("dashboard deployment docs describe opaque persistent sessions without a si
   assert.match(docs, /server-side\s+persistent opaque session/i);
   assert.match(docs, /__Secure-ldxp_session/);
   assert.match(docs, /Path=\/stock-monitor\//);
+  assert.match(docs, /GET \/stock-monitor\/api\/v1\/inventory/);
+  assert.match(docs, /Authorization: Bearer <inventory-api-key>/);
+  assert.match(docs, /Do not embed it in browser JavaScript/);
   assert.doesNotMatch(docs, /signed, HttpOnly/i);
   assert.doesNotMatch(docs, /session signing secret/i);
 });

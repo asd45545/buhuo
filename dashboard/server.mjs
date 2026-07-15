@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import { createHash, timingSafeEqual } from "node:crypto";
 import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
 import os from "node:os";
@@ -28,6 +29,8 @@ const defaultSecurityFile = path.resolve(
 );
 const REFRESH_AFTER_MS = 15_000;
 const MAX_REQUESTS_PER_MINUTE = 120;
+const DEFAULT_INVENTORY_API_REQUESTS_PER_MINUTE = 120;
+const INVENTORY_API_PATH = "/api/v1/inventory";
 const DEFAULT_SESSION_COOKIE_NAME = "__Secure-ldxp_session";
 const DEFAULT_SESSION_COOKIE_PATH = "/stock-monitor/";
 
@@ -110,6 +113,56 @@ function validatePublicOrigin(value, allowHttp = false) {
 function booleanValue(value, fallback = false) {
   if (value === undefined || value === null || value === "") return fallback;
   return ["1", "true", "yes", "on"].includes(String(value).trim().toLowerCase());
+}
+
+function parseOriginAllowlist(value) {
+  const entries = (Array.isArray(value) ? value : String(value || "").split(","))
+    .map((entry) => String(entry).trim())
+    .filter(Boolean);
+  const unique = [...new Set(entries)];
+  if (unique.includes("*")) {
+    if (unique.length !== 1) {
+      throw new Error("inventory API origin wildcard cannot be combined with exact origins");
+    }
+    return { allowAny: true, origins: new Set() };
+  }
+
+  for (const origin of unique) {
+    let parsed;
+    try {
+      parsed = new URL(origin);
+    } catch {
+      throw new Error("invalid inventory API allowed origin");
+    }
+    if (parsed.origin !== origin || parsed.protocol !== "https:") {
+      throw new Error("invalid inventory API allowed origin");
+    }
+  }
+  return { allowAny: false, origins: new Set(unique) };
+}
+
+function inventoryCors(req, allowlist) {
+  const header = req.headers.origin;
+  if (Array.isArray(header)) return { allowed: false, headers: {} };
+  const origin = String(header || "");
+  if (!origin) return { allowed: true, headers: {} };
+  if (allowlist.allowAny) {
+    return { allowed: true, headers: { "access-control-allow-origin": "*" } };
+  }
+  if (!allowlist.origins.has(origin)) return { allowed: false, headers: {} };
+  return {
+    allowed: true,
+    headers: { "access-control-allow-origin": origin, vary: "Origin" },
+  };
+}
+
+function validInventoryApiKey(req, expectedHash) {
+  const authorization = String(req.headers.authorization || "");
+  const match = authorization.match(/^Bearer ([A-Za-z0-9_-]{43})$/);
+  if (!match) return false;
+  const actual = createHash("sha256").update(match[1], "utf8").digest();
+  const expected = Buffer.from(expectedHash, "hex");
+  return expected.length === actual.length && timingSafeEqual(actual, expected);
 }
 
 async function readJsonBody(req, maxBytes = 2_048) {
@@ -311,6 +364,69 @@ function buildProducts(snapshot, searchParams) {
   };
 }
 
+function buildInventoryApi(snapshot, now = Date.now()) {
+  const inventory = snapshot.inventory || {};
+  const health = calculateHealth(snapshot, now);
+  const items = (inventory.products || [])
+    .filter((item) => item.status === "in_stock" || item.status === "out_of_stock")
+    .map((item) => {
+      const stockValue = Number(item.stock);
+      const priceValue = Number(item.price);
+      const categoryIdValue = Number(item.category?.id);
+      const stock = Number.isFinite(stockValue) ? Math.max(0, Math.trunc(stockValue)) : 0;
+      let url = null;
+      try {
+        const parsed = new URL(String(item.link || ""));
+        if (
+          parsed.origin === "https://pay.ldxp.cn" &&
+          parsed.pathname.startsWith("/item/") &&
+          !parsed.username &&
+          !parsed.password
+        ) {
+          parsed.search = "";
+          parsed.hash = "";
+          url = parsed.href;
+        }
+      } catch {
+        url = null;
+      }
+      return {
+        id: String(item.key || "").slice(0, 160),
+        name: String(item.name || "").slice(0, 300),
+        url,
+        category: {
+          id: Number.isFinite(categoryIdValue) ? Math.max(0, Math.trunc(categoryIdValue)) : 0,
+          name: String(item.category?.name || "未分类").slice(0, 120),
+        },
+        price: Number.isFinite(priceValue) ? Math.max(0, priceValue) : 0,
+        stock,
+        status: stock > 0 ? "in_stock" : "out_of_stock",
+        lastChangedAt:
+          validDateMs(item.lastChangedAt) === null
+            ? null
+            : new Date(validDateMs(item.lastChangedAt)).toISOString(),
+      };
+    })
+    .filter((item) => item.id);
+
+  return {
+    schemaVersion: 1,
+    generatedAt: new Date(now).toISOString(),
+    snapshotAt: inventory.snapshotAt || null,
+    source: {
+      status: health.status,
+      lastSuccessAt: snapshot.monitor?.lastSuccessAt || null,
+      ageMs: health.successAgeMs,
+    },
+    summary: {
+      total: items.length,
+      inStock: items.filter((item) => item.status === "in_stock").length,
+      outOfStock: items.filter((item) => item.status === "out_of_stock").length,
+    },
+    items,
+  };
+}
+
 function safeStaticPath(publicDir, pathname) {
   const requested = pathname === "/" ? "index.html" : pathname.replace(/^\/+/, "");
   const normalized = path.normalize(requested);
@@ -347,6 +463,14 @@ function createDashboardServer(options = {}) {
     60_000,
     90 * 24 * 60 * 60 * 1000,
   );
+  const inventoryApiKeyHash = String(
+    options.inventoryApiKeyHash || process.env.LDXP_INVENTORY_API_KEY_HASH || "",
+  ).toLowerCase();
+  const inventoryApiAllowedOrigins = parseOriginAllowlist(
+    options.inventoryApiAllowedOrigins ??
+      process.env.LDXP_INVENTORY_API_ALLOWED_ORIGINS ??
+      "",
+  );
   const now = options.now || Date.now;
   const security = options.security || new LoginSecurityStore(securityFile, {
     maxFailures: parseInteger(
@@ -364,11 +488,22 @@ function createDashboardServer(options = {}) {
     now,
   });
   const allowRequest = createRateLimiter(options.rateLimit || MAX_REQUESTS_PER_MINUTE);
+  const allowInventoryApiRequest = createRateLimiter(
+    parseInteger(
+      options.inventoryApiRateLimit || process.env.LDXP_INVENTORY_API_RATE_LIMIT,
+      DEFAULT_INVENTORY_API_REQUESTS_PER_MINUTE,
+      10,
+      10_000,
+    ),
+  );
 
   parsePasswordHash(passwordHash);
   const sessionVersion = passwordHashVersion(passwordHash);
   if (!/^[A-Za-z0-9_-]{1,64}$/.test(cookieName)) {
     throw new Error("invalid dashboard cookie name");
+  }
+  if (inventoryApiKeyHash && !/^[a-f0-9]{64}$/.test(inventoryApiKeyHash)) {
+    throw new Error("LDXP_INVENTORY_API_KEY_HASH must be a SHA-256 hex digest");
   }
   if (cookieName.startsWith("__Secure-") && !secureCookie) {
     throw new Error("__Secure- dashboard cookies require Secure");
@@ -424,6 +559,86 @@ function createDashboardServer(options = {}) {
         return;
       }
       jsonResponse(res, 200, { ok: true });
+      return;
+    }
+
+    if (url.pathname === INVENTORY_API_PATH) {
+      if (!inventoryApiKeyHash) {
+        jsonResponse(res, 404, { ok: false, error: "not_found" });
+        return;
+      }
+      const cors = inventoryCors(req, inventoryApiAllowedOrigins);
+      if (!cors.allowed) {
+        jsonResponse(res, 403, { ok: false, error: "origin_rejected" });
+        return;
+      }
+      if (req.method === "OPTIONS") {
+        emptyResponse(res, 204, {
+          ...cors.headers,
+          "access-control-allow-methods": "GET, OPTIONS",
+          "access-control-allow-headers": "Authorization",
+          "access-control-max-age": "600",
+        });
+        return;
+      }
+      if (req.method !== "GET") {
+        jsonResponse(
+          res,
+          405,
+          { ok: false, error: "method_not_allowed" },
+          { ...cors.headers, allow: "GET, OPTIONS" },
+        );
+        return;
+      }
+      if (!validInventoryApiKey(req, inventoryApiKeyHash)) {
+        jsonResponse(
+          res,
+          401,
+          { ok: false, error: "unauthorized" },
+          {
+            ...cors.headers,
+            "www-authenticate": 'Bearer realm="ldxp-inventory"',
+          },
+        );
+        return;
+      }
+      const clientIp = requestClientIp(req, trustProxy);
+      if (!allowInventoryApiRequest(clientIp)) {
+        jsonResponse(
+          res,
+          429,
+          { ok: false, error: "rate_limited" },
+          { ...cors.headers, "retry-after": "60" },
+        );
+        return;
+      }
+      try {
+        const snapshot = await loadSnapshot(statusFile);
+        const payload = buildInventoryApi(snapshot);
+        if (payload.source.status === "down") {
+          jsonResponse(
+            res,
+            503,
+            {
+              ok: false,
+              error: "snapshot_stale",
+              snapshotAt: payload.snapshotAt,
+              source: payload.source,
+            },
+            { ...cors.headers, "retry-after": "30" },
+          );
+          return;
+        }
+        jsonResponse(res, 200, payload, cors.headers);
+      } catch (error) {
+        console.error(`INVENTORY_API_SNAPSHOT_ERROR message=${error.message}`);
+        jsonResponse(
+          res,
+          503,
+          { ok: false, error: "snapshot_unavailable" },
+          { ...cors.headers, "retry-after": "30" },
+        );
+      }
       return;
     }
 
@@ -656,7 +871,14 @@ async function main() {
   process.once("SIGTERM", shutdown);
 }
 
-export { buildOverview, buildProducts, calculateHealth, createDashboardServer, loadSnapshot };
+export {
+  buildInventoryApi,
+  buildOverview,
+  buildProducts,
+  calculateHealth,
+  createDashboardServer,
+  loadSnapshot,
+};
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((error) => {
