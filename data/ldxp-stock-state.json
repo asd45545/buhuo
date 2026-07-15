@@ -3835,43 +3835,5 @@
       "lastChangedAt": "2026-07-15T14:10:26.454Z",
       "missingSince": null
     }
-  },
-  "pendingAlerts": [
-    {
-      "key": "qdyac8",
-      "name": "【强推正宗老字号】【claude code MAX20谷歌内购超稳成品号】【 质保订阅30天】 【不质保封号】",
-      "link": "https://pay.ldxp.cn/item/qdyac8",
-      "goodsType": "card",
-      "categoryId": 111639,
-      "categoryName": "Claude",
-      "price": 604.8,
-      "stock": 2,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-15T10:55:10.877Z",
-      "checkedAt": "2026-07-15T14:15:14.985Z",
-      "alertId": "restocked|qdyac8|0|2|2026-07-15T10:55:10.877Z",
-      "queuedAt": "2026-07-15T14:15:14.985Z"
-    },
-    {
-      "key": "1ek45e",
-      "name": "GPT PLUS独享成品月卡|质保30天|越南visa实卡支付",
-      "link": "https://pay.ldxp.cn/item/1ek45e",
-      "goodsType": "card",
-      "categoryId": 111629,
-      "categoryName": "GPT PLUS",
-      "price": 86.53,
-      "stock": 4,
-      "inStock": true,
-      "alertType": "restocked",
-      "previousStock": 0,
-      "previousStockValue": 0,
-      "outOfStockSince": "2026-07-15T13:25:11.618Z",
-      "checkedAt": "2026-07-15T14:15:14.985Z",
-      "alertId": "restocked|1ek45e|0|4|2026-07-15T13:25:11.618Z",
-      "queuedAt": "2026-07-15T14:15:14.985Z"
-    }
-  ]
+  }
 }
