@@ -31,6 +31,7 @@ const REFRESH_AFTER_MS = 15_000;
 const MAX_REQUESTS_PER_MINUTE = 120;
 const DEFAULT_INVENTORY_API_REQUESTS_PER_MINUTE = 120;
 const INVENTORY_API_PATH = "/api/v1/inventory";
+const API_DOC_PATHS = new Set(["/api-docs", "/api-docs/", "/api-docs.html"]);
 const DEFAULT_SESSION_COOKIE_NAME = "__Secure-ldxp_session";
 const DEFAULT_SESSION_COOKIE_PATH = "/stock-monitor/";
 
@@ -435,6 +436,15 @@ function safeStaticPath(publicDir, pathname) {
   return resolved.startsWith(`${path.resolve(publicDir)}${path.sep}`) ? resolved : null;
 }
 
+function sameStaticFile(left, right) {
+  if (!left || !right) return false;
+  const normalize = (value) => {
+    const resolved = path.resolve(value);
+    return process.platform === "win32" ? resolved.toLowerCase() : resolved;
+  };
+  return normalize(left) === normalize(right);
+}
+
 function createDashboardServer(options = {}) {
   const passwordHash = String(
     options.passwordHash || process.env.LDXP_DASHBOARD_PASSWORD_HASH || "",
@@ -442,6 +452,7 @@ function createDashboardServer(options = {}) {
   const statusFile = path.resolve(options.statusFile || defaultStatusFile);
   const securityFile = path.resolve(options.securityFile || defaultSecurityFile);
   const publicDir = path.resolve(options.publicDir || defaultPublicDir);
+  const apiDocsFile = path.resolve(publicDir, "api-docs.html");
   const trustProxy = options.trustProxy ?? booleanValue(process.env.LDXP_DASHBOARD_TRUST_PROXY);
   const secureCookie =
     options.secureCookie ?? booleanValue(process.env.LDXP_DASHBOARD_SECURE_COOKIE, true);
@@ -502,6 +513,14 @@ function createDashboardServer(options = {}) {
   if (!/^[A-Za-z0-9_-]{1,64}$/.test(cookieName)) {
     throw new Error("invalid dashboard cookie name");
   }
+  if (
+    !cookiePath.startsWith("/") ||
+    cookiePath.startsWith("//") ||
+    /[\\;?#\u0000-\u001f\u007f]/.test(cookiePath)
+  ) {
+    throw new Error("invalid dashboard cookie path");
+  }
+  const dashboardBasePath = cookiePath.endsWith("/") ? cookiePath : `${cookiePath}/`;
   if (inventoryApiKeyHash && !/^[a-f0-9]{64}$/.test(inventoryApiKeyHash)) {
     throw new Error("LDXP_INVENTORY_API_KEY_HASH must be a SHA-256 hex digest");
   }
@@ -615,13 +634,15 @@ function createDashboardServer(options = {}) {
       try {
         const snapshot = await loadSnapshot(statusFile);
         const payload = buildInventoryApi(snapshot);
-        if (payload.source.status === "down") {
+        if (payload.source.status === "down" || payload.source.status === "starting") {
+          const errorCode =
+            payload.source.status === "down" ? "snapshot_stale" : "snapshot_unavailable";
           jsonResponse(
             res,
             503,
             {
               ok: false,
-              error: "snapshot_stale",
+              error: errorCode,
               snapshotAt: payload.snapshotAt,
               source: payload.source,
             },
@@ -818,20 +839,40 @@ function createDashboardServer(options = {}) {
       return;
     }
 
+    const staticFile = safeStaticPath(publicDir, url.pathname);
+    const isApiDocsPath =
+      API_DOC_PATHS.has(url.pathname.toLowerCase()) || sameStaticFile(staticFile, apiDocsFile);
+    if (isApiDocsPath) {
+      const clientIp = requestClientIp(req, trustProxy);
+      const ban = await security.banStatus(clientIp);
+      if (ban.banned) {
+        banResponse(res, ban);
+        return;
+      }
+      const session = await currentSession(req);
+      if (!session.valid) {
+        emptyResponse(res, 302, { location: dashboardBasePath });
+        return;
+      }
+      if (url.pathname !== "/api-docs.html") {
+        emptyResponse(res, 308, { location: `${dashboardBasePath}api-docs.html` });
+        return;
+      }
+    }
+
     if (!new Set(["GET", "HEAD"]).has(req.method || "GET")) {
       jsonResponse(res, 405, { ok: false, error: "method_not_allowed" }, { allow: "GET, HEAD" });
       return;
     }
 
-    const file = safeStaticPath(publicDir, url.pathname);
-    if (!file) {
+    if (!staticFile) {
       jsonResponse(res, 404, { ok: false, error: "not_found" });
       return;
     }
 
     try {
-      const body = await readFile(file);
-      const extension = path.extname(file).toLowerCase();
+      const body = await readFile(staticFile);
+      const extension = path.extname(staticFile).toLowerCase();
       res.writeHead(200, {
         "content-type": contentTypes.get(extension) || "application/octet-stream",
         "content-length": body.length,

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#10263f" />
+    <title>库存明细 API 接口文档</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="api-docs.css" />
+    <script src="api-docs.js" type="module"></script>
+  </head>
+  <body class="docs-body">
+    <header class="topbar docs-topbar">
+      <a class="brand" href="./" aria-label="返回补货监控中心">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" role="img">
+            <path d="M7 8.5h18v15H7z" />
+            <path d="M11 5.5h10M11 13h10M11 18h6" />
+          </svg>
+        </span>
+        <span>
+          <strong>补货监控中心</strong>
+          <small>LDXP Operations</small>
+        </span>
+      </a>
+      <a class="docs-back" href="./">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6" /></svg>
+        返回监控中心
+      </a>
+    </header>
+
+    <main class="docs-main">
+      <section class="docs-hero" aria-labelledby="docs-title">
+        <div>
+          <p class="eyebrow">INVENTORY API · VERSION 1</p>
+          <h1 id="docs-title">库存明细 API 接口文档</h1>
+          <p>
+            给其他网站的服务端读取当前商品、价格和库存状态。接口只读取脱敏快照，
+            不会触发额外店铺请求。
+          </p>
+        </div>
+        <div class="docs-badges" aria-label="接口摘要">
+          <span class="method-badge">GET</span>
+          <span>Bearer API Key</span>
+          <span>120 次/分钟/IP</span>
+        </div>
+      </section>
+
+      <div class="docs-layout">
+        <aside class="docs-toc" aria-label="文档目录">
+          <strong>本页目录</strong>
+          <nav>
+            <a href="#endpoint">接口地址</a>
+            <a href="#authentication">身份验证</a>
+            <a href="#examples">调用示例</a>
+            <a href="#response">响应结构</a>
+            <a href="#errors">错误码</a>
+            <a href="#cors">跨域与安全</a>
+          </nav>
+        </aside>
+
+        <article class="docs-content">
+          <section class="doc-section" id="endpoint">
+            <div class="section-heading">
+              <span class="section-number">01</span>
+              <div><p>Endpoint</p><h2>接口地址</h2></div>
+            </div>
+            <p>业务请求使用 HTTPS <code>GET</code>；浏览器跨域预检支持 <code>OPTIONS</code>。</p>
+            <div class="endpoint-box">
+              <span class="method-badge">GET</span>
+              <code id="endpoint-value">https://103.193.172.111.sslip.io/stock-monitor/api/v1/inventory</code>
+              <button class="copy-button" type="button" data-copy-target="endpoint-value">复制</button>
+            </div>
+            <div class="info-grid">
+              <div><span>内容类型</span><strong>application/json</strong></div>
+              <div><span>更新频率</span><strong>约 5 分钟</strong></div>
+              <div><span>历史下架</span><strong>不返回</strong></div>
+            </div>
+          </section>
+
+          <section class="doc-section" id="authentication">
+            <div class="section-heading">
+              <span class="section-number">02</span>
+              <div><p>Authentication</p><h2>身份验证</h2></div>
+            </div>
+            <p>在请求头中携带独立的 API Key。网页登录密码和登录 Cookie 不能代替 API Key。</p>
+            <div class="code-block">
+              <div class="code-toolbar"><span>HTTP Header</span><button class="copy-button copy-button--dark" type="button" data-copy-target="auth-code">复制</button></div>
+              <pre><code id="auth-code">Authorization: Bearer &lt;API_KEY&gt;</code></pre>
+            </div>
+            <div class="warning-callout">
+              <strong>不要把 API Key 写进网页前端</strong>
+              <p>请保存在网站后端、Vercel Function、Cloudflare Worker 或服务器环境变量中。浏览器源码和开发者工具无法保密。</p>
+            </div>
+          </section>
+
+          <section class="doc-section" id="examples">
+            <div class="section-heading">
+              <span class="section-number">03</span>
+              <div><p>Quick start</p><h2>调用示例</h2></div>
+            </div>
+            <h3>cURL</h3>
+            <div class="code-block">
+              <div class="code-toolbar"><span>Shell</span><button class="copy-button copy-button--dark" type="button" data-copy-target="curl-code">复制</button></div>
+              <pre><code id="curl-code">curl --fail --silent \
+  -H "Authorization: Bearer &lt;API_KEY&gt;" \
+  https://103.193.172.111.sslip.io/stock-monitor/api/v1/inventory</code></pre>
+            </div>
+            <h3>Node.js / 网站后端</h3>
+            <div class="code-block">
+              <div class="code-toolbar"><span>JavaScript</span><button class="copy-button copy-button--dark" type="button" data-copy-target="node-code">复制</button></div>
+              <pre><code id="node-code">const response = await fetch(
+  "https://103.193.172.111.sslip.io/stock-monitor/api/v1/inventory",
+  {
+    headers: {
+      Authorization: `Bearer ${process.env.LDXP_INVENTORY_API_KEY}`,
+    },
+  },
+);
+
+if (!response.ok) {
+  throw new Error(`Inventory API returned ${response.status}`);
+}
+
+const inventory = await response.json();
+console.log(inventory.items);</code></pre>
+            </div>
+          </section>
+
+          <section class="doc-section" id="response">
+            <div class="section-heading">
+              <span class="section-number">04</span>
+              <div><p>Response</p><h2>响应结构</h2></div>
+            </div>
+            <div class="code-block">
+              <div class="code-toolbar"><span>200 OK · JSON</span><button class="copy-button copy-button--dark" type="button" data-copy-target="response-code">复制</button></div>
+              <pre><code id="response-code">{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "snapshotAt": "2026-07-15T23:59:00.000Z",
+  "source": {
+    "status": "healthy",
+    "lastSuccessAt": "2026-07-15T23:59:00.000Z",
+    "ageMs": 60000
+  },
+  "summary": {
+    "total": 123,
+    "inStock": 91,
+    "outOfStock": 32
+  },
+  "items": [
+    {
+      "id": "example",
+      "name": "示例商品",
+      "url": "https://pay.ldxp.cn/item/example",
+      "category": { "id": 1, "name": "GPT PLUS" },
+      "price": 9.9,
+      "stock": 12,
+      "status": "in_stock",
+      "lastChangedAt": "2026-07-15T23:50:00.000Z"
+    }
+  ]
+}</code></pre>
+            </div>
+
+            <div class="table-scroll">
+              <table class="docs-table">
+                <thead><tr><th>字段</th><th>类型</th><th>说明</th></tr></thead>
+                <tbody>
+                  <tr><td><code>source.status</code></td><td>string</td><td>200 响应为 <code>healthy</code> 或 <code>degraded</code>；<code>starting</code>、<code>down</code> 返回 503。</td></tr>
+                  <tr><td><code>summary</code></td><td>object</td><td>商品总数、有货数、缺货数。</td></tr>
+                  <tr><td><code>items[].id</code></td><td>string</td><td>商品唯一标识。</td></tr>
+                  <tr><td><code>items[].price</code></td><td>number</td><td>当前售价，人民币。</td></tr>
+                  <tr><td><code>items[].stock</code></td><td>integer</td><td>当前库存，最小为 0。</td></tr>
+                  <tr><td><code>items[].status</code></td><td>string</td><td><code>in_stock</code> 或 <code>out_of_stock</code>。</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="doc-section" id="errors">
+            <div class="section-heading">
+              <span class="section-number">05</span>
+              <div><p>Errors</p><h2>错误码</h2></div>
+            </div>
+            <div class="table-scroll">
+              <table class="docs-table error-table">
+                <thead><tr><th>HTTP</th><th>error</th><th>处理建议</th></tr></thead>
+                <tbody>
+                  <tr><td><span class="status-code status-code--red">401</span></td><td><code>unauthorized</code></td><td>检查 Authorization 请求头和 API Key。</td></tr>
+                  <tr><td><span class="status-code status-code--red">403</span></td><td><code>origin_rejected</code></td><td>浏览器来源未加入白名单；前端通常表现为 CORS 或网络错误。</td></tr>
+                  <tr><td><span class="status-code status-code--red">405</span></td><td><code>method_not_allowed</code></td><td>业务请求方法不是 GET。</td></tr>
+                  <tr><td><span class="status-code status-code--amber">429</span></td><td><code>rate_limited</code></td><td>降低频率后重试；代理层 429 可能不是 JSON，且不一定包含 Retry-After。</td></tr>
+                  <tr><td><span class="status-code status-code--amber">503</span></td><td><code>snapshot_stale</code></td><td>监控已停止或快照过期，30 秒后重试，不要展示旧库存。</td></tr>
+                  <tr><td><span class="status-code status-code--amber">503</span></td><td><code>snapshot_unavailable</code></td><td>监控尚未完成首次轮询，或快照暂时无法读取。</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="doc-section" id="cors">
+            <div class="section-heading">
+              <span class="section-number">06</span>
+              <div><p>Security</p><h2>跨域、限流与数据边界</h2></div>
+            </div>
+            <ul class="check-list">
+              <li><span>✓</span><p>推荐由调用网站的后端请求；这种方式不需要配置 CORS。</p></li>
+              <li><span>✓</span><p>浏览器直连需要配置精确 HTTPS 域名白名单，不支持携带网页登录 Cookie。</p></li>
+              <li><span>✓</span><p>每个来源 IP 每分钟最多 120 次，超限返回 429。</p></li>
+              <li><span>✓</span><p>只读取脱敏后的监控快照，不返回代理、Telegram、店铺令牌、访客 ID 或历史下架商品。</p></li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <div class="toast" id="docs-toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

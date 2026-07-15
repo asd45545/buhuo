@@ -121,3 +121,17 @@ test("dashboard deployment docs describe opaque persistent sessions without a si
   assert.doesNotMatch(docs, /signed, HttpOnly/i);
   assert.doesNotMatch(docs, /session signing secret/i);
 });
+
+test("dashboard links to protected inventory API documentation without embedding a key", async () => {
+  const dashboard = await readFile("dashboard/public/index.html", "utf8");
+  const apiDocs = await readFile("dashboard/public/api-docs.html", "utf8");
+  const markdown = await readFile("docs/inventory-api.md", "utf8");
+
+  assert.match(dashboard, /href="api-docs\.html"/);
+  assert.match(dashboard, />API 文档</);
+  assert.match(apiDocs, /库存明细 API 接口文档/);
+  assert.match(apiDocs, /stock-monitor\/api\/v1\/inventory/);
+  assert.match(markdown, /^# 库存明细 API 接口文档$/m);
+  assert.doesNotMatch(apiDocs, /Authorization: Bearer [A-Za-z0-9_-]{43}/);
+  assert.doesNotMatch(markdown, /Authorization: Bearer [A-Za-z0-9_-]{43}/);
+});

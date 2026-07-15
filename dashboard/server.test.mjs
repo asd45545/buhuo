@@ -413,6 +413,26 @@ test("inventory API returns 503 instead of serving a stale snapshot", async (t) 
   assert.equal(response.headers.get("retry-after"), "30");
 });
 
+test("inventory API returns 503 before the first successful poll", async (t) => {
+  const status = createMonitorStatus({
+    now: new Date().toISOString(),
+    intervalMs: 300_000,
+    transport: "browser",
+  });
+  const baseUrl = await withServer(t, status, {
+    inventoryApiKeyHash: INVENTORY_API_KEY_HASH,
+  });
+  const response = await fetch(`${baseUrl}/api/v1/inventory`, {
+    headers: { authorization: `Bearer ${INVENTORY_API_KEY}` },
+  });
+  const body = await response.json();
+
+  assert.equal(response.status, 503);
+  assert.equal(body.error, "snapshot_unavailable");
+  assert.equal(body.source.status, "starting");
+  assert.equal(response.headers.get("retry-after"), "30");
+});
+
 test("inventory API does not leak unexpected snapshot fields", async (t) => {
   const status = fixtureStatus();
   status.shopToken = "shop-token-must-not-leak";
@@ -663,6 +683,71 @@ test("static dashboard uses restrictive browser security headers", async (t) => 
   assert.equal(response.headers.get("x-frame-options"), "DENY");
   assert.equal(response.headers.get("referrer-policy"), "no-referrer");
   assert.match(response.headers.get("cache-control"), /no-store/);
+});
+
+test("API documentation requires a dashboard session and supports a canonical link", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus(), {
+    inventoryApiKeyHash: INVENTORY_API_KEY_HASH,
+  });
+  const unauthenticated = await fetch(`${baseUrl}/api-docs.html`, {
+    redirect: "manual",
+  });
+  const apiKeyOnly = await fetch(`${baseUrl}/api-docs.html`, {
+    headers: { authorization: `Bearer ${INVENTORY_API_KEY}` },
+    redirect: "manual",
+  });
+  const mixedCaseUnauthenticated = await fetch(`${baseUrl}/API-DOCS.HTML`, {
+    redirect: "manual",
+  });
+  const { cookie } = await login(baseUrl);
+  const authenticated = await fetch(`${baseUrl}/api-docs.html`, {
+    headers: authenticatedHeaders(cookie),
+  });
+  const alias = await fetch(`${baseUrl}/api-docs`, {
+    headers: authenticatedHeaders(cookie),
+    redirect: "manual",
+  });
+  const mixedCaseAlias = await fetch(`${baseUrl}/API-DOCS.HTML`, {
+    headers: authenticatedHeaders(cookie),
+    redirect: "manual",
+  });
+  const html = await authenticated.text();
+
+  assert.equal(unauthenticated.status, 302);
+  assert.equal(unauthenticated.headers.get("location"), "/stock-monitor/");
+  assert.equal(apiKeyOnly.status, 302);
+  assert.equal(mixedCaseUnauthenticated.status, 302);
+  assert.equal(authenticated.status, 200);
+  assert.match(authenticated.headers.get("content-type"), /text\/html/);
+  assert.match(authenticated.headers.get("cache-control"), /no-store/);
+  assert.match(html, /库存明细 API 接口文档/);
+  assert.doesNotMatch(html, new RegExp(INVENTORY_API_KEY));
+  assert.equal(alias.status, 308);
+  assert.equal(alias.headers.get("location"), "/stock-monitor/api-docs.html");
+  assert.equal(mixedCaseAlias.status, 308);
+  assert.equal(mixedCaseAlias.headers.get("location"), "/stock-monitor/api-docs.html");
+});
+
+test("dashboard rejects unsafe cookie paths before serving protected documentation", () => {
+  for (const cookiePath of [
+    "/stock-monitor/\r\nX-Injected: yes",
+    "//evil.example/",
+    "/\\evil.example/",
+    "/stock-monitor/?next=//evil.example",
+    "/stock-monitor/#outside",
+  ]) {
+    assert.throws(
+      () =>
+        createDashboardServer({
+          passwordHash: PASSWORD_HASH,
+          publicOrigin: PUBLIC_ORIGIN,
+          secureCookie: false,
+          cookieName: "ldxp_test_session",
+          cookiePath,
+        }),
+      /cookie path/,
+    );
+  }
 });
 
 test("malformed request targets return 400 without terminating the server", async (t) => {
