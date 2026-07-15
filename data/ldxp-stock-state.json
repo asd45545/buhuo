@@ -6,9 +6,9 @@
     "card"
   ],
   "visitorId": "karhg6zka",
-  "runs": 5794,
+  "runs": 5795,
   "createdAt": "2026-06-23T08:43:13.630Z",
-  "updatedAt": "2026-07-15T16:40:23.641Z",
+  "updatedAt": "2026-07-15T16:45:14.865Z",
   "items": {
     "zejkcn": {
       "key": "zejkcn",
@@ -1684,13 +1684,13 @@
       "categoryId": 112907,
       "categoryName": "Grok",
       "price": 6.75,
-      "stock": 430,
+      "stock": 428,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-23T08:43:13.608Z",
-      "lastSeenAt": "2026-07-15T16:35:11.457Z",
-      "lastChangedAt": "2026-07-15T16:35:11.457Z",
+      "lastSeenAt": "2026-07-15T16:45:14.865Z",
+      "lastChangedAt": "2026-07-15T16:45:14.865Z",
       "missingSince": null
     },
     "zcj8wf": {
@@ -2755,13 +2755,13 @@
       "categoryId": 111629,
       "categoryName": "GPT PLUS",
       "price": 16.8,
-      "stock": 41,
+      "stock": 40,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-06-28T08:15:16.561Z",
-      "lastSeenAt": "2026-07-15T16:15:14.765Z",
-      "lastChangedAt": "2026-07-15T16:15:14.765Z",
+      "lastSeenAt": "2026-07-15T16:45:14.865Z",
+      "lastChangedAt": "2026-07-15T16:45:14.865Z",
       "missingSince": null
     },
     "3u60wr": {
@@ -3639,13 +3639,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 1.5,
-      "stock": 1573,
+      "stock": 1556,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-13T06:20:24.092Z",
-      "lastSeenAt": "2026-07-15T16:35:11.457Z",
-      "lastChangedAt": "2026-07-15T16:35:11.457Z",
+      "lastSeenAt": "2026-07-15T16:45:14.865Z",
+      "lastChangedAt": "2026-07-15T16:45:14.865Z",
       "missingSince": null
     },
     "rfdi1e": {
@@ -3809,13 +3809,13 @@
       "categoryId": 112069,
       "categoryName": "GPT Team",
       "price": 0.6,
-      "stock": 997,
+      "stock": 939,
       "inStock": true,
       "watchOutOfStock": false,
       "outOfStockSince": null,
       "firstSeenAt": "2026-07-15T10:55:10.877Z",
-      "lastSeenAt": "2026-07-15T16:40:23.641Z",
-      "lastChangedAt": "2026-07-15T16:40:23.641Z",
+      "lastSeenAt": "2026-07-15T16:45:14.865Z",
+      "lastChangedAt": "2026-07-15T16:45:14.865Z",
       "missingSince": null
     },
     "mgkpib": {
