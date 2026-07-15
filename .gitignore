@@ -1,4 +1,5 @@
 data/ldxp-stock-email.json
 data/ldxp-monitor-status.json*
+data/ldxp-dashboard-security.json*
 .runtime/
 node_modules/

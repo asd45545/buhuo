@@ -1,8 +1,8 @@
-const TOKEN_KEY = "ldxp-dashboard-token";
 const PAGE_SIZE = 25;
+const APP_ROOT = new URL(".", window.location.href);
 
 const state = {
-  token: sessionStorage.getItem(TOKEN_KEY) || "",
+  authenticated: false,
   overview: null,
   products: null,
   offset: 0,
@@ -17,7 +17,8 @@ const elementIds = {
   authScreen: "auth-screen",
   authForm: "auth-form",
   authError: "auth-error",
-  tokenInput: "token-input",
+  passwordInput: "password-input",
+  authSubmit: "auth-submit",
   refreshButton: "refresh-button",
   lockButton: "lock-button",
   liveIndicator: "live-indicator",
@@ -153,37 +154,57 @@ function showToast(message) {
 }
 
 function setAuthenticated(authenticated) {
+  state.authenticated = authenticated;
   elements.authScreen.classList.toggle("is-hidden", authenticated);
   if (!authenticated) {
-    elements.tokenInput.value = "";
-    setTimeout(() => elements.tokenInput.focus(), 50);
+    elements.passwordInput.value = "";
+    setTimeout(() => elements.passwordInput.focus(), 50);
   }
 }
 
-function lockDashboard() {
-  state.token = "";
+function reloadForAuthenticationChange() {
+  state.authenticated = false;
   state.overview = null;
   state.products = null;
-  sessionStorage.removeItem(TOKEN_KEY);
   state.controller?.abort();
   clearTimeout(state.refreshTimer);
-  setAuthenticated(false);
-  text(elements.authError, "");
+  window.location.reload();
+}
+
+async function lockDashboard() {
+  try {
+    const response = await fetch(new URL("api/v1/auth/logout", APP_ROOT), {
+      method: "POST",
+      credentials: "same-origin",
+      cache: "no-store",
+    });
+    if (!response.ok) throw new Error(`status_${response.status}`);
+    reloadForAuthenticationChange();
+  } catch {
+    showToast("退出失败，请检查网络后重试。");
+  }
 }
 
 async function apiFetch(path, signal) {
-  const response = await fetch(path, {
-    headers: { authorization: `Bearer ${state.token}` },
+  const response = await fetch(new URL(path, APP_ROOT), {
     cache: "no-store",
+    credentials: "same-origin",
     signal,
   });
+  const payload = await response.json().catch(() => null);
   if (response.status === 401) {
     const error = new Error("unauthorized");
     error.code = "UNAUTHORIZED";
     throw error;
   }
+  if (response.status === 429 && payload?.error === "ip_blocked") {
+    const error = new Error("ip blocked");
+    error.code = "IP_BLOCKED";
+    error.blockedUntil = payload.blockedUntil;
+    throw error;
+  }
   if (!response.ok) throw new Error(`status_${response.status}`);
-  return response.json();
+  return payload;
 }
 
 function productQueryString() {
@@ -199,7 +220,7 @@ function productQueryString() {
 }
 
 async function refreshDashboard({ silent = false, productsOnly = false } = {}) {
-  if (!state.token) return;
+  if (!state.authenticated) return;
   state.controller?.abort();
   const controller = new AbortController();
   state.controller = controller;
@@ -208,12 +229,12 @@ async function refreshDashboard({ silent = false, productsOnly = false } = {}) {
 
   try {
     if (productsOnly) {
-      state.products = await apiFetch(`/api/v1/dashboard/products?${productQueryString()}`, controller.signal);
+      state.products = await apiFetch(`api/v1/dashboard/products?${productQueryString()}`, controller.signal);
       renderProducts();
     } else {
       const [overview, products] = await Promise.all([
-        apiFetch("/api/v1/dashboard/overview", controller.signal),
-        apiFetch(`/api/v1/dashboard/products?${productQueryString()}`, controller.signal),
+        apiFetch("api/v1/dashboard/overview", controller.signal),
+        apiFetch(`api/v1/dashboard/products?${productQueryString()}`, controller.signal),
       ]);
       state.overview = overview;
       state.products = products;
@@ -226,10 +247,11 @@ async function refreshDashboard({ silent = false, productsOnly = false } = {}) {
   } catch (error) {
     if (error.name === "AbortError") return;
     if (error.code === "UNAUTHORIZED") {
-      sessionStorage.removeItem(TOKEN_KEY);
-      state.token = "";
-      setAuthenticated(false);
-      text(elements.authError, "访问令牌无效，请重新输入。");
+      reloadForAuthenticationChange();
+      return;
+    }
+    if (error.code === "IP_BLOCKED") {
+      reloadForAuthenticationChange();
       return;
     }
     elements.liveIndicator.dataset.status = "degraded";
@@ -245,7 +267,7 @@ async function refreshDashboard({ silent = false, productsOnly = false } = {}) {
 
 function scheduleRefresh() {
   clearTimeout(state.refreshTimer);
-  if (!state.token || document.hidden) return;
+  if (!state.authenticated || document.hidden) return;
   const delay = state.overview?.refreshAfterMs || 15_000;
   state.refreshTimer = setTimeout(() => refreshDashboard({ silent: true }), delay);
 }
@@ -449,18 +471,54 @@ function updateCountdown() {
 
 elements.authForm.addEventListener("submit", async (event) => {
   event.preventDefault();
-  const token = elements.tokenInput.value.trim();
-  if (token.length < 24) {
-    text(elements.authError, "访问令牌长度不正确。");
+  const password = elements.passwordInput.value;
+  const passwordBytes = new TextEncoder().encode(password).length;
+  if (passwordBytes === 0 || passwordBytes > 256) {
+    text(elements.authError, "请输入有效的访问密码。");
     return;
   }
-  state.token = token;
-  sessionStorage.setItem(TOKEN_KEY, token);
-  await refreshDashboard();
+  elements.authSubmit.disabled = true;
+  text(elements.authSubmit, "正在验证…");
+  text(elements.authError, "");
+  try {
+    const response = await fetch(new URL("api/v1/auth/login", APP_ROOT), {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      credentials: "same-origin",
+      cache: "no-store",
+      body: JSON.stringify({ password }),
+    });
+    if (response.status === 204) {
+      elements.passwordInput.value = "";
+      setAuthenticated(true);
+      await refreshDashboard();
+      return;
+    }
+    const payload = await response.json().catch(() => ({}));
+    if (response.status === 401) {
+      text(
+        elements.authError,
+        `密码错误，还可尝试 ${payload.attemptsRemaining ?? 0} 次。`,
+      );
+      elements.passwordInput.select();
+      return;
+    }
+    if (response.status === 429 && payload.error === "ip_blocked") {
+      text(elements.authError, `当前 IP 已封禁至 ${formatDateTime(payload.blockedUntil, true)}。`);
+      elements.passwordInput.value = "";
+      return;
+    }
+    text(elements.authError, "暂时无法登录，请稍后再试。");
+  } catch {
+    text(elements.authError, "无法连接服务器，请检查网络后重试。");
+  } finally {
+    elements.authSubmit.disabled = false;
+    text(elements.authSubmit, "安全进入");
+  }
 });
 
 elements.refreshButton.addEventListener("click", () => refreshDashboard());
-elements.lockButton.addEventListener("click", lockDashboard);
+elements.lockButton.addEventListener("click", () => lockDashboard());
 
 let filterTimer;
 elements.productFilters.addEventListener("input", () => {
@@ -490,21 +548,34 @@ document.addEventListener("visibilitychange", () => {
   if (document.hidden) {
     clearTimeout(state.refreshTimer);
     state.controller?.abort();
-  } else if (state.token) {
+  } else if (state.authenticated) {
     refreshDashboard({ silent: true });
   }
 });
 
 state.countdownTimer = setInterval(updateCountdown, 1000);
 
-if (location.hash.startsWith("#token=")) {
-  const hashToken = decodeURIComponent(location.hash.slice(7));
-  if (hashToken.length >= 24) {
-    state.token = hashToken;
-    sessionStorage.setItem(TOKEN_KEY, hashToken);
+async function restoreSession() {
+  try {
+    const response = await fetch(new URL("api/v1/auth/session", APP_ROOT), {
+      cache: "no-store",
+      credentials: "same-origin",
+    });
+    if (response.ok) {
+      setAuthenticated(true);
+      await refreshDashboard({ silent: true });
+      return;
+    }
+    const payload = await response.json().catch(() => ({}));
+    setAuthenticated(false);
+    if (response.status === 429 && payload.error === "ip_blocked") {
+      text(elements.authError, `当前 IP 已封禁至 ${formatDateTime(payload.blockedUntil, true)}。`);
+    }
+  } catch {
+    setAuthenticated(false);
+    text(elements.authError, "暂时无法连接服务器，请稍后重试。");
   }
-  history.replaceState(null, "", `${location.pathname}${location.search}`);
 }
 
-if (state.token) refreshDashboard();
-else setAuthenticated(false);
+if (location.hash) history.replaceState(null, "", `${location.pathname}${location.search}`);
+restoreSession();

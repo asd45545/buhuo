@@ -1,11 +1,20 @@
 #!/usr/bin/env node
 
 import { createServer } from "node:http";
-import { timingSafeEqual } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+
+import {
+  LoginSecurityStore,
+  parseCookies,
+  passwordHashVersion,
+  parsePasswordHash,
+  requestClientIp,
+  sessionCookie,
+  verifyDashboardPassword,
+} from "./auth.mjs";
 
 const dashboardDir = path.dirname(fileURLToPath(import.meta.url));
 const defaultPublicDir = path.join(dashboardDir, "public");
@@ -13,8 +22,14 @@ const defaultStatusFile = path.resolve(
   process.env.LDXP_DASHBOARD_STATUS_FILE ||
     path.join(dashboardDir, "..", "data", "ldxp-monitor-status.json"),
 );
+const defaultSecurityFile = path.resolve(
+  process.env.LDXP_DASHBOARD_SECURITY_FILE ||
+    path.join(dashboardDir, "..", "data", "ldxp-dashboard-security.json"),
+);
 const REFRESH_AFTER_MS = 15_000;
 const MAX_REQUESTS_PER_MINUTE = 120;
+const DEFAULT_SESSION_COOKIE_NAME = "__Secure-ldxp_session";
+const DEFAULT_SESSION_COOKIE_PATH = "/stock-monitor/";
 
 const contentTypes = new Map([
   [".css", "text/css; charset=utf-8"],
@@ -35,6 +50,14 @@ function jsonResponse(res, statusCode, payload, headers = {}) {
   res.end(body);
 }
 
+function emptyResponse(res, statusCode, headers = {}) {
+  res.writeHead(statusCode, {
+    "cache-control": "private, no-store",
+    ...headers,
+  });
+  res.end();
+}
+
 function applySecurityHeaders(res) {
   res.setHeader(
     "content-security-policy",
@@ -49,20 +72,17 @@ function applySecurityHeaders(res) {
   );
 }
 
-function validBearerToken(req, expectedToken) {
-  const authorization = String(req.headers.authorization || "");
-  if (!authorization.startsWith("Bearer ")) return false;
-  const candidate = Buffer.from(authorization.slice(7), "utf8");
-  const expected = Buffer.from(expectedToken, "utf8");
-  return candidate.length === expected.length && timingSafeEqual(candidate, expected);
-}
-
 function createRateLimiter(limit = MAX_REQUESTS_PER_MINUTE) {
   const clients = new Map();
 
-  return function allow(req) {
+  return function allow(key) {
     const now = Date.now();
-    const key = req.socket.remoteAddress || "unknown";
+    if (clients.size >= 5_000) {
+      for (const [client, entry] of clients) {
+        if (now - entry.startedAt >= 60_000) clients.delete(client);
+      }
+      if (clients.size >= 5_000 && !clients.has(key)) return false;
+    }
     const current = clients.get(key);
     if (!current || now - current.startedAt >= 60_000) {
       clients.set(key, { startedAt: now, count: 1 });
@@ -71,6 +91,55 @@ function createRateLimiter(limit = MAX_REQUESTS_PER_MINUTE) {
     current.count += 1;
     return current.count <= limit;
   };
+}
+
+function validatePublicOrigin(value, allowHttp = false) {
+  const origin = String(value || "");
+  let parsed;
+  try {
+    parsed = new URL(origin);
+  } catch {
+    throw new Error("LDXP_DASHBOARD_PUBLIC_ORIGIN must be an absolute origin");
+  }
+  if (parsed.origin !== origin || !["https:", ...(allowHttp ? ["http:"] : [])].includes(parsed.protocol)) {
+    throw new Error("LDXP_DASHBOARD_PUBLIC_ORIGIN must be an exact HTTPS origin");
+  }
+  return origin;
+}
+
+function booleanValue(value, fallback = false) {
+  if (value === undefined || value === null || value === "") return fallback;
+  return ["1", "true", "yes", "on"].includes(String(value).trim().toLowerCase());
+}
+
+async function readJsonBody(req, maxBytes = 2_048) {
+  const contentType = String(req.headers["content-type"] || "").split(";", 1)[0].trim();
+  if (contentType !== "application/json") {
+    const error = new Error("content type must be application/json");
+    error.statusCode = 415;
+    error.publicCode = "unsupported_media_type";
+    throw error;
+  }
+  let size = 0;
+  const chunks = [];
+  for await (const chunk of req) {
+    size += chunk.length;
+    if (size > maxBytes) {
+      const error = new Error("request body too large");
+      error.statusCode = 413;
+      error.publicCode = "payload_too_large";
+      throw error;
+    }
+    chunks.push(chunk);
+  }
+  try {
+    return JSON.parse(Buffer.concat(chunks).toString("utf8") || "{}");
+  } catch {
+    const error = new Error("invalid JSON body");
+    error.statusCode = 400;
+    error.publicCode = "invalid_json";
+    throw error;
+  }
 }
 
 async function loadSnapshot(file) {
@@ -251,42 +320,258 @@ function safeStaticPath(publicDir, pathname) {
 }
 
 function createDashboardServer(options = {}) {
-  const token = String(options.token || process.env.LDXP_DASHBOARD_TOKEN || "");
+  const passwordHash = String(
+    options.passwordHash || process.env.LDXP_DASHBOARD_PASSWORD_HASH || "",
+  );
   const statusFile = path.resolve(options.statusFile || defaultStatusFile);
+  const securityFile = path.resolve(options.securityFile || defaultSecurityFile);
   const publicDir = path.resolve(options.publicDir || defaultPublicDir);
+  const trustProxy = options.trustProxy ?? booleanValue(process.env.LDXP_DASHBOARD_TRUST_PROXY);
+  const secureCookie =
+    options.secureCookie ?? booleanValue(process.env.LDXP_DASHBOARD_SECURE_COOKIE, true);
+  const publicOrigin = validatePublicOrigin(
+    options.publicOrigin || process.env.LDXP_DASHBOARD_PUBLIC_ORIGIN || "",
+    !secureCookie,
+  );
+  const cookieName = String(
+    options.cookieName || process.env.LDXP_DASHBOARD_COOKIE_NAME || DEFAULT_SESSION_COOKIE_NAME,
+  );
+  const cookiePath = String(
+    options.cookiePath ||
+      process.env.LDXP_DASHBOARD_COOKIE_PATH ||
+      DEFAULT_SESSION_COOKIE_PATH,
+  );
+  const sessionTtlMs = parseInteger(
+    options.sessionTtlMs || process.env.LDXP_DASHBOARD_SESSION_TTL_MS,
+    30 * 24 * 60 * 60 * 1000,
+    60_000,
+    90 * 24 * 60 * 60 * 1000,
+  );
+  const now = options.now || Date.now;
+  const security = options.security || new LoginSecurityStore(securityFile, {
+    maxFailures: parseInteger(
+      options.maxFailures || process.env.LDXP_DASHBOARD_MAX_FAILURES,
+      3,
+      2,
+      10,
+    ),
+    banMs: parseInteger(
+      options.banMs || process.env.LDXP_DASHBOARD_BAN_MS,
+      24 * 60 * 60 * 1000,
+      60_000,
+      365 * 24 * 60 * 60 * 1000,
+    ),
+    now,
+  });
   const allowRequest = createRateLimiter(options.rateLimit || MAX_REQUESTS_PER_MINUTE);
 
-  if (token.length < 24 || token === "replace-with-at-least-32-random-characters") {
-    throw new Error("LDXP_DASHBOARD_TOKEN must contain at least 24 characters");
+  parsePasswordHash(passwordHash);
+  const sessionVersion = passwordHashVersion(passwordHash);
+  if (!/^[A-Za-z0-9_-]{1,64}$/.test(cookieName)) {
+    throw new Error("invalid dashboard cookie name");
+  }
+  if (cookieName.startsWith("__Secure-") && !secureCookie) {
+    throw new Error("__Secure- dashboard cookies require Secure");
+  }
+  if (cookieName.startsWith("__Host-") && (!secureCookie || cookiePath !== "/")) {
+    throw new Error("__Host- dashboard cookies require Secure and Path=/");
+  }
+
+  function sessionToken(req) {
+    return parseCookies(req.headers.cookie).get(cookieName);
+  }
+
+  function currentSession(req) {
+    return security.sessionStatus(sessionToken(req), sessionVersion);
+  }
+
+  function validMutationOrigin(req) {
+    return String(req.headers.origin || "") === publicOrigin;
+  }
+
+  function banResponse(res, ban) {
+    const retryAfter = Math.max(
+      1,
+      Math.ceil((Date.parse(ban.bannedUntil) - Number(now())) / 1000),
+    );
+    jsonResponse(
+      res,
+      429,
+      {
+        ok: false,
+        error: "ip_blocked",
+        blockedUntil: ban.bannedUntil,
+        retryAfterSeconds: retryAfter,
+      },
+      { "retry-after": String(retryAfter) },
+    );
   }
 
   return createServer(async (req, res) => {
     applySecurityHeaders(res);
-    let url;
     try {
+      let url;
+      try {
       url = new URL(req.url || "/", "http://dashboard.local");
-    } catch {
-      jsonResponse(res, 400, { ok: false, error: "invalid_request_target" });
-      return;
-    }
-
-    if (!new Set(["GET", "HEAD"]).has(req.method || "GET")) {
-      jsonResponse(res, 405, { ok: false, error: "method_not_allowed" }, { allow: "GET, HEAD" });
-      return;
-    }
+      } catch {
+        jsonResponse(res, 400, { ok: false, error: "invalid_request_target" });
+        return;
+      }
 
     if (url.pathname === "/healthz") {
+      if (!new Set(["GET", "HEAD"]).has(req.method || "GET")) {
+        jsonResponse(res, 405, { ok: false, error: "method_not_allowed" }, { allow: "GET, HEAD" });
+        return;
+      }
       jsonResponse(res, 200, { ok: true });
       return;
     }
 
-    if (url.pathname.startsWith("/api/")) {
-      if (!allowRequest(req)) {
-        jsonResponse(res, 429, { ok: false, error: "rate_limited" }, { "retry-after": "60" });
+    if (url.pathname === "/api/v1/auth/session") {
+      const clientIp = requestClientIp(req, trustProxy);
+      if (req.method !== "GET") {
+        jsonResponse(res, 405, { ok: false, error: "method_not_allowed" }, { allow: "GET" });
         return;
       }
-      if (!validBearerToken(req, token)) {
+      const ban = await security.banStatus(clientIp);
+      if (ban.banned) {
+        banResponse(res, ban);
+        return;
+      }
+      const session = await currentSession(req);
+      if (!session.valid) {
         jsonResponse(res, 401, { ok: false, error: "unauthorized" });
+        return;
+      }
+      jsonResponse(res, 200, {
+        ok: true,
+        authenticated: true,
+        expiresAt: new Date(session.expiresAt).toISOString(),
+      });
+      return;
+    }
+
+    if (url.pathname === "/api/v1/auth/logout") {
+      if (req.method !== "POST") {
+        jsonResponse(res, 405, { ok: false, error: "method_not_allowed" }, { allow: "POST" });
+        return;
+      }
+      if (!validMutationOrigin(req)) {
+        jsonResponse(res, 403, { ok: false, error: "origin_rejected" });
+        return;
+      }
+      await security.deleteSession(sessionToken(req));
+      res.setHeader(
+        "set-cookie",
+        sessionCookie(cookieName, "", {
+          maxAgeMs: 0,
+          path: cookiePath,
+          secure: secureCookie,
+        }),
+      );
+      emptyResponse(res, 204);
+      return;
+    }
+
+    if (url.pathname === "/api/v1/auth/login") {
+      const clientIp = requestClientIp(req, trustProxy);
+      if (req.method !== "POST") {
+        jsonResponse(res, 405, { ok: false, error: "method_not_allowed" }, { allow: "POST" });
+        return;
+      }
+      if (!validMutationOrigin(req)) {
+        jsonResponse(res, 403, { ok: false, error: "origin_rejected" });
+        return;
+      }
+
+      let body;
+      try {
+        body = await readJsonBody(req);
+      } catch (error) {
+        jsonResponse(res, error.statusCode || 400, {
+          ok: false,
+          error: error.publicCode || "invalid_request",
+        });
+        return;
+      }
+      if (
+        typeof body.password !== "string" ||
+        Buffer.byteLength(body.password, "utf8") > 256
+      ) {
+        jsonResponse(res, 400, { ok: false, error: "invalid_request" });
+        return;
+      }
+
+      const result = await security.authenticate(clientIp, () =>
+        verifyDashboardPassword(body.password, passwordHash),
+      );
+      if (result.busy) {
+        jsonResponse(
+          res,
+          503,
+          { ok: false, error: "authentication_busy" },
+          { "retry-after": "5" },
+        );
+        return;
+      }
+      if (result.banned) {
+        console.warn(`DASHBOARD_IP_BANNED ip=${clientIp} until=${result.bannedUntil}`);
+        banResponse(res, result);
+        return;
+      }
+      if (!result.ok) {
+        console.warn(
+          `DASHBOARD_LOGIN_FAILED ip=${clientIp} remaining=${result.remainingAttempts}`,
+        );
+        jsonResponse(res, 401, {
+          ok: false,
+          error: "invalid_credentials",
+          attemptsRemaining: result.remainingAttempts,
+        });
+        return;
+      }
+
+      const session = await security.createSession(sessionTtlMs, sessionVersion);
+      if (!session) {
+        jsonResponse(
+          res,
+          503,
+          { ok: false, error: "session_capacity_reached" },
+          { "retry-after": "60" },
+        );
+        return;
+      }
+      res.setHeader(
+        "set-cookie",
+        sessionCookie(cookieName, session.value, {
+          maxAgeMs: sessionTtlMs,
+          path: cookiePath,
+          secure: secureCookie,
+        }),
+      );
+      console.log(`DASHBOARD_LOGIN_SUCCEEDED ip=${clientIp}`);
+      emptyResponse(res, 204);
+      return;
+    }
+
+    if (url.pathname.startsWith("/api/")) {
+      if (!new Set(["GET", "HEAD"]).has(req.method || "GET")) {
+        jsonResponse(res, 405, { ok: false, error: "method_not_allowed" }, { allow: "GET, HEAD" });
+        return;
+      }
+      const clientIp = requestClientIp(req, trustProxy);
+      const ban = await security.banStatus(clientIp);
+      if (ban.banned) {
+        banResponse(res, ban);
+        return;
+      }
+      const session = await currentSession(req);
+      if (!session.valid) {
+        jsonResponse(res, 401, { ok: false, error: "unauthorized" });
+        return;
+      }
+      if (!allowRequest(clientIp)) {
+        jsonResponse(res, 429, { ok: false, error: "rate_limited" }, { "retry-after": "60" });
         return;
       }
 
@@ -318,6 +603,11 @@ function createDashboardServer(options = {}) {
       return;
     }
 
+    if (!new Set(["GET", "HEAD"]).has(req.method || "GET")) {
+      jsonResponse(res, 405, { ok: false, error: "method_not_allowed" }, { allow: "GET, HEAD" });
+      return;
+    }
+
     const file = safeStaticPath(publicDir, url.pathname);
     if (!file) {
       jsonResponse(res, 404, { ok: false, error: "not_found" });
@@ -330,7 +620,8 @@ function createDashboardServer(options = {}) {
       res.writeHead(200, {
         "content-type": contentTypes.get(extension) || "application/octet-stream",
         "content-length": body.length,
-        "cache-control": extension === ".html" ? "no-cache" : "public, max-age=300",
+        "cache-control":
+          extension === ".html" ? "private, no-store" : "public, max-age=300",
       });
       if (req.method === "HEAD") res.end();
       else res.end(body);
@@ -338,12 +629,20 @@ function createDashboardServer(options = {}) {
       if (error.code !== "ENOENT") console.error(`DASHBOARD_STATIC_ERROR message=${error.message}`);
       jsonResponse(res, 404, { ok: false, error: "not_found" });
     }
+    } catch (error) {
+      console.error(`DASHBOARD_REQUEST_ERROR code=${error.code || "UNKNOWN"} message=${error.message}`);
+      if (!res.headersSent) {
+        jsonResponse(res, 500, { ok: false, error: "internal_error" });
+      } else {
+        res.destroy();
+      }
+    }
   });
 }
 
 async function main() {
   const host = process.env.LDXP_DASHBOARD_HOST || "127.0.0.1";
-  const port = parseInteger(process.env.LDXP_DASHBOARD_PORT, 8787, 1, 65_535);
+  const port = parseInteger(process.env.LDXP_DASHBOARD_PORT, 8788, 1, 65_535);
   const server = createDashboardServer();
 
   await new Promise((resolve, reject) => {

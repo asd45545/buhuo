@@ -6,14 +6,14 @@
     <meta name="color-scheme" content="light" />
     <meta name="theme-color" content="#10263f" />
     <title>补货监控中心</title>
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/styles.css" />
-    <script src="/app.js" type="module"></script>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" type="module"></script>
   </head>
   <body>
     <div class="shell">
       <header class="topbar">
-        <a class="brand" href="/" aria-label="补货监控中心首页">
+        <a class="brand" href="./" aria-label="补货监控中心首页">
           <span class="brand-mark" aria-hidden="true">
             <svg viewBox="0 0 32 32" role="img">
               <path d="M7 8.5h18v15H7z" />
@@ -37,7 +37,7 @@
               <path d="M18.2 9A7 7 0 0 0 6.1 6.7L4 11M5.8 15A7 7 0 0 0 17.9 17.3L20 13" />
             </svg>
           </button>
-          <button class="icon-button" id="lock-button" type="button" aria-label="锁定仪表盘">
+          <button class="icon-button" id="lock-button" type="button" aria-label="退出登录">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <rect x="5" y="10" width="14" height="10" rx="2" />
               <path d="M8 10V7a4 4 0 0 1 8 0v3" />
@@ -225,12 +225,12 @@
         </span>
         <p class="eyebrow">受保护的只读面板</p>
         <h2 id="auth-title">进入监控中心</h2>
-        <p>输入服务器仪表盘访问令牌。令牌只保存在当前浏览器会话中。</p>
+        <p>输入访问密码。连续输错 3 次将封禁当前 IP 24 小时；登录状态最长保持 30 天。</p>
         <form id="auth-form">
-          <label for="token-input">访问令牌</label>
-          <input id="token-input" type="password" autocomplete="current-password" required minlength="24" placeholder="粘贴访问令牌" />
+          <label for="password-input">访问密码</label>
+          <input id="password-input" type="password" autocomplete="current-password" required maxlength="256" placeholder="输入访问密码" />
           <p class="form-error" id="auth-error" role="alert"></p>
-          <button class="primary-button" type="submit">安全进入</button>
+          <button class="primary-button" id="auth-submit" type="submit">安全进入</button>
         </form>
       </div>
     </section>

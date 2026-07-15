@@ -12,9 +12,15 @@ import {
   recordPollFailure,
   recordPollSuccess,
 } from "../scripts/monitor-health.mjs";
+import { hashDashboardPassword } from "./auth.mjs";
 import { buildOverview, buildProducts, createDashboardServer } from "./server.mjs";
 
-const TOKEN = "dashboard-test-token-1234567890";
+const PASSWORD = "dashboard-password-安全-123";
+const PASSWORD_HASH = await hashDashboardPassword(PASSWORD, { salt: Buffer.alloc(16, 9) });
+const CHANGED_PASSWORD_HASH = await hashDashboardPassword("changed-dashboard-password-安全-456", {
+  salt: Buffer.alloc(16, 10),
+});
+const PUBLIC_ORIGIN = "http://dashboard.test";
 
 function fixtureStatus(now = Date.now()) {
   const finishedAt = new Date(now - 10_000).toISOString();
@@ -57,40 +63,100 @@ function fixtureStatus(now = Date.now()) {
   );
 }
 
-async function withServer(t, status) {
-  const directory = await mkdtemp(path.join(os.tmpdir(), "ldxp-dashboard-"));
-  const statusFile = path.join(directory, "status.json");
-  await writeFile(statusFile, JSON.stringify(status), "utf8");
-  const server = createDashboardServer({ token: TOKEN, statusFile });
+async function startDashboardServer(options = {}) {
+  const server = createDashboardServer({
+    passwordHash: PASSWORD_HASH,
+    publicOrigin: PUBLIC_ORIGIN,
+    secureCookie: false,
+    cookieName: "ldxp_test_session",
+    trustProxy: true,
+    ...options,
+  });
   await new Promise((resolve, reject) => {
     server.once("error", reject);
     server.listen(0, "127.0.0.1", resolve);
   });
-  t.after(
-    () =>
-      new Promise((resolve) => {
-        server.close(resolve);
-      }),
-  );
-  t.after(() => rm(directory, { recursive: true, force: true }));
-  return `http://127.0.0.1:${server.address().port}`;
+  return { server, baseUrl: `http://127.0.0.1:${server.address().port}` };
 }
 
-test("dashboard API requires a bearer token", async (t) => {
+async function closeDashboardServer(server) {
+  if (!server?.listening) return;
+  await new Promise((resolve, reject) => {
+    server.close((error) => (error ? reject(error) : resolve()));
+  });
+}
+
+async function withServer(t, status, options = {}) {
+  const directory = await mkdtemp(path.join(os.tmpdir(), "ldxp-dashboard-"));
+  const statusFile = path.join(directory, "status.json");
+  const securityFile = path.join(directory, "auth-state.json");
+  await writeFile(statusFile, JSON.stringify(status), "utf8");
+  const { server, baseUrl } = await startDashboardServer({
+    statusFile,
+    securityFile,
+    ...options,
+  });
+  t.after(
+    () => closeDashboardServer(server),
+  );
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  return baseUrl;
+}
+
+async function login(
+  baseUrl,
+  password = PASSWORD,
+  ip = "203.0.113.50",
+  origin = PUBLIC_ORIGIN,
+) {
+  const response = await fetch(`${baseUrl}/api/v1/auth/login`, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      origin,
+      "x-real-ip": ip,
+    },
+    body: JSON.stringify({ password }),
+  });
+  const cookie = String(response.headers.get("set-cookie") || "").split(";", 1)[0];
+  return { response, cookie };
+}
+
+function authenticatedHeaders(cookie, ip = "203.0.113.50") {
+  return { cookie, "x-real-ip": ip };
+}
+
+async function createDashboardFiles(status) {
+  const directory = await mkdtemp(path.join(os.tmpdir(), "ldxp-dashboard-persistent-"));
+  const statusFile = path.join(directory, "status.json");
+  const securityFile = path.join(directory, "auth-state.json");
+  await writeFile(statusFile, JSON.stringify(status), "utf8");
+  return { directory, statusFile, securityFile };
+}
+
+test("dashboard API rejects unauthenticated and legacy bearer requests", async (t) => {
   const baseUrl = await withServer(t, fixtureStatus());
   const response = await fetch(`${baseUrl}/api/v1/dashboard/overview`);
+  const legacy = await fetch(`${baseUrl}/api/v1/dashboard/overview`, {
+    headers: { authorization: "Bearer dashboard-test-token-1234567890" },
+  });
 
   assert.equal(response.status, 401);
   assert.deepEqual(await response.json(), { ok: false, error: "unauthorized" });
+  assert.equal(legacy.status, 401);
 });
 
-test("dashboard overview returns fresh health and sanitized inventory totals", async (t) => {
+test("password login sets a cookie and unlocks the dashboard API", async (t) => {
   const baseUrl = await withServer(t, fixtureStatus());
+  const { response: loginResponse, cookie } = await login(baseUrl);
   const response = await fetch(`${baseUrl}/api/v1/dashboard/overview`, {
-    headers: { authorization: `Bearer ${TOKEN}` },
+    headers: authenticatedHeaders(cookie),
   });
   const body = await response.json();
 
+  assert.equal(loginResponse.status, 204);
+  assert.match(loginResponse.headers.get("set-cookie"), /HttpOnly/);
+  assert.match(loginResponse.headers.get("set-cookie"), /SameSite=Strict/);
   assert.equal(response.status, 200);
   assert.equal(body.monitor.status, "healthy");
   assert.equal(body.monitor.transport, "browser");
@@ -102,12 +168,94 @@ test("dashboard overview returns fresh health and sanitized inventory totals", a
   assert.match(response.headers.get("cache-control"), /no-store/);
 });
 
+test("default session cookie uses the Secure prefix and stock monitor path", async (t) => {
+  const publicOrigin = "https://dashboard.example";
+  const baseUrl = await withServer(t, fixtureStatus(), {
+    cookieName: undefined,
+    publicOrigin,
+    secureCookie: true,
+  });
+  const { response } = await login(baseUrl, PASSWORD, "203.0.113.51", publicOrigin);
+  const setCookie = response.headers.get("set-cookie");
+
+  assert.equal(response.status, 204);
+  assert.match(setCookie, /^__Secure-ldxp_session=/);
+  assert.match(setCookie, /Path=\/stock-monitor\//);
+  assert.match(setCookie, /(?:^|; )Secure(?:;|$)/);
+});
+
+test("Secure-prefixed cookies are rejected when Secure is disabled", () => {
+  assert.throws(
+    () =>
+      createDashboardServer({
+        passwordHash: PASSWORD_HASH,
+        publicOrigin: PUBLIC_ORIGIN,
+        secureCookie: false,
+        cookieName: "__Secure-ldxp_session",
+        cookiePath: "/stock-monitor/",
+      }),
+    /__Secure- dashboard cookies require Secure/,
+  );
+});
+
+test("persisted sessions remain valid after the dashboard server restarts", async (t) => {
+  const files = await createDashboardFiles(fixtureStatus());
+  let firstServer;
+  let secondServer;
+  t.after(async () => {
+    await closeDashboardServer(firstServer);
+    await closeDashboardServer(secondServer);
+    await rm(files.directory, { recursive: true, force: true });
+  });
+
+  const first = await startDashboardServer(files);
+  firstServer = first.server;
+  const { cookie } = await login(first.baseUrl, PASSWORD, "203.0.113.52");
+  await closeDashboardServer(firstServer);
+
+  const second = await startDashboardServer(files);
+  secondServer = second.server;
+  const response = await fetch(`${second.baseUrl}/api/v1/dashboard/overview`, {
+    headers: authenticatedHeaders(cookie, "203.0.113.52"),
+  });
+
+  assert.equal(response.status, 200);
+});
+
+test("changing the password hash invalidates sessions from an earlier server", async (t) => {
+  const files = await createDashboardFiles(fixtureStatus());
+  let firstServer;
+  let secondServer;
+  t.after(async () => {
+    await closeDashboardServer(firstServer);
+    await closeDashboardServer(secondServer);
+    await rm(files.directory, { recursive: true, force: true });
+  });
+
+  const first = await startDashboardServer(files);
+  firstServer = first.server;
+  const { cookie } = await login(first.baseUrl, PASSWORD, "203.0.113.53");
+  await closeDashboardServer(firstServer);
+
+  const second = await startDashboardServer({
+    ...files,
+    passwordHash: CHANGED_PASSWORD_HASH,
+  });
+  secondServer = second.server;
+  const response = await fetch(`${second.baseUrl}/api/v1/dashboard/overview`, {
+    headers: authenticatedHeaders(cookie, "203.0.113.53"),
+  });
+
+  assert.equal(response.status, 401);
+});
+
 test("product API filters and paginates the sanitized snapshot", async (t) => {
   const status = fixtureStatus();
   const baseUrl = await withServer(t, status);
+  const { cookie } = await login(baseUrl);
   const response = await fetch(
     `${baseUrl}/api/v1/dashboard/products?status=in_stock&q=chatgpt&limit=1&offset=0`,
-    { headers: { authorization: `Bearer ${TOKEN}` } },
+    { headers: authenticatedHeaders(cookie) },
   );
   const body = await response.json();
 
@@ -165,11 +313,98 @@ test("overview freezes process uptime when the monitor has stopped", () => {
   assert.equal(overview.monitor.service.active, false);
 });
 
-test("dashboard rejects the published placeholder token", () => {
+test("dashboard rejects an invalid password hash", () => {
   assert.throws(
-    () => createDashboardServer({ token: "replace-with-at-least-32-random-characters" }),
-    /at least 24 characters/,
+    () =>
+      createDashboardServer({
+        passwordHash: "not-a-password-hash",
+        publicOrigin: PUBLIC_ORIGIN,
+        secureCookie: false,
+        cookieName: "ldxp_test_session",
+      }),
+    /password hash/,
   );
+});
+
+test("three bad passwords block only the real source IP", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus(), { banMs: 60_000 });
+  const authenticated = await login(baseUrl, PASSWORD, "203.0.113.60");
+  const first = await login(baseUrl, "wrong-password-value", "203.0.113.60");
+  const second = await login(baseUrl, "wrong-password-value", "203.0.113.60");
+  const third = await login(baseUrl, "wrong-password-value", "203.0.113.60");
+
+  assert.equal(first.response.status, 401);
+  assert.equal((await first.response.json()).attemptsRemaining, 2);
+  assert.equal(second.response.status, 401);
+  assert.equal((await second.response.json()).attemptsRemaining, 1);
+  assert.equal(third.response.status, 429);
+  assert.equal((await third.response.json()).error, "ip_blocked");
+  assert.equal((await login(baseUrl, PASSWORD, "203.0.113.60")).response.status, 429);
+  assert.equal(
+    (
+      await fetch(`${baseUrl}/api/v1/dashboard/overview`, {
+        headers: authenticatedHeaders(authenticated.cookie, "203.0.113.60"),
+      })
+    ).status,
+    429,
+  );
+  assert.equal((await login(baseUrl, PASSWORD, "203.0.113.61")).response.status, 204);
+});
+
+test("login validates content type, JSON syntax, and body size before password hashing", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus());
+  const common = { method: "POST", headers: { origin: PUBLIC_ORIGIN } };
+  const wrongType = await fetch(`${baseUrl}/api/v1/auth/login`, {
+    ...common,
+    body: JSON.stringify({ password: PASSWORD }),
+  });
+  const badJson = await fetch(`${baseUrl}/api/v1/auth/login`, {
+    ...common,
+    headers: { ...common.headers, "content-type": "application/json" },
+    body: "{",
+  });
+  const oversized = await fetch(`${baseUrl}/api/v1/auth/login`, {
+    ...common,
+    headers: { ...common.headers, "content-type": "application/json" },
+    body: JSON.stringify({ password: "x".repeat(3_000) }),
+  });
+
+  assert.equal(wrongType.status, 415);
+  assert.equal(badJson.status, 400);
+  assert.equal(oversized.status, 413);
+});
+
+test("login and logout reject cross-site origins", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus());
+  const loginResponse = await fetch(`${baseUrl}/api/v1/auth/login`, {
+    method: "POST",
+    headers: { "content-type": "application/json", origin: "https://evil.example" },
+    body: JSON.stringify({ password: PASSWORD }),
+  });
+  const logoutResponse = await fetch(`${baseUrl}/api/v1/auth/logout`, {
+    method: "POST",
+    headers: { origin: "https://evil.example" },
+  });
+
+  assert.equal(loginResponse.status, 403);
+  assert.equal(logoutResponse.status, 403);
+  assert.equal(loginResponse.headers.get("access-control-allow-origin"), null);
+});
+
+test("logout clears the browser cookie", async (t) => {
+  const baseUrl = await withServer(t, fixtureStatus());
+  const { cookie } = await login(baseUrl);
+  const response = await fetch(`${baseUrl}/api/v1/auth/logout`, {
+    method: "POST",
+    headers: { ...authenticatedHeaders(cookie), origin: PUBLIC_ORIGIN },
+  });
+  const oldSessionResponse = await fetch(`${baseUrl}/api/v1/dashboard/overview`, {
+    headers: authenticatedHeaders(cookie),
+  });
+
+  assert.equal(response.status, 204);
+  assert.match(response.headers.get("set-cookie"), /Max-Age=0/);
+  assert.equal(oldSessionResponse.status, 401);
 });
 
 test("product builder rejects unknown statuses and caps page size", () => {
@@ -193,6 +428,7 @@ test("static dashboard uses restrictive browser security headers", async (t) => 
   assert.match(response.headers.get("content-security-policy"), /frame-ancestors 'none'/);
   assert.equal(response.headers.get("x-frame-options"), "DENY");
   assert.equal(response.headers.get("referrer-policy"), "no-referrer");
+  assert.match(response.headers.get("cache-control"), /no-store/);
 });
 
 test("malformed request targets return 400 without terminating the server", async (t) => {

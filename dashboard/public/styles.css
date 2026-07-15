@@ -874,6 +874,11 @@ svg {
   border-color: var(--ink-800);
 }
 
+.primary-button:disabled {
+  cursor: wait;
+  opacity: 0.68;
+}
+
 .primary-button:active,
 .secondary-button:active:not(:disabled) {
   transform: translateY(1px);
