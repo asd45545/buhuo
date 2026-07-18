@@ -42,6 +42,20 @@ proxy, set `LDXP_BROWSER_PROXY_SERVER` to a URL such as
 `LDXP_BROWSER_PROXY_USERNAME` and `LDXP_BROWSER_PROXY_PASSWORD`. Do not put
 credentials in the repository, process arguments, or URLs.
 
+Keep these Telegram cleanup settings in the same environment file:
+
+```dotenv
+LDXP_TELEGRAM_DELETE_QUEUE_FILE=/var/lib/ldxp-monitor/telegram-delete-queue.json
+LDXP_TELEGRAM_DELETE_AFTER_SECONDS=18000
+```
+
+Every Telegram notification sent by the server is immediately added to this
+local mode-`0600` queue with its Telegram `message_id`. Before each stock poll,
+the daemon deletes entries that are at least five hours old and persists failed
+deletions for the next attempt. Cleanup therefore continues when the computer,
+Vercel, and GitHub Actions are offline. It also runs before the shop request, so
+a shop or proxy failure does not block deletion.
+
 ## Read-only probe
 
 Run this before enabling notifications. It does not update state or send a
@@ -93,6 +107,14 @@ sudo journalctl -u ldxp-monitor -f
 
 Healthy runs print `OK` or `RESTOCK_ALERT`. Failures print a stable code and a
 `consecutive_failures` count. A later successful run prints `HEALTH_RECOVERED`.
+Telegram lifecycle logs use `TELEGRAM_DELETE_QUEUED`,
+`TELEGRAM_DELETE_CLEANUP`, and `TELEGRAM_DELETE_WARN`. Inspect the pending queue
+without exposing the bot token:
+
+```bash
+sudo -u ldxp-monitor node -e \
+  'const q=require("/var/lib/ldxp-monitor/telegram-delete-queue.json"); console.log({pending:q.length,next:q[0]?.deleteAt})'
+```
 
 After the service is verified, disable the old GitHub/Vercel trigger to prevent
 duplicate checks and duplicate notifications.

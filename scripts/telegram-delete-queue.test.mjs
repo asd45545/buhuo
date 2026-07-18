@@ -1,7 +1,49 @@
 import assert from "node:assert/strict";
+import { mkdtemp, rm, stat } from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
 import test from "node:test";
 
-import { processDeletionQueue } from "./telegram-delete-queue.mjs";
+import {
+  enqueueDeletion,
+  loadQueue,
+  processDeletionQueue,
+  saveQueue,
+} from "./telegram-delete-queue.mjs";
+
+test("enqueueDeletion uses a five-hour default and replaces duplicate message IDs", () => {
+  const first = enqueueDeletion(
+    [],
+    { chatId: "-1001", messageId: 10 },
+    new Date("2026-01-01T00:00:00.000Z"),
+  );
+  const replaced = enqueueDeletion(
+    first,
+    { chatId: "-1001", messageId: 10 },
+    new Date("2026-01-01T00:05:00.000Z"),
+  );
+
+  assert.equal(replaced.length, 1);
+  assert.equal(replaced[0].createdAt, "2026-01-01T00:05:00.000Z");
+  assert.equal(replaced[0].deleteAt, "2026-01-01T05:05:00.000Z");
+  assert.throws(
+    () => enqueueDeletion([], { chatId: "-1001", messageId: "bad" }),
+    /valid chatId and messageId/,
+  );
+});
+
+test("saveQueue replaces an existing queue and keeps the file private", async (t) => {
+  const directory = await mkdtemp(path.join(os.tmpdir(), "ldxp-delete-queue-"));
+  const queueFile = path.join(directory, "queue.json");
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  await saveQueue(queueFile, [{ chatId: "-1001", messageId: 1, deleteAt: "2026-01-01T01:00:00.000Z" }]);
+  await saveQueue(queueFile, [{ chatId: "-1001", messageId: 2, deleteAt: "2026-01-01T02:00:00.000Z" }]);
+
+  assert.deepEqual((await loadQueue(queueFile)).map((entry) => entry.messageId), [2]);
+  if (process.platform !== "win32") {
+    assert.equal((await stat(queueFile)).mode & 0o777, 0o600);
+  }
+});
 
 test("processDeletionQueue deletes due messages and keeps future messages", async () => {
   const deleted = [];

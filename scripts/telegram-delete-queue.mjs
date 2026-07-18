@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
+import { randomBytes } from "node:crypto";
 import { existsSync } from "node:fs";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { chmod, copyFile, mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
@@ -18,18 +19,44 @@ async function loadQueue(file = defaultQueueFile) {
 }
 
 async function saveQueue(file = defaultQueueFile, queue) {
-  await mkdir(path.dirname(file), { recursive: true });
-  await writeFile(file, `${JSON.stringify(sortQueue(queue), null, 2)}\n`, "utf8");
+  const target = path.resolve(file);
+  const temporary = `${target}.${process.pid}.${randomBytes(6).toString("hex")}.tmp`;
+  await mkdir(path.dirname(target), { recursive: true });
+  try {
+    await writeFile(temporary, `${JSON.stringify(sortQueue(queue), null, 2)}\n`, {
+      encoding: "utf8",
+      mode: 0o600,
+    });
+    if (process.platform === "win32") {
+      await copyFile(temporary, target);
+    } else {
+      await rename(temporary, target);
+    }
+    await chmod(target, 0o600);
+  } finally {
+    await rm(temporary, { force: true });
+  }
 }
 
 function enqueueDeletion(queue, entry, now = new Date()) {
   const deleteAfterSeconds = Number(entry.deleteAfterSeconds ?? defaultDeleteAfterSeconds);
+  const chatId = String(entry.chatId || "").trim();
+  const messageId = Number(entry.messageId);
+  if (!chatId || !Number.isSafeInteger(messageId) || messageId <= 0) {
+    throw new Error("valid chatId and messageId are required for Telegram deletion");
+  }
+  if (!Number.isFinite(deleteAfterSeconds) || deleteAfterSeconds <= 0) {
+    throw new Error("deleteAfterSeconds must be a positive number");
+  }
   const deleteAt = new Date(now.getTime() + deleteAfterSeconds * 1000).toISOString();
   return sortQueue([
-    ...queue,
+    ...queue.filter(
+      (queued) =>
+        String(queued.chatId) !== chatId || Number(queued.messageId) !== messageId,
+    ),
     {
-      chatId: String(entry.chatId),
-      messageId: Number(entry.messageId),
+      chatId,
+      messageId,
       deleteAt,
       createdAt: now.toISOString(),
       attempts: 0,
@@ -97,7 +124,9 @@ async function deleteTelegramMessage(botToken, entry) {
 
   const description = result.description || `HTTP ${response.status}`;
   const error = new Error(`Telegram deleteMessage failed for ${entry.messageId}: ${description}`);
-  error.treatAsDeleted = /message to delete not found/i.test(description);
+  error.treatAsDeleted =
+    /message to delete not found/i.test(description) ||
+    /message (?:can't|cannot) be deleted/i.test(description);
   throw error;
 }
 

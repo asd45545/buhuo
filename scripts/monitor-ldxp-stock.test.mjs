@@ -1,9 +1,15 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
 import test from "node:test";
 import vm from "node:vm";
 
-import { apiPost } from "./monitor-ldxp-stock.mjs";
+import {
+  apiPost,
+  cleanupTelegramDeletionQueue,
+  sendTelegram,
+} from "./monitor-ldxp-stock.mjs";
 
 async function loadEmailFormatter() {
   const source = await readFile(new URL("./monitor-ldxp-stock.mjs", import.meta.url), "utf8");
@@ -61,6 +67,107 @@ test("Telegram restock message uses the requested four-line format", async () =>
       "商品链接：https://example.com/item/1?a=1&amp;b=2",
     ].join("\n"),
   );
+});
+
+test("server Telegram notifications are queued for deletion after five hours", async (t) => {
+  const directory = await mkdtemp(path.join(os.tmpdir(), "ldxp-telegram-send-"));
+  const queueFile = path.join(directory, "telegram-delete-queue.json");
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  let sentPayload;
+
+  const sent = await sendTelegram(
+    {
+      telegram: {
+        botToken: "test-bot-token",
+        chatId: "-1001",
+        threadId: "99",
+      },
+      telegramDeleteQueueFile: queueFile,
+      telegramDeleteAfterSeconds: 18_000,
+    },
+    [
+      {
+        name: "ChatGPT Plus 月卡",
+        previousStock: 0,
+        stock: 25,
+        price: 19.9,
+        link: "https://example.com/item/1",
+      },
+    ],
+    {
+      now: new Date("2026-01-01T00:00:00.000Z"),
+      sendRequest: async (_botToken, payload) => {
+        sentPayload = payload;
+        return { message_id: 321, chat: { id: -1001 } };
+      },
+    },
+  );
+
+  const queue = JSON.parse(await readFile(queueFile, "utf8"));
+  assert.equal(sent.length, 1);
+  assert.equal(sentPayload.message_thread_id, 99);
+  assert.deepEqual(queue, [
+    {
+      chatId: "-1001",
+      messageId: 321,
+      deleteAt: "2026-01-01T05:00:00.000Z",
+      createdAt: "2026-01-01T00:00:00.000Z",
+      attempts: 0,
+    },
+  ]);
+});
+
+test("server cleanup deletes due Telegram messages and persists future entries", async (t) => {
+  const directory = await mkdtemp(path.join(os.tmpdir(), "ldxp-telegram-cleanup-"));
+  const queueFile = path.join(directory, "telegram-delete-queue.json");
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  await writeFile(
+    queueFile,
+    JSON.stringify([
+      {
+        chatId: "-1001",
+        messageId: 401,
+        deleteAt: "2026-01-01T04:59:00.000Z",
+        createdAt: "2025-12-31T23:59:00.000Z",
+        attempts: 0,
+      },
+      {
+        chatId: "-1001",
+        messageId: 402,
+        deleteAt: "2026-01-01T05:01:00.000Z",
+        createdAt: "2026-01-01T00:01:00.000Z",
+        attempts: 0,
+      },
+    ]),
+    "utf8",
+  );
+  const deleted = [];
+
+  const result = await cleanupTelegramDeletionQueue(
+    {
+      telegram: { botToken: "test-bot-token" },
+      telegramDeleteQueueFile: queueFile,
+    },
+    {
+      now: new Date("2026-01-01T05:00:00.000Z"),
+      deleteMessage: async (entry) => deleted.push(entry.messageId),
+    },
+  );
+  const persisted = JSON.parse(await readFile(queueFile, "utf8"));
+
+  assert.deepEqual(deleted, [401]);
+  assert.deepEqual(result.deleted.map((entry) => entry.messageId), [401]);
+  assert.deepEqual(persisted.map((entry) => entry.messageId), [402]);
+});
+
+test("daemon cleanup runs before the stock request so shop failures do not block deletion", async () => {
+  const source = await readFile(new URL("./monitor-ldxp-stock.mjs", import.meta.url), "utf8");
+  const cleanupIndex = source.indexOf("await cleanupTelegramDeletionQueueSafely(cfg)");
+  const pollIndex = source.indexOf("const summary = await runMonitorOnce(cfg, flags)", cleanupIndex);
+
+  assert.notEqual(cleanupIndex, -1);
+  assert.notEqual(pollIndex, -1);
+  assert.ok(cleanupIndex < pollIndex);
 });
 
 test("stock monitor notification flow does not send email", async () => {

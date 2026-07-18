@@ -37,10 +37,18 @@ test("telegram delete workflow runs on a 5 minute schedule", async () => {
 
 test("systemd monitor service gets API transport from its environment file", async () => {
   const service = await readFile("deploy/ldxp-monitor.service", "utf8");
+  const environment = await readFile("deploy/ldxp-monitor.env.example", "utf8");
+  const monitor = await readFile("scripts/monitor-ldxp-stock.mjs", "utf8");
 
   assert.match(service, /^EnvironmentFile=\/etc\/ldxp-monitor\.env$/m);
   assert.doesNotMatch(service, /--api-transport/);
   assert.match(service, /--status \/var\/lib\/ldxp-monitor\/ldxp-monitor-status\.json/);
+  assert.match(
+    environment,
+    /^LDXP_TELEGRAM_DELETE_QUEUE_FILE=\/var\/lib\/ldxp-monitor\/telegram-delete-queue\.json$/m,
+  );
+  assert.match(environment, /^LDXP_TELEGRAM_DELETE_AFTER_SECONDS=18000$/m);
+  assert.match(monitor, /await cleanupTelegramDeletionQueueSafely\(cfg\)/);
 });
 
 test("dashboard service is isolated and listens on loopback by default", async () => {

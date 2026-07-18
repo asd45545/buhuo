@@ -19,6 +19,13 @@ import {
   recordPollSuccess,
   saveMonitorStatus,
 } from "./monitor-health.mjs";
+import {
+  deleteTelegramMessage,
+  enqueueDeletion,
+  loadQueue as loadTelegramDeleteQueue,
+  processDeletionQueue,
+  saveQueue as saveTelegramDeleteQueue,
+} from "./telegram-delete-queue.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -56,6 +63,10 @@ const defaults = {
   statusFile: path.resolve(
     process.env.LDXP_STATUS_FILE || path.join(rootDir, "data", "ldxp-monitor-status.json"),
   ),
+  telegramDeleteQueueFile: process.env.LDXP_TELEGRAM_DELETE_QUEUE_FILE
+    ? path.resolve(process.env.LDXP_TELEGRAM_DELETE_QUEUE_FILE)
+    : "",
+  telegramDeleteAfterSeconds: process.env.LDXP_TELEGRAM_DELETE_AFTER_SECONDS || 5 * 60 * 60,
   emailConfigFile: path.resolve(
     process.env.LDXP_EMAIL_CONFIG_FILE || path.join(rootDir, "data", "ldxp-stock-email.json"),
   ),
@@ -140,6 +151,12 @@ function parseArgs(argv) {
     } else if (arg === "--status" && next) {
       cfg.statusFile = path.resolve(next);
       i += 1;
+    } else if (arg === "--telegram-delete-queue" && next) {
+      cfg.telegramDeleteQueueFile = path.resolve(next);
+      i += 1;
+    } else if (arg === "--telegram-delete-after-seconds" && next) {
+      cfg.telegramDeleteAfterSeconds = next;
+      i += 1;
     } else if (arg === "--email-config" && next) {
       cfg.emailConfigFile = path.resolve(next);
       i += 1;
@@ -171,6 +188,16 @@ function parseArgs(argv) {
     }
   }
 
+  if (!cfg.telegramDeleteQueueFile) {
+    cfg.telegramDeleteQueueFile = path.join(
+      path.dirname(cfg.stateFile),
+      "telegram-delete-queue.json",
+    );
+  }
+  cfg.telegramDeleteAfterSeconds = normalizeTelegramDeleteAfterSeconds(
+    cfg.telegramDeleteAfterSeconds,
+  );
+
   return { cfg, flags };
 }
 
@@ -199,6 +226,8 @@ Options:
   --state PATH            State file path.
   --alerts PATH           Alert log path.
   --status PATH           Sanitized daemon health snapshot path.
+  --telegram-delete-queue PATH Local persistent Telegram deletion queue.
+  --telegram-delete-after-seconds SECONDS Delete sent messages after this delay; default: 18000.
   --email-config PATH     Optional email config JSON path.
   --webhook URL           Optional generic JSON webhook URL.
   --email-to EMAIL        Optional recipient email.
@@ -229,6 +258,8 @@ Environment:
   LDXP_TELEGRAM_BOT_TOKEN Telegram bot token.
   LDXP_TELEGRAM_CHAT_ID   Telegram group chat ID.
   LDXP_TELEGRAM_THREAD_ID Optional Telegram topic ID.
+  LDXP_TELEGRAM_DELETE_QUEUE_FILE Local persistent deletion queue; defaults beside the state file.
+  LDXP_TELEGRAM_DELETE_AFTER_SECONDS Delete sent messages after this delay; default: 18000.
   LDXP_NOTIFY_EMAIL_TO    Recipient email.
   LDXP_NOTIFY_EMAIL_FROM  Sender email, defaults to LDXP_SMTP_USER.
   LDXP_SMTP_HOST          SMTP host, for example smtp.gmail.com.
@@ -242,6 +273,14 @@ Environment:
 function parseBool(value, fallback) {
   if (value === undefined || value === null || value === "") return fallback;
   return ["1", "true", "yes", "y", "on"].includes(String(value).toLowerCase());
+}
+
+function normalizeTelegramDeleteAfterSeconds(value) {
+  const seconds = Number(value);
+  if (!Number.isFinite(seconds) || seconds < 60 || seconds > 7 * 24 * 60 * 60) {
+    throw new Error("Telegram delete delay must be between 60 and 604800 seconds");
+  }
+  return Math.floor(seconds);
 }
 
 function normalizeApiTransport(value) {
@@ -760,12 +799,15 @@ function escapeTelegramHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
-async function sendTelegram(cfg, alerts) {
-  if (alerts.length === 0 || (!cfg.telegram.botToken && !cfg.telegram.chatId)) return;
+async function sendTelegram(cfg, alerts, options = {}) {
+  if (alerts.length === 0 || (!cfg.telegram.botToken && !cfg.telegram.chatId)) return [];
   if (!cfg.telegram.botToken || !cfg.telegram.chatId) {
     throw new Error("Telegram config requires LDXP_TELEGRAM_BOT_TOKEN and LDXP_TELEGRAM_CHAT_ID");
   }
 
+  const sentMessages = [];
+  const sendRequest = options.sendRequest || sendTelegramRequest;
+  const queuedAt = options.now || new Date();
   for (const alert of alerts) {
     const payload = {
       chat_id: cfg.telegram.chatId,
@@ -778,8 +820,18 @@ async function sendTelegram(cfg, alerts) {
       payload.message_thread_id = Number(cfg.telegram.threadId);
     }
 
-    await sendTelegramRequest(cfg.telegram.botToken, payload);
+    const sentMessage = await sendRequest(cfg.telegram.botToken, payload);
+    sentMessages.push(sentMessage);
+    try {
+      const queued = await enqueueTelegramDeletion(cfg, sentMessage, queuedAt);
+      console.log(
+        `TELEGRAM_DELETE_QUEUED message_id=${queued.messageId} delete_at=${queued.deleteAt}`,
+      );
+    } catch (error) {
+      console.error(`TELEGRAM_DELETE_QUEUE_ERROR message=${error.message}`);
+    }
   }
+  return sentMessages;
 }
 
 async function sendTelegramRequest(botToken, payload) {
@@ -793,7 +845,7 @@ async function sendTelegramRequest(botToken, payload) {
     });
     const result = await response.json().catch(() => ({}));
 
-    if (response.ok && result.ok !== false) return;
+    if (response.ok && result.ok === true && result.result) return result.result;
 
     const retryable = response.status === 429 || response.status >= 500;
     if (!retryable || attempt === 3) {
@@ -802,6 +854,62 @@ async function sendTelegramRequest(botToken, payload) {
 
     const retryAfter = Number(result.parameters?.retry_after || attempt * 2);
     await sleep(retryAfter * 1000);
+  }
+}
+
+async function enqueueTelegramDeletion(cfg, sentMessage, now = new Date()) {
+  const queue = await loadTelegramDeleteQueue(cfg.telegramDeleteQueueFile);
+  const chatId = sentMessage?.chat?.id ?? cfg.telegram.chatId;
+  const messageId = sentMessage?.message_id;
+  const nextQueue = enqueueDeletion(
+    queue,
+    {
+      chatId,
+      messageId,
+      deleteAfterSeconds: cfg.telegramDeleteAfterSeconds,
+    },
+    now,
+  );
+  await saveTelegramDeleteQueue(cfg.telegramDeleteQueueFile, nextQueue);
+  return nextQueue.find(
+    (entry) =>
+      String(entry.chatId) === String(chatId) && Number(entry.messageId) === Number(messageId),
+  );
+}
+
+async function cleanupTelegramDeletionQueue(cfg, options = {}) {
+  const queue = await loadTelegramDeleteQueue(cfg.telegramDeleteQueueFile);
+  if (queue.length === 0) {
+    return { remaining: [], deleted: [], failed: [] };
+  }
+
+  const result = await processDeletionQueue(queue, {
+    now: options.now || new Date(),
+    deleteMessage:
+      options.deleteMessage ||
+      ((entry) => deleteTelegramMessage(cfg.telegram.botToken, entry)),
+  });
+  const attempted = result.deleted.length + result.failed.length;
+  if (attempted > 0) {
+    await saveTelegramDeleteQueue(cfg.telegramDeleteQueueFile, result.remaining);
+    console.log(
+      `TELEGRAM_DELETE_CLEANUP attempted=${attempted} deleted=${result.deleted.length} failed=${result.failed.length} remaining=${result.remaining.length}`,
+    );
+    for (const entry of result.failed) {
+      console.error(
+        `TELEGRAM_DELETE_WARN message_id=${entry.messageId} attempts=${entry.attempts} message=${String(entry.lastError || "unknown").replace(/[\r\n]+/g, " ")}`,
+      );
+    }
+  }
+  return result;
+}
+
+async function cleanupTelegramDeletionQueueSafely(cfg) {
+  try {
+    return await cleanupTelegramDeletionQueue(cfg);
+  } catch (error) {
+    console.error(`TELEGRAM_DELETE_CLEANUP_ERROR message=${error.message}`);
+    return null;
   }
 }
 
@@ -1166,6 +1274,7 @@ async function runDaemon(cfg, flags) {
     while (!shutdownSignal.aborted) {
       const startedAt = Date.now();
       const startedAtIso = new Date(startedAt).toISOString();
+      await cleanupTelegramDeletionQueueSafely(cfg);
       daemonStatus = markPollStarted(daemonStatus, startedAtIso);
       await persistDaemonStatus(cfg.statusFile, daemonStatus);
 
@@ -1236,8 +1345,10 @@ export {
   apiPost,
   appendAlerts,
   buildNextState,
+  cleanupTelegramDeletionQueue,
   closeApiTransports,
   defaults,
+  enqueueTelegramDeletion,
   fetchAllGoods,
   formatTelegramMessage,
   loadState,
